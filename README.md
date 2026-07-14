@@ -4,11 +4,11 @@ Private, canonical study library for product management, AI/ML, interview prepar
 
 ## Library at a glance
 
-- **26 reader PDFs**
-- **2,650 pages**
+- **25 reader PDFs**
+- **2,648 pages**
 - **10 curriculum volumes**
 - **4 interview-preparation guides**
-- **11 portfolio interview briefs**
+- **10 portfolio interview briefs**
 - Editable source documents retained separately from reader PDFs
 
 Open the visual [library index](./index.html) or use the sections below.
@@ -37,7 +37,6 @@ Volumes 1-3 retain their original canonical pages and add labeled source-preserv
 
 ## 3. Portfolio interview briefs
 
-- [Portfolio overview](./03-portfolio-interview-briefs/portfolio-overview/00-ai-pm-portfolio-overview.pdf)
 - AI products: [Claude Quota Tracker](./03-portfolio-interview-briefs/ai-products/claude-quota-tracker-interview-brief.pdf), [ClauseGuard](./03-portfolio-interview-briefs/ai-products/clauseguard-interview-brief.pdf), [InsightDraft](./03-portfolio-interview-briefs/ai-products/insightdraft-interview-brief.pdf), [ML-PM Masterclass](./03-portfolio-interview-briefs/ai-products/ml-pm-masterclass-interview-brief.pdf), [Pulse Precision](./03-portfolio-interview-briefs/ai-products/pulse-precision-interview-brief.pdf), and [SignalMap](./03-portfolio-interview-briefs/ai-products/signalmap-interview-brief.pdf)
 - Fintech and payments: [KYB Donut](./03-portfolio-interview-briefs/fintech-and-payments/kyb-donut-interview-brief.pdf), [Merchant Risk Scoring](./03-portfolio-interview-briefs/fintech-and-payments/merchant-risk-scoring-interview-brief.pdf), [PayCommander](./03-portfolio-interview-briefs/fintech-and-payments/paycommander-interview-brief.pdf), and [SettleIQ](./03-portfolio-interview-briefs/fintech-and-payments/settleiq-interview-brief.pdf)
 
