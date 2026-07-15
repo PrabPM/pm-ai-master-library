@@ -4,9 +4,9 @@ Private, canonical study library for product management, AI/ML, interview prepar
 
 ## Library at a glance
 
-- **25 reader PDFs**
-- **2,648 pages**
-- **10 curriculum volumes**
+- **26 reader PDFs**
+- **2,730 pages**
+- **11 curriculum volumes**
 - **4 interview-preparation guides**
 - **10 portfolio interview briefs**
 - Editable source documents retained separately from reader PDFs
@@ -25,6 +25,7 @@ Open the visual [library index](./index.html) or use the sections below.
 8. [Growth Strategy and Experimentation](./01-curriculum/07-growth/volume-8-growth-strategy-and-experimentation-july-2026.pdf)
 9. [Product Marketing and Go-to-Market](./01-curriculum/08-product-marketing/volume-9-product-marketing-and-go-to-market-july-2026.pdf)
 10. [Product Analytics and Financial Analysis](./01-curriculum/09-product-analytics/volume-10-product-analytics-and-financial-analysis-july-2026.pdf)
+11. [Medscape / WebMD Senior Technical PM Field Guide](./01-curriculum/10-medscape-webmd-digital-health/volume-11-medscape-webmd-martech-and-digital-health-field-guide-july-2026.pdf)
 
 Volumes 1-3 retain their original canonical pages and add labeled source-preservation appendices. Exact source editions remain in `05-source-documents/curriculum/ai-ml-source-material`.
 
