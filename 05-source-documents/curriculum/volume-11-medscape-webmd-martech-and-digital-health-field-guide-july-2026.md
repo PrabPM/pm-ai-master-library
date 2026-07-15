@@ -1909,26 +1909,1768 @@ Publish a short memo: outcomes, decisions, learning, risks, and next week. Updat
 
 Use six pages at most: user outcome, customer/commercial outcome, platform health, trust/safety, delivery/learning, and decisions requested. Include trends and uncertainty. Do not hide a red guardrail behind green aggregate engagement.
 
+# Part VI - The Medscape commercial product innovation role
+
+This section maps directly to the responsibilities described in Medscape Senior Technical Product Manager Job ID 2025-9860. It turns the job description into systems, artifacts, acceptance criteria, metrics, and first-week questions. The public job description emphasizes commercial product innovation, marketing orchestration, integrations, platform tooling, AI-enabled personalization, enterprise pilots, and collaboration across Engineering, Architecture, Data Science, Education/CME, Medical Affairs, Sales, Product Marketing, Legal, and Editorial/Clinical teams.
+
+## 41. The role scorecard: what excellent performance looks like
+
+### 41.1 The mission in one sentence
+
+Create scalable platform and commercial capabilities that help Medscape and its institutional and life-sciences partners engage the right healthcare professional with the next appropriate experience, through governed data, reusable integrations, automation, and measurable AI-assisted decisioning.
+
+### 41.2 Job-description-to-product map
+
+| Job responsibility | Product system behind it | Evidence of excellent execution |
+|---|---|---|
+| Uncover stakeholder and client needs | Discovery repository, workflow maps, opportunity scoring | Prioritized problems supported by behavior, interviews, and commercial evidence |
+| Run POCs and pilots | Stage-gated experimentation and pilot operations | Explicit hypotheses, technical feasibility, adoption evidence, and stop/scale decision |
+| Build scalable features and integrations | APIs, data contracts, connectors, platform tools, SLOs | Shorter integration time, fewer exceptions, reusable patterns, lower support load |
+| Define AI/ML components | Training data, features, outputs, evaluation, deployment, monitoring | Slice-level model quality, useful lift, explainability, rollback, and governance |
+| Drive commercial adoption | Packaging, positioning, enablement, onboarding, usage telemetry | Activated customers, recurring workflow use, expansion, attributable revenue |
+| Deliver roadmap outcomes | Strategy, sequencing, dependency and risk management | Milestones met without sacrificing trust, quality, or business outcome |
+
+### 41.3 The five simultaneous roles
+
+1. **Customer translator:** turn client language into a generalizable job, not a one-off request.
+2. **Technical contract owner:** make APIs, events, identities, models, and failure behavior explicit.
+3. **Commercial product builder:** connect user value to package, price, sales motion, adoption, and margin.
+4. **Decision-system designer:** create rules and models that choose a next action under constraints.
+5. **Individual-contributor leader:** create alignment through evidence, clarity, and operating mechanisms rather than reporting authority.
+
+The “mini CEO” metaphor is useful only if paired with accountability. You do not own every decision. Engineering owns engineering quality, Medical and Clinical teams own relevant medical judgment, Legal/Privacy/Regulatory teams own interpretations in their domains, and Sales owns customer relationships. The PM owns coherent outcomes and makes sure no required decision is orphaned.
+
+### 41.4 Balanced role scorecard
+
+| Dimension | Leading indicator | Outcome indicator | Guardrail |
+|---|---|---|---|
+| Delivery | decisions resolved, dependency readiness | roadmap milestone and launch completion | escaped defects, rework |
+| Commercial | qualified design partners, enabled sellers | new revenue, upsell, renewal influence | discounting, services burden, margin |
+| Adoption | activated accounts, setup completion | weekly active operators, recurring campaign usage | abandonment, support tickets |
+| Activation | eligible audience, trigger coverage | qualified next action and conversion lift | frequency, opt-outs, complaints |
+| Integration | sandbox success, certification completion | median time to first value | failure rate, custom forks |
+| Automation | assisted tasks and acceptance | hours saved, cycle-time reduction | correction rate, hidden manual work |
+| AI/ML | offline quality and pilot exposure | incremental lift from model-assisted workflow | bias, unsafe action, drift |
+| Trust | reviews completed, lineage coverage | zero material policy/privacy incidents | suppression leakage, audit gaps |
+
+## 42. NBE and NBA journey systems
+
+### 42.1 Definitions
+
+**Next Best Experience (NBE)** selects the most appropriate experience for an eligible person or account: education, clinical content, event invitation, survey, tool, message, or no action. **Next Best Action (NBA)** selects an operational action: add to a journey, recommend content, notify an account team, request human review, change channel, or suppress contact.
+
+“No action” must be a first-class option. A system that always chooses an experience becomes a contact-maximization engine rather than a relevance engine.
+
+### 42.2 Journey domains in this role
+
+- **Education/CME:** recommend an independent activity based on professional need and eligibility while preserving educational independence.
+- **Live events:** invite, register, remind, attend, follow up, and collect outcomes for virtual or in-person programs.
+- **Medical Affairs:** support appropriate scientific-exchange and medical-information workflows, distinct from promotion.
+- **Commercial activation:** deliver approved sponsored or promotional experiences under audience, indication, frequency, and channel constraints.
+- **Institutional engagement:** coordinate organization-level and individual-level journeys for health systems, societies, or other partners.
+
+These domains must not be collapsed into one unconstrained ranking pool. Content class, purpose, sponsor, audience, accreditation, and medical/commercial boundaries determine what can compete for a next-best slot.
+
+### 42.3 Reference architecture
+
+```mermaid
+flowchart LR
+  A[Profile, account, consent, and professional identity] --> E[Eligibility and policy engine]
+  B[Behavioral and journey events] --> E
+  C[Content, education, event, and action catalog] --> E
+  D[Customer goals and campaign constraints] --> E
+  E --> F[Candidate generation]
+  F --> G[Rules and model scoring]
+  G --> H[Arbitration, frequency, and channel decision]
+  H --> I{Best eligible decision}
+  I --> J[Education or CME experience]
+  I --> K[Live event action]
+  I --> L[Medical Affairs workflow]
+  I --> M[Commercial activation]
+  I --> N[No action or suppression]
+  J --> O[Outcome and feedback events]
+  K --> O
+  L --> O
+  M --> O
+  O --> B
+```
+
+### 42.4 Candidate generation
+
+The system should not score every possible experience. First generate eligible candidates using hard constraints:
+
+- professional type, specialty, geography, and organization;
+- content class and purpose;
+- campaign, supporter, or partner contract;
+- indication and audience appropriateness;
+- activity availability, expiration, and capacity;
+- consent, opt-out, channel preference, and jurisdiction;
+- prior completion, attendance, or exposure;
+- frequency and sequence rules;
+- medical, legal, regulatory, editorial, and accreditation state.
+
+Candidate generation is a policy system. Ranking is an optimization system. Never ask a model to learn hard compliance boundaries from historical data.
+
+### 42.5 Decision policy example
+
+```
+Journey: Oncology education and engagement
+Entity: verified U.S. oncology HCP
+Trigger: qualified guideline-content engagement within 14 days
+Candidate set: active independent education, approved live event, approved commercial content
+Hard exclusions: opt-out, wrong profession/specialty, activity completed, expired approval,
+                 frequency cap, restricted geography, incompatible content class
+Score inputs: declared interest, recency, content affinity, journey stage, channel availability
+Arbitration: education independence rules first; then user value; then customer objective
+Output: experience_id, action, channel, reason codes, expiry, confidence, policy version
+Fallback: generic specialty experience or no action
+```
+
+### 42.6 State machine
+
+A journey state should be explicit: `eligible -> entered -> offered -> engaged -> completed -> follow-up eligible -> exited`, with branches for declined, unreachable, suppressed, expired, and error. Events must be idempotent. A late event should not send a user backward or repeat an invitation.
+
+### 42.7 Arbitration across journeys
+
+An HCP may simultaneously qualify for multiple journeys. Arbitration considers urgency, user value, content independence, campaign priority, contractual obligation, channel capacity, predicted utility, fatigue, and diversity. Use global frequency management rather than campaign-local caps only.
+
+### 42.8 NBE/NBA metrics
+
+| Layer | Metric |
+|---|---|
+| Eligibility | eligible population, candidate coverage, suppression rate |
+| Decision | no-action rate, reason-code distribution, model confidence, decision latency |
+| Delivery | activation success, channel availability, time from trigger to experience |
+| User | qualified engagement, completion, relevance feedback, fatigue/opt-out |
+| Business | incremental conversion, event attendance, learning outcome, revenue/upsell |
+| Model | precision at k, calibration, coverage, diversity, slice performance, drift |
+| Operations | manual overrides, failed journeys, duplicate actions, support effort |
+
+### 42.9 Failure modes
+
+- a promotional objective overrides education independence;
+- stale profile attributes route an HCP into the wrong specialty journey;
+- each channel respects its own cap but total contact is excessive;
+- an event reaches capacity after recommendation but before registration;
+- delayed completion event triggers a duplicate reminder;
+- the model learns that aggressive contact predicts clicks because the historical system over-contacted likely responders;
+- revenue priority becomes a hidden feature with no user-value guardrail;
+- medical-affairs action is treated as a sales lead without an approved boundary.
+
+## 43. CDP rollout and campaign activation
+
+### 43.1 A CDP is a capability program, not a database purchase
+
+The role description specifically calls out rollout of CDP and activation features. Success requires a target operating model across collection, identity, profile, segmentation, orchestration, destination connectors, measurement, governance, and user adoption.
+
+### 43.2 Capability layers
+
+```mermaid
+flowchart TD
+  A[Web, app, email, event, CRM, education, and media sources] --> B[Collection SDKs and server APIs]
+  B --> C[Schema registry, quality, and consent enforcement]
+  C --> D[Identity resolution and profile store]
+  D --> E[Traits, audiences, journey state, and features]
+  E --> F[Rules, AI-assisted segmentation, and NBE/NBA]
+  F --> G[Activation connectors]
+  G --> H[Email, CRM, DSP, event, site/app, sales, and analytics]
+  H --> I[Delivery and outcome events]
+  I --> J[Measurement, experimentation, and model learning]
+  J --> E
+  K[Governance, lineage, access, retention, and audit] --- C
+  K --- D
+  K --- F
+  K --- G
+```
+
+### 43.3 Rollout phases
+
+**Phase 0 - decision and scope:** define the business workflows the CDP must improve, critical entities, destinations, latency, privacy boundary, and build/buy assumptions.
+
+**Phase 1 - foundation:** establish canonical events, identity, consent, profile schema, source-of-truth ownership, and one non-critical destination.
+
+**Phase 2 - activation MVP:** support one high-value segment, one journey, one connector, one measurement loop, and operator review.
+
+**Phase 3 - scale:** add self-service audiences, reusable templates, additional destinations, SLOs, cost controls, and migration tooling.
+
+**Phase 4 - intelligence:** introduce AI-assisted segmentation, recommendations, anomaly detection, and causal optimization only after data and operational quality are credible.
+
+### 43.4 Source onboarding contract
+
+For every source specify owner, entity, event schema, identity keys, consent context, expected volume, latency, replay behavior, retention, data-quality SLO, and incident contact. Require test fixtures and a compatibility check before production.
+
+### 43.5 Identity priority
+
+For HCP journeys, a possible hierarchy is authenticated member ID -> verified deterministic NPI link -> verified email-based link -> controlled probabilistic link where appropriate -> anonymous session. The allowed activation and reporting become more restrictive as confidence falls. Do not coerce every anonymous event into a named profile.
+
+### 43.6 Segment builder product
+
+An enterprise-grade segment builder needs:
+
+- clear attribute provenance and freshness;
+- nested AND/OR logic with understandable precedence;
+- estimated and realized audience counts;
+- inclusion and exclusion explanations;
+- consent and policy filters applied automatically;
+- versioning, approval, schedule, owner, and expiry;
+- overlap and frequency analysis;
+- destination compatibility;
+- preview using safe sampled or aggregate data;
+- audit history and rollback.
+
+### 43.7 AI-assisted segmentation
+
+Useful assistance includes translating a plain-language goal into a draft rule, suggesting relevant approved attributes, identifying unexpectedly small/large audiences, explaining overlap, and recommending a test. The system should show the generated logic before activation and require human approval. It must not invent unavailable fields, infer prohibited health attributes, or silently broaden eligibility to hit a reach target.
+
+### 43.8 Migration risks
+
+- old and new identity graphs produce different counts;
+- historical segments contain undocumented logic;
+- destination IDs are not portable;
+- event names are reused with new semantics;
+- consent state is copied without policy version;
+- teams recreate old manual workflows inside a new tool;
+- customer reports change without a reconciliation period;
+- platform usage costs grow faster than business value.
+
+### 43.9 CDP acceptance scorecard
+
+```
+Profile completeness and identity precision
+Consent and deletion propagation
+Event freshness p50/p95
+Segment build-to-activation cycle time
+Destination delivery and match rate
+Audience count reconciliation
+Operator task completion and error rate
+Campaign incremental outcome
+Platform cost per active profile / event / activation
+Support tickets and manual interventions
+```
+
+## 44. Enterprise integrations, LMS, and platform tooling
+
+### 44.1 Productize the integration journey
+
+Institutional customers rarely buy an isolated feature. They need identity, security review, data exchange, configuration, testing, launch, monitoring, support, and change management. “Integration complete” should mean a customer achieves a verified business event, not that credentials were issued.
+
+### 44.2 Time-to-first-value funnel
+
+```mermaid
+flowchart LR
+  A[Commercial qualification] --> B[Solution design]
+  B --> C[Security and legal review]
+  C --> D[Sandbox and credentials]
+  D --> E[Data mapping and configuration]
+  E --> F[Certification tests]
+  F --> G[Production launch]
+  G --> H[First successful activation]
+  H --> I[Recurring value and expansion]
+```
+
+Measure time and fallout at every stage. If median integration is 60 days, average alone may hide a long tail of customers blocked by one recurring data-mapping issue.
+
+### 44.3 Integration patterns
+
+- REST or GraphQL API for synchronous configuration and retrieval;
+- webhook for event notification;
+- streaming bus for high-volume near-real-time events;
+- scheduled SFTP/object-storage file for enterprise batch exchange;
+- CRM/CDP native connector;
+- SSO using SAML or OpenID Connect;
+- SCIM for user and group provisioning;
+- LMS standards such as LTI, xAPI, or SCORM where the use case and platform support them;
+- FHIR/SMART where clinical interoperability is actually required;
+- clean room for controlled overlap or measurement.
+
+Do not select a fashionable protocol before defining workflow, latency, authority, and error recovery.
+
+### 44.4 LMS and education integration questions
+
+- Who owns learner identity and eligibility?
+- Where is enrollment initiated?
+- Which system is authoritative for activity version, completion, score, credit, and certificate?
+- How are launch context and deep links passed?
+- Can completion be retried safely?
+- How are partial progress, expiration, and failed assessments represented?
+- Can the institutional customer receive learner-level data, or only aggregate outcomes?
+- What accreditation, consent, and contract rules restrict reporting?
+- How do corrections propagate after a certificate has been issued?
+
+### 44.5 API product requirements
+
+Every partner-facing API needs discoverable documentation, authentication, scopes, tenant isolation, idempotency, pagination, filtering, rate limits, versioning, deprecation policy, sample payloads, sandbox, status page, error catalog, request tracing, usage analytics, and support escalation.
+
+Example acceptance criteria:
+
+```
+Given a valid tenant-scoped token and an idempotency key,
+when a partner submits the same activation request three times,
+then exactly one activation is created,
+all responses return the same activation ID,
+the audit log records the retries,
+and no cross-tenant fields are returned.
+```
+
+### 44.6 Platform tooling for internal operators
+
+High-leverage tools include schema explorer, identity lookup with provenance, journey simulator, audience diff, connector health, retry/replay console, campaign validator, approval-state viewer, model explanation, feature-flag console, and customer configuration templates. Mask sensitive data and separate view, edit, approve, replay, and export permissions.
+
+### 44.7 Integration reliability metrics
+
+- median and p90 time to sandbox, certification, production, and first value;
+- successful calls/events divided by eligible attempts;
+- error rate by partner, endpoint, and reason;
+- retry, duplicate, and dead-letter volume;
+- data freshness and reconciliation difference;
+- breaking-change and deprecation incidents;
+- partner support hours per integration;
+- percentage using standard connector versus custom fork;
+- first-30-day adoption and activation value.
+
+### 44.8 Reduce integration time systematically
+
+Do not merely add implementation managers. Rank delay by cause, frequency, and elapsed time. Product fixes may include self-service credentials, contract tests, pre-built mappings, clearer error messages, sample datasets, automated certification, reusable security evidence, and migration adapters.
+
+## 45. POCs and enterprise pilot playbook
+
+### 45.1 Distinguish the instruments
+
+- **Prototype:** tests interaction or concept quickly; may not use production architecture.
+- **Technical spike:** reduces an engineering uncertainty.
+- **Proof of concept (POC):** demonstrates a technical assumption under limited conditions.
+- **Pilot:** tests real workflow and value with bounded users/customers.
+- **MVP:** smallest production product that delivers repeatable value.
+
+Calling every experiment a pilot creates false commercial expectations.
+
+### 45.2 Stage gates
+
+```mermaid
+flowchart LR
+  A[Problem and evidence] --> B{Desirable?}
+  B -->|No| X[Stop or reframe]
+  B -->|Yes| C[Technical POC]
+  C --> D{Feasible and safe?}
+  D -->|No| X
+  D -->|Yes| E[Workflow pilot]
+  E --> F{Useful and adoptable?}
+  F -->|No| X
+  F -->|Yes| G[Commercial design partner]
+  G --> H{Repeatable economics?}
+  H -->|No| I[Service, partner, or redesign]
+  H -->|Yes| J[Productize and scale]
+```
+
+### 45.3 Pilot charter
+
+```
+Problem and target user
+Customer/design partner and decision authority
+Hypotheses: desirability, feasibility, model quality, workflow, commercial value
+Scope and explicit non-production boundaries
+Data, consent, security, medical/legal/regulatory approvals
+Integration and support responsibilities
+Success, guardrail, and stop criteria
+Baseline and comparison design
+Timeline and sample/exposure requirement
+Commercial terms and data/product IP
+Scale decision and owner
+```
+
+### 45.4 AI/ML pilot gates
+
+For AI-assisted segmentation or journey recommendations, require:
+
+- baseline rule/manual workflow;
+- training and evaluation data rights;
+- leakage and temporal split review;
+- representative slices and minimum sample;
+- offline model metric tied to a user decision;
+- human-review workflow and override capture;
+- shadow mode before recommendations affect users;
+- online holdout where feasible;
+- latency, cost, and failure fallback;
+- monitoring, drift, rollback, and incident path.
+
+### 45.5 Avoid pilot purgatory
+
+A pilot becomes permanent unpaid service when there is no decision date, no reusable architecture, and no commercial owner. Before starting, define what evidence triggers scale, iteration, or stop. Track custom work separately from platform work. Do not count a manually curated success as proof of automated scalability.
+
+### 45.6 Enterprise pilot economics
+
+Estimate implementation labor, data fees, cloud/model cost, support, sales engineering, compliance review, and opportunity cost. Compare pilot value with a plausible repeatable price and market size. A high-profile logo can justify learning investment, but label strategic subsidy explicitly.
+
+## 46. AI personalization, recommendations, and model operations
+
+### 46.1 Recommendation problem types
+
+- **Content ranking:** order eligible content for an HCP or specialty.
+- **Next-item recommendation:** predict the next useful activity in a journey.
+- **Channel selection:** choose web, email, event, CRM, or no action.
+- **Send-time optimization:** choose an eligible contact time.
+- **Audience expansion:** identify additional similar eligible entities, with strong governance.
+- **Anomaly detection:** flag unusual campaign, data, or integration behavior.
+- **Campaign optimization:** allocate budget, bid, frequency, or creative among permitted options.
+
+### 46.2 Input/output contract
+
+```
+Decision: rank eligible specialty education activities
+Inputs: profession, specialty, declared interests, permitted engagement history,
+        activity metadata, prior completion, freshness, channel availability
+Prohibited inputs: patient data, unsupported sensitive inference, commercial sponsor priority
+Output: ordered activity IDs, score, reason codes, model version, expiry
+Fallback: editorially curated specialty list
+Human control: education team can remove activity; user can dismiss or change interests
+```
+
+### 46.3 Training data
+
+Positive labels such as click, completion, dwell, registration, or attendance reflect exposure and historical ranking. Correct for position bias, selection, bots, accidental clicks, and repeated users. Negative examples are not everyone who did not click; many never had a real opportunity. Use temporal validation to avoid training on future information.
+
+### 46.4 Offline metrics
+
+- precision@k and recall@k;
+- NDCG or ranking quality;
+- mean reciprocal rank where one relevant result matters;
+- coverage across catalog and users;
+- diversity and novelty;
+- calibration for response probabilities;
+- false positive rate for anomaly detection;
+- precision/recall at operational alert thresholds;
+- slice metrics by profession, specialty, geography, activity type, and cold-start state.
+
+### 46.5 Online metrics
+
+Measure incremental qualified engagement, completion, attendance, learning, conversion, task time, and recurring adoption. Guard against lower diversity, over-contact, popularity concentration, complaint/opt-out, content-class imbalance, and latency. A click lift can coexist with worse learning or trust.
+
+### 46.6 Deployment architecture
+
+```mermaid
+flowchart LR
+  A[Governed events and labels] --> B[Offline feature pipeline]
+  B --> C[Training and temporal validation]
+  C --> D[Model registry and approval]
+  D --> E[Batch or online deployment]
+  F[Online profile and context] --> G[Feature service]
+  G --> E
+  E --> H[Eligibility and policy layer]
+  H --> I[Recommendation or decision]
+  I --> J[Human review or activation]
+  J --> K[Outcome, override, and quality events]
+  K --> A
+  K --> L[Monitoring, drift, and rollback]
+  L --> D
+```
+
+### 46.7 Model operations requirements
+
+- model, feature, data, and policy versions recorded per decision;
+- reproducible training and evaluation artifacts;
+- approval and separation of duties;
+- shadow, canary, A/B, and rollback controls;
+- input distribution, output, latency, cost, and outcome monitoring;
+- drift thresholds and retraining authority;
+- champion/challenger support;
+- explanation and operator override;
+- fallback when model or feature service is unavailable.
+
+### 46.8 Anomaly detection product design
+
+An anomaly is not automatically an incident. Define entity, metric, baseline, seasonality, sensitivity, minimum volume, and action. Combine statistical signal with business context. Provide likely drivers and comparison periods. Capture operator disposition: true issue, expected campaign change, data delay, or false alert. Optimize for useful investigated alerts, not maximum anomaly count.
+
+## 47. Commercial productization, positioning, and adoption
+
+### 47.1 From capability to offering
+
+A capability becomes a product when it has a defined user and buyer, repeatable problem, packaged scope, entitlement, workflow, service boundary, implementation model, measurable value, price logic, support model, and roadmap. “AI-powered segmentation” is a feature phrase, not an offering.
+
+### 47.2 Offering canvas
+
+```
+Buyer and economic decision maker
+Operator and end user
+Problem and current alternative
+Differentiated promise
+Included capabilities and limits
+Required data/integration
+Implementation and time to value
+Proof and measurement
+Packaging and price metric
+Security/privacy/regulatory posture
+Support and services boundary
+Expansion path
+```
+
+### 47.3 Value proposition example
+
+Weak: “AI-powered omnichannel HCP orchestration.”
+
+Stronger: “Help life-sciences campaign teams move from fragmented HCP signals to an approved, explainable next action across Medscape education, live events, and activation channels in hours rather than days - with professional identity, consent, frequency, and measurement built into the workflow.”
+
+Validate every phrase. If “hours rather than days” is not measured, do not publish it.
+
+### 47.4 Packaging options
+
+- base platform plus activation modules;
+- usage tier by active HCP profiles, events, campaigns, or API volume;
+- premium AI-assistance and advanced measurement;
+- connector package for enterprise destinations;
+- managed service for customers needing operational support;
+- outcome study or clean-room measurement add-on.
+
+Choose a price metric aligned with customer value and predictable cost. Avoid a metric that penalizes desired adoption or encourages unnecessary sensitive-data collection.
+
+### 47.5 Sales and product-marketing assets
+
+- buyer problem and market narrative;
+- audience-specific value proposition;
+- capability and workflow diagram;
+- demo script using representative data;
+- integration and security overview;
+- implementation plan and responsibilities;
+- measurement methodology and proof;
+- objection handling and competitive differentiation;
+- packaging, entitlement, and services boundary;
+- customer qualification checklist;
+- adoption playbook after signature.
+
+### 47.6 Adoption funnel
+
+```mermaid
+flowchart LR
+  A[Eligible customer] --> B[Contracted]
+  B --> C[Integrated]
+  C --> D[Configured]
+  D --> E[First activation]
+  E --> F[Repeated workflow use]
+  F --> G[Measured value]
+  G --> H[Renewal and expansion]
+```
+
+Track conversion and elapsed time between stages. Contracted revenue without integration or recurring use is delayed churn risk.
+
+### 47.7 Revenue attribution
+
+Classify product revenue as directly sold new offering, upsell enabled by feature, retention influence, usage expansion, or services. Define attribution with Finance and Sales before launch. Avoid claiming the full contract value for one feature when the purchase depended on a bundle.
+
+### 47.8 Commercial feedback loop
+
+Sales feedback is valuable but selected. Separate one customer's blocker, recurring segment need, competitor claim, and strategic market change. Require evidence, opportunity size, affected workflow, urgency, workaround, and willingness to adopt/pay. Close the loop so sellers know why an item was accepted, deferred, or solved differently.
+
+## 48. SQL and analytics for the role
+
+The job description expects the PM to write SQL or use analytical tools. You do not need to replace an analyst, but you should independently inspect adoption, campaign, journey, integration, and model behavior.
+
+### 48.1 Representative schema
+
+```
+hcp_profile(hcp_id, npi, profession, specialty, country, consent_state, updated_at)
+journey_assignment(hcp_id, journey_id, variant, assigned_at, exited_at)
+decision_event(decision_id, hcp_id, journey_id, candidate_id, action,
+               model_version, policy_version, reason_code, decided_at)
+activation_event(decision_id, channel, status, activated_at)
+engagement_event(hcp_id, content_id, event_type, event_at, qualified)
+integration_event(partner_id, endpoint, status_code, latency_ms, event_at)
+commercial_account(account_id, package, contracted_at, annual_value)
+```
+
+### 48.2 Time from trigger to activation
+
+```sql
+SELECT
+  journey_id,
+  COUNT(*) AS decisions,
+  PERCENTILE_CONT(0.5) WITHIN GROUP
+    (ORDER BY EXTRACT(EPOCH FROM (a.activated_at - d.decided_at)) / 60) AS p50_minutes,
+  PERCENTILE_CONT(0.95) WITHIN GROUP
+    (ORDER BY EXTRACT(EPOCH FROM (a.activated_at - d.decided_at)) / 60) AS p95_minutes
+FROM decision_event d
+JOIN activation_event a USING (decision_id)
+WHERE a.status = 'delivered'
+  AND d.decided_at >= CURRENT_DATE - INTERVAL '30 days'
+GROUP BY journey_id;
+```
+
+Interpretation: low p50 with high p95 suggests a long-tail connector, approval, or retry problem. Break down by channel, partner, and reason before setting an SLA.
+
+### 48.3 Personalization lift with assignment integrity
+
+```sql
+WITH assigned AS (
+  SELECT hcp_id, journey_id, variant, assigned_at
+  FROM journey_assignment
+  WHERE assigned_at >= DATE '2026-06-01'
+), outcomes AS (
+  SELECT DISTINCT a.hcp_id, a.journey_id
+  FROM assigned a
+  JOIN engagement_event e
+    ON e.hcp_id = a.hcp_id
+   AND e.event_at >= a.assigned_at
+   AND e.event_at < a.assigned_at + INTERVAL '14 days'
+   AND e.event_type = 'qualified_conversion'
+)
+SELECT
+  variant,
+  COUNT(*) AS assigned_hcps,
+  COUNT(o.hcp_id) AS converted_hcps,
+  1.0 * COUNT(o.hcp_id) / NULLIF(COUNT(*), 0) AS conversion_rate
+FROM assigned a
+LEFT JOIN outcomes o USING (hcp_id, journey_id)
+GROUP BY variant;
+```
+
+This estimates rates by assigned variant, not merely exposed users. Still inspect sample ratio mismatch, contamination, identity coverage, and confidence intervals.
+
+### 48.4 Integration friction
+
+```sql
+SELECT
+  partner_id,
+  endpoint,
+  COUNT(*) AS calls,
+  AVG(CASE WHEN status_code BETWEEN 200 AND 299 THEN 1.0 ELSE 0.0 END) AS success_rate,
+  APPROX_PERCENTILE(latency_ms, 0.95) AS p95_latency_ms,
+  SUM(CASE WHEN status_code = 429 THEN 1 ELSE 0 END) AS rate_limited,
+  SUM(CASE WHEN status_code >= 500 THEN 1 ELSE 0 END) AS server_errors
+FROM integration_event
+WHERE event_at >= CURRENT_TIMESTAMP - INTERVAL '7 days'
+GROUP BY partner_id, endpoint
+ORDER BY success_rate ASC, calls DESC;
+```
+
+SQL dialects vary. More important than syntax is grain: know whether one row is a request, retry, unique business event, HCP, campaign, or account.
+
+### 48.5 Analyses to practice
+
+1. Weekly activation funnel by customer cohort.
+2. Time from contract to first successful activation.
+3. Standard connector versus custom integration reliability.
+4. Journey-entry, suppression, no-action, and exit reasons.
+5. Recommendation coverage and diversity by specialty.
+6. Model override rate and downstream outcome.
+7. Segment count drift after identity or data-source update.
+8. Manual campaign setup time before and after automation.
+9. Revenue/upsell linked to feature entitlement and actual adoption.
+10. Support-ticket volume per active customer and integration.
+
+## 49. Agile Product Owner execution
+
+### 49.1 Product Manager versus Product Owner
+
+The PM owns problem, strategy, outcome, and roadmap. The Product Owner function keeps the delivery system ready: ordered backlog, clear acceptance, fast decisions, stakeholder alignment, and validated increments. One person may perform both, but strategy should not disappear into ticket administration.
+
+### 49.2 Backlog hierarchy
+
+```
+Outcome / strategic bet
+  Epic or capability
+    User workflow slice
+      Story with acceptance criteria
+        Engineering task or test
+```
+
+Avoid horizontal epics such as “build database,” “build frontend,” and “build model.” Slice a working journey: one source event -> one eligible HCP -> one decision -> one activation -> one measurable outcome.
+
+### 49.3 Definition of ready
+
+- user and problem evidence;
+- outcome and guardrails;
+- workflow and content class;
+- data, identity, and API contract;
+- failure and fallback behavior;
+- privacy/security/medical/legal review needs;
+- dependencies and owner;
+- testable acceptance criteria;
+- rollout and instrumentation expectation.
+
+### 49.4 Definition of done
+
+Code complete is not product complete. Require automated tests, observability, accessibility, data-quality checks, documentation, support runbook, feature flag, rollback, analytics validation, approvals, and named post-launch owner.
+
+### 49.5 Sprint and flow ceremonies
+
+- Refinement: expose ambiguity and dependencies, not estimate theater.
+- Planning: select a coherent outcome slice within capacity.
+- Daily coordination: surface blocked decisions and production risk.
+- Review/demo: show working behavior with realistic data and failure cases.
+- Retrospective: improve system conditions and decision flow.
+- Backlog review: remove stale work and reconnect items to outcomes.
+
+### 49.6 Use-case-backed requirement
+
+```
+Use case: campaign operator activates an approved HCP segment to CRM.
+Preconditions: segment approved, consent current, connector healthy, operator authorized.
+Main flow: preview -> validate count -> activate -> receive destination ID -> monitor status.
+Exceptions: count changed, destination rejects field, token expired, partial batch failure.
+Acceptance: idempotent retry, row-level error export with masking, audit log, reconciliation.
+Outcome: median approved-segment-to-CRM time under 15 minutes.
+Guardrail: zero ineligible HCP records delivered.
+```
+
+### 49.7 Trade-off memo for roadmap sequencing
+
+When choosing CDP self-service versus another custom connector, compare user reach, revenue commitment, reusable platform value, risk, learning, time, operational savings, dependency readiness, and opportunity cost. Show what will not be built and the consequence. “Both are priority one” is not prioritization.
+
+## 50. The job-specific first two weeks
+
+### 50.1 People to meet
+
+| Partner | What to learn | Artifact to request |
+|---|---|---|
+| Engineering/Architecture | services, platform boundaries, re-platforming risks | current architecture and dependency map |
+| Platform Tools/Product | operator workflow, shared services, roadmap overlap | platform capability catalog |
+| BI/Analytics | source of truth, metric disagreements, reporting latency | metric dictionary and key dashboards |
+| Data Science | models, training data, evaluation, deployment, drift | model cards/evaluation reports |
+| Account Management/Sales | buyer, commitments, adoption blockers, pilots | top opportunities and loss reasons |
+| Education/CME | independence, learner journey, LMS/institutional needs | activity lifecycle and reporting rules |
+| Medical Affairs | scientific-exchange workflows and boundaries | approved workflow map |
+| Product Marketing | positioning, packaging, enablement, proof | current GTM assets |
+| Legal/Privacy/Security | data-use boundaries, reviews, recurring risks | data-flow and risk-review templates |
+| Editorial/Clinical | content taxonomy, quality, personalization boundaries | content governance model |
+
+### 50.2 Systems to trace
+
+Trace one real commercial journey from client brief to segment, approval, activation, event, engagement, report, invoice, and renewal discussion. Trace one enterprise integration from security review to first value. Trace one model output from source data to operator action and outcome.
+
+### 50.3 Questions that signal seniority
+
+- Which journey decision currently takes days but should take minutes?
+- Where do education, medical-affairs, and commercial eligibility rules diverge in the platform?
+- What percentage of integrations use a standard path, and what drives the custom tail?
+- Which activation or adoption metric does Sales trust least?
+- What is the baseline manual effort for segmentation and campaign setup?
+- Which model is deployed but not changing a meaningful decision?
+- How is no-action represented in current journey logic?
+- Can we reproduce why an HCP received an experience six months later?
+- What customer commitment is constraining the re-platforming sequence?
+- Where does pilot success depend on manual work that cannot scale?
+
+### 50.4 Job-specific 14-day output
+
+By the end of two weeks, produce:
+
+1. commercial platform context and data-flow diagram;
+2. NBE/NBA decision contract for one journey;
+3. CDP source-to-destination inventory;
+4. integration time-to-value funnel with top delay reasons;
+5. AI/ML model and pilot inventory;
+6. adoption and revenue scorecard definitions;
+7. re-platforming risk and dependency register;
+8. one proposed thin vertical slice;
+9. stakeholder decision map;
+10. revised 30/60/90 plan grounded in internal evidence.
+
+### 50.5 Re-platforming discovery checklist
+
+- Which customer and operator workflows must remain uninterrupted?
+- Which APIs, events, exports, IDs, and report definitions are contractual?
+- Which legacy behaviors are accidental versus relied upon?
+- How will old and new identity, segmentation, and measurement results reconcile?
+- Can capabilities migrate incrementally behind stable contracts?
+- What is the dual-run duration and exit criterion?
+- How are customers, sellers, and operators trained?
+- What is the rollback point after data begins writing to the new platform?
+- Which technical debt is intentionally carried, and when is it retired?
+- What evidence proves the new platform is more reliable and faster to integrate?
+
+### 50.6 Your first credible product proposal
+
+A strong early proposal is bounded, measurable, and platform-relevant. Example: “Create a journey simulator and activation preflight that shows candidate count, exclusion reasons, content-class policy, frequency impact, and destination readiness before launch.” It can reduce campaign setup errors, expose data problems, improve operator confidence, and create reusable foundations for NBE/NBA and CDP self-service without requiring an immediate autonomous-AI launch.
+
+# Part VII - Ignite growth, supporter AI, membership, and identity
+
+This section integrates the adjacent expectations in WebMD AI Product Manager - Commercial Offerings Job ID 2026-1403, Senior Product Manager - Healthcare Marketing & AI Solutions Job ID 2026-1704, and the Medscape/WebMD Product Manager - Membership role description. Together, the roles reveal the broader platform context in which a Senior Technical PM operates: professional membership and identity create trusted relationships; Medscape content, education, and commercial offerings create value; WebMD Ignite turns healthcare data and marketing workflows into provider and payer growth; shared AI and platform capabilities connect the layers.
+
+## 51. The four-role capability map
+
+### 51.1 Shared foundation and different outcomes
+
+| Role | Primary customer/user | Core system | Primary outcome |
+|---|---|---|---|
+| Senior Technical PM, Medscape | Life sciences, institutions, operators, HCPs | Commercial platform, NBE/NBA, CDP, integrations | Faster, reliable, measurable engagement and platform adoption |
+| AI PM - Commercial Offerings | Supporters, Education commercial teams, internal operators | AI-enabled content, reporting, customization, workflows | Differentiated supporter value, revenue, efficiency, reusable AI |
+| Senior PM - Healthcare Marketing & AI Solutions | Providers, payers, healthcare marketers | Ignite Growth Platform and integrated MarTech workflows | Appointments, encounters, member/patient growth, revenue |
+| PM - Membership | Physicians and HCP members across web/mobile | Registration, authentication, profile, identity, retention | Active known users, richer profiles, frequency, lifetime value |
+
+### 51.2 Shared platform primitives
+
+The roadmap should look for reusable primitives rather than four isolated products:
+
+- identity, authentication, professional verification, consent, and preferences;
+- event collection, profile, audience, journey, and experimentation;
+- content and experience metadata, approval, rights, and taxonomy;
+- recommendation, ranking, anomaly, and generative-AI services;
+- connectors, APIs, webhooks, batch exchange, and platform tooling;
+- reporting, attribution, closed-loop measurement, and commercial analytics;
+- governance, model registry, audit, and incident controls;
+- reusable web/mobile design patterns, notifications, and accessibility.
+
+### 51.3 Where sharing becomes dangerous
+
+Shared infrastructure does not mean shared purposes or unrestricted data. Membership personalization, accredited education, supporter reporting, provider marketing, payer engagement, and promotional activation can require different consent, content independence, data contracts, and reporting granularity. Use a common control plane with purpose-specific policy rather than copying all data into one unrestricted profile.
+
+### 51.4 Capability ownership matrix
+
+| Capability | Platform owner | Domain owner | Joint decision |
+|---|---|---|---|
+| Identity graph | Identity/platform | Membership, HCP verification | permitted edges and confidence thresholds |
+| Recommendation service | AI platform | Editorial, Education, Commercial, Ignite | candidate policy, objective, evaluation |
+| CDP/audience | MarTech platform | campaign/journey product | attributes, activation, consent, measurement |
+| Content customization | content/AI platform | Education or commercial offering | approved components, independence, quality |
+| Closed-loop outcomes | data platform | Ignite/provider/payer product | linkage, attribution, business definitions |
+| Supporter reporting | analytics platform | commercial offering | granularity, proof, privacy, packaging |
+
+## 52. Ignite Growth Platform as a system of intelligence and orchestration
+
+WebMD Ignite publicly describes Ignite Growth Platform (IGP) as a healthcare CRM and growth platform using healthcare-specific data, audience building, omnichannel campaign management, predictive models, and insights. The product pages describe integration into enterprise CRM, marketing automation, and data-warehouse workflows. Treat published scale and ROI figures as vendor claims whose definitions and dates must be verified internally.
+
+### 52.1 System roles
+
+- **System of record:** where authoritative patient, member, campaign, provider, or encounter data is maintained. Epic, Salesforce, or another CRM may own selected records.
+- **System of engagement:** where marketers or operators design and execute workflows.
+- **System of intelligence:** where data is unified, opportunities are modeled, and recommendations are produced.
+- **System of orchestration:** where triggers, policies, channel decisions, and activation are coordinated.
+- **System of measurement:** where marketing activity is connected to appointments, encounters, retention, and revenue.
+
+IGP can be positioned as intelligence and orchestration without pretending to replace every customer's EHR, CRM, marketing automation platform, ad platform, and enterprise data warehouse.
+
+### 52.2 Reference integration architecture
+
+```mermaid
+flowchart LR
+  A[Epic or other EHR and scheduling] --> I[Ignite identity, data, and intelligence layer]
+  B[Salesforce or healthcare CRM] --> I
+  C[Eloqua or marketing automation] --> I
+  D[Adobe experience and analytics stack] --> I
+  E[Google and Meta media platforms] --> I
+  F[Web, app, call center, and provider finder] --> I
+  I --> G[Audience and opportunity models]
+  G --> H[Journey and channel orchestration]
+  H --> C
+  H --> B
+  H --> E
+  H --> F
+  A --> J[Appointment, encounter, and revenue outcomes]
+  B --> J
+  F --> J
+  J --> K[Closed-loop measurement]
+  K --> I
+```
+
+### 52.3 Integration decision table
+
+| System | Typical role | Data flowing into intelligence | Activation/output |
+|---|---|---|---|
+| Epic/EHR | clinical, scheduling, encounter record | appointments, encounters, patient status, capacity where allowed | outreach task, campaign outcome, scheduling link |
+| Epic Cheers | healthcare CRM and outreach | campaign and consumer/patient engagement context | leads, journeys, calls, messages, appointment attribution |
+| Salesforce | account, lead, opportunity, service workflow | consumer/account status, sales/service events | tasks, audiences, campaign responses |
+| Eloqua | B2B/B2C marketing automation | email/journey events, forms, campaign membership | audience, trigger, content, suppression |
+| Adobe | content, experience, analytics, journey capabilities | digital behavior and content context | personalized experience and campaign activation |
+| Google/Meta | paid media and conversion platforms | spend, delivery, engagement, platform conversions | governed audiences, campaigns, offline conversions |
+| Enterprise warehouse | analytical source and finance truth | customer, campaign, appointment, encounter, revenue | reporting, model features, reconciled metrics |
+
+Specific products and customer configurations differ. Do not state “seamless integration” without defining supported objects, direction, frequency, latency, authentication, and reconciliation.
+
+### 52.4 Epic Cheers context
+
+Epic publicly describes Cheers as a healthcare CRM supporting patient acquisition, care-gap outreach, consistent contact-center experiences, provider finding, campaign prioritization, and tracking from engagement to appointments and revenue. A differentiated integration question is not simply “Can we send data to Epic?” It is “Which system decides the audience and next action, which owns outreach state, and how do both systems reconcile campaign and clinical outcomes without duplicate contact?”
+
+### 52.5 Orchestration conflict patterns
+
+- IGP and Eloqua both advance the journey after the same event.
+- Cheers and Salesforce each create a lead for one person.
+- Meta reports a platform conversion while EHR appointment data later reverses or cancels it.
+- Adobe personalization and IGP recommendation compete for the same page slot.
+- customer consent changes in one system but the downstream suppression refresh is daily.
+
+Use a decision-rights matrix, global person/campaign IDs, idempotency, source-of-truth rules, and reconciliation jobs.
+
+### 52.6 IGP product health
+
+Measure source freshness, identity match, audience build time, destination delivery, journey success, model coverage, appointment linkage, outcome maturity, cost, operator adoption, and customer expansion. Separate platform availability from useful workflow availability: a green API can still serve stale data or fail the customer's business process.
+
+## 53. Provider and payer healthcare marketing strategy
+
+### 53.1 Provider growth jobs
+
+Health systems need to grow high-value service lines, attract and retain patients, reduce referral leakage, improve access, use available capacity, engage existing patients, and prove marketing impact to finance and clinical leaders. The product must connect intent with a real pathway to care.
+
+### 53.2 Payer growth and engagement jobs
+
+Health plans need member acquisition, enrollment, onboarding, benefit education, network navigation, care-gap engagement, care management, retention, and plan selection. The journey has enrollment periods, regulatory communications, eligibility changes, and a different outcome model from provider appointment acquisition.
+
+### 53.3 High-intent, high-value, high-conversion moments
+
+- a consumer searches for a specialist or treatment near them;
+- a patient views an available provider and begins scheduling;
+- a member needs an in-network service;
+- a person completes a health-risk assessment and requests help;
+- a referring clinician identifies a service need;
+- a lapsed patient becomes eligible for outreach;
+- a consumer compares coverage or a Medicare Advantage plan;
+- an appointment slot opens for a relevant high-intent person.
+
+Do not equate “high value” only with revenue. Include clinical appropriateness, access, equity, capacity, and consumer benefit.
+
+### 53.4 Service-line opportunity model
+
+```
+Opportunity = addressable demand
+            x clinical/service relevance
+            x network and geographic fit
+            x reachable eligible population
+            x appointment capacity
+            x expected conversion
+            x expected contribution
+            x strategic priority
+```
+
+Each factor needs a source and confidence. A propensity model cannot create appointment capacity.
+
+### 53.5 Provider campaign example
+
+**Goal:** increase completed orthopedic encounters in a defined service area.
+
+**System:** market opportunity -> eligible audience -> paid/owned journey -> provider finder -> scheduling/call center -> appointment -> completed encounter -> allowed revenue/contribution.
+
+**Optimization:** prioritize appropriate demand and available locations; use capacity-aware messaging; retarget only under permitted rules; suppress completed or ineligible users; route insurance/network questions; measure incremental completed encounters and margin.
+
+**Guardrails:** no misleading urgency, no use of clinical data for marketing without permission, accessible scheduling, equitable geographic coverage, reasonable frequency, and transparent attribution.
+
+### 53.6 Payer campaign example
+
+**Goal:** improve completion of annual wellness visits among eligible members.
+
+**System:** eligibility/care-gap data -> consent and outreach permission -> channel and language preference -> provider/network navigation -> appointment -> claim/encounter maturity -> care-gap closure.
+
+Measure reachable eligibility, contact, navigation success, scheduled visit, completed visit, time to closure, member satisfaction, and incremental closure versus comparison. Claims lag requires a maturity window.
+
+### 53.7 Capacity-aware activation
+
+```mermaid
+flowchart LR
+  A[Intent and eligible audience] --> B[Service line and geography]
+  C[Provider, location, network, and appointment capacity] --> B
+  B --> D[Opportunity and propensity scoring]
+  D --> E[Journey and channel decision]
+  E --> F[Provider finder or scheduling]
+  F --> G[Appointment scheduled]
+  G --> H[Appointment completed or cancelled]
+  H --> I[Encounter and revenue outcome]
+  I --> J[Measurement and capacity feedback]
+  J --> D
+```
+
+## 54. Closed-loop measurement: appointments, encounters, and revenue
+
+### 54.1 Outcome ladder
+
+| Stage | Example event | Reliability question |
+|---|---|---|
+| Marketing | impression, click, content interaction | valid, deduplicated, consented? |
+| Intent | provider search, form, call, scheduling start | genuine need or low-quality lead? |
+| Appointment | scheduled, rescheduled, cancelled, no-show | which state and source of truth? |
+| Encounter | checked in, completed, coded | when is the record mature? |
+| Financial | charge, allowed amount, payment, contribution | gross charge is not realized revenue |
+| Long-term | repeat care, retention, lifetime value | attribution window and confounding? |
+
+### 54.2 Identity and linkage
+
+Closed-loop measurement may require joining media or web identity to lead, patient, appointment, encounter, and finance identifiers. Use deterministic consented links where possible, privacy-preserving partner methods, match-confidence reporting, and unmatched-rate analysis. Do not hide match loss; it can bias results toward digitally recognized populations.
+
+### 54.3 Appointment state model
+
+`requested -> scheduled -> confirmed -> rescheduled -> completed`, with terminal or side states cancelled, no-show, duplicate, invalid, and unable-to-contact. Preserve transitions and timestamps. Reporting only the latest state prevents cycle-time and abandonment analysis.
+
+### 54.4 Revenue definitions
+
+- gross charges: list amounts before contractual adjustment;
+- allowed amount: negotiated covered amount;
+- net patient/service revenue: expected or recognized after adjustments;
+- contribution margin: revenue minus attributable variable cost;
+- lifetime value: expected net value over a defined horizon;
+- marketing ROI: incremental value minus marketing cost, divided by marketing cost.
+
+Align with Finance. Never let a dashboard casually call gross charges “revenue.”
+
+### 54.5 Measurement architecture
+
+```mermaid
+flowchart LR
+  A[Campaign and journey exposure] --> B[Lead and digital-intent events]
+  B --> C[Identity and attribution layer]
+  D[Scheduling and call center] --> C
+  E[EHR encounters] --> C
+  F[Revenue cycle and finance] --> C
+  C --> G[Governed outcome mart]
+  G --> H[Descriptive funnel]
+  G --> I[Attribution]
+  G --> J[Incrementality and ROI]
+  K[Match, latency, suppression, and data-quality report] --- C
+```
+
+### 54.6 Closed-loop metric contract
+
+```
+Outcome: completed encounter
+Entity: unique patient encounter
+Eligibility: selected service lines and campaign cohort
+Attribution: documented lookback and touch rule
+Causal estimate: randomized/geo design where feasible
+Maturity: 45 days after service date
+Identity coverage: report matched and unmatched by source
+Revenue: net patient revenue from finance-approved field
+Exclusions: test, duplicate, reversed, employee, non-billable as defined
+Privacy: minimum cells, approved access, retention, no platform export of PHI
+```
+
+### 54.7 Beyond features
+
+The role description explicitly emphasizes appointments, encounters, and revenue. Therefore every roadmap epic should state its outcome path. A new audience builder is not complete when it saves a segment; it is complete when operators activate it reliably and the platform can observe a meaningful downstream outcome.
+
+## 55. Claude and generative AI for rapid product prototyping
+
+The supplied Ignite role specifically asks for hands-on use of Claude or similar tools to accelerate solution design, requirements, user stories, and test scenarios. Use these tools as a structured collaborator, not an authority.
+
+### 55.1 Safe working boundary
+
+Never paste PHI, confidential customer data, unreleased strategy, credentials, or restricted contracts into an unapproved AI tool. Use synthetic examples, approved enterprise environments, and internal policy. Record when generated work materially influences a requirement or decision.
+
+### 55.2 Rapid-prototype loop
+
+1. Frame user, workflow, constraint, and decision.
+2. Ask the model to identify ambiguity and failure modes.
+3. Generate multiple workflow or schema options.
+4. Build a disposable prototype using synthetic data.
+5. Test with operators/users.
+6. Verify technical and regulatory assumptions with owners.
+7. Convert learning into human-owned requirements.
+8. Save accepted decisions, not raw chat volume.
+
+### 55.3 Prompt pattern for requirements
+
+```
+Act as a critical product-design partner.
+Context: A health-system marketer uses an intelligence platform to activate an audience to Eloqua.
+User goal: Launch an approved cardiology journey and measure completed encounters.
+Constraints: HIPAA-regulated customer context, consent, tenant isolation, idempotent API,
+             no PHI in logs, human approval before activation.
+Produce:
+1. actors and preconditions;
+2. main and exception flows;
+3. data objects and ownership questions;
+4. acceptance criteria in Given/When/Then form;
+5. abuse, privacy, reliability, and measurement failure modes;
+6. assumptions requiring expert verification.
+Do not invent current platform capabilities.
+```
+
+### 55.4 Prototypes worth building
+
+- clickable audience and journey workflow;
+- JSON API contract with mock server;
+- synthetic campaign-to-appointment dataset and dashboard;
+- natural-language-to-segment rule generator with approval;
+- supporter-report narrative generator constrained to approved metrics;
+- content customization workbench using locked source components;
+- registration/profile flow with identity-confidence explanation;
+- anomaly triage assistant using synthetic incidents.
+
+### 55.5 AI-generated test scenarios
+
+Ask for happy, boundary, adversarial, privacy, accessibility, localization, stale-data, concurrency, retry, partial failure, and rollback tests. Then have domain owners remove irrelevant cases and add real historical incidents. Generated completeness is an illusion unless grounded in system behavior.
+
+### 55.6 Evaluation of the prototyping process
+
+Measure cycle time from problem to testable artifact, percentage of generated requirements accepted after review, defects traced to unverified AI output, user learning per prototype, and reuse of patterns. The goal is better and faster learning, not maximum AI usage.
+
+### 55.7 LLM application architecture
+
+```mermaid
+flowchart LR
+  A[Approved user input] --> B[Policy, redaction, and prompt template]
+  C[Approved product docs, schemas, and examples] --> D[Retrieval]
+  B --> E[LLM inference]
+  D --> E
+  E --> F[Structured output validation]
+  F --> G[Human review and edit]
+  G --> H[Prototype, PRD, story, or test artifact]
+  H --> I[Feedback and quality metrics]
+  I --> B
+```
+
+Use structured schemas, source citations, deterministic validators, and review. A model should not directly modify production campaign or customer configuration from a prototyping workflow.
+
+## 56. AIO, market shifts, and competitive intelligence
+
+### 56.1 From SEO to AI-mediated discovery
+
+AI answer engines and LLM-based search can answer health questions before a user visits a publisher or health-system site. This affects traffic acquisition, attribution, content strategy, provider discovery, and trust. The response is not merely “optimize for AIO.” Build authoritative structured content, clear provenance, entity metadata, accessible provider/location data, current facts, and high-value actions that an answer cannot complete alone.
+
+### 56.2 AIO terminology
+
+- **AI overview/answer:** generated synthesis presented within a search or assistant experience.
+- **AIO/GEO:** evolving practices for making content understandable and citable by AI answer systems; terminology and evidence remain unsettled.
+- **Zero-click journey:** user receives information without visiting the source site.
+- **Entity authority:** machine-understandable evidence connecting organization, provider, condition, location, and source credibility.
+- **Structured data:** schema and APIs that represent entities and actions consistently.
+
+Do not promise ranking in opaque AI systems. Measure referral quality, citation/mention, branded demand, provider-profile action, and downstream conversion where observable.
+
+### 56.3 Competitive landscape method
+
+The supplied role names Unlock Health and Innovaccer. Public materials position Innovaccer around healthcare CRM, consumer data, omnichannel engagement, propensity models, EHR integration, and patient-growth ROI. Unlock Health publicly presents healthcare growth, risk-assessment, patient-acquisition, retention, and managed-care capabilities. Epic Cheers combines healthcare CRM, outreach, care gaps, provider finding, appointment outcomes, and revenue tracking.
+
+Treat vendor claims as hypotheses. Compare workflows using demos, customer references, implementation evidence, contracts, and outcome definitions.
+
+### 56.4 Competitive capability matrix
+
+| Dimension | Questions |
+|---|---|
+| Data advantage | Which clinical, consumer, market, identity, and engagement data are permitted and current? |
+| Intelligence | Which opportunity, propensity, recommendation, and anomaly models exist? |
+| Orchestration | Which channels and journey states are native versus integrated? |
+| EHR/CRM integration | Which objects, directions, and workflow ownership are supported? |
+| Outcome loop | Can the system connect to appointments, encounters, retention, and revenue? |
+| Experience | Provider finder, content, web/mobile, call center, scheduling, personalization? |
+| Time to value | Standard integration, services burden, migration, operator learning? |
+| Trust | HIPAA posture, consent, security, governance, explainability, audit? |
+| Economics | Platform, services, data, media, and outcome-study costs? |
+
+### 56.5 Win themes that require proof
+
+Potential differentiation can come from healthcare-specific data and models, WebMD consumer reach and trust, Medscape professional reach, provider/payer workflows, PulsePoint activation, content/education expertise, and closed-loop outcomes. The PM must translate this portfolio into one coherent customer workflow. A slide listing assets is not an integrated product.
+
+### 56.6 Quarterly market review
+
+Track customer jobs, regulation, browser/platform policy, EHR roadmaps, marketing-platform changes, AI answer behavior, competitor launches, pricing, partnerships, and customer wins/losses. For each change state confidence, evidence, product implication, and decision. Avoid trend theater.
+
+## 57. AI-enabled supporter offerings and commercial operations
+
+In Medscape Education and related commercial contexts, a **supporter** commonly refers to an organization funding or purchasing an offering. The exact relationship and education/commercial rules vary. AI can improve value, customization, reporting, and operations, but must preserve education independence, content rigor, and appropriate supporter data boundaries.
+
+### 57.1 Offering opportunities
+
+- faster needs-assessment synthesis from approved sources;
+- content-format adaptation using approved source material;
+- localization and reading-level assistance with medical review;
+- modular activity packaging across eligible formats;
+- campaign and learner-outcome anomaly detection;
+- supporter-report narrative drafts grounded in approved metrics;
+- Q&A, transcript, and theme summarization with privacy controls;
+- content tagging and taxonomy enrichment;
+- next-format or next-program recommendations for commercial teams;
+- internal proposal, scope, and operational workflow assistance.
+
+### 57.2 Content customization boundary
+
+AI may adapt format, length, modality, or presentation only inside an approved content and review framework. Separate independent education from promotional content. Lock scientific claims, references, disclosures, fair-balance elements where applicable, faculty meaning, and accreditation requirements. Preserve source-to-output lineage.
+
+### 57.3 Supporter reporting architecture
+
+```mermaid
+flowchart LR
+  A[Learner and campaign events] --> B[Validation, identity rules, and consent]
+  B --> C[Aggregate outcome mart]
+  C --> D[Approved metrics and benchmarks]
+  D --> E[Structured report data]
+  E --> F[AI-assisted narrative draft]
+  F --> G[Analytics, medical, education, and client review]
+  G --> H[Versioned supporter report]
+  I[Minimum cells, privacy, independence, and contract rules] --- C
+  I --- E
+  I --- H
+```
+
+The model should not calculate numbers from raw events inside free-form generation. Compute metrics deterministically, pass structured values and definitions, and verify every narrative claim against them.
+
+### 57.4 Reporting metrics
+
+- qualified reach and participation;
+- profession, specialty, and geography at permitted aggregation;
+- activity start, completion, assessment, and evaluation;
+- pre/post knowledge or confidence change with methodology;
+- engagement by format and channel;
+- benchmark with comparable cohort definition;
+- operational time and customization effort;
+- client adoption and recurring use;
+- revenue contribution and margin;
+- privacy suppression and reporting exceptions.
+
+### 57.5 Adaptive learning alignment
+
+Adaptive learning changes sequence, difficulty, remediation, or format based on learner evidence. Shared capability can include learner model, competency taxonomy, item metadata, recommendation service, and experimentation. Domain ownership must preserve educational validity. A commercial-offerings PM should align with an Adaptive Learning PM to reuse platform capabilities without turning supporter preference into learner-path bias.
+
+### 57.6 Internal-to-external productization
+
+An internal workflow becomes client-facing only after removing expert-only assumptions, defining entitlement and tenant isolation, adding explanation and support, proving repeatability, documenting quality, and establishing a commercial package. Track manual intervention and exception rate; they reveal whether the “product” is still a service.
+
+### 57.7 Global considerations
+
+For U.S., EU, and LATAM offerings, account for language, medical practice context, accreditation, professional identity, promotional rules, privacy, data residency, consent, and model performance. Do not launch a U.S.-trained content or identity model globally by translating the UI alone.
+
+## 58. Membership, registration, authentication, and profile enrichment
+
+### 58.1 Membership flywheel
+
+```mermaid
+flowchart LR
+  A[Valuable content, tools, and learning] --> B[Registration or recognition]
+  B --> C[Verified and enriched member profile]
+  C --> D[Relevant web, mobile, email, and alert experience]
+  D --> E[Higher activation, frequency, and retention]
+  E --> F[Better declared preferences and permitted signals]
+  F --> D
+  E --> A
+```
+
+Registration is an exchange of value, not a data-extraction checkpoint. Ask for only what is needed now, explain benefits, save progress, and progressively enrich after trust is established.
+
+### 58.2 Membership lifecycle
+
+`anonymous -> recognized -> registered -> verified -> activated -> engaged -> retained`, with recovery branches for duplicate, locked, dormant, unverified, bounced contact, and deleted. Different product capabilities can require different assurance levels.
+
+### 58.3 Registration funnel
+
+Measure landing, registration start, field completion, submit, email/phone verification, professional verification, first-value action, day-7 activation, and day-30 retention. Break down by device, app/web, country, profession, acquisition source, and error. A reduced registration rate may be healthy if low-quality/fraudulent accounts fall and verified activation rises.
+
+### 58.4 Authentication
+
+Key capabilities include secure password, passwordless or magic link where appropriate, MFA for risk, social/enterprise login under policy, session management, device recognition, account recovery, credential stuffing protection, bot detection, and global logout. Separate authentication (who controls the account) from professional verification (whether claimed credentials are supported).
+
+### 58.5 Anonymous-to-known recognition
+
+Use authenticated sessions and first-party identifiers as primary signals. Recognition must respect consent and browser/app controls. Avoid dark patterns that force login for emergency or basic health information without a defensible user need. Measure known-user coverage alongside abandonment, trust, and access.
+
+### 58.6 Profile model
+
+| Attribute class | Examples | Control |
+|---|---|---|
+| Account | internal ID, email, locale, created date | security and user access |
+| Professional | profession, specialty, NPI, license geography | provenance, confidence, verification date |
+| Preferences | topics, channels, frequency, language | user-editable and purpose-specific |
+| Engagement | content, tools, education, event behavior | consent, retention, quality |
+| Organization | employer/practice affiliation and role | temporal, multiple affiliations |
+| Commercial eligibility | customer list or audience status | contract, purpose, suppression |
+
+Progressive profiling should choose the next useful question based on value and confidence, not simply fill every null.
+
+### 58.7 Profile enrichment quality
+
+Track completion, verified-field coverage, freshness, conflicts, correction rate, enrichment source, user edits, and downstream utility. A filled field is not necessarily correct. Member-declared updates should not be silently overwritten by a stale vendor feed.
+
+## 59. Identity resolution, verification, fraud, and global membership
+
+### 59.1 Entity resolution
+
+Identity resolution decides whether records refer to the same person, account, professional, organization, or device. Use a graph with evidence, source, confidence, effective dates, and allowed purposes. False merge is often more damaging than a missed merge because it combines histories and can expose information.
+
+### 59.2 Match hierarchy example
+
+1. same authenticated account ID;
+2. verified email plus corroborating professional attribute;
+3. verified NPI link with account evidence;
+4. deterministic enterprise SSO subject mapping;
+5. approved probabilistic evidence for low-risk recognition;
+6. remain separate and request verification.
+
+Never merge solely on shared surname, organization, office IP, or device.
+
+### 59.3 Professional verification
+
+Verification can use NPPES/NPI, licensing or professional registries, institutional email, documentation, third-party credential providers, and manual review. The method varies by country and profession. Record what was verified, source, date, jurisdiction, status, and expiration. NPI existence does not prove active licensure.
+
+### 59.4 Verification state machine
+
+`unverified -> pending -> verified`, with rejected, needs-more-information, expired, suspended, appealed, and revoked. Product permissions should map to state and risk. Provide an appeal/correction path and avoid exposing sensitive fraud logic.
+
+### 59.5 Fraud and abuse patterns
+
+- credential stuffing and account takeover;
+- synthetic or duplicate HCP accounts;
+- shared credentials;
+- fake professional identity for gated content or incentives;
+- automated scraping;
+- survey/research reward abuse;
+- CME completion manipulation;
+- referral or engagement event fabrication;
+- device farms and bot-created registrations.
+
+### 59.6 Risk engine
+
+```mermaid
+flowchart LR
+  A[Registration, login, device, network, and profile signals] --> B[Rules and risk model]
+  C[Professional registry and verification evidence] --> B
+  D[Behavior, velocity, and historical abuse] --> B
+  B --> E{Risk tier}
+  E --> F[Allow]
+  E --> G[Step-up authentication]
+  E --> H[Professional verification]
+  E --> I[Manual review]
+  E --> J[Block or limit]
+  F --> K[Outcome and monitoring]
+  G --> K
+  H --> K
+  I --> K
+  J --> K
+  K --> B
+```
+
+Optimize expected harm and user friction, not fraud catch rate alone. Monitor false positive, appeal success, verification completion, time to resolution, attack loss, and member abandonment by legitimate cohort.
+
+### 59.7 Global product requirements
+
+- country-specific professional identifiers and registries;
+- transliterated names and multiple naming conventions;
+- local address/phone formats and character sets;
+- language and time-zone preferences;
+- country-specific consent, data residency, and age rules;
+- regional content, accreditation, and promotional boundaries;
+- model evaluation by country/profession;
+- support and appeal in relevant languages.
+
+## 60. Membership analytics, mobile engagement, and lifetime value
+
+### 60.1 Core membership metrics
+
+- monthly and weekly active verified members;
+- new registered, verified, and activated members;
+- anonymous versus recognized versus authenticated activity;
+- sessions per active member and active days;
+- day-1, day-7, day-30, and rolling retention;
+- profile completeness, verified specialty, and freshness;
+- content/tool/education breadth and depth;
+- email, push, in-app, and alert opt-in and engagement;
+- member lifetime value and commercial contribution with privacy-safe definitions;
+- trust, complaint, recovery, and fraud metrics.
+
+### 60.2 Cohort analysis
+
+Group by registration month, profession, specialty, geography, acquisition source, first-value action, and device. Compare retention curves. A cohort acquired through one high-volume campaign may look successful in registration but fail verification and retention.
+
+### 60.3 Activation metric
+
+Define activation as evidence that the member received core value, not merely completed registration. Examples: saved a drug reference, used a clinical calculator, completed a meaningful article session, enrolled in CME, followed a specialty, or configured alerts. Validate which actions predict durable retention without mistaking correlation for cause.
+
+### 60.4 Mobile product concerns
+
+- app startup, crash-free sessions, offline/poor network behavior;
+- biometric login and secure token storage;
+- deep links from email and push;
+- notification permission timing and value explanation;
+- background refresh and battery/network cost;
+- cross-device progress and session continuity;
+- mobile accessibility, font scaling, and orientation;
+- app-store privacy disclosures and SDK governance;
+- release compatibility and forced-upgrade policy.
+
+### 60.5 Push/pull engagement
+
+**Pull** experiences respond when a member seeks news, reference, tools, or learning. **Push** includes email, mobile notifications, alerts, and reminders. Use member preferences, urgency, content value, local time, and global frequency. A breaking clinical alert should have different rules from promotional engagement.
+
+### 60.6 Retention experiment examples
+
+- progressive profiling after first value versus during registration;
+- specialty feed personalization versus generic feed;
+- member-selected alert topics versus inferred defaults;
+- cross-device save/resume reminder;
+- reactivation based on previous high-value tool use;
+- notification permission request after demonstrated value;
+- trusted professional-verification badge and explanation.
+
+Pre-register primary and guardrail metrics. Watch opt-out, notification disable, low-value session inflation, content diversity, and unequal effects across specialties.
+
+### 60.7 Member lifetime value
+
+Membership value includes user value, retention, qualified engagement, education participation, research eligibility where appropriate, and commercial value. Avoid reducing a clinician to ad impressions. A practical model can estimate expected future contribution by cohort while constraining contact and preserving trust.
+
+### 60.8 Membership dashboard
+
+```mermaid
+flowchart TD
+  A[Eligible visitors and app users] --> B[Recognized]
+  B --> C[Registered]
+  C --> D[Professionally verified]
+  D --> E[Activated through first value]
+  E --> F[Retained active member]
+  F --> G[Broader trusted relationship]
+  H[Registration friction] --- C
+  I[Identity confidence and fraud] --- D
+  J[Recommendation quality] --- E
+  K[Email, push, web, and mobile experience] --- F
+  L[Privacy, trust, and member control] --- G
+```
+
+### 60.9 Unified 30/60/90 implication
+
+In the first 30 days, understand shared membership, commercial, education, Ignite, and AI capabilities. By 60 days, improve one reusable decision or integration loop. By 90 days, demonstrate how the work creates both user value and measurable commercial or operational impact without crossing purpose boundaries.
+
+# Part VIII - Publisher platforms, experience delivery, and portfolio leadership
+
+## Chapter 61 - Publisher ad serving and Google Ad Manager
+
+### 61.1 The publisher ad stack in one sentence
+
+An ad server turns an eligible page or app opportunity into a governed delivery decision: it receives an ad request, evaluates inventory and targeting, selects among direct and programmatic demand, returns a creative, records delivery, and feeds billing and performance systems. The PM owns the product behavior around that decision even when Ad Operations owns campaign configuration.
+
+### 61.2 Google Ad Manager object model
+
+| Object | Practical meaning | PM questions |
+|---|---|---|
+| Network | Publisher's top-level GAM account | Who owns access, policy, and configuration? |
+| Ad unit | Addressable inventory such as article-top or app-feed-card | Is the taxonomy stable across sites and apps? |
+| Placement | Reusable grouping of ad units | Is it a sales package, operational group, or both? |
+| Order | Commercial container for an advertiser or campaign | What contract and billing identifiers map to it? |
+| Line item | Delivery contract: dates, quantity, priority, rate, pacing, and targeting | What makes it eligible and what can outrank it? |
+| Creative | The rendered asset or third-party tag | Is it approved, secure, responsive, and measurable? |
+| Key-value | Custom context passed in the request | Is the value allowed, documented, and low-risk? |
+| Audience segment | Eligible user or cohort signal | What is its provenance, consent, TTL, and match rate? |
+
+Google documents that key-values can be sent in ad tags and used to make targeted line items eligible. Treat that capability as a controlled interface, not a place to leak diagnoses, article titles, free text, or identifiers.
+
+### 61.3 Delivery path
+
+```mermaid
+sequenceDiagram
+  participant U as User device
+  participant P as Web or app experience
+  participant C as Consent and context layer
+  participant G as Google Ad Manager
+  participant D as Direct and programmatic demand
+  participant V as Verification and measurement
+  U->>P: Open page or screen
+  P->>C: Resolve permitted context
+  C-->>P: Consent, inventory, and safe key-values
+  P->>G: Ad request
+  G->>G: Eligibility, priority, pacing, and policy
+  G->>D: Compete or request eligible demand
+  D-->>G: Bid or creative response
+  G-->>P: Winning creative and metadata
+  P-->>U: Render reserved ad slot
+  P->>V: Viewability and quality signals
+  G->>V: Delivery and revenue logs
+```
+
+### 61.4 Eligibility before optimization
+
+Ask in order: Is the ad unit targeted? Are date, geography, device, audience, frequency, creative size, consent, and policy conditions satisfied? Is the line item active and under its cap? Is a higher-priority item eligible? Can the creative render in this environment? Many apparent optimization problems are eligibility defects.
+
+### 61.5 Targeting contract
+
+A targeting requirement should define:
+
+- business intent and prohibited inference;
+- allowed key names, value vocabulary, case and delimiter rules;
+- where each value is calculated and its source of truth;
+- browser, app, server-side, and privacy-state behavior;
+- unknown, missing, expired, and conflicting-value behavior;
+- test requests and expected eligible line items;
+- logging that excludes sensitive raw values;
+- owner, version, retention, and deprecation date.
+
+For health-related inventory, favor coarse, reviewed contextual categories over unbounded page or user attributes. A campaign requirement never overrides privacy, editorial, medical, or platform policy.
+
+### 61.6 Direct and programmatic delivery
+
+Direct campaigns may carry negotiated guarantees, sponsorships, roadblocks, exclusivity, impression goals, or outcome reporting. Programmatic paths can include open auction, private marketplace, preferred deal, and programmatic guaranteed arrangements. A PM should understand priority, price, pacing, forecast, competition, floors, deal identifiers, supply-chain declarations, creative scanning, and discrepancy resolution without pretending that revenue alone defines quality.
+
+### 61.7 Latency, viewability, and page quality
+
+Ad delivery can slow the critical rendering path, add long JavaScript tasks, shift layout, compete for network bandwidth, and trigger many third parties. Reserve slot dimensions, lazy-load below-the-fold placements, cap timeout and retry chains, govern scripts, compress creative assets, and measure by placement and device. Viewability is an opportunity-to-see signal under a defined standard; it is not attention, comprehension, or clinical impact.
+
+Use a balanced scorecard: eligible request rate, fill, render rate, viewability, revenue, direct-campaign delivery, timeout, creative error, discrepancy, LCP, INP, CLS, privacy failure, complaint, and editorial-trust indicators.
+
+### 61.8 Third-party software integration checklist
+
+For verification vendors, header bidding, rich media, video players, brand safety, consent platforms, and measurement tags, document data collected, subprocessors, network calls, cookies/storage, SDK permissions, performance budget, failure isolation, versioning, security review, accessibility, kill switch, incident contact, and exit plan. Test blocked third-party cookies, slow networks, consent denial, app backgrounding, malformed creative, and vendor outage.
+
+### 61.9 Pre-sales to post-sales workflow
+
+```mermaid
+flowchart LR
+  A[Client objective and constraints] --> B[Feasibility and inventory forecast]
+  B --> C[Solution design and measurement plan]
+  C --> D[Contracted scope and acceptance criteria]
+  D --> E[Trafficking, creative QA, and launch]
+  E --> F[Delivery, pacing, and incident monitoring]
+  F --> G[Optimization with approved levers]
+  G --> H[Reconciliation, insight, and renewal]
+  I[Privacy, editorial, medical, legal, and platform policy] --- C
+  I --- E
+  I --- G
+```
+
+Never promise an audience, format, integration, or metric before feasibility and governance review. Convert a novel client request into a reusable platform capability only when the underlying job repeats, the control surface is safe, and maintenance economics are credible.
+
+## Chapter 62 - Web and mobile performance under advertising load
+
+### 62.1 Core Web Vitals as product outcomes
+
+As of July 2026, Google's stable Core Web Vitals are Largest Contentful Paint (LCP), Interaction to Next Paint (INP), and Cumulative Layout Shift (CLS). The recommended good thresholds are LCP at or below 2.5 seconds, INP at or below 200 milliseconds, and CLS at or below 0.1, assessed at the 75th percentile and segmented by mobile and desktop. These are experience indicators, not a substitute for task success, accessibility, reliability, or business outcomes.
+
+### 62.2 How monetization breaks experience
+
+| Failure | Typical cause | Product control |
+|---|---|---|
+| Slow LCP | render-blocking tags, bandwidth competition, slow server response | prioritize hero resource; delay noncritical vendors; CDN and cache strategy |
+| Poor INP | long JavaScript tasks, tag cascades, expensive hydration | script budget; defer work; isolate vendors; break long tasks |
+| High CLS | ad size unknown, late banner injection, font/image dimensions missing | reserve slots; responsive size mapping; stable placeholders |
+| Battery/data drain | repeated auctions, heavy SDKs, autoplay, excessive refresh | request budget; lifecycle-aware refresh; asset limits |
+| Broken navigation | interstitial or sticky unit blocks controls | safe-area, accessibility, and dismissal criteria |
+
+### 62.3 Performance budget
+
+Set budgets per page type and device class: first-party JavaScript, third-party JavaScript, main-thread time, request count, transfer bytes, ad-request timeout, creative weight, layout movement, app startup, crash-free sessions, and battery/network consumption. Make exceptions time-bound and visible. A vendor's revenue case should include the experience cost it imposes.
+
+### 62.4 Measurement system
+
+Use field Real User Monitoring for actual users and lab testing for repeatable diagnosis. Slice by template, site, app version, browser, device class, geography, consent state, ad density, campaign/creative class, logged-in state, and experiment. Compare medians and tails; a healthy average can hide a damaging mobile 75th or 95th percentile.
+
+```mermaid
+flowchart TD
+  A[Release, vendor, template, or campaign change] --> B[Lab and synthetic checks]
+  B --> C[Canary traffic]
+  C --> D[Real User Monitoring]
+  D --> E{Budget and guardrails pass?}
+  E -->|Yes| F[Expand rollout]
+  E -->|No| G[Disable, roll back, or isolate]
+  F --> H[Segmented business and user outcomes]
+  H --> I[Retain, revise, or remove]
+```
+
+### 62.5 Ad refresh and lazy loading
+
+Refresh must be policy-compliant, viewability-aware, clearly disclosed where required, and bounded by user activity and placement semantics. Do not refresh a hidden, backgrounded, or non-viewable slot. Lazy loading should create the slot early enough to avoid a blank experience but late enough to avoid waste. Test fast scrolling, browser back/forward cache, orientation changes, infinite scroll, route changes in single-page apps, and app lifecycle transitions.
+
+### 62.6 Acceptance criteria example
+
+For a new article-page placement: the reserved container prevents layout shift; keyboard and screen-reader flow remain correct; consent denial sends no disallowed signal; the page remains usable when GAM or a third party times out; the creative cannot cover navigation or clinical content; the placement meets agreed viewability and delivery goals; and segmented LCP, INP, CLS, error, complaint, and revenue guardrails pass before full rollout.
+
+## Chapter 63 - Enterprise CMS and digital experience platform ownership
+
+### 63.1 What the platform PM owns
+
+An enterprise CMS/DXP is not merely a page editor. It is the operating system for content models, reusable components, workflow, governance, permissions, preview, localization, search, media, APIs, publishing, experimentation, accessibility, SEO, analytics, and multi-site reuse. Platform success is measured through publisher speed and quality as well as audience experience.
+
+### 63.2 Drupal, AEM, and Sitecore mental model
+
+| Concern | Drupal | Adobe Experience Manager | Sitecore-style DXP |
+|---|---|---|---|
+| Structured content | entities, fields, taxonomies, views | Content Fragment Models and Content Fragments | templates/items or composable content models |
+| Page building | themes, blocks, layout tools | Sites components, templates, Experience Fragments | presentation/components and page builder |
+| Workflow | revisions, roles, moderation workflows | authoring workflow, permissions, publication | workflow, roles, approvals |
+| Headless | core JSON:API and extensions | Content Fragments via GraphQL/HTTP | APIs and composable/headless services |
+| Multi-site | shared code with site-specific configuration/content patterns | Multi Site Manager, blueprints, Live Copies | site collections and shared components/templates |
+
+Product decisions should be based on actual installed architecture and operating model, not brand-level assumptions. Drupal is particularly configurable: inventory modules, custom entities, distributions, hosting, release version, and editorial workflow before proposing change.
+
+### 63.3 Content model before page design
+
+Define semantic objects such as article, clinical reference, author, specialty, topic, drug, condition, educational activity, event, sponsor disclosure, provider, location, campaign module, and reusable legal text. For each object define required fields, vocabulary, validation, ownership, provenance, lifecycle, relationships, localization, search indexing, API exposure, analytics, and retention.
+
+Page-shaped content is fast initially but expensive to reuse. Over-atomized content burdens authors. Model at stable semantic boundaries and test the author workflow with representative content.
+
+### 63.4 Multi-site governance
+
+```mermaid
+flowchart TD
+  A[Shared platform and design system] --> B[Reusable content types and components]
+  A --> C[Security, accessibility, analytics, and release controls]
+  B --> D[Brand or product site A]
+  B --> E[Brand or product site B]
+  B --> F[Regional or specialty site C]
+  G[Local content, vocabulary, legal, and market needs] --> D
+  G --> E
+  G --> F
+  D --> H[Shared telemetry and quality scorecard]
+  E --> H
+  F --> H
+```
+
+Classify each capability as mandatory global, configurable shared, or locally owned. Avoid both extremes: uncontrolled forks create security and quality debt; forced uniformity blocks valid editorial, market, and regulatory differences.
+
+### 63.5 Editorial workflow
+
+A publishable object may move through draft, editorial review, medical review, legal/regulatory review, approved, scheduled, published, corrected, expired, and withdrawn states. Not every content class needs every gate. Encode content-class rules, separation of duties, version history, effective dates, linked approvals, emergency correction, rollback, and syndication withdrawal.
+
+### 63.6 Headless, traditional, and hybrid
+
+Traditional rendering gives authors page context and integrated preview. Headless delivery enables structured content reuse across web, apps, assistants, and partner channels but moves composition, preview, caching, authorization, and invalidation complexity into APIs and clients. Hybrid architectures are common. Choose by content reuse, author experience, release independence, performance, governance, and total operating cost, not fashion.
+
+### 63.7 Search and AI optimization
+
+Create machine-readable content with stable IDs, structured headings, authorship, dates, citations, taxonomy, canonical URLs, accessibility, and clear update/withdrawal semantics. For internal search and AI experiences, define retrieval eligibility, freshness, authority, jurisdiction, audience, sponsorship class, and safety metadata. Optimization must improve faithful discovery and answer quality, not manipulate systems with unsupported claims.
+
+### 63.8 CMS platform scorecard
+
+Track time to publish, review-cycle time, correction/withdrawal propagation, content reuse, component adoption, accessibility defects, broken links, search success, API latency/error, cache freshness, release failure, security patch age, editor satisfaction, local fork count, and cost per maintained experience. Tie migration ROI to retired duplication, faster launches, reduced risk, and better user outcomes.
+
+## Chapter 64 - Digital Front Door and patient journey products
+
+### 64.1 Definition
+
+The Digital Front Door is the connected set of digital entry points through which a person discovers care, evaluates options, finds a provider or service, schedules, prepares, communicates, receives guidance, and returns. It can include health-system sites, search, paid media, provider/location finders, chat, call center, scheduling, patient portal, mobile app, CRM, and contact center workflows.
+
+### 64.2 Journey and handoffs
+
+```mermaid
+flowchart LR
+  A[Need, symptom, screening, or referral] --> B[Trusted information and service discovery]
+  B --> C[Provider, location, and availability match]
+  C --> D[Intent capture and scheduling]
+  D --> E[Preparation, reminders, and navigation]
+  E --> F[Encounter or service]
+  F --> G[Follow-up, care gap, and loyalty]
+  H[Identity, consent, accessibility, language, and support] --- B
+  H --- C
+  H --- D
+  I[CRM, EHR, scheduling, contact center, and analytics] --- C
+  I --- D
+  I --- F
+  I --- G
+```
+
+The product is only as strong as its handoffs. A polished provider finder that sends stale availability to an unprepared call center creates abandonment and distrust.
+
+### 64.3 Core data objects
+
+Provider, specialty, condition/service, location, network, plan acceptance, language, accessibility, appointment type, availability, referral requirement, patient/member identity, campaign/source, consent, interaction, lead/request, appointment, encounter, and revenue attribution. Assign source of truth, update cadence, confidence, owner, and reconciliation rule to each.
+
+### 64.4 Digital front door metrics
+
+Use a journey tree: eligible demand -> qualified discovery -> provider/service match -> intent action -> completed scheduling -> appointment kept -> encounter -> approved revenue or care outcome. Measure time to next available appointment, directory accuracy, scheduling completion, call deflection without abandonment, no-show, care-gap closure where appropriate, patient effort, accessibility, complaint, and retention. Separate attributed from incremental volume.
+
+### 64.5 Clinical volume and patient loyalty
+
+Clinical volume is constrained by capacity, service-line economics, geographic access, payer mix, referral patterns, and appointment availability. Marketing cannot create usable value when operations cannot fulfill demand. Patient loyalty is earned through continuity, clarity, access, and trust; repeat visits alone can reflect chronic need or constrained choice. Pair growth metrics with experience and equity guardrails.
+
+### 64.6 Privacy-safe architecture
+
+Minimize data before identity resolution. Keep public browsing, authenticated portal, marketing, scheduling, and clinical contexts purpose-bound. Do not send sensitive URL, form, appointment, or portal data to advertising and analytics vendors merely because a tag can observe it. Establish consent, business-associate, data-use, retention, deletion, and incident obligations system by system.
+
+### 64.7 Case: provider finder to encounter
+
+Problem: high search traffic but low completed appointments. Diagnose directory completeness, query vocabulary, relevance, location accuracy, insurance data, availability freshness, mobile UX, call-center transfer, scheduling integration, and capacity. Instrument result impression, refinement, provider view, intent action, handoff, booking, cancellation/no-show, encounter, and approved value. Test relevance and handoff changes while guarding against longer travel, narrowed choice, specialty inequity, and misleading availability.
+
+## Chapter 65 - Multi-product leadership and client-driven delivery
+
+### 65.1 One portfolio, several operating modes
+
+A Senior PM may simultaneously run a platform capability, client commitment, reliability fix, discovery bet, and compliance deadline. Use one portfolio view with outcome, user, customer, revenue/risk, deadline, evidence, dependency, confidence, effort, owner, and next decision. Separate contractual must-do work from discretionary roadmap work but expose the capacity trade-off.
+
+### 65.2 Prioritization formula with judgment
+
+Score expected outcome value, strategic reuse, evidence confidence, urgency, risk reduction, and effort; then document overrides. A regulatory deadline, severe reliability issue, or critical customer commitment may outrank a higher arithmetic score. Never disguise an executive or contractual decision as objective math.
+
+### 65.3 Translating across teams
+
+| Stakeholder | Starts with | PM translates into |
+|---|---|---|
+| Business | outcome, market, cost, risk | measurable goal and constraints |
+| Editorial/medical | accuracy, independence, workflow | content class, review gate, provenance, withdrawal |
+| Sales/client | requested solution and launch date | validated job, feasible scope, acceptance criteria |
+| Design | user need and interaction | flows, states, accessibility, evidence plan |
+| Engineering/data | system behavior and constraints | contracts, edge cases, NFRs, observability |
+| Ad Ops/marketing | campaign setup and delivery | reusable controls, taxonomy, SLA, reporting |
+
+### 65.4 Wireframing as decision work
+
+A useful wireframe shows hierarchy, primary action, content and data states, permissions, errors, empty/loading states, mobile behavior, accessibility annotations, and instrumentation points. Use low fidelity early. Pair screens with a flow and state model; a happy-path picture alone cannot specify authentication, campaign setup, CMS workflow, or ad-delivery exceptions.
+
+### 65.5 Requirement stack
+
+```text
+Business rationale: why now and expected outcome
+User need: actor, context, job, pain, evidence
+Experience: flow, wireframes, content, states
+Functional specification: rules, inputs, outputs, permissions, edge cases
+Data contract: objects, IDs, source, freshness, retention, consent
+Non-functional: latency, availability, accessibility, security, scale
+Analytics: events, KPIs, guardrails, causal plan
+Operations: support, review, reconciliation, incident, rollback
+Acceptance: testable behavior and release threshold
+```
+
+### 65.6 Novel client objective workflow
+
+Clarify the outcome and constraints; identify the real user; separate configuration from custom code; test data and inventory availability; prototype the riskiest assumption; estimate recurring operational load; define a safe pilot; and decide whether to configure, extend, partner, or decline. Record what becomes reusable platform capability and what remains client-specific service.
+
+### 65.7 Agile, Lean, Scrum, and Kanban
+
+Scrum provides bounded iterations and roles; Kanban emphasizes flow, work-in-progress limits, and cycle time; Lean emphasizes learning and waste reduction. Use the mechanism that fits the work. Do not force urgent ad incidents, editorial corrections, or partner certification into a ceremony optimized for planned feature delivery. Maintain one visible system of work, explicit service classes, definition of ready/done, decision log, and release evidence.
+
+### 65.8 Vendor and integration leadership
+
+Build a capability matrix across strategic fit, healthcare/privacy posture, API/event coverage, identity model, latency, scale, reliability, configurability, observability, implementation effort, support, roadmap control, data portability, total cost, and exit risk. Contract for service levels, incident communication, security updates, audit rights where appropriate, data return/deletion, and transition support. The product team still owns the user outcome when a vendor fails.
+
+## Chapter 66 - AI search, personalization, and SaaS product controls
+
+### 66.1 Search and recommendation stack
+
+```mermaid
+flowchart LR
+  A[Query, profile, context, and permissions] --> B[Candidate retrieval]
+  B --> C[Filtering and policy gates]
+  C --> D[Ranking or recommendation model]
+  D --> E[Explanation and experience assembly]
+  E --> F[User action and outcome]
+  F --> G[Evaluation and learning]
+  H[Content authority, freshness, sponsorship, consent, and tenancy] --- B
+  H --- C
+  H --- D
+```
+
+Retrieval finds eligible candidates; ranking orders them; generation may summarize or assemble an answer. Do not ask a language model to compensate for missing permissions, stale content, or an undefined source of truth.
+
+### 66.2 Relevance contract
+
+Define eligible corpus, content class, freshness, geography, profession, specialty, intent, authority, sponsorship treatment, diversity, blocked combinations, fallback, citation behavior, and correction/withdrawal propagation. Offline metrics such as recall, precision, NDCG, calibration, and subgroup performance support but do not replace online task success and expert review.
+
+### 66.3 SaaS controls
+
+Enterprise AI needs tenant isolation, entitlements, configuration versioning, approved models, prompt/template management, audit logs, cost/rate limits, retention controls, regional deployment, customer-specific policy, human review, monitoring, rollback, and portability. Separate global model behavior from tenant configuration and user-level context.
+
+### 66.4 Personalization failure modes
+
+- feedback loops that narrow clinical information;
+- inferred sensitive traits used beyond purpose;
+- popularity overpowering authority or recency;
+- sponsored content affecting supposedly neutral ranking;
+- stale professional profile or identity mismatch;
+- unsafe cross-tenant data exposure;
+- evaluation that rewards clicks rather than usefulness;
+- generative answers that omit uncertainty or source context.
+
+Use exploration carefully, cap repetitive exposure, measure diversity and long-term value, and give users meaningful controls. For high-impact clinical or professional contexts, define where AI is assistive, where review is required, and where generation is prohibited.
+
+### 66.5 Prototype-to-production gate
+
+A Claude or open-source model prototype can prove workflow value quickly. Production requires approved data, reproducible evaluation, red-team cases, latency/cost envelope, privacy/security review, clinical/editorial review where relevant, accessibility, abuse controls, observability, human escalation, rollback, and a named accountable owner. A persuasive demo is evidence of possibility, not production readiness.
+
 # Appendix A - The two-week intensive
 
 Assume 4-6 focused hours per day. Each day ends with an artifact; reading without synthesis does not create operating fluency.
 
 | Day | Focus | Read | Produce |
 |---|---|---|---|
-| 1 | Ecosystem and portfolio | Executive briefing; Chapters 1-5 | One-page WebMD/Medscape/PulsePoint value map; 20 questions |
+| 1 | Ecosystem, portfolio, and role | Executive briefing; Chapters 1-5, 41, and 51 | One-page value map; four-role scorecard; 20 questions |
 | 2 | Medscape and education | Chapters 2-3, 13, 21 | Content-class decision tree; CME lifecycle diagram |
-| 3 | MarTech architecture | Chapter 6 | Current-state stack hypothesis; integration checklist |
-| 4 | Programmatic and SSPs | Chapters 7-9 | Explain an auction aloud; deal-health funnel |
-| 5 | Identity and audiences | Chapters 10-11 | Identity graph; segment quality scorecard |
-| 6 | Activation and measurement | Chapters 12-15 | Campaign object model; incrementality plan |
-| 7 | Digital-health system | Chapters 16-19 | Money/data flow diagram; standards cheat sheet |
+| 3 | MarTech, CDP, CMS, and integrations | Chapters 6, 43-44, and 63 | Stack hypothesis; CMS/CDP capability map; integration funnel |
+| 4 | Programmatic, GAM, and performance | Chapters 7-9 and 61-62 | Explain an auction and GAM request; ad/CWV scorecard |
+| 5 | Identity, membership, and audiences | Chapters 10-11 and 58-60 | Identity graph; registration and segment scorecards |
+| 6 | Journeys, activation, and outcomes | Chapters 12-15, 42, 52-54, and 64 | IGP journey; NBE/NBA contract; encounter measurement plan |
+| 7 | Digital-health and Digital Front Door | Chapters 16-19 and 64 | Money/data flow; patient-journey handoff map; standards cheat sheet |
 | 8 | Privacy, security, pharma | Chapters 20-21 | Data-flow risk review; MLR and AE runbook questions |
-| 9 | AI products | Chapter 22 and Medscape AI sections | AI evaluation matrix; risk-tiered use cases |
-| 10 | PM execution | Chapters 23-28 | Problem brief; metric tree; first decision memo |
-| 11 | Case drills | Chapter 29 cases 1-3 | 15-minute whiteboard answer for each |
-| 12 | Case drills | Chapter 29 cases 4-6 | Written recommendation with trade-offs |
-| 13 | Internal adaptation | Revisit all diagrams | Replace public assumptions with verified internal facts |
-| 14 | Leadership plan | Chapter 30 | 30/60/90 plan and week-one meeting agenda |
+| 9 | AI products, pilots, and search | Chapters 22, 45-46, 55-57, and 66 | Evaluation matrix; pilot charter; model/relevance contract |
+| 10 | PM, commercial, and Agile execution | Chapters 23-28, 47-49, and 65 | Offering canvas; portfolio board; backlog slice; decision memo |
+| 11 | Cases and analytics | Chapter 29 cases 1-3; Chapter 48 | Whiteboard answers; three SQL analyses |
+| 12 | Cases and platform workshops | Chapter 29 cases 4-6; Chapters 31-40 | Recommendation with architecture and trade-offs |
+| 13 | Job-specific internal adaptation | Chapters 50-60; revisit diagrams | Replace assumptions; produce role-specific artifacts |
+| 14 | Leadership plan | Chapters 30, 50, and 61-66 | Evidence-grounded 30/60/90 plan and week-one agenda |
 
 ### Daily recall drill
 
@@ -2427,6 +4169,22 @@ The sources below were selected for authority and recency. Product pages describ
 39. FDA, Office of Prescription Drug Promotion, https://www.fda.gov/drugs/prescription-drug-advertising/incorrect-help-seeking-ad
 40. FDA, Bad Ad Program, https://www.fda.gov/drugs/prescription-drug-advertising-and-promotional-labeling/bad-ad-program
 41. FDA, Postmarketing Adverse Event Reporting Compliance Program, https://www.fda.gov/drugs/surveillance-post-drug-approval-activities/postmarketing-adverse-event-reporting-compliance-program
+42. Medscape, Senior Technical Product Manager, Job ID 2025-9860, role description supplied for this edition.
+43. Medscape, AI Product Manager - Commercial Offerings, Job ID 2026-1403, role description supplied for this edition.
+44. WebMD Ignite, Senior Product Manager, Healthcare Marketing & AI Solutions, Job ID 2026-1704, role description supplied for this edition.
+45. Medscape/WebMD, Product Manager - Membership, role description supplied for this edition.
+46. Medscape/WebMD, advertising, CMS, Digital Front Door, and platform product requirements supplied for this edition.
+47. WebMD Ignite, "Platform Solutions," https://webmdignite.com/platform-solutions
+48. WebMD Ignite, "Solutions and Products," https://webmdignite.com/solutions-and-products
+49. WebMD Ignite, "Provider and Location Finders," https://webmdignite.com/platform-solutions/provider-and-location-finders
+50. Epic, "Cheers," https://www.epic.com/software/cheers/
+51. Innovaccer, "CRM," https://innovaccer.com/products/crm
+52. Unlock Health, "Health Risk Assessments," https://go.unlockhealthnow.com/unlock-hras/
+53. Google Ad Manager Help, "Get started with key-values," https://support.google.com/admanager/answer/188092
+54. Google, "Web Vitals," https://web.dev/articles/vitals
+55. Adobe Experience League, "Reusing Content: Multi Site Manager and Live Copy," updated June 17, 2026, https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/msm/overview
+56. Adobe Experience League, "Introduction to Headless for AEM," updated June 5, 2026, https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/headless/introduction
+57. Drupal, "JSON:API module," https://www.drupal.org/docs/core-modules-and-themes/core-modules/jsonapi-module
 
 ## Closing operating principles
 
