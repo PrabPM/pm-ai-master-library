@@ -5,7 +5,7 @@ Private, canonical study library for product management, AI/ML, interview prepar
 ## Library at a glance
 
 - **26 reader PDFs**
-- **2,730 pages**
+- **2,786 pages**
 - **11 curriculum volumes**
 - **4 interview-preparation guides**
 - **10 portfolio interview briefs**
