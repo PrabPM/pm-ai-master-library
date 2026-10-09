@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>A balance screen that separates pending, on hold, and available money</title>
+  <rect x="0" y="0" width="720" height="430" rx="6" fill="#ffffff"/>
+  <!-- screen -->
+  <rect x="24" y="16" width="452" height="398" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="44" y="44" font-size="12" fill="#6b7280">Juniper Bakery</text>
+  <text x="44" y="68" font-size="16" fill="#1f2937" font-weight="bold">Balance</text>
+  <text x="456" y="68" font-size="11" fill="#6b7280" text-anchor="end">As of Oct 9, 2026, 4:05 PM ET</text>
+  <rect x="44" y="84" width="128" height="108" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="56" y="106" font-size="12" fill="#6b7280" font-weight="bold">Pending</text>
+  <text x="56" y="128" font-size="15" fill="#1f2937" font-weight="bold">$612.75</text>
+  <text x="56" y="148" font-size="11" fill="#1f2937">Card payments still</text>
+  <text x="56" y="162" font-size="11" fill="#1f2937">settling. Usually</text>
+  <text x="56" y="176" font-size="11" fill="#1f2937">1-2 business days.</text>
+  <rect x="186" y="84" width="128" height="108" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="198" y="106" font-size="12" fill="#6b7280" font-weight="bold">On hold</text>
+  <text x="198" y="128" font-size="15" fill="#1f2937" font-weight="bold">$150.00</text>
+  <text x="198" y="148" font-size="11" fill="#1f2937">Reserve for open</text>
+  <text x="198" y="162" font-size="11" fill="#1f2937">dispute DP-3310.</text>
+  <rect x="328" y="84" width="128" height="108" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="340" y="106" font-size="12" fill="#6b7280" font-weight="bold">Available</text>
+  <text x="340" y="128" font-size="15" fill="#1f2937" font-weight="bold">$1,284.40</text>
+  <text x="340" y="148" font-size="11" fill="#1f2937">Ready for your</text>
+  <text x="340" y="162" font-size="11" fill="#1f2937">next payout.</text>
+  <text x="198" y="180" font-size="11" fill="#4f46e5">Why is this held?</text>
+  <text x="44" y="212" font-size="11" fill="#6b7280">Settled $1,434.40 = On hold $150.00 + Available $1,284.40</text>
+  <rect x="44" y="224" width="412" height="50" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="56" y="244" font-size="11" fill="#6b7280" font-weight="bold">Next payout</text>
+  <text x="56" y="263" font-size="13" fill="#1f2937" font-weight="bold">$1,284.40 scheduled to arrive Tue, Oct 13</text>
+  <text x="44" y="300" font-size="12" fill="#1f2937" font-weight="bold">Recent activity</text>
+  <line x1="44" y1="308" x2="456" y2="308" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="326" font-size="12" fill="#6b7280">Oct 9</text>
+  <text x="100" y="326" font-size="12" fill="#1f2937">Card payment</text>
+  <text x="360" y="326" font-size="12" fill="#1f2937" text-anchor="end">$48.00</text>
+  <rect x="388" y="311" width="68" height="22" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="422.0" y="326" font-size="11" fill="#b45309" text-anchor="middle" font-weight="bold">Pending</text>
+  <line x1="44" y1="338" x2="456" y2="338" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="356" font-size="12" fill="#6b7280">Oct 8</text>
+  <text x="100" y="356" font-size="12" fill="#1f2937">Card payment</text>
+  <text x="360" y="356" font-size="12" fill="#1f2937" text-anchor="end">$126.50</text>
+  <rect x="388" y="341" width="68" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="422.0" y="356" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Settled</text>
+  <line x1="44" y1="368" x2="456" y2="368" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="386" font-size="12" fill="#6b7280">Oct 8</text>
+  <text x="100" y="386" font-size="12" fill="#1f2937">Refund</text>
+  <text x="360" y="386" font-size="12" fill="#1f2937" text-anchor="end">−$12.00</text>
+  <rect x="388" y="371" width="68" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="422.0" y="386" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Settled</text>
+  <circle cx="44" cy="84" r="10" fill="#4f46e5"/>
+  <text x="44" y="88" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="172" cy="162" r="10" fill="#4f46e5"/>
+  <text x="172" y="166" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="314" cy="176" r="10" fill="#4f46e5"/>
+  <text x="314" y="180" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <circle cx="456" cy="311" r="10" fill="#4f46e5"/>
+  <text x="456" y="315" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <circle cx="476" cy="64" r="10" fill="#4f46e5"/>
+  <text x="476" y="68" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <!-- legend -->
+  <circle cx="502" cy="36" r="10" fill="#4f46e5"/>
+  <text x="502" y="40" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="520" y="40" font-size="11" fill="#1f2937">Each number has one meaning</text>
+  <text x="520" y="55" font-size="11" fill="#1f2937">and a plain label.</text>
+  <circle cx="502" cy="78" r="10" fill="#4f46e5"/>
+  <text x="502" y="82" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="520" y="82" font-size="11" fill="#1f2937">Pending says how long it usually</text>
+  <text x="520" y="97" font-size="11" fill="#1f2937">takes.</text>
+  <circle cx="502" cy="120" r="10" fill="#4f46e5"/>
+  <text x="502" y="124" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="520" y="124" font-size="11" fill="#1f2937">A hold gives its reason and a way</text>
+  <text x="520" y="139" font-size="11" fill="#1f2937">to learn more.</text>
+  <circle cx="502" cy="162" r="10" fill="#4f46e5"/>
+  <text x="502" y="166" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <text x="520" y="166" font-size="11" fill="#1f2937">Status is a word plus a color, never</text>
+  <text x="520" y="181" font-size="11" fill="#1f2937">color alone.</text>
+  <circle cx="502" cy="204" r="10" fill="#4f46e5"/>
+  <text x="502" y="208" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <text x="520" y="208" font-size="11" fill="#1f2937">The time stamp names its time</text>
+  <text x="520" y="223" font-size="11" fill="#1f2937">zone.</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>A six-box one-time code control replaced by one labeled input</title>
+  <rect x="0" y="0" width="720" height="400" rx="6" fill="#ffffff"/>
+  <rect x="24" y="14" width="70" height="22" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="59.0" y="29" font-size="12" fill="#b91c1c" text-anchor="middle" font-weight="bold">Before</text>
+  <rect x="372" y="14" width="62" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="403.0" y="29" font-size="12" fill="#15803d" text-anchor="middle" font-weight="bold">After</text>
+  <!-- before -->
+  <rect x="24" y="46" width="324" height="216" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="186" y="82" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">Enter code</text>
+  <rect x="63" y="100" width="34" height="42" rx="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="80" y="127" font-size="16" fill="#1f2937" text-anchor="middle">4</text>
+  <rect x="105" y="100" width="34" height="42" rx="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="122" y="127" font-size="16" fill="#1f2937" text-anchor="middle">8</text>
+  <rect x="147" y="100" width="34" height="42" rx="6" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <rect x="189" y="100" width="34" height="42" rx="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="231" y="100" width="34" height="42" rx="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="273" y="100" width="34" height="42" rx="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="186" y="172" font-size="11" fill="#6b7280" text-anchor="middle">Code expires in 0:28</text>
+  <rect x="126" y="190" width="120" height="32" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="186.0" y="210.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">Continue</text>
+  <circle cx="63" cy="100" r="10" fill="#b91c1c"/>
+  <text x="63" y="104" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="189" cy="100" r="10" fill="#b91c1c"/>
+  <text x="189" y="104" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="262" cy="168" r="10" fill="#b91c1c"/>
+  <text x="262" y="172" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <!-- after -->
+  <rect x="372" y="46" width="324" height="216" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="392" y="78" font-size="13" fill="#1f2937" font-weight="bold">6-digit code</text>
+  <text x="392" y="96" font-size="11" fill="#6b7280">From your authenticator app, or the text we</text>
+  <text x="392" y="111" font-size="11" fill="#6b7280">sent to the phone number ending 0142.</text>
+  <rect x="392" y="122" width="284" height="42" rx="6" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="406" y="149" font-size="16" fill="#1f2937">482913</text>
+  <text x="392" y="184" font-size="11" fill="#6b7280">You can paste the code or use autofill.</text>
+  <rect x="392" y="200" width="96" height="32" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="440.0" y="220.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">Verify</text>
+  <text x="506" y="221" font-size="12" fill="#4f46e5">Use a different method</text>
+  <circle cx="372" cy="74" r="10" fill="#15803d"/>
+  <text x="372" y="78" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="696" cy="143" r="10" fill="#15803d"/>
+  <text x="696" y="147" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="696" cy="216" r="10" fill="#15803d"/>
+  <text x="696" y="220" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <!-- legend -->
+  <circle cx="34" cy="284" r="10" fill="#b91c1c"/>
+  <text x="34" y="288" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="52" y="288" font-size="11" fill="#1f2937">Six boxes with no label. A screen reader says "edit text"</text>
+  <text x="52" y="303" font-size="11" fill="#1f2937">six times.</text>
+  <circle cx="34" cy="320" r="10" fill="#b91c1c"/>
+  <text x="34" y="324" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="52" y="324" font-size="11" fill="#1f2937">Paste and autofill break. An error is only a red border.</text>
+  <circle cx="34" cy="341" r="10" fill="#b91c1c"/>
+  <text x="34" y="345" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="52" y="345" font-size="11" fill="#1f2937">The code dies in 30 seconds, which punishes anyone who</text>
+  <text x="52" y="360" font-size="11" fill="#1f2937">is slow.</text>
+  <circle cx="382" cy="284" r="10" fill="#15803d"/>
+  <text x="382" y="288" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="400" y="288" font-size="11" fill="#1f2937">One input with a visible label and a hint.</text>
+  <circle cx="382" cy="305" r="10" fill="#15803d"/>
+  <text x="382" y="309" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="400" y="309" font-size="11" fill="#1f2937">Paste, password managers, and SMS autofill all work.</text>
+  <circle cx="382" cy="326" r="10" fill="#15803d"/>
+  <text x="382" y="330" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="400" y="330" font-size="11" fill="#1f2937">Errors appear as text, with no countdown. Another method</text>
+  <text x="400" y="345" font-size="11" fill="#1f2937">is one click away.</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="404" viewBox="0 0 720 404" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Four grouping rules shown on payout data</title>
+  <rect x="0" y="0" width="720" height="404" rx="6" fill="#ffffff"/>
+  <!-- 1  Proximity -->
+  <rect x="24" y="20" width="324" height="176" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="38" y="44" font-size="13" fill="#1f2937" font-weight="bold">1  Proximity</text>
+  <text x="38" y="62" font-size="11" fill="#6b7280">Things that sit close together read as a pair.</text>
+  <rect x="36" y="74" width="300" height="52" rx="6" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="46" y="90" font-size="11" fill="#b91c1c" font-weight="bold">Unclear</text>
+  <rect x="36" y="134" width="300" height="52" rx="6" fill="#ffffff" stroke="#15803d" stroke-width="1.5"/>
+  <text x="46" y="150" font-size="11" fill="#15803d" font-weight="bold">Clear</text>
+  <text x="54" y="114" font-size="12" fill="#1f2937">Gross</text>
+  <text x="128" y="114" font-size="12" fill="#1f2937">$18,420.00</text>
+  <text x="202" y="114" font-size="12" fill="#1f2937">Fees</text>
+  <text x="276" y="114" font-size="12" fill="#1f2937">$598.38</text>
+  <text x="46" y="174" font-size="12" fill="#6b7280">Gross</text>
+  <text x="86" y="174" font-size="12" fill="#1f2937" font-weight="bold">$18,420.00</text>
+  <text x="210" y="174" font-size="12" fill="#6b7280">Fees</text>
+  <text x="244" y="174" font-size="12" fill="#1f2937" font-weight="bold">$598.38</text>
+  <!-- 2  Similarity -->
+  <rect x="372" y="20" width="324" height="176" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="386" y="44" font-size="13" fill="#1f2937" font-weight="bold">2  Similarity</text>
+  <text x="386" y="62" font-size="11" fill="#6b7280">Things that look alike read as the same kind.</text>
+  <rect x="384" y="74" width="300" height="52" rx="6" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="394" y="90" font-size="11" fill="#b91c1c" font-weight="bold">Unclear</text>
+  <rect x="384" y="134" width="300" height="52" rx="6" fill="#ffffff" stroke="#15803d" stroke-width="1.5"/>
+  <text x="394" y="150" font-size="11" fill="#15803d" font-weight="bold">Clear</text>
+  <rect x="456" y="96" width="46" height="22" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="479.0" y="111" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="bold">Paid</text>
+  <rect x="510" y="96" width="46" height="22" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="533.0" y="111" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="bold">Paid</text>
+  <rect x="564" y="96" width="46" height="22" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="587.0" y="111" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="bold">Failed</text>
+  <rect x="618" y="96" width="46" height="22" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="641.0" y="111" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="bold">Paid</text>
+  <rect x="456" y="156" width="46" height="22" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="479.0" y="171" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="bold">Paid</text>
+  <rect x="510" y="156" width="46" height="22" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="533.0" y="171" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="bold">Paid</text>
+  <rect x="564" y="156" width="54" height="22" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="591.0" y="171" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">Failed</text>
+  <rect x="626" y="156" width="46" height="22" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="649.0" y="171" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="bold">Paid</text>
+  <!-- 3  Common region -->
+  <rect x="24" y="212" width="324" height="176" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="38" y="236" font-size="13" fill="#1f2937" font-weight="bold">3  Common region</text>
+  <text x="38" y="254" font-size="11" fill="#6b7280">A border or background makes a group.</text>
+  <rect x="36" y="266" width="300" height="52" rx="6" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="46" y="282" font-size="11" fill="#b91c1c" font-weight="bold">Unclear</text>
+  <rect x="36" y="326" width="300" height="52" rx="6" fill="#ffffff" stroke="#15803d" stroke-width="1.5"/>
+  <text x="46" y="342" font-size="11" fill="#15803d" font-weight="bold">Clear</text>
+  <text x="120" y="288" font-size="11" fill="#1f2937">PO-8841  $16,969.12  Arrives Oct 14</text>
+  <text x="120" y="306" font-size="11" fill="#1f2937">PO-8850  $1,284.40  On hold</text>
+  <rect x="104" y="334" width="108" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="114" y="349" font-size="11" fill="#6b7280">PO-8841</text>
+  <text x="114" y="363" font-size="11" fill="#1f2937" font-weight="bold">$16,969.12</text>
+  <rect x="220" y="334" width="108" height="36" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="230" y="349" font-size="11" fill="#6b7280">PO-8850</text>
+  <text x="230" y="363" font-size="11" fill="#1f2937" font-weight="bold">$1,284.40</text>
+  <!-- 4  Alignment -->
+  <rect x="372" y="212" width="324" height="176" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="386" y="236" font-size="13" fill="#1f2937" font-weight="bold">4  Alignment</text>
+  <text x="386" y="254" font-size="11" fill="#6b7280">A shared edge lets the eye compare down a column.</text>
+  <rect x="384" y="266" width="300" height="52" rx="6" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="394" y="282" font-size="11" fill="#b91c1c" font-weight="bold">Unclear</text>
+  <rect x="384" y="326" width="300" height="52" rx="6" fill="#ffffff" stroke="#15803d" stroke-width="1.5"/>
+  <text x="394" y="342" font-size="11" fill="#15803d" font-weight="bold">Clear</text>
+  <text x="482" y="282" font-size="11" fill="#1f2937">$18,420.00</text>
+  <text x="542" y="296" font-size="11" fill="#1f2937">$598.38</text>
+  <text x="482" y="310" font-size="11" fill="#1f2937">$16,969.12</text>
+  <text x="602" y="342" font-size="11" fill="#1f2937" text-anchor="end">$18,420.00</text>
+  <text x="602" y="356" font-size="11" fill="#1f2937" text-anchor="end">$598.38</text>
+  <text x="602" y="370" font-size="11" fill="#1f2937" text-anchor="end">$16,969.12</text>
+  <line x1="606" y1="332" x2="606" y2="374" stroke="#4f46e5" stroke-width="1.5" stroke-dasharray="3 3"/>
+</svg>
