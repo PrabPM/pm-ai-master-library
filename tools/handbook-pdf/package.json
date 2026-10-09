@@ -1,0 +1,16 @@
+{
+  "name": "handbook-pdf",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Builds the library's handbook PDFs from their Markdown sources.",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0",
+    "mermaid": "^11.12.0",
+    "puppeteer-core": "^24.0.0"
+  }
+}
