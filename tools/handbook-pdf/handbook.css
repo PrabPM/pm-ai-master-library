@@ -376,3 +376,14 @@ p.caption {
 p.caption em { font-style: italic; }
 
 hr { display: none; }
+
+/* ------------------------------------------------------------------- math */
+
+.katex { font-size: 1.04em; }
+.katex-display, p.math-block {
+  margin: 9pt 0 11pt;
+  break-inside: avoid;
+  overflow: hidden;
+}
+p.math-block { text-align: center; }
+td .katex, th .katex { font-size: 1em; }

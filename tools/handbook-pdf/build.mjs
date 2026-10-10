@@ -16,6 +16,8 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import MarkdownIt from 'markdown-it';
 import hljs from 'highlight.js';
+import katex from 'katex';
+import mdKatex from '@vscode/markdown-it-katex';
 import puppeteer from 'puppeteer-core';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -71,6 +73,30 @@ const promise = (coverMd.match(/^>\s*(.+)$/m) || [])[1]?.trim() || '';
 // ------------------------------------------------------------------- markdown
 
 const md = new MarkdownIt({ html: false, linkify: true, typographer: false });
+const mathErrors = [];
+
+// Math is switched on only for books that contain a display formula ($$ ... $$ or a
+// ```math fence). In those books a bare $ starts inline math, so money is written
+// "USD 120". Everywhere else "$5 and $10" stays plain text.
+const usesMath = /^\$\$\s*$/m.test(bodyMd) || /^```math\s*$/m.test(bodyMd);
+if (usesMath) {
+  md.use(mdKatex.default || mdKatex, { throwOnError: true, strict: 'ignore' });
+  // The plugin finds the formulas; render them here so a formula that does not
+  // parse stops the build instead of being printed as red error text.
+  for (const rule of Object.keys(md.renderer.rules).filter((name) => name.startsWith('math'))) {
+    const display = rule !== 'math_inline';
+    md.renderer.rules[rule] = (tokens, idx) => {
+      const tex = tokens[idx].content;
+      try {
+        const html = katex.renderToString(tex, { displayMode: display, throwOnError: true, strict: 'ignore' });
+        return display ? `<p class="math-block">${html}</p>\n` : html;
+      } catch (e) {
+        mathErrors.push(`formula "${tex.replace(/\s+/g, ' ').slice(0, 70)}": ${String(e.message).replace(/^KaTeX parse error: /, '').slice(0, 140)}`);
+        return '';
+      }
+    };
+  }
+}
 
 // GitHub's heading-anchor algorithm, so [text](#anchor) links work in both places.
 const usedSlugs = new Map();
@@ -199,6 +225,14 @@ md.renderer.rules.fence = (tokens, idx) => {
   const token = tokens[idx];
   const lang = (token.info || '').trim().split(/\s+/)[0].toLowerCase();
   const code = token.content.replace(/\n$/, '');
+  if (lang === 'math') {
+    try {
+      return `<p class="math-block">${katex.renderToString(code, { displayMode: true, throwOnError: true, strict: 'ignore' })}</p>\n`;
+    } catch (e) {
+      errors.push(`math: formula "${code.replace(/\s+/g, ' ').slice(0, 70)}": ${String(e.message).replace(/^KaTeX parse error: /, '').slice(0, 140)}`);
+      return '';
+    }
+  }
   if (lang === 'mermaid') {
     diagramCount += 1;
     return `<div class="diagram"><pre class="mermaid" data-n="${diagramCount}">${esc(code)}</pre></div>\n`;
@@ -252,7 +286,14 @@ const coverHtml = `
   <div class="cover-foot">Private study edition</div>
 </section>`;
 
-let bodyHtml = md.render(bodyMd);
+let bodyHtml = '';
+try {
+  bodyHtml = md.render(bodyMd);
+} catch (e) {
+  console.error(`error: could not render the Markdown: ${String(e.message || e).slice(0, 400)}`);
+  process.exit(1);
+}
+mathErrors.forEach((m) => errors.push(`math: ${m}`));
 
 // ------------------------------------------------------- contents and parts
 
@@ -310,6 +351,10 @@ for (const m of bodyHtml.matchAll(/<a href="#([^"]*)"/g)) {
 // ----------------------------------------------------------------------- html
 
 const css = fs.readFileSync(path.join(HERE, 'handbook.css'), 'utf8');
+const katexDist = path.join(HERE, 'node_modules/katex/dist');
+const mathCss = usesMath
+  ? fs.readFileSync(path.join(katexDist, 'katex.min.css'), 'utf8').replace(/url\(fonts\//g, `url(${pathToFileURL(path.join(katexDist, 'fonts')).href}/`)
+  : '';
 const pageCss = `
 @page {
   size: Letter;
@@ -335,7 +380,7 @@ const html = `<!doctype html>
 <title>${esc(title)} — ${esc(edition)}</title>
 <meta name="author" content="EngineeringEverday">
 <meta name="subject" content="${esc(series)}">
-<style>${pageCss}\n${css}</style>
+<style>${mathCss}\n${pageCss}\n${css}</style>
 </head>
 <body>
 ${coverHtml}

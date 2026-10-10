@@ -27,10 +27,12 @@ Plain GitHub-flavored Markdown, so the same file also reads well on GitHub.
 | Figure | `![alt](volume-4-assets/name.svg)` with a local file |
 | Caption | a paragraph in italics that starts with `Figure` or `Table` |
 | Output | a line ending in `Result:` or `Output:` followed by a fenced `text` block |
+| Math | `$inline$`, a display block between two lines containing only `$$`, or a fenced `math` block (KaTeX). Math switches on only in books that contain a display formula; in those books write money as `USD 120`, because a bare `$` starts a formula |
 
 ## Checks the build runs
 
-The build stops without writing a PDF if a diagram does not parse, an image is
-missing, or an internal `#link` points at a heading that does not exist. It warns
-about any paragraph that appears more than once and about code lines longer than
-88 characters.
+The build stops without writing a PDF if a diagram or a formula does not parse, an
+image is missing, or an internal `#link` points at a heading that does not exist. It
+warns about any paragraph that appears more than once, code lines longer than 88
+characters, diagrams that would print too small to read, and diagram notes wider
+than their box.
