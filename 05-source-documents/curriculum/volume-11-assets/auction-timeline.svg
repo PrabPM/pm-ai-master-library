@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="404" viewBox="0 0 720 404" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Timeline of one auction from ad request to render, with a 250 ms budget</title>
+  <rect x="0" y="0" width="720" height="404" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">One ad slot, 250 milliseconds: where the time goes</text>
+  <rect x="40.0" y="96" width="38.4" height="40" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <circle cx="59.2" cy="80" r="10" fill="#4f46e5"/>
+  <text x="59.2" y="84" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="78.4" y="96" width="51.2" height="40" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <circle cx="104.0" cy="80" r="10" fill="#4f46e5"/>
+  <text x="104.0" y="84" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <rect x="129.6" y="96" width="25.6" height="40" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <circle cx="142.4" cy="80" r="10" fill="#4f46e5"/>
+  <text x="142.4" y="84" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <rect x="155.2" y="96" width="384.0" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="539.2" y="96" width="51.2" height="40" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <circle cx="564.8" cy="80" r="10" fill="#4f46e5"/>
+  <text x="564.8" y="84" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <rect x="590.4" y="96" width="89.6" height="40" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <circle cx="635.2" cy="80" r="10" fill="#4f46e5"/>
+  <text x="635.2" y="84" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+  <circle cx="188.48" cy="116" r="10" fill="#4f46e5"/>
+  <text x="188.48" y="120" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <text x="208.96" y="121" font-size="12" fill="#1f2937">DSPs evaluate and answer (150 ms)</text>
+  <line x1="40.0" y1="136" x2="40.0" y2="144" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="40.0" y="160" font-size="11" fill="#6b7280" text-anchor="middle">0 ms</text>
+  <line x1="168.0" y1="136" x2="168.0" y2="144" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="168.0" y="160" font-size="11" fill="#6b7280" text-anchor="middle">50 ms</text>
+  <line x1="296.0" y1="136" x2="296.0" y2="144" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="296.0" y="160" font-size="11" fill="#6b7280" text-anchor="middle">100 ms</text>
+  <line x1="424.0" y1="136" x2="424.0" y2="144" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="424.0" y="160" font-size="11" fill="#6b7280" text-anchor="middle">150 ms</text>
+  <line x1="552.0" y1="136" x2="552.0" y2="144" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="552.0" y="160" font-size="11" fill="#6b7280" text-anchor="middle">200 ms</text>
+  <line x1="680.0" y1="136" x2="680.0" y2="144" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="680.0" y="160" font-size="11" fill="#6b7280" text-anchor="middle">250 ms</text>
+  <line x1="539.2" y1="56" x2="539.2" y2="136" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="533.2" y="52" font-size="11" fill="#b91c1c" text-anchor="end">Deadline: late bids are dropped</text>
+  <circle cx="50" cy="192" r="10" fill="#4f46e5"/>
+  <text x="50" y="196" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="68" y="196" font-size="12" fill="#1f2937">Validate the request and read consent: 15 ms</text>
+  <circle cx="50" cy="214" r="10" fill="#4f46e5"/>
+  <text x="50" y="218" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="68" y="218" font-size="12" fill="#1f2937">Identity and context enrichment: 20 ms</text>
+  <circle cx="50" cy="236" r="10" fill="#4f46e5"/>
+  <text x="50" y="240" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="68" y="240" font-size="12" fill="#1f2937">Pick partners, build bid requests: 10 ms</text>
+  <circle cx="390" cy="192" r="10" fill="#4f46e5"/>
+  <text x="390" y="196" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <text x="408" y="196" font-size="12" fill="#1f2937">Network and DSP bidding: 150 ms</text>
+  <circle cx="390" cy="214" r="10" fill="#4f46e5"/>
+  <text x="390" y="218" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <text x="408" y="218" font-size="12" fill="#1f2937">Validate bids, run the auction: 20 ms</text>
+  <circle cx="390" cy="236" r="10" fill="#4f46e5"/>
+  <text x="390" y="240" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+  <text x="408" y="240" font-size="12" fill="#1f2937">Return the ad, safety margin: 35 ms</text>
+  <text x="40" y="284" font-size="13" fill="#1f2937" font-weight="bold">After the auction (outside the 250 ms)</text>
+  <rect x="40" y="298" width="148" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="114" y="320" font-size="11" fill="#1f2937" text-anchor="middle">Creative loads and</text>
+  <text x="114" y="335" font-size="11" fill="#1f2937" text-anchor="middle">renders</text>
+  <line x1="190" y1="324" x2="202" y2="324" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="202.0,324.0 195.1,328.1 195.1,319.9" fill="#1f2937"/>
+  <rect x="204" y="298" width="148" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="278" y="320" font-size="11" fill="#1f2937" text-anchor="middle">Viewability is measured</text>
+  <line x1="354" y1="324" x2="366" y2="324" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="366.0,324.0 359.1,328.1 359.1,319.9" fill="#1f2937"/>
+  <rect x="368" y="298" width="148" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="442" y="320" font-size="11" fill="#1f2937" text-anchor="middle">Win and impression</text>
+  <text x="442" y="335" font-size="11" fill="#1f2937" text-anchor="middle">notices fire</text>
+  <line x1="518" y1="324" x2="530" y2="324" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="530.0,324.0 523.1,328.1 523.1,319.9" fill="#1f2937"/>
+  <rect x="532" y="298" width="148" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="606" y="320" font-size="11" fill="#1f2937" text-anchor="middle">Billing and reconciliation</text>
+  <text x="40" y="376" font-size="12" fill="#6b7280">A winning bid that arrives late or fails to render earns nothing and still cost the page its time.</text>
+</svg>

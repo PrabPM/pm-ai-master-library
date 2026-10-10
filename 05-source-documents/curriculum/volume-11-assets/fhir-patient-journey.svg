@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="452" viewBox="0 0 720 452" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>FHIR resources and code systems for one cardiology visit</title>
+  <rect x="0" y="0" width="720" height="452" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">One cardiology visit, as FHIR resources</text>
+  <rect x="24.0" y="44" width="131" height="34" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="89.5" y="66" font-size="11" fill="#1f2937" text-anchor="middle">Books a visit</text>
+  <line x1="89.5" y1="78" x2="89.5" y2="92" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="24.0" y="92" width="131" height="98" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="33.0" y="114" font-size="12" fill="#1f2937" font-weight="bold">Appointment</text>
+  <text x="33.0" y="132" font-size="11" fill="#6b7280">status, slot, reason</text>
+  <rect x="159.25" y="44" width="131" height="34" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="224.75" y="66" font-size="11" fill="#1f2937" text-anchor="middle">Sees the cardiologist</text>
+  <line x1="224.75" y1="78" x2="224.75" y2="92" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="159.25" y="92" width="131" height="98" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="168.25" y="114" font-size="12" fill="#1f2937" font-weight="bold">Encounter</text>
+  <text x="168.25" y="132" font-size="11" fill="#6b7280">class, period, place</text>
+  <rect x="294.5" y="44" width="131" height="34" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="360.0" y="66" font-size="11" fill="#1f2937" text-anchor="middle">Gets a diagnosis</text>
+  <line x1="360.0" y1="78" x2="360.0" y2="92" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="294.5" y="92" width="131" height="98" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="303.5" y="114" font-size="12" fill="#1f2937" font-weight="bold">Condition</text>
+  <text x="303.5" y="132" font-size="11" fill="#6b7280">code, onset</text>
+  <text x="303.5" y="156" font-size="11" fill="#15803d" font-weight="bold">coded in ICD-10-CM</text>
+  <text x="303.5" y="173" font-size="11" fill="#15803d" font-weight="bold">or SNOMED CT</text>
+  <rect x="429.75" y="44" width="131" height="34" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="495.25" y="66" font-size="11" fill="#1f2937" text-anchor="middle">Has a blood test</text>
+  <line x1="495.25" y1="78" x2="495.25" y2="92" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="429.75" y="92" width="131" height="98" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="438.75" y="114" font-size="12" fill="#1f2937" font-weight="bold">Observation</text>
+  <text x="438.75" y="132" font-size="11" fill="#6b7280">code, value, unit</text>
+  <text x="438.75" y="156" font-size="11" fill="#15803d" font-weight="bold">coded in LOINC</text>
+  <rect x="565.0" y="44" width="131" height="34" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="630.5" y="66" font-size="11" fill="#1f2937" text-anchor="middle">Gets a prescription</text>
+  <line x1="630.5" y1="78" x2="630.5" y2="92" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="565.0" y="92" width="131" height="98" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="574.0" y="114" font-size="12" fill="#1f2937" font-weight="bold">MedicationRequest</text>
+  <text x="574.0" y="132" font-size="11" fill="#6b7280">drug, dose</text>
+  <text x="574.0" y="156" font-size="11" fill="#15803d" font-weight="bold">coded in RxNorm</text>
+  <text x="24" y="218" font-size="13" fill="#1f2937" font-weight="bold">Who and where: every resource above points at these</text>
+  <rect x="24.0" y="230" width="131" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="33.0" y="252" font-size="12" fill="#1f2937" font-weight="bold">Patient</text>
+  <text x="33.0" y="270" font-size="11" fill="#6b7280">identity, contact</text>
+  <rect x="159.25" y="230" width="131" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="168.25" y="252" font-size="12" fill="#1f2937" font-weight="bold">Practitioner</text>
+  <text x="168.25" y="270" font-size="11" fill="#6b7280">clinician: NPI</text>
+  <rect x="294.5" y="230" width="131" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="303.5" y="252" font-size="12" fill="#1f2937" font-weight="bold">Organization</text>
+  <text x="303.5" y="270" font-size="11" fill="#6b7280">the health system</text>
+  <rect x="429.75" y="230" width="131" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="438.75" y="252" font-size="12" fill="#1f2937" font-weight="bold">Coverage</text>
+  <text x="438.75" y="270" font-size="11" fill="#6b7280">payer, member ID</text>
+  <rect x="565.0" y="230" width="131" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="574.0" y="252" font-size="12" fill="#1f2937" font-weight="bold">Consent</text>
+  <text x="574.0" y="270" font-size="11" fill="#6b7280">what may be shared</text>
+  <text x="24" y="312" font-size="13" fill="#1f2937" font-weight="bold">Paying for it</text>
+  <rect x="24" y="324" width="204" height="62" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="36" y="346" font-size="12" fill="#1f2937" font-weight="bold">Claim</text>
+  <text x="36" y="364" font-size="11" fill="#1f2937">services in CPT or HCPCS,</text>
+  <text x="36" y="379" font-size="11" fill="#1f2937">diagnoses in ICD-10-CM</text>
+  <line x1="230" y1="355" x2="254" y2="355" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="254.0,355.0 247.1,359.1 247.1,350.9" fill="#1f2937"/>
+  <rect x="256" y="324" width="204" height="62" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="268" y="346" font-size="12" fill="#1f2937" font-weight="bold">ExplanationOfBenefit</text>
+  <text x="268" y="364" font-size="11" fill="#1f2937">what the payer allowed</text>
+  <text x="268" y="379" font-size="11" fill="#1f2937">and paid, weeks later</text>
+  <text x="484" y="344" font-size="11" fill="#6b7280">Between provider and payer these still</text>
+  <text x="484" y="359" font-size="11" fill="#6b7280">mostly travel as X12 837 and 835 files.</text>
+  <text x="24" y="416" font-size="11" fill="#6b7280">Three systems of record for one visit: the EHR for care, the payer for claims, the pharmacy for what was dispensed.</text>
+</svg>

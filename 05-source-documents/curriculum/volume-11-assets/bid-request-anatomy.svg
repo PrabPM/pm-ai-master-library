@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="474" viewBox="0 0 720 474" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>An annotated OpenRTB 2.6 bid request</title>
+  <rect x="0" y="0" width="720" height="474" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">One bid request, read line by line</text>
+  <rect x="24" y="42" width="318" height="416" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36.0" y="62" font-size="12" fill="#1f2937">{</text>
+  <text x="46.8" y="78.6" font-size="12" fill="#1f2937">"id": "req-8f2c",</text>
+  <text x="46.8" y="95.19999999999999" font-size="12" fill="#1f2937">"at": 1, "tmax": 180,</text>
+  <circle cx="324" cy="91.19999999999999" r="10" fill="#4f46e5"/>
+  <text x="324" y="95.19999999999999" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="46.8" y="111.79999999999998" font-size="12" fill="#1f2937">"imp": [{</text>
+  <text x="57.6" y="128.39999999999998" font-size="12" fill="#1f2937">"banner": {"w": 300, "h": 250},</text>
+  <circle cx="324" cy="124.39999999999998" r="10" fill="#4f46e5"/>
+  <text x="324" y="128.39999999999998" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="57.6" y="144.99999999999997" font-size="12" fill="#1f2937">"bidfloor": 18.00,</text>
+  <text x="57.6" y="161.59999999999997" font-size="12" fill="#1f2937">"bidfloorcur": "USD",</text>
+  <circle cx="324" cy="157.59999999999997" r="10" fill="#4f46e5"/>
+  <text x="324" y="161.59999999999997" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="57.6" y="178.19999999999996" font-size="12" fill="#1f2937">"pmp": {"deals": [{</text>
+  <text x="68.4" y="194.79999999999995" font-size="12" fill="#1f2937">"id": "cardio-endemic-pmp",</text>
+  <circle cx="324" cy="190.79999999999995" r="10" fill="#4f46e5"/>
+  <text x="324" y="194.79999999999995" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <text x="68.4" y="211.39999999999995" font-size="12" fill="#1f2937">"bidfloor": 24.00 }]}</text>
+  <text x="46.8" y="227.99999999999994" font-size="12" fill="#1f2937">}],</text>
+  <text x="46.8" y="244.59999999999994" font-size="12" fill="#1f2937">"site": {</text>
+  <text x="57.6" y="261.19999999999993" font-size="12" fill="#1f2937">"domain": "clinical.example",</text>
+  <circle cx="324" cy="257.19999999999993" r="10" fill="#4f46e5"/>
+  <text x="324" y="261.19999999999993" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <text x="57.6" y="277.79999999999995" font-size="12" fill="#1f2937">"page": ".../cardiology",</text>
+  <text x="57.6" y="294.4" font-size="12" fill="#1f2937">"publisher": {"id": "pub-123"}},</text>
+  <text x="46.8" y="311.0" font-size="12" fill="#1f2937">"device": {"ua": "...", "lmt": 0},</text>
+  <text x="46.8" y="327.6" font-size="12" fill="#1f2937">"user": {"eids": [ ... ]},</text>
+  <circle cx="324" cy="323.6" r="10" fill="#4f46e5"/>
+  <text x="324" y="327.6" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+  <text x="46.8" y="344.20000000000005" font-size="12" fill="#1f2937">"regs": {"gpp": "DBAB...",</text>
+  <text x="95.4" y="360.80000000000007" font-size="12" fill="#1f2937">"gpp_sid": [7]},</text>
+  <circle cx="324" cy="356.80000000000007" r="10" fill="#4f46e5"/>
+  <text x="324" y="360.80000000000007" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">7</text>
+  <text x="46.8" y="377.4000000000001" font-size="12" fill="#1f2937">"source": {"schain": {</text>
+  <circle cx="324" cy="373.4000000000001" r="10" fill="#4f46e5"/>
+  <text x="324" y="377.4000000000001" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">8</text>
+  <text x="57.6" y="394.0000000000001" font-size="12" fill="#1f2937">"complete": 1, "nodes": [{</text>
+  <text x="68.4" y="410.60000000000014" font-size="12" fill="#1f2937">"asi": "ssp.example",</text>
+  <text x="68.4" y="427.20000000000016" font-size="12" fill="#1f2937">"sid": "pub-123", "hp": 1 }]}}</text>
+  <text x="36.0" y="443.8000000000002" font-size="12" fill="#1f2937">}</text>
+  <circle cx="372" cy="58" r="10" fill="#4f46e5"/>
+  <text x="372" y="62" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="390" y="62" font-size="12" fill="#1f2937">First-price auction (at 1). The seller waits 180 ms; a</text>
+  <text x="390" y="78" font-size="12" fill="#1f2937">later answer is ignored.</text>
+  <circle cx="372" cy="99" r="10" fill="#4f46e5"/>
+  <text x="372" y="103" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="390" y="103" font-size="12" fill="#1f2937">The slot being sold: a 300 by 250 banner.</text>
+  <circle cx="372" cy="124" r="10" fill="#4f46e5"/>
+  <text x="372" y="128" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="390" y="128" font-size="12" fill="#1f2937">Open-auction floor. A bid under $18.00 CPM is</text>
+  <text x="390" y="144" font-size="12" fill="#1f2937">rejected.</text>
+  <circle cx="372" cy="165" r="10" fill="#4f46e5"/>
+  <text x="372" y="169" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <text x="390" y="169" font-size="12" fill="#1f2937">A private marketplace deal with its own $24.00 floor.</text>
+  <text x="390" y="185" font-size="12" fill="#1f2937">Only invited buyer seats may bid on this ID.</text>
+  <circle cx="372" cy="206" r="10" fill="#4f46e5"/>
+  <text x="372" y="210" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <text x="390" y="210" font-size="12" fill="#1f2937">Context. Keep the page URL coarse: a path can reveal</text>
+  <text x="390" y="226" font-size="12" fill="#1f2937">a health condition.</text>
+  <circle cx="372" cy="247" r="10" fill="#4f46e5"/>
+  <text x="372" y="251" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+  <text x="390" y="251" font-size="12" fill="#1f2937">Extended IDs, present only where consent and policy</text>
+  <text x="390" y="267" font-size="12" fill="#1f2937">allow. Never a raw email, patient data or a diagnosis.</text>
+  <circle cx="372" cy="288" r="10" fill="#4f46e5"/>
+  <text x="372" y="292" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">7</text>
+  <text x="390" y="292" font-size="12" fill="#1f2937">Privacy signal: the GPP string and the section that</text>
+  <text x="390" y="308" font-size="12" fill="#1f2937">applies (7 is the US national section).</text>
+  <circle cx="372" cy="329" r="10" fill="#4f46e5"/>
+  <text x="372" y="333" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">8</text>
+  <text x="390" y="333" font-size="12" fill="#1f2937">Supply chain: every seller that touched the request.</text>
+  <text x="390" y="349" font-size="12" fill="#1f2937">Buyers check it against ads.txt and sellers.json.</text>
+  <rect x="362" y="380" width="334" height="66" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="374" y="402" font-size="12" fill="#b91c1c" font-weight="bold">Never in a bid request</text>
+  <text x="374" y="420" font-size="11" fill="#1f2937">Raw patient data, direct identifiers, diagnosis text or an</text>
+  <text x="374" y="435" font-size="11" fill="#1f2937">unapproved health inference.</text>
+</svg>

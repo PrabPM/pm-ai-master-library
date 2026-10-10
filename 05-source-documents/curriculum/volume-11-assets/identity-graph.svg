@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="442" viewBox="0 0 720 442" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>An identity graph for one clinician: each link carries evidence</title>
+  <rect x="0" y="0" width="720" height="442" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">One clinician: every link carries its own evidence</text>
+  <line x1="256" y1="166" x2="232" y2="84.0" stroke="#15803d" stroke-width="1.5"/>
+  <rect x="24" y="46" width="208" height="76" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="36" y="68" font-size="12" fill="#1f2937" font-weight="bold">NPI</text>
+  <text x="36" y="88" font-size="11" fill="#1f2937">Registry match + declared</text>
+  <text x="36" y="106" font-size="11" fill="#6b7280">Confidence 0.99, all purposes</text>
+  <line x1="360.0" y1="166" x2="360.0" y2="122" stroke="#15803d" stroke-width="1.5"/>
+  <rect x="256" y="46" width="208" height="76" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="268" y="68" font-size="12" fill="#1f2937" font-weight="bold">Hashed email</text>
+  <text x="268" y="88" font-size="11" fill="#1f2937">Signed in with this address</text>
+  <text x="268" y="106" font-size="11" fill="#6b7280">Confidence 1.00, all purposes</text>
+  <line x1="464" y1="166" x2="488" y2="84.0" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="488" y="46" width="208" height="76" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="500" y="68" font-size="12" fill="#1f2937" font-weight="bold">Consent record</text>
+  <text x="500" y="88" font-size="11" fill="#1f2937">Policy us-hcp-2026-04</text>
+  <text x="500" y="106" font-size="11" fill="#6b7280">Education yes, ads yes, research no</text>
+  <line x1="256" y1="204.0" x2="232" y2="204.0" stroke="#15803d" stroke-width="1.5"/>
+  <rect x="24" y="166" width="208" height="76" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="36" y="188" font-size="12" fill="#1f2937" font-weight="bold">Laptop browser cookie</text>
+  <text x="36" y="208" font-size="11" fill="#1f2937">Authenticated session</text>
+  <text x="36" y="226" font-size="11" fill="#6b7280">Confidence 0.95, expires in 30 days</text>
+  <line x1="464" y1="204.0" x2="488" y2="204.0" stroke="#15803d" stroke-width="1.5"/>
+  <rect x="488" y="166" width="208" height="76" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="500" y="188" font-size="12" fill="#1f2937" font-weight="bold">Mobile app install</text>
+  <text x="500" y="208" font-size="11" fill="#1f2937">Signed in on this device</text>
+  <text x="500" y="226" font-size="11" fill="#6b7280">Confidence 0.97, all purposes</text>
+  <line x1="256" y1="242" x2="232" y2="324.0" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <rect x="24" y="286" width="208" height="76" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="36" y="308" font-size="12" fill="#1f2937" font-weight="bold">Tablet on clinic Wi-Fi</text>
+  <text x="36" y="328" font-size="11" fill="#1f2937">Shared IP address only</text>
+  <text x="36" y="346" font-size="11" fill="#6b7280">Confidence 0.42: not linked</text>
+  <line x1="360.0" y1="242" x2="360.0" y2="286" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="256" y="286" width="208" height="76" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="268" y="308" font-size="12" fill="#1f2937" font-weight="bold">Practice affiliation</text>
+  <text x="268" y="328" font-size="11" fill="#1f2937">Lone Star Heart Group</text>
+  <text x="268" y="346" font-size="11" fill="#6b7280">Since 2024-03, one of two</text>
+  <line x1="464" y1="242" x2="488" y2="324.0" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="488" y="286" width="208" height="76" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="500" y="308" font-size="12" fill="#1f2937" font-weight="bold">Client target list</text>
+  <text x="500" y="328" font-size="11" fill="#1f2937">Aldermoor list 2026-09-01</text>
+  <text x="500" y="346" font-size="11" fill="#6b7280">This campaign only, then expires</text>
+  <rect x="256" y="166" width="208" height="76" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="360.0" y="190" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">Member profile</text>
+  <text x="360.0" y="210" font-size="11" fill="#1f2937" text-anchor="middle">member_id 48213</text>
+  <text x="360.0" y="228" font-size="11" fill="#6b7280" text-anchor="middle">Cardiologist, Texas</text>
+  <rect x="24" y="386" width="14" height="14" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="46" y="398" font-size="11" fill="#1f2937">Deterministic link: may be used to activate and report</text>
+  <rect x="370" y="386" width="14" height="14" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="392" y="398" font-size="11" fill="#1f2937">Context: limits what the links may be used for</text>
+  <rect x="24" y="410" width="14" height="14" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="46" y="422" font-size="11" fill="#1f2937">Probabilistic evidence below threshold: keep the records separate</text>
+</svg>
