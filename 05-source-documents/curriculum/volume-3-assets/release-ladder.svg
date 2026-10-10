@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>The release ladder: offline eval, shadow, canary, ramp</title>
+  <rect x="0" y="0" width="720" height="430" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">The release ladder: each rung has a gate to climb and a trigger that pauses it</text>
+  <!-- 1  Offline eval -->
+  <rect x="24.0" y="134" width="160" height="196" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <rect x="24.0" y="134" width="160" height="34" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="36.0" y="156" font-size="13" fill="#1f2937" font-weight="bold">1  Offline eval</text>
+  <text x="36.0" y="188" font-size="11" fill="#6b7280" font-weight="bold">WHO SEES IT</text>
+  <text x="36.0" y="204" font-size="11" fill="#1f2937">Nobody</text>
+  <text x="36.0" y="226" font-size="11" fill="#6b7280" font-weight="bold">WHAT HAPPENS</text>
+  <text x="36.0" y="242" font-size="11" fill="#1f2937">240-case golden set and</text>
+  <text x="36.0" y="256" font-size="11" fill="#1f2937">the red-team suite run</text>
+  <text x="36.0" y="278" font-size="11" fill="#15803d" font-weight="bold">CLIMB WHEN</text>
+  <text x="36.0" y="294" font-size="11" fill="#1f2937">Every scorecard gate</text>
+  <text x="36.0" y="308" font-size="11" fill="#1f2937">passes</text>
+  <!-- 2  Shadow -->
+  <rect x="194.6" y="106" width="160" height="224" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <rect x="194.6" y="106" width="160" height="34" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="206.6" y="128" font-size="13" fill="#1f2937" font-weight="bold">2  Shadow</text>
+  <text x="206.6" y="160" font-size="11" fill="#6b7280" font-weight="bold">WHO SEES IT</text>
+  <text x="206.6" y="176" font-size="11" fill="#1f2937">Nobody. Runs on every</text>
+  <text x="206.6" y="190" font-size="11" fill="#1f2937">payout ticket</text>
+  <text x="206.6" y="212" font-size="11" fill="#6b7280" font-weight="bold">WHAT HAPPENS</text>
+  <text x="206.6" y="228" font-size="11" fill="#1f2937">Answers are logged; 200</text>
+  <text x="206.6" y="242" font-size="11" fill="#1f2937">a week are reviewed</text>
+  <text x="206.6" y="264" font-size="11" fill="#15803d" font-weight="bold">CLIMB WHEN</text>
+  <text x="206.6" y="280" font-size="11" fill="#1f2937">1,500 answers with no</text>
+  <text x="206.6" y="294" font-size="11" fill="#1f2937">severe failure; 90% of the</text>
+  <text x="206.6" y="308" font-size="11" fill="#1f2937">sample right</text>
+  <!-- 3  Canary -->
+  <rect x="365.2" y="78" width="160" height="252" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <rect x="365.2" y="78" width="160" height="34" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="377.2" y="100" font-size="13" fill="#1f2937" font-weight="bold">3  Canary</text>
+  <text x="377.2" y="132" font-size="11" fill="#6b7280" font-weight="bold">WHO SEES IT</text>
+  <text x="377.2" y="148" font-size="11" fill="#1f2937">5% of agents</text>
+  <text x="377.2" y="170" font-size="11" fill="#6b7280" font-weight="bold">WHAT HAPPENS</text>
+  <text x="377.2" y="186" font-size="11" fill="#1f2937">Agents see drafts; flags</text>
+  <text x="377.2" y="200" font-size="11" fill="#1f2937">and overrides are tracked</text>
+  <text x="377.2" y="222" font-size="11" fill="#15803d" font-weight="bold">CLIMB WHEN</text>
+  <text x="377.2" y="238" font-size="11" fill="#1f2937">Two weeks: overrides</text>
+  <text x="377.2" y="252" font-size="11" fill="#1f2937">under 15%, handle time</text>
+  <text x="377.2" y="266" font-size="11" fill="#1f2937">falling</text>
+  <!-- 4  Ramp -->
+  <rect x="535.8" y="50" width="160" height="280" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <rect x="535.8" y="50" width="160" height="34" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="547.8" y="72" font-size="13" fill="#1f2937" font-weight="bold">4  Ramp</text>
+  <text x="547.8" y="104" font-size="11" fill="#6b7280" font-weight="bold">WHO SEES IT</text>
+  <text x="547.8" y="120" font-size="11" fill="#1f2937">25%, 50%, 100%</text>
+  <text x="547.8" y="142" font-size="11" fill="#6b7280" font-weight="bold">WHAT HAPPENS</text>
+  <text x="547.8" y="158" font-size="11" fill="#1f2937">A weekly evidence review</text>
+  <text x="547.8" y="172" font-size="11" fill="#1f2937">decides each step</text>
+  <text x="547.8" y="194" font-size="11" fill="#15803d" font-weight="bold">CLIMB WHEN</text>
+  <text x="547.8" y="210" font-size="11" fill="#1f2937">Guardrails hold for a full</text>
+  <text x="547.8" y="224" font-size="11" fill="#1f2937">week at each level</text>
+  <rect x="24" y="344" width="672" height="62" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="38" y="366" font-size="12" fill="#b91c1c" font-weight="bold">Pauses the climb automatically</text>
+  <text x="38" y="384" font-size="11" fill="#1f2937">A severe flag (wrong amount, leaked record), supported claims under 95% on the daily sample, first words slower than 4 s, or</text>
+  <text x="38" y="399" font-size="11" fill="#1f2937">spend over twice the forecast. Rollback restores the whole previous bundle.</text>
+</svg>

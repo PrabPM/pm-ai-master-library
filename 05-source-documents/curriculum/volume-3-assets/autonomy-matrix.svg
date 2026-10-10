@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="466" viewBox="0 0 720 466" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Autonomy matrix: how much Assist may do alone</title>
+  <rect x="0" y="0" width="720" height="466" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">How much may Assist do alone? Ask what the action does, not how sure the model is</text>
+  <text x="414.0" y="52" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="bold">HOW EASILY CAN IT BE UNDONE?</text>
+  <text x="226.0" y="70" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Undone in one click</text>
+  <text x="414.0" y="70" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Undone with effort</text>
+  <text x="602.0" y="70" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Cannot be undone</text>
+  <text x="24" y="56" font-size="11" fill="#6b7280" font-weight="bold">HARM IF</text>
+  <text x="24" y="70" font-size="11" fill="#6b7280" font-weight="bold">WRONG</text>
+  <text x="108" y="128.0" font-size="12" fill="#1f2937" text-anchor="end" font-weight="bold">Low</text>
+  <rect x="135" y="81" width="182" height="86" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="148" y="106" font-size="12" fill="#15803d" font-weight="bold">Acts alone, logged</text>
+  <text x="148" y="128" font-size="11" fill="#1f2937">Look up a payout's status</text>
+  <rect x="323" y="81" width="182" height="86" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="336" y="106" font-size="12" fill="#15803d" font-weight="bold">Acts alone, logged</text>
+  <text x="336" y="128" font-size="11" fill="#1f2937">Add a note to the ticket</text>
+  <rect x="511" y="81" width="182" height="86" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="524" y="106" font-size="12" fill="#15803d" font-weight="bold">Acts alone, logged</text>
+  <text x="524" y="128" font-size="11" fill="#1f2937">Hand the chat to a person</text>
+  <text x="108" y="220.0" font-size="12" fill="#1f2937" text-anchor="end" font-weight="bold">Medium</text>
+  <rect x="135" y="173" width="182" height="86" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="148" y="198" font-size="12" fill="#15803d" font-weight="bold">Acts alone, undo offered</text>
+  <text x="148" y="220" font-size="11" fill="#1f2937">Set a ticket's priority</text>
+  <rect x="323" y="173" width="182" height="86" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="336" y="198" font-size="12" fill="#4f46e5" font-weight="bold">Drafts; a person sends</text>
+  <text x="336" y="220" font-size="11" fill="#1f2937">Reply to a merchant in Sam's</text>
+  <text x="336" y="235" font-size="11" fill="#1f2937">name</text>
+  <rect x="511" y="173" width="182" height="86" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="524" y="198" font-size="12" fill="#b45309" font-weight="bold">One approver</text>
+  <text x="524" y="220" font-size="11" fill="#1f2937">Send a notice to many</text>
+  <text x="524" y="235" font-size="11" fill="#1f2937">merchants</text>
+  <text x="108" y="312.0" font-size="12" fill="#1f2937" text-anchor="end" font-weight="bold">High</text>
+  <rect x="135" y="265" width="182" height="86" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="148" y="290" font-size="12" fill="#b45309" font-weight="bold">One approver</text>
+  <text x="148" y="312" font-size="11" fill="#1f2937">Pause one payout</text>
+  <rect x="323" y="265" width="182" height="86" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="336" y="290" font-size="12" fill="#b91c1c" font-weight="bold">Two approvers</text>
+  <text x="336" y="312" font-size="11" fill="#1f2937">Reschedule a payout batch</text>
+  <rect x="511" y="265" width="182" height="86" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="524" y="290" font-size="12" fill="#b91c1c" font-weight="bold">Two approvers</text>
+  <text x="524" y="312" font-size="11" fill="#1f2937">Retry 40 failed payouts</text>
+  <rect x="24" y="364" width="672" height="44" rx="6" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="38" y="383" font-size="12" fill="#1f2937" font-weight="bold">Never available to Assist, at any confidence</text>
+  <text x="38" y="400" font-size="11" fill="#1f2937">Release a risk hold, change its own permissions, edit the audit trail, decide a dispute.</text>
+  <text x="24" y="430" font-size="11" fill="#6b7280">Release 2 answers merchants directly only with cited facts from records. Anything else is 'no supported</text>
+  <text x="24" y="445" font-size="11" fill="#6b7280">answer' and a handoff to a person.</text>
+</svg>

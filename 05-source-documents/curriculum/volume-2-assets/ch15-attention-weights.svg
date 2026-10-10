@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="385.549788pt" height="185.04pt" viewBox="0 0 385.549788 185.04" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 185.04 
+L 385.549788 185.04 
+L 385.549788 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 34.556719 149.537109 
+L 162.643828 149.537109 
+L 162.643828 21.45 
+L 34.556719 21.45 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pce332b7e15)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAALIAAACyCAYAAADmipVoAAACPUlEQVR4nO3dvUmEURRF0TfygT+x3QgmBhYmCBNMZDUGluRgJBMIY2oBitzNWhU8HpuT3t3x/eu84IeXw8ea5uK/HwC/QcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZOwnZ1U/3P7p+Oa5Plwu6axyCQImQQhkyBkEoRMgpBJEDIJQiZByCQImQQhkyBkEoRMgpBJEDIJQiZByCQImQQhkyBkEoRMgpBJEDIJQiZByCQImQQhkyBkEoRMgpBJEDIJQiZByCQImQQhkyBkEoRMgpBJEDIJQiZByCQImQQhk7BdXu3WJG+vn2uau/vrNcnpNO9AuUUmQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZOwTTtS/vB4s6aZ9scTWWQShEyCkEkQMglCJkHIJAiZBCGTIGQShEyCkEkQMglCJkHIJAiZBCGTIGQShEyCkEkQMglCJkHIJAiZBCGTIGQShEyCkEkQMglCJkHIJAiZBCGTIGQShEyCkEkQMglCJkHIJAiZBCGTIGQShEyCkFkF378uF8gAmST8AAAAAElFTkSuQmCC" id="image8a4873f456" transform="scale(1 -1) translate(0 -128.16)" x="34.56" y="-21.6" width="128.16" height="128.16"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #6b7280" x="50.567607" y="161.287109" transform="rotate(-0 50.567607 161.287109)">t1</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #6b7280" x="82.589385" y="161.287109" transform="rotate(-0 82.589385 161.287109)">t2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #6b7280" x="114.611162" y="161.287109" transform="rotate(-0 114.611162 161.287109)">t3</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #6b7280" x="146.632939" y="161.287109" transform="rotate(-0 146.632939 161.287109)">t4</text>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="98.600273" y="175.40625" transform="rotate(-0 98.600273 175.40625)">token being read</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="31.056719" y="41.585889" transform="rotate(-0 31.056719 41.585889)">t1</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6"/>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="31.056719" y="73.607666" transform="rotate(-0 31.056719 73.607666)">t2</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7"/>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="31.056719" y="105.629443" transform="rotate(-0 31.056719 105.629443)">t3</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8"/>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="31.056719" y="137.651221" transform="rotate(-0 31.056719 137.651221)">t4</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="15.45" y="85.493555" transform="rotate(-90 15.45 85.493555)">token asking</text>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="50.567607" y="40.361279" transform="rotate(-0 50.567607 40.361279)">0.44</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="82.589385" y="40.361279" transform="rotate(-0 82.589385 40.361279)">0.06</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="114.611162" y="40.361279" transform="rotate(-0 114.611162 40.361279)">0.44</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="146.632939" y="40.361279" transform="rotate(-0 146.632939 40.361279)">0.06</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="50.567607" y="72.383057" transform="rotate(-0 50.567607 72.383057)">0.06</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="82.589385" y="72.383057" transform="rotate(-0 82.589385 72.383057)">0.44</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="114.611162" y="72.383057" transform="rotate(-0 114.611162 72.383057)">0.44</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="146.632939" y="72.383057" transform="rotate(-0 146.632939 72.383057)">0.06</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="50.567607" y="104.404834" transform="rotate(-0 50.567607 104.404834)">0.10</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="82.589385" y="104.404834" transform="rotate(-0 82.589385 104.404834)">0.10</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="114.611162" y="104.404834" transform="rotate(-0 114.611162 104.404834)">0.78</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="146.632939" y="104.404834" transform="rotate(-0 146.632939 104.404834)">0.01</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="50.567607" y="136.426611" transform="rotate(-0 50.567607 136.426611)">0.10</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="82.589385" y="136.426611" transform="rotate(-0 82.589385 136.426611)">0.10</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="114.611162" y="136.426611" transform="rotate(-0 114.611162 136.426611)">0.10</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="146.632939" y="136.426611" transform="rotate(-0 146.632939 136.426611)">0.71</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="98.600273" y="15.45" transform="rotate(-0 98.600273 15.45)">Every token reads every token</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 236.651389 149.537109 
+L 364.738499 149.537109 
+L 364.738499 21.45 
+L 236.651389 21.45 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pe072061d2c)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAALIAAACyCAYAAADmipVoAAACPklEQVR4nO3dsUlDURiG4RPJCkFwIFt3sUtrJYhNbC0dwNaBUiZkALmxdQDhel6eZ4KvePnbf3M+fV8H/PL2ehmzuVl7APwFIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETMJ2Wdae0Pf8dB4zeTnsxmxcZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSRAyCUImQcgkCJkEIZMgZBKETIKQSdguy3XMZP94GrN5/7hde0Kei0yCkEkQMglCJkHIJAiZBCGTIGQShEyCkEkQMglCJkHIJAiZBCGTIGQShEyCkEkQMglCJkHIJAiZBCGTIGQShEyCkEkQMglCJkHIJAiZBCGTIGQShEyCkEkQMglCJkHIJAiZBCGTIGQShEyCkEkQMglCJmHzcH+c6qv659fd2hP4h1xkEoRMgpBJEDIJQiZByCQImQQhkyBkEoRMgpBJEDIJQiZByCQImQQhkyBkEoRMgpBJEDIJQiZByCQImQQhkyBkEoRMgpBJEDIJQiZByCQImQQhkyBkEoRMgpBJEDIJQiZByCQImQQhkyBkEoRMgpAZBT9OtxaZLEVKMQAAAABJRU5ErkJggg==" id="image17168a2252" transform="scale(1 -1) translate(0 -128.16)" x="236.88" y="-21.6" width="128.16" height="128.16"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_5">
+     <g id="line2d_9"/>
+     <g id="text_28">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #6b7280" x="252.662278" y="161.287109" transform="rotate(-0 252.662278 161.287109)">t1</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_10"/>
+     <g id="text_29">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #6b7280" x="284.684055" y="161.287109" transform="rotate(-0 284.684055 161.287109)">t2</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_11"/>
+     <g id="text_30">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #6b7280" x="316.705833" y="161.287109" transform="rotate(-0 316.705833 161.287109)">t3</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_12"/>
+     <g id="text_31">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #6b7280" x="348.72761" y="161.287109" transform="rotate(-0 348.72761 161.287109)">t4</text>
+     </g>
+    </g>
+    <g id="text_32">
+     <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="300.694944" y="175.40625" transform="rotate(-0 300.694944 175.40625)">token being read</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_5">
+     <g id="line2d_13"/>
+     <g id="text_33">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="233.151389" y="41.585889" transform="rotate(-0 233.151389 41.585889)">t1</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14"/>
+     <g id="text_34">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="233.151389" y="73.607666" transform="rotate(-0 233.151389 73.607666)">t2</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_15"/>
+     <g id="text_35">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="233.151389" y="105.629443" transform="rotate(-0 233.151389 105.629443)">t3</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_16"/>
+     <g id="text_36">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="233.151389" y="137.651221" transform="rotate(-0 233.151389 137.651221)">t4</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="252.662278" y="40.361279" transform="rotate(-0 252.662278 40.361279)">1.00</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="284.684055" y="40.361279" transform="rotate(-0 284.684055 40.361279)">0.00</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="316.705833" y="40.361279" transform="rotate(-0 316.705833 40.361279)">0.00</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="348.72761" y="40.361279" transform="rotate(-0 348.72761 40.361279)">0.00</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="252.662278" y="72.383057" transform="rotate(-0 252.662278 72.383057)">0.12</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="284.684055" y="72.383057" transform="rotate(-0 284.684055 72.383057)">0.88</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="316.705833" y="72.383057" transform="rotate(-0 316.705833 72.383057)">0.00</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="348.72761" y="72.383057" transform="rotate(-0 348.72761 72.383057)">0.00</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="252.662278" y="104.404834" transform="rotate(-0 252.662278 104.404834)">0.11</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="284.684055" y="104.404834" transform="rotate(-0 284.684055 104.404834)">0.11</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="316.705833" y="104.404834" transform="rotate(-0 316.705833 104.404834)">0.79</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="348.72761" y="104.404834" transform="rotate(-0 348.72761 104.404834)">0.00</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="252.662278" y="136.426611" transform="rotate(-0 252.662278 136.426611)">0.10</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="284.684055" y="136.426611" transform="rotate(-0 284.684055 136.426611)">0.10</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="316.705833" y="136.426611" transform="rotate(-0 316.705833 136.426611)">0.10</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="348.72761" y="136.426611" transform="rotate(-0 348.72761 136.426611)">0.71</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="300.694944" y="15.45" transform="rotate(-0 300.694944 15.45)">Causal mask: no reading ahead</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pce332b7e15">
+   <rect x="34.556719" y="21.45" width="128.087109" height="128.087109"/>
+  </clipPath>
+  <clipPath id="pe072061d2c">
+   <rect x="236.651389" y="21.45" width="128.087109" height="128.087109"/>
+  </clipPath>
+ </defs>
+</svg>

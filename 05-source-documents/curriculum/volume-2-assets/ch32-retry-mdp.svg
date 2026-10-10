@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="318" viewBox="0 0 720 318" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>The retry problem as a Markov decision process</title>
+  <rect x="0" y="0" width="720" height="318" rx="6" fill="#ffffff"/>
+  <rect x="40" y="30" width="160" height="54" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="120.0" y="53" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">net-1</text>
+  <text x="120.0" y="72" font-size="11" fill="#6b7280" text-anchor="middle">network error, attempt 1</text>
+  <rect x="290" y="30" width="160" height="54" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="370.0" y="53" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">net-2</text>
+  <text x="370.0" y="72" font-size="11" fill="#6b7280" text-anchor="middle">network error, attempt 2</text>
+  <rect x="40" y="196" width="160" height="54" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="120.0" y="219" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">funds-1</text>
+  <text x="120.0" y="238" font-size="11" fill="#6b7280" text-anchor="middle">short of funds, attempt 1</text>
+  <rect x="290" y="196" width="160" height="54" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="370.0" y="219" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">funds-2</text>
+  <text x="370.0" y="238" font-size="11" fill="#6b7280" text-anchor="middle">short of funds, attempt 2</text>
+  <rect x="40" y="120" width="410" height="40" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="245" y="145" font-size="13" fill="#15803d" text-anchor="middle" font-weight="bold">paid: the episode ends with USD 10</text>
+  <rect x="540" y="30" width="150" height="220" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="615" y="132" font-size="14" fill="#b91c1c" text-anchor="middle" font-weight="bold">lost</text>
+  <text x="615" y="152" font-size="11" fill="#b91c1c" text-anchor="middle">the episode ends</text>
+  <text x="615" y="167" font-size="11" fill="#b91c1c" text-anchor="middle">with nothing</text>
+  <line x1="202" y1="57" x2="287" y2="57" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="287.0,57.0 280.1,61.1 280.1,52.9" fill="#1f2937"/>
+  <text x="245" y="49" font-size="11" fill="#6b7280" text-anchor="middle">fails</text>
+  <line x1="452" y1="57" x2="537" y2="57" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="537.0,57.0 530.1,61.1 530.1,52.9" fill="#1f2937"/>
+  <text x="495" y="49" font-size="11" fill="#6b7280" text-anchor="middle">fails</text>
+  <line x1="202" y1="223" x2="287" y2="223" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="287.0,223.0 280.1,227.1 280.1,218.9" fill="#1f2937"/>
+  <text x="245" y="215" font-size="11" fill="#6b7280" text-anchor="middle">fails</text>
+  <line x1="452" y1="223" x2="537" y2="223" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="537.0,223.0 530.1,227.1 530.1,218.9" fill="#1f2937"/>
+  <text x="495" y="215" font-size="11" fill="#6b7280" text-anchor="middle">fails</text>
+  <line x1="120" y1="86" x2="120" y2="118" stroke="#15803d" stroke-width="1.5"/>
+  <polygon points="120.0,118.0 115.9,111.1 124.1,111.1" fill="#15803d"/>
+  <text x="130" y="106" font-size="11" fill="#15803d">works</text>
+  <line x1="120" y1="194" x2="120" y2="162" stroke="#15803d" stroke-width="1.5"/>
+  <polygon points="120.0,162.0 124.1,168.9 115.9,168.9" fill="#15803d"/>
+  <text x="130" y="182" font-size="11" fill="#15803d">works</text>
+  <line x1="370" y1="86" x2="370" y2="118" stroke="#15803d" stroke-width="1.5"/>
+  <polygon points="370.0,118.0 365.9,111.1 374.1,111.1" fill="#15803d"/>
+  <text x="380" y="106" font-size="11" fill="#15803d">works</text>
+  <line x1="370" y1="194" x2="370" y2="162" stroke="#15803d" stroke-width="1.5"/>
+  <polygon points="370.0,162.0 374.1,168.9 365.9,168.9" fill="#15803d"/>
+  <text x="380" y="182" font-size="11" fill="#15803d">works</text>
+  <text x="40" y="284" font-size="12" fill="#1f2937">The action sets the odds. In a net state, route works 90% of the time and now 40%.</text>
+  <text x="40" y="302" font-size="12" fill="#6b7280">Every action also has a cost, and stop goes straight to lost.</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="196" viewBox="0 0 720 196" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>One pre-norm transformer block</title>
+  <rect x="0" y="0" width="720" height="196" rx="6" fill="#ffffff"/>
+  <rect x="20" y="96" width="92" height="52" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="66.0" y="118" font-size="12" fill="#1f2937" text-anchor="middle">Tokens +</text>
+  <text x="66.0" y="134" font-size="12" fill="#1f2937" text-anchor="middle">positions</text>
+  <rect x="146" y="96" width="74" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="183.0" y="118" font-size="12" fill="#1f2937" text-anchor="middle">Layer</text>
+  <text x="183.0" y="134" font-size="12" fill="#1f2937" text-anchor="middle">norm</text>
+  <rect x="240" y="96" width="126" height="52" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="303.0" y="118" font-size="12" fill="#1f2937" text-anchor="middle">Multi-head</text>
+  <text x="303.0" y="134" font-size="12" fill="#1f2937" text-anchor="middle">self-attention</text>
+  <circle cx="398" cy="122" r="13" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="398" y="127" font-size="15" fill="#4f46e5" text-anchor="middle" font-weight="bold">+</text>
+  <rect x="438" y="96" width="74" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="475.0" y="118" font-size="12" fill="#1f2937" text-anchor="middle">Layer</text>
+  <text x="475.0" y="134" font-size="12" fill="#1f2937" text-anchor="middle">norm</text>
+  <rect x="532" y="96" width="110" height="52" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="587.0" y="118" font-size="12" fill="#1f2937" text-anchor="middle">Feed-forward</text>
+  <text x="587.0" y="134" font-size="12" fill="#1f2937" text-anchor="middle">network</text>
+  <circle cx="672" cy="122" r="13" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="672" y="127" font-size="15" fill="#4f46e5" text-anchor="middle" font-weight="bold">+</text>
+  <line x1="112" y1="122" x2="144" y2="122" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="144.0,122.0 137.1,126.1 137.1,117.9" fill="#1f2937"/>
+  <line x1="220" y1="122" x2="238" y2="122" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="238.0,122.0 231.1,126.1 231.1,117.9" fill="#1f2937"/>
+  <line x1="366" y1="122" x2="383" y2="122" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="383.0,122.0 376.1,126.1 376.1,117.9" fill="#1f2937"/>
+  <line x1="411" y1="122" x2="436" y2="122" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="436.0,122.0 429.1,126.1 429.1,117.9" fill="#1f2937"/>
+  <line x1="512" y1="122" x2="530" y2="122" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="530.0,122.0 523.1,126.1 523.1,117.9" fill="#1f2937"/>
+  <line x1="642" y1="122" x2="657" y2="122" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="657.0,122.0 650.1,126.1 650.1,117.9" fill="#1f2937"/>
+  <line x1="685" y1="122" x2="712" y2="122" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="712.0,122.0 705.1,126.1 705.1,117.9" fill="#1f2937"/>
+  <line x1="129" y1="122" x2="129" y2="56" stroke="#4f46e5" stroke-width="1.5"/>
+  <line x1="129" y1="56" x2="398" y2="56" stroke="#4f46e5" stroke-width="1.5"/>
+  <line x1="398" y1="56" x2="398" y2="107" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="398.0,107.0 393.9,100.1 402.1,100.1" fill="#4f46e5"/>
+  <line x1="424" y1="122" x2="424" y2="56" stroke="#4f46e5" stroke-width="1.5"/>
+  <line x1="424" y1="56" x2="672" y2="56" stroke="#4f46e5" stroke-width="1.5"/>
+  <line x1="672" y1="56" x2="672" y2="107" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="672.0,107.0 667.9,100.1 676.1,100.1" fill="#4f46e5"/>
+  <text x="264" y="46" font-size="12" fill="#4f46e5" text-anchor="middle">residual connection: add the input back</text>
+  <text x="548" y="46" font-size="12" fill="#4f46e5" text-anchor="middle">residual connection</text>
+  <text x="20" y="24" font-size="13" fill="#1f2937" font-weight="bold">One transformer block (normalization before each sub-layer)</text>
+  <text x="20" y="178" font-size="12" fill="#6b7280">A model stacks dozens of these. Every token passes through the same block.</text>
+</svg>

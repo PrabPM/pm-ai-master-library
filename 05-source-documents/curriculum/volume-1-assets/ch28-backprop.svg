@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Forward and backward pass through a tiny network</title>
+  <rect x="0" y="0" width="720" height="330" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Forward pass: compute values left to right</text>
+  <rect x="16" y="44" width="98" height="72" rx="6" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="65" y="64" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">x</text>
+  <text x="65" y="82" font-size="11" fill="#6b7280" text-anchor="middle">input</text>
+  <text x="65" y="104" font-size="13" fill="#1f2937" text-anchor="middle">(1, 2)</text>
+  <rect x="134" y="44" width="98" height="72" rx="6" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="183" y="64" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">z1</text>
+  <text x="183" y="82" font-size="11" fill="#6b7280" text-anchor="middle">W1 x + b1</text>
+  <text x="183" y="104" font-size="13" fill="#1f2937" text-anchor="middle">(2, −0.5)</text>
+  <rect x="252" y="44" width="98" height="72" rx="6" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="301" y="64" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">a</text>
+  <text x="301" y="82" font-size="11" fill="#6b7280" text-anchor="middle">ReLU(z1)</text>
+  <text x="301" y="104" font-size="13" fill="#1f2937" text-anchor="middle">(2, 0)</text>
+  <rect x="370" y="44" width="98" height="72" rx="6" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="419" y="64" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">z2</text>
+  <text x="419" y="82" font-size="11" fill="#6b7280" text-anchor="middle">w2 · a + b2</text>
+  <text x="419" y="104" font-size="13" fill="#1f2937" text-anchor="middle">0</text>
+  <rect x="488" y="44" width="98" height="72" rx="6" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="537" y="64" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">p</text>
+  <text x="537" y="82" font-size="11" fill="#6b7280" text-anchor="middle">sigmoid(z2)</text>
+  <text x="537" y="104" font-size="13" fill="#1f2937" text-anchor="middle">0.5</text>
+  <rect x="606" y="44" width="98" height="72" rx="6" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="655" y="64" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">L</text>
+  <text x="655" y="82" font-size="11" fill="#6b7280" text-anchor="middle">−log p</text>
+  <text x="655" y="104" font-size="13" fill="#1f2937" text-anchor="middle">0.693</text>
+  <line x1="115" y1="80" x2="132" y2="80" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="132.0,80.0 125.1,84.1 125.1,75.9" fill="#1f2937"/>
+  <line x1="233" y1="80" x2="250" y2="80" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="250.0,80.0 243.1,84.1 243.1,75.9" fill="#1f2937"/>
+  <line x1="351" y1="80" x2="368" y2="80" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="368.0,80.0 361.1,84.1 361.1,75.9" fill="#1f2937"/>
+  <line x1="469" y1="80" x2="486" y2="80" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="486.0,80.0 479.1,84.1 479.1,75.9" fill="#1f2937"/>
+  <line x1="587" y1="80" x2="604" y2="80" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="604.0,80.0 597.1,84.1 597.1,75.9" fill="#1f2937"/>
+  <text x="24" y="150" font-size="14" fill="#1f2937" font-weight="bold">Backward pass: multiply local slopes right to left</text>
+  <rect x="134" y="166" width="98" height="72" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="183" y="186" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">dL/dz1</text>
+  <text x="183" y="204" font-size="11" fill="#6b7280" text-anchor="middle">× slope (1, 0)</text>
+  <text x="183" y="226" font-size="13" fill="#1f2937" text-anchor="middle">(−0.25, 0)</text>
+  <rect x="252" y="166" width="98" height="72" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="301" y="186" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">dL/da</text>
+  <text x="301" y="204" font-size="11" fill="#6b7280" text-anchor="middle">× w2 = (0.5, −1)</text>
+  <text x="301" y="226" font-size="13" fill="#1f2937" text-anchor="middle">(−0.25, 0.5)</text>
+  <rect x="370" y="166" width="98" height="72" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="419" y="186" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">dL/dz2</text>
+  <text x="419" y="204" font-size="11" fill="#6b7280" text-anchor="middle">× p(1−p) = 0.25</text>
+  <text x="419" y="226" font-size="13" fill="#1f2937" text-anchor="middle">−0.5</text>
+  <rect x="488" y="166" width="98" height="72" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="537" y="186" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">dL/dp</text>
+  <text x="537" y="204" font-size="11" fill="#6b7280" text-anchor="middle">× (−1 / p)</text>
+  <text x="537" y="226" font-size="13" fill="#1f2937" text-anchor="middle">−2</text>
+  <rect x="606" y="166" width="98" height="72" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="655" y="186" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">dL/dL</text>
+  <text x="655" y="204" font-size="11" fill="#6b7280" text-anchor="middle">start</text>
+  <text x="655" y="226" font-size="13" fill="#1f2937" text-anchor="middle">1</text>
+  <line x1="250" y1="202" x2="234" y2="202" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="234.0,202.0 240.9,197.9 240.9,206.1" fill="#4f46e5"/>
+  <line x1="368" y1="202" x2="352" y2="202" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="352.0,202.0 358.9,197.9 358.9,206.1" fill="#4f46e5"/>
+  <line x1="486" y1="202" x2="470" y2="202" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="470.0,202.0 476.9,197.9 476.9,206.1" fill="#4f46e5"/>
+  <line x1="604" y1="202" x2="588" y2="202" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="588.0,202.0 594.9,197.9 594.9,206.1" fill="#4f46e5"/>
+  <!-- parameter gradients -->
+  <rect x="16" y="258" width="688" height="56" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="30" y="280" font-size="12" fill="#1f2937" font-weight="bold">Gradients for the weights use the value that fed each layer:</text>
+  <text x="30" y="300" font-size="12" fill="#1f2937">dL/dw2 = dL/dz2 × a = (−1, 0)</text>
+  <text x="236" y="300" font-size="12" fill="#1f2937">dL/dW1 = dL/dz1 × x = [[−0.25, −0.5], [0, 0]]</text>
+  <text x="690" y="300" font-size="12" fill="#1f2937" text-anchor="end">dL/db = dL/dz</text>
+</svg>

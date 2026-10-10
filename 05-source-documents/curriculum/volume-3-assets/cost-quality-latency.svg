@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Cost, quality and latency for three Assist setups</title>
+  <rect x="0" y="0" width="720" height="400" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Pick a point, not a corner: three ways to run Assist</text>
+  <path d="M190 62 L40 322 L340 322 Z" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="190" y="52" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Highest quality</text>
+  <text x="26" y="342" font-size="12" fill="#1f2937" font-weight="bold">Lowest model bill</text>
+  <text x="354" y="342" font-size="12" fill="#1f2937" text-anchor="end" font-weight="bold">Fastest</text>
+  <circle cx="190.0" cy="143.6" r="13" fill="#4f46e5"/>
+  <text x="190.0" y="148.6" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">L</text>
+  <circle cx="158.7" cy="291.0" r="13" fill="#b45309"/>
+  <text x="158.7" y="296.0" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">S</text>
+  <circle cx="166.4" cy="200.4" r="13" fill="#15803d"/>
+  <text x="166.4" y="205.4" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">C</text>
+  <text x="372" y="66" font-size="11" fill="#6b7280" font-weight="bold">SETUP</text>
+  <text x="550" y="66" font-size="11" fill="#6b7280" text-anchor="end" font-weight="bold">RIGHT</text>
+  <text x="600" y="66" font-size="11" fill="#6b7280" text-anchor="end" font-weight="bold">BILL</text>
+  <text x="654" y="66" font-size="11" fill="#6b7280" text-anchor="end" font-weight="bold">TRUE*</text>
+  <text x="696" y="66" font-size="11" fill="#6b7280" text-anchor="end" font-weight="bold">WAIT</text>
+  <circle cx="382" cy="92" r="10" fill="#4f46e5"/>
+  <text x="382" y="96" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">L</text>
+  <text x="400" y="96" font-size="12" fill="#1f2937">Large model only</text>
+  <text x="550" y="96" font-size="12" fill="#1f2937" text-anchor="end">92.0%</text>
+  <text x="600" y="96" font-size="12" fill="#1f2937" text-anchor="end">$0.024</text>
+  <text x="654" y="96" font-size="12" fill="#1f2937" text-anchor="end" font-weight="bold">$0.192</text>
+  <text x="696" y="96" font-size="12" fill="#1f2937" text-anchor="end">6.1 s</text>
+  <circle cx="382" cy="126" r="10" fill="#b45309"/>
+  <text x="382" y="130" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">S</text>
+  <text x="400" y="130" font-size="12" fill="#1f2937">Small model only</text>
+  <text x="550" y="130" font-size="12" fill="#1f2937" text-anchor="end">81.0%</text>
+  <text x="600" y="130" font-size="12" fill="#1f2937" text-anchor="end">$0.004</text>
+  <text x="654" y="130" font-size="12" fill="#1f2937" text-anchor="end" font-weight="bold">$0.403</text>
+  <text x="696" y="130" font-size="12" fill="#1f2937" text-anchor="end">3.6 s</text>
+  <circle cx="382" cy="160" r="10" fill="#15803d"/>
+  <text x="382" y="164" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">C</text>
+  <text x="400" y="164" font-size="12" fill="#1f2937">Cascade</text>
+  <text x="550" y="164" font-size="12" fill="#1f2937" text-anchor="end">92.2%</text>
+  <text x="600" y="164" font-size="12" fill="#1f2937" text-anchor="end">$0.010</text>
+  <text x="654" y="164" font-size="12" fill="#1f2937" text-anchor="end" font-weight="bold">$0.174</text>
+  <text x="696" y="164" font-size="12" fill="#1f2937" text-anchor="end">4.9 s</text>
+  <text x="372" y="200" font-size="11" fill="#6b7280">* True cost per answer: the model bill plus $2.10</text>
+  <text x="372" y="215" font-size="11" fill="#6b7280">of agent time for every wrong answer.</text>
+  <rect x="372" y="236" width="324" height="96" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="386" y="258" font-size="12" fill="#15803d" font-weight="bold">Assist's operating point: C</text>
+  <text x="386" y="276" font-size="11" fill="#1f2937">The cascade wins only because its check catches 9 in 10</text>
+  <text x="386" y="291" font-size="11" fill="#1f2937">of the small model's wrong answers. At 7 in 10 it loses to</text>
+  <text x="386" y="306" font-size="11" fill="#1f2937">the large model.</text>
+  <text x="24" y="378" font-size="12" fill="#6b7280">Closer to a corner means better on that measure. The cheapest bill (S) has the highest true cost.</text>
+</svg>

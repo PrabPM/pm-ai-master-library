@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="446" viewBox="0 0 720 446" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>The path of a consent choice, and of its withdrawal</title>
+  <rect x="0" y="0" width="720" height="446" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">One consent choice, and everywhere it has to travel</text>
+  <text x="24" y="54" font-size="13" fill="#1f2937" font-weight="bold">Granting</text>
+  <rect x="24" y="64" width="156" height="58" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="102" y="88" font-size="11" fill="#1f2937" text-anchor="middle">She sets her choices in</text>
+  <text x="102" y="103" font-size="11" fill="#1f2937" text-anchor="middle">the preference center</text>
+  <line x1="182" y1="93" x2="194" y2="93" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="194.0,93.0 187.1,97.1 187.1,88.9" fill="#1f2937"/>
+  <rect x="196" y="64" width="156" height="58" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="274" y="88" font-size="11" fill="#1f2937" text-anchor="middle">The consent service</text>
+  <text x="274" y="103" font-size="11" fill="#1f2937" text-anchor="middle">stores a versioned record</text>
+  <line x1="354" y1="93" x2="366" y2="93" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="366.0,93.0 359.1,97.1 359.1,88.9" fill="#1f2937"/>
+  <rect x="368" y="64" width="156" height="58" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="446" y="88" font-size="11" fill="#1f2937" text-anchor="middle">The signal rides on each</text>
+  <text x="446" y="103" font-size="11" fill="#1f2937" text-anchor="middle">request (a GPP string)</text>
+  <line x1="526" y1="93" x2="538" y2="93" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="538.0,93.0 531.1,97.1 531.1,88.9" fill="#1f2937"/>
+  <rect x="540" y="64" width="156" height="58" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="618" y="88" font-size="11" fill="#1f2937" text-anchor="middle">Each system checks it</text>
+  <text x="618" y="103" font-size="11" fill="#1f2937" text-anchor="middle">before it acts</text>
+  <rect x="24" y="136" width="672" height="58" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="158" font-size="11" fill="#1f2937" font-weight="bold">The stored record:</text>
+  <text x="140" y="158" font-size="11" fill="#1f2937">subject member 48213, purposes education yes / advertising yes / research no,</text>
+  <text x="36" y="178" font-size="11" fill="#1f2937">jurisdiction US-TX, policy version us-hcp-2026-04, time 2026-09-02 14:10 UTC, source preference center</text>
+  <text x="24" y="222" font-size="13" fill="#1f2937" font-weight="bold">Withdrawing advertising consent</text>
+  <rect x="24" y="234" width="164" height="50" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="106" y="255" font-size="11" fill="#1f2937" text-anchor="middle">She switches advertising off</text>
+  <line x1="106" y1="286" x2="106" y2="300" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="106.0,300.0 101.9,293.1 110.1,293.1" fill="#1f2937"/>
+  <rect x="24" y="302" width="164" height="66" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="106" y="322" font-size="11" fill="#1f2937" text-anchor="middle">Revocation event: subject,</text>
+  <text x="106" y="337" font-size="11" fill="#1f2937" text-anchor="middle">purposes, effective time,</text>
+  <text x="106" y="352" font-size="11" fill="#1f2937" text-anchor="middle">policy version</text>
+  <line x1="190" y1="300" x2="208" y2="300" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="208.0,300.0 201.1,304.1 201.1,295.9" fill="#1f2937"/>
+  <rect x="212" y="234" width="114" height="60" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="222" y="256" font-size="11" fill="#1f2937" font-weight="bold">Collection</text>
+  <text x="222" y="276" font-size="11" fill="#15803d">stopped, 1 min</text>
+  <rect x="334" y="234" width="114" height="60" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="344" y="256" font-size="11" fill="#1f2937" font-weight="bold">Profile traits</text>
+  <text x="344" y="276" font-size="11" fill="#15803d">removed, 5 min</text>
+  <rect x="456" y="234" width="114" height="60" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="466" y="256" font-size="11" fill="#1f2937" font-weight="bold">Active segments</text>
+  <text x="466" y="276" font-size="11" fill="#15803d">removed, 15 min</text>
+  <rect x="578" y="234" width="114" height="60" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="588" y="256" font-size="11" fill="#1f2937" font-weight="bold">Cached lists</text>
+  <text x="588" y="276" font-size="11" fill="#15803d">purged, 1 hour</text>
+  <rect x="212" y="304" width="114" height="60" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="222" y="326" font-size="11" fill="#1f2937" font-weight="bold">Exports</text>
+  <text x="222" y="346" font-size="11" fill="#15803d">blocked, 5 min</text>
+  <rect x="334" y="304" width="114" height="60" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="344" y="326" font-size="11" fill="#1f2937" font-weight="bold">Partner files</text>
+  <text x="344" y="346" font-size="11" fill="#b91c1c">daily: pending</text>
+  <rect x="456" y="304" width="114" height="60" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="466" y="326" font-size="11" fill="#1f2937" font-weight="bold">Model training</text>
+  <text x="466" y="346" font-size="11" fill="#15803d">excluded next run</text>
+  <rect x="578" y="304" width="114" height="60" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="588" y="326" font-size="11" fill="#1f2937" font-weight="bold">Measurement</text>
+  <text x="588" y="346" font-size="11" fill="#15803d">future events only</text>
+  <text x="24" y="398" font-size="12" fill="#6b7280">Each destination must acknowledge. Until the red one does, the preference center is showing a promise</text>
+  <text x="24" y="416" font-size="12" fill="#6b7280">the platform has not yet kept.</text>
+</svg>

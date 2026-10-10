@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>A routing graph with three different best paths</title>
+  <rect x="0" y="0" width="720" height="330" rx="6" fill="#ffffff"/>
+  <line x1="90.2" y1="137.0" x2="189.0" y2="73.5" stroke="#b45309" stroke-width="1.5"/>
+  <polygon points="189.0,73.5 185.5,80.7 181.0,73.7" fill="#b45309"/>
+  <text x="126.0" y="99.0" font-size="13" fill="#b45309" text-anchor="middle" font-weight="bold">1</text>
+  <line x1="94.0" y1="150.0" x2="185.0" y2="150.0" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="185.0,150.0 178.1,154.1 178.1,145.9" fill="#4f46e5"/>
+  <text x="140.0" y="142.0" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">8</text>
+  <line x1="90.2" y1="163.0" x2="189.0" y2="226.5" stroke="#15803d" stroke-width="1.5"/>
+  <polygon points="189.0,226.5 181.0,226.3 185.5,219.3" fill="#15803d"/>
+  <text x="126.0" y="211.0" font-size="13" fill="#15803d" text-anchor="middle" font-weight="bold">2</text>
+  <line x1="234.0" y1="60.0" x2="325.0" y2="60.0" stroke="#b45309" stroke-width="1.5"/>
+  <polygon points="325.0,60.0 318.1,64.1 318.1,55.9" fill="#b45309"/>
+  <text x="280.0" y="52.0" font-size="13" fill="#b45309" text-anchor="middle" font-weight="bold">1</text>
+  <line x1="230.2" y1="163.0" x2="329.0" y2="226.5" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="329.0,226.5 321.0,226.3 325.5,219.3" fill="#6b7280"/>
+  <text x="296.0" y="193.0" font-size="13" fill="#6b7280" text-anchor="middle" font-weight="bold">5</text>
+  <line x1="234.0" y1="150.0" x2="615.0" y2="150.0" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="615.0,150.0 608.1,154.1 608.1,145.9" fill="#4f46e5"/>
+  <text x="425.0" y="142.0" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">9</text>
+  <line x1="234.0" y1="240.0" x2="325.0" y2="240.0" stroke="#15803d" stroke-width="1.5"/>
+  <polygon points="325.0,240.0 318.1,244.1 318.1,235.9" fill="#15803d"/>
+  <text x="280.0" y="232.0" font-size="13" fill="#15803d" text-anchor="middle" font-weight="bold">3</text>
+  <line x1="374.0" y1="60.0" x2="465.0" y2="60.0" stroke="#b45309" stroke-width="1.5"/>
+  <polygon points="465.0,60.0 458.1,64.1 458.1,55.9" fill="#b45309"/>
+  <text x="420.0" y="52.0" font-size="13" fill="#b45309" text-anchor="middle" font-weight="bold">1</text>
+  <line x1="372.9" y1="232.9" x2="616.1" y2="157.4" stroke="#15803d" stroke-width="1.5"/>
+  <polygon points="616.1,157.4 610.8,163.4 608.3,155.5" fill="#15803d"/>
+  <text x="509.0" y="209.0" font-size="13" fill="#15803d" text-anchor="middle" font-weight="bold">4</text>
+  <line x1="510.6" y1="72.3" x2="618.6" y2="137.1" stroke="#b45309" stroke-width="1.5"/>
+  <polygon points="618.6,137.1 610.6,137.1 614.8,130.0" fill="#b45309"/>
+  <text x="581.0" y="99.0" font-size="13" fill="#b45309" text-anchor="middle" font-weight="bold">12</text>
+  <circle cx="70" cy="150" r="22" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="70" y="155" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">P</text>
+  <circle cx="210" cy="60" r="22" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="210" y="65" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">A</text>
+  <circle cx="210" cy="150" r="22" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="210" y="155" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">B</text>
+  <circle cx="210" cy="240" r="22" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="210" y="245" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">C</text>
+  <circle cx="350" cy="60" r="22" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="350" y="65" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">D</text>
+  <circle cx="350" cy="240" r="22" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="350" y="245" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">E</text>
+  <circle cx="490" cy="60" r="22" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="490" y="65" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">F</text>
+  <circle cx="640" cy="150" r="22" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="640" y="155" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">M</text>
+  <text x="70" y="196" font-size="11" fill="#6b7280" text-anchor="middle">PayFlow's</text>
+  <text x="70" y="210" font-size="11" fill="#6b7280" text-anchor="middle">bank</text>
+  <text x="640" y="196" font-size="11" fill="#6b7280" text-anchor="middle">merchant's</text>
+  <text x="640" y="210" font-size="11" fill="#6b7280" text-anchor="middle">bank</text>
+  <text x="40" y="292" font-size="12" fill="#4f46e5" font-weight="bold">Breadth-first: P-B-M, 2 hops, fee 17</text>
+  <text x="40" y="312" font-size="12" fill="#b45309" font-weight="bold">Depth-first: P-A-D-F-M, 4 hops, fee 15</text>
+  <text x="400" y="292" font-size="12" fill="#15803d" font-weight="bold">Uniform-cost: P-C-E-M, 3 hops, fee 9</text>
+  <text x="400" y="312" font-size="12" fill="#6b7280">Numbers on arrows are fees in USD</text>
+</svg>

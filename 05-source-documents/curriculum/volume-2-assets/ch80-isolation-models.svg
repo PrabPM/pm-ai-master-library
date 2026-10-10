@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="296" viewBox="0 0 720 296" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Three ways to keep tenants apart in a vector store</title>
+  <rect x="0" y="0" width="720" height="296" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Three ways to keep merchants apart in one vector store</text>
+  <rect x="24" y="44" width="216" height="236" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="38" y="70" font-size="13" fill="#1f2937" font-weight="bold">Shared index, filter</text>
+  <rect x="38" y="84" width="188" height="84" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="169.34671104575824" cy="92.01963030407109" r="4" fill="#b45309"/>
+  <circle cx="58.82519538474425" cy="132.68254209817263" r="4" fill="#4f46e5"/>
+  <circle cx="145.53589852986806" cy="106.52320021702049" r="4" fill="#b45309"/>
+  <circle cx="153.8141032096341" cy="145.44103098176012" r="4" fill="#4f46e5"/>
+  <circle cx="170.73247872809682" cy="101.6335237503593" r="4" fill="#b45309"/>
+  <circle cx="186.16574607251775" cy="112.03561410376815" r="4" fill="#4f46e5"/>
+  <circle cx="149.19213521468816" cy="111.34297066618957" r="4" fill="#b45309"/>
+  <circle cx="151.57216850962698" cy="111.83349925558781" r="4" fill="#4f46e5"/>
+  <circle cx="138.30821064859867" cy="131.8353166551015" r="4" fill="#b45309"/>
+  <circle cx="156.65656221683105" cy="143.4370387486435" r="4" fill="#4f46e5"/>
+  <circle cx="73.70016462475027" cy="115.40227488105702" r="4" fill="#b45309"/>
+  <circle cx="98.99861489448026" cy="96.41727628944753" r="4" fill="#4f46e5"/>
+  <circle cx="78.82430167822665" cy="125.20380366628508" r="4" fill="#b45309"/>
+  <circle cx="170.19175415776925" cy="127.83612372383843" r="4" fill="#4f46e5"/>
+  <text x="38" y="192" font-size="12" fill="#1f2937">Every row carries a tenant id. The</text>
+  <text x="38" y="208" font-size="12" fill="#1f2937">search must apply the filter before</text>
+  <text x="38" y="224" font-size="12" fill="#1f2937">ranking, on the server.</text>
+  <rect x="38" y="244" width="142" height="22" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="109.0" y="259" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">One missed filter leaks</text>
+  <rect x="252" y="44" width="216" height="236" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="266" y="70" font-size="13" fill="#1f2937" font-weight="bold">Partition per tenant</text>
+  <rect x="266" y="84" width="188" height="84" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <line x1="360.0" y1="84" x2="360.0" y2="168" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="317.85113891610325" cy="102.56637966612436" r="4" fill="#b45309"/>
+  <circle cx="428.43375518264133" cy="125.92634119506222" r="4" fill="#4f46e5"/>
+  <circle cx="309.62555033995983" cy="136.7471181809674" r="4" fill="#b45309"/>
+  <circle cx="398.15216931180987" cy="110.48920985570504" r="4" fill="#4f46e5"/>
+  <circle cx="341.70716343901483" cy="101.96475268513925" r="4" fill="#b45309"/>
+  <circle cx="424.65033139084994" cy="136.10778645812718" r="4" fill="#4f46e5"/>
+  <circle cx="297.7387331794618" cy="114.25670618419849" r="4" fill="#b45309"/>
+  <circle cx="438.72996871287074" cy="149.61945345491483" r="4" fill="#4f46e5"/>
+  <circle cx="321.3612842939437" cy="155.7502368649487" r="4" fill="#b45309"/>
+  <circle cx="432.53602413432964" cy="113.05124129790694" r="4" fill="#4f46e5"/>
+  <circle cx="317.2166783485494" cy="159.46993004617482" r="4" fill="#b45309"/>
+  <circle cx="399.24781224527953" cy="129.60353900056157" r="4" fill="#4f46e5"/>
+  <circle cx="291.7610446000384" cy="140.24990518245278" r="4" fill="#b45309"/>
+  <circle cx="422.11447459059633" cy="122.00121653977166" r="4" fill="#4f46e5"/>
+  <text x="266" y="192" font-size="12" fill="#1f2937">One index, split into namespaces.</text>
+  <text x="266" y="208" font-size="12" fill="#1f2937">A query names one namespace</text>
+  <text x="266" y="224" font-size="12" fill="#1f2937">and cannot see another.</text>
+  <rect x="266" y="244" width="104" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="318.0" y="259" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">A sound default</text>
+  <rect x="480" y="44" width="216" height="236" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="494" y="70" font-size="13" fill="#1f2937" font-weight="bold">Index per tenant</text>
+  <rect x="494.0" y="84" width="88.0" height="84" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="510.60493389488454" cy="140.0740429800643" r="4" fill="#b45309"/>
+  <circle cx="560.6862794777236" cy="140.2694037072999" r="4" fill="#b45309"/>
+  <circle cx="517.3205100410007" cy="91.90589696006666" r="4" fill="#b45309"/>
+  <circle cx="524.9784765834171" cy="158.28297297421065" r="4" fill="#b45309"/>
+  <circle cx="520.8330590025653" cy="136.7574029377968" r="4" fill="#b45309"/>
+  <circle cx="564.8277516939368" cy="106.96229587714208" r="4" fill="#b45309"/>
+  <circle cx="510.75972591230766" cy="129.12940955804115" r="4" fill="#b45309"/>
+  <rect x="594.0" y="84" width="88.0" height="84" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="661.993247074794" cy="145.4560826876703" r="4" fill="#4f46e5"/>
+  <circle cx="615.423032178093" cy="105.15850058900953" r="4" fill="#4f46e5"/>
+  <circle cx="661.2806129976904" cy="131.15780526357997" r="4" fill="#4f46e5"/>
+  <circle cx="657.3898554100128" cy="101.73616225036443" r="4" fill="#4f46e5"/>
+  <circle cx="622.6107692598431" cy="110.90821182534428" r="4" fill="#4f46e5"/>
+  <circle cx="612.5784584881081" cy="120.41323163453369" r="4" fill="#4f46e5"/>
+  <circle cx="604.0818372786616" cy="125.65359020097998" r="4" fill="#4f46e5"/>
+  <text x="494" y="192" font-size="12" fill="#1f2937">Separate indexes, each</text>
+  <text x="494" y="208" font-size="12" fill="#1f2937">encrypted with that tenant's own</text>
+  <text x="494" y="224" font-size="12" fill="#1f2937">key.</text>
+  <rect x="494" y="244" width="122" height="22" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="555.0" y="259" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">Strongest, costliest</text>
+</svg>

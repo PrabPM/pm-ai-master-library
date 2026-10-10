@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="478" viewBox="0 0 720 478" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>A filled-in one-page interview guide</title>
+  <rect x="0" y="0" width="720" height="478" rx="6" fill="#ffffff"/>
+  <rect x="24" y="14" width="440" height="450" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="40" y="38" font-size="13" fill="#1f2937" font-weight="bold">Interview guide: stopped or finished sign-up</text>
+  <text x="40" y="55" font-size="11" fill="#6b7280">30 minutes · merchants who started in the last 14 days</text>
+  <rect x="36" y="64" width="416" height="38" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="46" y="80" font-size="11" fill="#1f2937">Goal (not read aloud): learn what happened between starting and stopping, in</text>
+  <text x="46" y="94" font-size="11" fill="#1f2937">their words.</text>
+  <text x="40" y="124" font-size="12" fill="#4f46e5" font-weight="bold">Warm-up</text>
+  <text x="438" y="124" font-size="11" fill="#6b7280" text-anchor="end">3 min</text>
+  <text x="52" y="142" font-size="12" fill="#1f2937">Tell me about your business. Who looks after the paperwork?</text>
+  <text x="40" y="169" font-size="12" fill="#4f46e5" font-weight="bold">The story</text>
+  <text x="438" y="169" font-size="11" fill="#6b7280" text-anchor="end">12 min</text>
+  <text x="52" y="187" font-size="12" fill="#1f2937">Take me back to the day you started signing up. Where were you?</text>
+  <text x="52" y="205" font-size="12" fill="#1f2937">What happened next? · What did you do then?</text>
+  <text x="40" y="232" font-size="12" fill="#4f46e5" font-weight="bold">The sticking point</text>
+  <text x="438" y="232" font-size="11" fill="#6b7280" text-anchor="end">8 min</text>
+  <text x="52" y="250" font-size="12" fill="#1f2937">You stopped at the owner step. Walk me through that moment.</text>
+  <text x="52" y="268" font-size="12" fill="#1f2937">Could you show me the screen? · (then wait)</text>
+  <text x="40" y="295" font-size="12" fill="#4f46e5" font-weight="bold">Since then</text>
+  <text x="438" y="295" font-size="11" fill="#6b7280" text-anchor="end">4 min</text>
+  <text x="52" y="313" font-size="12" fill="#1f2937">How have you taken payments since that day?</text>
+  <text x="40" y="340" font-size="12" fill="#4f46e5" font-weight="bold">Wrap-up</text>
+  <text x="438" y="340" font-size="11" fill="#6b7280" text-anchor="end">3 min</text>
+  <text x="52" y="358" font-size="12" fill="#1f2937">What should I have asked you that I didn't?</text>
+  <rect x="36" y="379" width="416" height="58" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="46" y="397" font-size="11" fill="#b91c1c" font-weight="bold">Not on the guide</text>
+  <text x="46" y="413" font-size="11" fill="#1f2937">Would you use...? · Don't you think...? · Was it confusing? · How much would</text>
+  <text x="46" y="427" font-size="11" fill="#1f2937">you pay?</text>
+  <text x="488" y="38" font-size="12" fill="#1f2937" font-weight="bold">Why it is written this way</text>
+  <text x="488" y="56" font-size="11" fill="#6b7280">Numbers match the markers on the</text>
+  <text x="488" y="71" font-size="11" fill="#6b7280">edge of the page.</text>
+  <circle cx="498" cy="165" r="10" fill="#4f46e5"/>
+  <text x="498" y="169" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="464" cy="165" r="10" fill="#4f46e5"/>
+  <text x="464" y="169" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="516" y="169" font-size="11" fill="#1f2937">A real day in the past, not “usually”</text>
+  <text x="516" y="184" font-size="11" fill="#1f2937">or “would you”. Memory of one</text>
+  <text x="516" y="199" font-size="11" fill="#1f2937">event beats an opinion about all of</text>
+  <text x="516" y="214" font-size="11" fill="#1f2937">them.</text>
+  <circle cx="498" cy="237" r="10" fill="#4f46e5"/>
+  <text x="498" y="241" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="464" cy="228" r="10" fill="#4f46e5"/>
+  <text x="464" y="232" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="516" y="241" font-size="11" fill="#1f2937">Ask to be shown, then stay quiet.</text>
+  <text x="516" y="256" font-size="11" fill="#1f2937">Count to seven before you speak</text>
+  <text x="516" y="271" font-size="11" fill="#1f2937">again.</text>
+  <circle cx="498" cy="294" r="10" fill="#4f46e5"/>
+  <text x="498" y="298" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <circle cx="464" cy="291" r="10" fill="#4f46e5"/>
+  <text x="464" y="295" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="516" y="298" font-size="11" fill="#1f2937">What they did instead shows the</text>
+  <text x="516" y="313" font-size="11" fill="#1f2937">real alternative: cash, a rival, or</text>
+  <text x="516" y="328" font-size="11" fill="#1f2937">nothing.</text>
+  <circle cx="498" cy="351" r="10" fill="#4f46e5"/>
+  <text x="498" y="355" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <circle cx="464" cy="336" r="10" fill="#4f46e5"/>
+  <text x="464" y="340" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <text x="516" y="355" font-size="11" fill="#1f2937">The last question often brings out</text>
+  <text x="516" y="370" font-size="11" fill="#1f2937">what your guide missed.</text>
+</svg>

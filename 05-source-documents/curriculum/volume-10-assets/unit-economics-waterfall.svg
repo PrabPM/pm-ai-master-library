@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Unit economics waterfall for one small merchant-month</title>
+  <rect x="0" y="0" width="720" height="380" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">One active small merchant, one month: from $8,000 of volume to $100 of margin</text>
+  <line x1="60" y1="290" x2="700" y2="290" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="60" y1="290.0" x2="700" y2="290.0" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="52" y="294.0" font-size="11" fill="#6b7280" text-anchor="end">$0</text>
+  <line x1="60" y1="213.33333333333331" x2="700" y2="213.33333333333331" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="52" y="217.33333333333331" font-size="11" fill="#6b7280" text-anchor="end">$100</text>
+  <line x1="60" y1="136.66666666666666" x2="700" y2="136.66666666666666" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="52" y="140.66666666666666" font-size="11" fill="#6b7280" text-anchor="end">$200</text>
+  <line x1="60" y1="60.0" x2="700" y2="60.0" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="52" y="64.0" font-size="11" fill="#6b7280" text-anchor="end">$300</text>
+  <rect x="74" y="75.3" width="64" height="214.7" rx="6" fill="#4f46e5"/>
+  <text x="105.71428571428571" y="69.33333333333334" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">$280</text>
+  <text x="105.71428571428571" y="308" font-size="11" fill="#1f2937" text-anchor="middle">Revenue</text>
+  <rect x="165" y="75.3" width="64" height="122.7" rx="6" fill="#b91c1c"/>
+  <text x="197.14285714285714" y="69.33333333333334" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">-$160</text>
+  <text x="197.14285714285714" y="308" font-size="11" fill="#1f2937" text-anchor="middle">Interchange,</text>
+  <text x="197.14285714285714" y="323" font-size="11" fill="#1f2937" text-anchor="middle">network</text>
+  <rect x="257" y="198.0" width="64" height="92.0" rx="6" fill="#4f46e5"/>
+  <text x="288.57142857142856" y="192.0" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">$120</text>
+  <text x="288.57142857142856" y="308" font-size="11" fill="#1f2937" text-anchor="middle">Net revenue</text>
+  <rect x="348" y="198.0" width="64" height="6.1" rx="6" fill="#b91c1c"/>
+  <text x="380.0" y="192.0" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">-$8</text>
+  <text x="380.0" y="308" font-size="11" fill="#1f2937" text-anchor="middle">Losses</text>
+  <rect x="439" y="204.1" width="64" height="5.4" rx="6" fill="#b91c1c"/>
+  <text x="471.42857142857144" y="198.13333333333333" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">-$7</text>
+  <text x="471.42857142857144" y="308" font-size="11" fill="#1f2937" text-anchor="middle">Support</text>
+  <rect x="531" y="209.5" width="64" height="3.8" rx="6" fill="#b91c1c"/>
+  <text x="562.8571428571429" y="203.5" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">-$5</text>
+  <text x="562.8571428571429" y="308" font-size="11" fill="#1f2937" text-anchor="middle">Payouts</text>
+  <rect x="622" y="213.3" width="64" height="76.7" rx="6" fill="#15803d"/>
+  <text x="654.2857142857142" y="207.33333333333331" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">$100</text>
+  <text x="654.2857142857142" y="308" font-size="11" fill="#1f2937" text-anchor="middle">Contribution</text>
+  <text x="60" y="348" font-size="12" fill="#6b7280">3.50% of volume comes in. 2.00% goes straight out to banks and card networks. 1.25% is left to pay for everything</text>
+  <text x="60" y="364" font-size="12" fill="#6b7280">else.</text>
+</svg>

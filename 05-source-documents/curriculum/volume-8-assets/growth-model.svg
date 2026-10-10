@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>PayFlow's growth model as boxes and monthly flows</title>
+  <rect x="0" y="0" width="720" height="330" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">PayFlow self-serve merchants: one month of flows</text>
+  <rect x="24" y="86" width="140" height="84" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="94" y="116" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">Sign-ups</text>
+  <text x="94" y="138" font-size="13" fill="#1f2937" text-anchor="middle">8,000 a month</text>
+  <text x="94" y="156" font-size="11" fill="#6b7280" text-anchor="middle">from every channel</text>
+  <rect x="268" y="66" width="164" height="124" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="350" y="100" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">Active merchants</text>
+  <text x="350" y="128" font-size="16" fill="#4f46e5" text-anchor="middle" font-weight="bold">90,000</text>
+  <text x="350" y="150" font-size="11" fill="#6b7280" text-anchor="middle">took a payment in</text>
+  <text x="350" y="165" font-size="11" fill="#6b7280" text-anchor="middle">the last 30 days</text>
+  <rect x="556" y="86" width="140" height="84" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="626" y="116" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">Dormant</text>
+  <text x="626" y="138" font-size="13" fill="#1f2937" text-anchor="middle">60,000</text>
+  <text x="626" y="156" font-size="11" fill="#6b7280" text-anchor="middle">once active, now quiet</text>
+  <rect x="24" y="222" width="140" height="52" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="94" y="244" font-size="12" fill="#1f2937" text-anchor="middle">Never activated</text>
+  <text x="94" y="262" font-size="11" fill="#6b7280" text-anchor="middle">3,600 a month</text>
+  <line x1="166" y1="128" x2="264" y2="128" stroke="#15803d" stroke-width="1.5"/>
+  <polygon points="264.0,128.0 257.1,132.1 257.1,123.9" fill="#15803d"/>
+  <text x="215" y="104" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Activation 55%</text>
+  <text x="215" y="119" font-size="11" fill="#15803d" text-anchor="middle">+4,400 new</text>
+  <line x1="94" y1="172" x2="94" y2="218" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="94.0,218.0 89.9,211.1 98.1,211.1" fill="#6b7280"/>
+  <line x1="434" y1="108" x2="552" y2="108" stroke="#b91c1c" stroke-width="1.5"/>
+  <polygon points="552.0,108.0 545.1,112.1 545.1,103.9" fill="#b91c1c"/>
+  <text x="493" y="84" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">Churn 3.0%</text>
+  <text x="493" y="99" font-size="11" fill="#b91c1c" text-anchor="middle">2,700 leave</text>
+  <line x1="552" y1="150" x2="434" y2="150" stroke="#15803d" stroke-width="1.5"/>
+  <polygon points="434.0,150.0 440.9,145.9 440.9,154.1" fill="#15803d"/>
+  <text x="493" y="168" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Resurrection 1.5%</text>
+  <text x="493" y="183" font-size="11" fill="#15803d" text-anchor="middle">+900 return</text>
+  <rect x="194" y="222" width="502" height="52" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="208" y="244" font-size="12" fill="#1f2937" font-weight="bold">Net change in active merchants this month</text>
+  <text x="208" y="262" font-size="12" fill="#1f2937">4,400 new + 900 returned - 2,700 churned = +2,600</text>
+  <text x="24" y="304" font-size="12" fill="#6b7280">Four inputs drive everything: sign-ups, activation rate, churn rate, and resurrection rate.</text>
+</svg>

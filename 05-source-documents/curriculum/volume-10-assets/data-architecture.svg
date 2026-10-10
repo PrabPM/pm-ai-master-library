@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>From operational systems to a trusted metric</title>
+  <rect x="0" y="0" width="720" height="400" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Where a number on a PayFlow dashboard comes from</text>
+  <text x="16" y="58" font-size="12" fill="#6b7280" font-weight="bold">1  Sources</text>
+  <text x="162" y="58" font-size="12" fill="#6b7280" font-weight="bold">2  Ingest</text>
+  <text x="280" y="58" font-size="12" fill="#6b7280" font-weight="bold">3  Warehouse</text>
+  <text x="458" y="58" font-size="12" fill="#6b7280" font-weight="bold">4  Semantic layer</text>
+  <text x="584" y="58" font-size="12" fill="#6b7280" font-weight="bold">5  Uses</text>
+  <rect x="16" y="70" width="132" height="40" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="82" y="94" font-size="12" fill="#1f2937" text-anchor="middle">Payments database</text>
+  <rect x="16" y="120" width="132" height="40" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="82" y="144" font-size="12" fill="#1f2937" text-anchor="middle">Product events</text>
+  <rect x="16" y="170" width="132" height="40" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="82" y="194" font-size="12" fill="#1f2937" text-anchor="middle">Ad platforms</text>
+  <rect x="16" y="220" width="132" height="40" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="82" y="244" font-size="12" fill="#1f2937" text-anchor="middle">Support tool</text>
+  <rect x="162" y="70" width="104" height="90" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="214" y="96" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Batch loads</text>
+  <text x="214" y="116" font-size="11" fill="#6b7280" text-anchor="middle">copied every</text>
+  <text x="214" y="131" font-size="11" fill="#6b7280" text-anchor="middle">hour or night</text>
+  <rect x="162" y="170" width="104" height="90" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="214" y="196" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Streaming</text>
+  <text x="214" y="216" font-size="11" fill="#6b7280" text-anchor="middle">events within</text>
+  <text x="214" y="231" font-size="11" fill="#6b7280" text-anchor="middle">seconds</text>
+  <rect x="280" y="70" width="164" height="190" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="292" y="82" width="140" height="48" rx="6" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="304" y="102" font-size="12" fill="#1f2937" font-weight="bold">Raw</text>
+  <text x="304" y="119" font-size="11" fill="#6b7280">exact copies, kept as is</text>
+  <rect x="292" y="140" width="140" height="48" rx="6" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="304" y="160" font-size="12" fill="#1f2937" font-weight="bold">Staging</text>
+  <text x="304" y="177" font-size="11" fill="#6b7280">cleaned, de-duplicated</text>
+  <rect x="292" y="198" width="140" height="48" rx="6" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="304" y="218" font-size="12" fill="#1f2937" font-weight="bold">Marts</text>
+  <text x="304" y="235" font-size="11" fill="#6b7280">one table per question</text>
+  <rect x="458" y="70" width="112" height="190" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="514" y="96" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">One definition</text>
+  <text x="514" y="112" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">per metric</text>
+  <text x="514" y="142" font-size="11" fill="#1f2937" text-anchor="middle">active merchant,</text>
+  <text x="514" y="157" font-size="11" fill="#1f2937" text-anchor="middle">success rate, net</text>
+  <text x="514" y="172" font-size="11" fill="#1f2937" text-anchor="middle">revenue</text>
+  <text x="514" y="206" font-size="11" fill="#6b7280" text-anchor="middle">tested, owned,</text>
+  <text x="514" y="221" font-size="11" fill="#6b7280" text-anchor="middle">versioned</text>
+  <rect x="584" y="70" width="120" height="40" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="644" y="94" font-size="12" fill="#1f2937" text-anchor="middle">Dashboards</text>
+  <rect x="584" y="120" width="120" height="40" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="644" y="144" font-size="12" fill="#1f2937" text-anchor="middle">SQL, notebooks</text>
+  <rect x="584" y="170" width="120" height="40" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="644" y="194" font-size="12" fill="#1f2937" text-anchor="middle">Experiments</text>
+  <rect x="584" y="220" width="120" height="40" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="644" y="244" font-size="12" fill="#1f2937" text-anchor="middle">AI assistant</text>
+  <line x1="149" y1="165" x2="161" y2="165" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="161.0,165.0 154.1,169.1 154.1,160.9" fill="#1f2937"/>
+  <line x1="267" y1="165" x2="279" y2="165" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="279.0,165.0 272.1,169.1 272.1,160.9" fill="#1f2937"/>
+  <line x1="445" y1="165" x2="457" y2="165" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="457.0,165.0 450.1,169.1 450.1,160.9" fill="#1f2937"/>
+  <line x1="571" y1="165" x2="583" y2="165" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="583.0,165.0 576.1,169.1 576.1,160.9" fill="#1f2937"/>
+  <rect x="16" y="292" width="688" height="90" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="32" y="316" font-size="13" fill="#1f2937" font-weight="bold">Reverse ETL</text>
+  <text x="32" y="338" font-size="12" fill="#1f2937">Modeled data copied back into operational tools: a churn-risk flag into the support tool, a merchant segment into the</text>
+  <text x="32" y="354" font-size="12" fill="#1f2937">email system. Now a wrong definition does not only mislead a chart; it sends the wrong email.</text>
+  <path d="M362 260 L362 292" fill="none" stroke="#b45309" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="82" y1="292" x2="82" y2="262" stroke="#b45309" stroke-width="1.5"/>
+  <polygon points="82.0,262.0 86.1,268.9 77.9,268.9" fill="#b45309"/>
+</svg>

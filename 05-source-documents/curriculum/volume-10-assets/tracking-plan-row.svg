@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>One row of a tracking plan, annotated</title>
+  <rect x="0" y="0" width="720" height="420" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">One row of PayFlow's tracking plan</text>
+  <rect x="24" y="42" width="672" height="196" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="62" y="63" font-size="12" fill="#1f2937" font-weight="bold">Event name</text>
+  <text x="186" y="63" font-size="12" fill="#1f2937">kyb_submitted</text>
+  <circle cx="42" cy="59" r="10" fill="#4f46e5"/>
+  <text x="42" y="63" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <line x1="24" y1="74" x2="696" y2="74" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="62" y="95" font-size="12" fill="#1f2937" font-weight="bold">Fires when</text>
+  <text x="186" y="95" font-size="11" fill="#1f2937">The server accepts a complete KYB form. Not on the button click.</text>
+  <circle cx="42" cy="91" r="10" fill="#4f46e5"/>
+  <text x="42" y="95" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <line x1="24" y1="106" x2="696" y2="106" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="62" y="127" font-size="12" fill="#1f2937" font-weight="bold">Identity</text>
+  <text x="186" y="127" font-size="11" fill="#1f2937">merchant_id (required), user_id, anonymous_id from before sign-in</text>
+  <circle cx="42" cy="123" r="10" fill="#4f46e5"/>
+  <text x="42" y="127" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <line x1="24" y1="140" x2="696" y2="140" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="62" y="161" font-size="12" fill="#1f2937" font-weight="bold">Properties</text>
+  <text x="186" y="161" font-size="11" fill="#1f2937">business_type (enum), integration_plan (enum), documents_count (int), form_version (int)</text>
+  <circle cx="42" cy="157" r="10" fill="#4f46e5"/>
+  <text x="42" y="161" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <line x1="24" y1="174" x2="696" y2="174" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="62" y="195" font-size="12" fill="#1f2937" font-weight="bold">Personal data</text>
+  <text x="186" y="195" font-size="12" fill="#1f2937">None. Never the owner's name, email or document images.</text>
+  <circle cx="42" cy="191" r="10" fill="#4f46e5"/>
+  <text x="42" y="195" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <line x1="24" y1="206" x2="696" y2="206" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="62" y="227" font-size="12" fill="#1f2937" font-weight="bold">Owner, version</text>
+  <text x="186" y="227" font-size="11" fill="#1f2937">Onboarding team · v3 · added 2026-08-04 · feeds KYB submit rate</text>
+  <circle cx="42" cy="223" r="10" fill="#4f46e5"/>
+  <text x="42" y="227" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+  <line x1="176" y1="42" x2="176" y2="238" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="34" cy="260" r="10" fill="#4f46e5"/>
+  <text x="34" y="264" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="52" y="264" font-size="11" fill="#1f2937">Object then action, past tense, snake_case. One name for</text>
+  <text x="52" y="279" font-size="11" fill="#1f2937">one thing, forever.</text>
+  <circle cx="34" cy="296" r="10" fill="#4f46e5"/>
+  <text x="34" y="300" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="52" y="300" font-size="11" fill="#1f2937">The exact trigger. Server-side events survive ad blockers</text>
+  <text x="52" y="315" font-size="11" fill="#1f2937">and closed tabs.</text>
+  <circle cx="34" cy="332" r="10" fill="#4f46e5"/>
+  <text x="34" y="336" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="52" y="336" font-size="11" fill="#1f2937">The ids that let you join this event to a merchant before and</text>
+  <text x="52" y="351" font-size="11" fill="#1f2937">after sign-in.</text>
+  <circle cx="376" cy="260" r="10" fill="#4f46e5"/>
+  <text x="376" y="264" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <text x="394" y="264" font-size="11" fill="#1f2937">Typed, with allowed values. Free text here is how one</text>
+  <text x="394" y="279" font-size="11" fill="#1f2937">metric becomes five.</text>
+  <circle cx="376" cy="296" r="10" fill="#4f46e5"/>
+  <text x="376" y="300" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <text x="394" y="300" font-size="11" fill="#1f2937">Decide what must never be collected before the first line of</text>
+  <text x="394" y="315" font-size="11" fill="#1f2937">code.</text>
+  <circle cx="376" cy="332" r="10" fill="#4f46e5"/>
+  <text x="376" y="336" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+  <text x="394" y="336" font-size="11" fill="#1f2937">Someone answers for it, changes are versioned, and it</text>
+  <text x="394" y="351" font-size="11" fill="#1f2937">names the metric it serves.</text>
+</svg>

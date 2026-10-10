@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="446" viewBox="0 0 720 446" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>A metric tree for a health-system growth product</title>
+  <rect x="0" y="0" width="720" height="446" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Metric tree: Elkhaven Health cardiology growth</text>
+  <rect x="190" y="42" width="340" height="44" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="360" y="69" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">Profitable, equitable patient growth</text>
+  <line x1="360" y1="86" x2="360" y2="104" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="104.0" y1="104" x2="615.8" y2="104" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="104.0" y1="104" x2="104.0" y2="120" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="24.0" y="120" width="160" height="36" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="104.0" y="143" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Qualified demand</text>
+  <line x1="104.0" y1="156" x2="104.0" y2="170" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="24.0" y="170" width="160" height="84" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="34.0" y="192" font-size="11" fill="#1f2937">Reach in service area</text>
+  <text x="34.0" y="211" font-size="11" fill="#1f2937">Relevant intent:</text>
+  <text x="34.0" y="230" font-size="11" fill="#1f2937">6,200 finder sessions</text>
+  <line x1="274.6" y1="104" x2="274.6" y2="120" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="194.6" y="120" width="160" height="36" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="274.6" y="143" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Access and conversion</text>
+  <line x1="274.6" y1="156" x2="274.6" y2="170" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="194.6" y="170" width="160" height="84" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="204.6" y="192" font-size="11" fill="#1f2937">Scheduling completed:</text>
+  <text x="204.6" y="211" font-size="11" fill="#1f2937">63.4% of starts</text>
+  <text x="204.6" y="230" font-size="11" fill="#1f2937">Time to appointment</text>
+  <line x1="445.2" y1="104" x2="445.2" y2="120" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="365.2" y="120" width="160" height="36" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="445.2" y="143" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Engagement, retention</text>
+  <line x1="445.2" y1="156" x2="445.2" y2="170" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="365.2" y="170" width="160" height="84" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="375.2" y="192" font-size="11" fill="#1f2937">Appointments kept:</text>
+  <text x="375.2" y="211" font-size="11" fill="#1f2937">80.0% of scheduled</text>
+  <text x="375.2" y="230" font-size="11" fill="#1f2937">Care-gap action</text>
+  <line x1="615.8" y1="104" x2="615.8" y2="120" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="535.8" y="120" width="160" height="36" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="615.8" y="143" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Experience, outcomes</text>
+  <line x1="615.8" y1="156" x2="615.8" y2="170" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="535.8" y="170" width="160" height="84" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="545.8" y="192" font-size="11" fill="#1f2937">Satisfaction and trust</text>
+  <text x="545.8" y="211" font-size="11" fill="#1f2937">Completed encounters:</text>
+  <text x="545.8" y="230" font-size="11" fill="#1f2937">512</text>
+  <text x="24" y="290" font-size="13" fill="#1f2937" font-weight="bold">Guardrails: none of these may get worse</text>
+  <rect x="24" y="302" width="216" height="84" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="36" y="324" font-size="12" fill="#1f2937" font-weight="bold">Privacy and consent</text>
+  <text x="36" y="344" font-size="11" fill="#1f2937">No clinical data used for marketing</text>
+  <text x="36" y="359" font-size="11" fill="#1f2937">without permission</text>
+  <rect x="252" y="302" width="216" height="84" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="264" y="324" font-size="12" fill="#1f2937" font-weight="bold">Capacity and equity</text>
+  <text x="264" y="344" font-size="11" fill="#1f2937">Do not promote where the next slot is</text>
+  <text x="264" y="359" font-size="11" fill="#1f2937">weeks away</text>
+  <rect x="480" y="302" width="216" height="84" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="492" y="324" font-size="12" fill="#1f2937" font-weight="bold">Cost and incrementality</text>
+  <text x="492" y="344" font-size="11" fill="#1f2937">Report incremental value, not</text>
+  <text x="492" y="359" font-size="11" fill="#1f2937">everything attributed</text>
+  <text x="24" y="416" font-size="11" fill="#6b7280">The leaf values come from the campaign-to-encounter funnel computed in Chapter 31.</text>
+</svg>

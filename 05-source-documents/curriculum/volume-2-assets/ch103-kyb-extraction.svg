@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>From a registration certificate to checked fields and a routing decision</title>
+  <rect x="0" y="0" width="720" height="330" rx="6" fill="#ffffff"/>
+  <rect x="24" y="20" width="220" height="290" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="134" y="46" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">Certificate of</text>
+  <text x="134" y="63" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">Incorporation</text>
+  <text x="40" y="88" font-size="11" fill="#6b7280">Company name</text>
+  <rect x="36" y="94" width="196" height="26" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="46" y="112" font-size="12" fill="#1f2937">Alder Goods Ltd</text>
+  <circle cx="232" cy="94" r="10" fill="#4f46e5"/>
+  <text x="232" y="98" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="40" y="140" font-size="11" fill="#6b7280">Company number</text>
+  <rect x="36" y="146" width="196" height="26" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="46" y="164" font-size="12" fill="#1f2937">0912 3345</text>
+  <circle cx="232" cy="146" r="10" fill="#4f46e5"/>
+  <text x="232" y="150" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="40" y="192" font-size="11" fill="#6b7280">Incorporated on</text>
+  <rect x="36" y="198" width="196" height="26" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="46" y="216" font-size="12" fill="#1f2937">14 March 2021</text>
+  <circle cx="232" cy="198" r="10" fill="#4f46e5"/>
+  <text x="232" y="202" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="40" y="244" font-size="11" fill="#6b7280">Registered office</text>
+  <rect x="36" y="250" width="196" height="26" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="46" y="268" font-size="12" fill="#1f2937">12 Mill Lane, Leeds</text>
+  <circle cx="232" cy="250" r="10" fill="#4f46e5"/>
+  <text x="232" y="254" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <text x="40" y="298" font-size="11" fill="#6b7280">boxes = where each value was read</text>
+  <line x1="248" y1="165" x2="270" y2="165" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="270.0,165.0 263.1,169.1 263.1,160.9" fill="#1f2937"/>
+  <rect x="272" y="20" width="232" height="290" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="286" y="44" font-size="13" fill="#1f2937" font-weight="bold">Extracted fields</text>
+  <text x="286" y="61" font-size="11" fill="#6b7280">value, confidence, source box</text>
+  <rect x="284" y="74" width="208" height="50" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="294" y="94" font-size="11" fill="#6b7280">legal_name</text>
+  <text x="294" y="112" font-size="12" fill="#1f2937">Alder Goods Ltd</text>
+  <rect x="440" y="80" width="44" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="462.0" y="95" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">0.99</text>
+  <rect x="284" y="132" width="208" height="50" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="294" y="152" font-size="11" fill="#6b7280">registration_no</text>
+  <text x="294" y="170" font-size="12" fill="#1f2937">09123345</text>
+  <rect x="440" y="138" width="44" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="462.0" y="153" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">0.97</text>
+  <rect x="284" y="190" width="208" height="50" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="294" y="210" font-size="11" fill="#6b7280">registered_on</text>
+  <text x="294" y="228" font-size="12" fill="#1f2937">2021-03-14</text>
+  <rect x="440" y="196" width="44" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="462.0" y="211" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">0.95</text>
+  <rect x="284" y="248" width="208" height="50" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="294" y="268" font-size="11" fill="#6b7280">address</text>
+  <text x="294" y="286" font-size="12" fill="#1f2937">12 Mill Lane, Leeds</text>
+  <rect x="440" y="254" width="44" height="22" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="462.0" y="269" font-size="11" fill="#b45309" text-anchor="middle" font-weight="bold">0.71</text>
+  <line x1="508" y1="165" x2="530" y2="165" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="530.0,165.0 523.1,169.1 523.1,160.9" fill="#1f2937"/>
+  <rect x="532" y="20" width="164" height="290" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="546" y="44" font-size="13" fill="#1f2937" font-weight="bold">Checks</text>
+  <text x="546" y="68" font-size="11" fill="#1f2937">format and checksum</text>
+  <text x="546" y="85" font-size="11" fill="#1f2937">dates make sense</text>
+  <text x="546" y="102" font-size="11" fill="#1f2937">names match across</text>
+  <text x="546" y="119" font-size="11" fill="#1f2937">documents</text>
+  <text x="546" y="136" font-size="11" fill="#1f2937">registry lookup</text>
+  <line x1="546" y1="156" x2="682" y2="156" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="546" y="178" font-size="11" fill="#6b7280">All pass, all confident:</text>
+  <rect x="546" y="186" width="110" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="601.0" y="201" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">auto-accept</text>
+  <text x="546" y="236" font-size="11" fill="#6b7280">Any failure or low score:</text>
+  <rect x="546" y="244" width="110" height="22" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="601.0" y="259" font-size="11" fill="#b45309" text-anchor="middle" font-weight="bold">human review</text>
+  <text x="546" y="290" font-size="11" fill="#1f2937">address goes to review</text>
+</svg>

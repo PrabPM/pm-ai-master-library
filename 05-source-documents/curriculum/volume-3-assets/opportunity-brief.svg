@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="446" viewBox="0 0 720 446" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>A one-page AI opportunity brief, filled in for PayFlow Assist</title>
+  <rect x="0" y="0" width="720" height="446" rx="6" fill="#ffffff"/>
+  <text x="24" y="26" font-size="14" fill="#1f2937" font-weight="bold">AI opportunity brief: Assist for support agents</text>
+  <rect x="566" y="10" width="118" height="22" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="625.0" y="25" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">One page, 8 fields</text>
+  <!-- 1  Decision -->
+  <rect x="24" y="40" width="330" height="92" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="62" font-size="12" fill="#4f46e5" font-weight="bold">1  Decision</text>
+  <text x="36" y="82" font-size="11" fill="#1f2937">Approve a six-week shadow pilot of Assist on complex</text>
+  <text x="36" y="97" font-size="11" fill="#1f2937">payout tickets. Owner: you. Decide by March 20.</text>
+  <!-- 2  User and job -->
+  <rect x="366" y="40" width="330" height="92" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="378" y="62" font-size="12" fill="#4f46e5" font-weight="bold">2  User and job</text>
+  <text x="378" y="82" font-size="11" fill="#1f2937">Sam, a support agent, mid-ticket. Explain why a payout was</text>
+  <text x="378" y="97" font-size="11" fill="#1f2937">late or short, correctly, the first time. Today: 18 minutes</text>
+  <text x="378" y="112" font-size="11" fill="#1f2937">across four systems.</text>
+  <!-- 3  Minimum viable intelligence -->
+  <rect x="24" y="140" width="330" height="92" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="162" font-size="12" fill="#4f46e5" font-weight="bold">3  Minimum viable intelligence</text>
+  <text x="36" y="182" font-size="11" fill="#1f2937">Simple tickets: reason codes on the payout page, no model.</text>
+  <text x="36" y="197" font-size="11" fill="#1f2937">Complex tickets: retrieval plus a cited draft. Sending stays</text>
+  <text x="36" y="212" font-size="11" fill="#1f2937">human.</text>
+  <!-- 4  Evidence plan -->
+  <rect x="366" y="140" width="330" height="92" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="378" y="162" font-size="12" fill="#4f46e5" font-weight="bold">4  Evidence plan</text>
+  <text x="378" y="182" font-size="11" fill="#1f2937">A 240-case golden set. Launch needs 90% task success,</text>
+  <text x="378" y="197" font-size="11" fill="#1f2937">97% supported claims, zero permission leaks. Stop if under</text>
+  <text x="378" y="212" font-size="11" fill="#1f2937">85% after two rounds.</text>
+  <!-- 5  Operating envelope -->
+  <rect x="24" y="240" width="330" height="92" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="262" font-size="12" fill="#4f46e5" font-weight="bold">5  Operating envelope</text>
+  <text x="36" y="282" font-size="11" fill="#1f2937">English, US merchants, payout and dispute questions,</text>
+  <text x="36" y="297" font-size="11" fill="#1f2937">records from the last 180 days. Out: legal threats, account</text>
+  <text x="36" y="312" font-size="11" fill="#1f2937">closures, tax.</text>
+  <!-- 6  Risk and controls -->
+  <rect x="366" y="240" width="330" height="92" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="378" y="262" font-size="12" fill="#4f46e5" font-weight="bold">6  Risk and controls</text>
+  <text x="378" y="282" font-size="11" fill="#1f2937">Wrong amount: figures come from the ledger tool, never</text>
+  <text x="378" y="297" font-size="11" fill="#1f2937">from the model. No evidence: abstain. An agent reviews</text>
+  <text x="378" y="312" font-size="11" fill="#1f2937">every draft.</text>
+  <!-- 7  Economics -->
+  <rect x="24" y="340" width="330" height="92" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="362" font-size="12" fill="#4f46e5" font-weight="bold">7  Economics</text>
+  <text x="36" y="382" font-size="11" fill="#1f2937">4,800 tickets a month. Six minutes saved is $4.20; a wrong</text>
+  <text x="36" y="397" font-size="11" fill="#1f2937">draft costs $2.10. Expected value about $10,600 a month</text>
+  <text x="36" y="412" font-size="11" fill="#1f2937">after running costs.</text>
+  <!-- 8  Next reversible step -->
+  <rect x="366" y="340" width="330" height="92" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="378" y="362" font-size="12" fill="#4f46e5" font-weight="bold">8  Next reversible step</text>
+  <text x="378" y="382" font-size="11" fill="#1f2937">Shadow mode for 20 agents; no merchant sees output.</text>
+  <text x="378" y="397" font-size="11" fill="#1f2937">Budget $18,000. Exit: all gates met, or stop and write up</text>
+  <text x="378" y="412" font-size="11" fill="#1f2937">why.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="434" viewBox="0 0 720 434" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Consent script card read aloud before a session</title>
+  <rect x="0" y="0" width="720" height="434" rx="6" fill="#ffffff"/>
+  <rect x="24" y="16" width="672" height="402" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="44" y="44" font-size="14" fill="#1f2937" font-weight="bold">Consent script: read aloud before every session</text>
+  <text x="44" y="62" font-size="11" fill="#6b7280">Plain words, under a minute. Send the same text in writing beforehand.</text>
+  <circle cx="56" cy="82" r="10" fill="#4f46e5"/>
+  <text x="56" y="86" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="76" y="86" font-size="12" fill="#1f2937" font-weight="bold">Who and why</text>
+  <text x="186" y="86" font-size="12" fill="#1f2937">“I'm Rosa, a researcher at PayFlow. We want to make signing up easier, and hearing</text>
+  <text x="186" y="102" font-size="12" fill="#1f2937">how it went for you will help.”</text>
+  <circle cx="56" cy="122" r="10" fill="#4f46e5"/>
+  <text x="56" y="126" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="76" y="126" font-size="12" fill="#1f2937" font-weight="bold">What happens</text>
+  <text x="186" y="126" font-size="12" fill="#1f2937">“We'll talk for about 30 minutes. I'm testing our form, not you, so there are no wrong</text>
+  <text x="186" y="142" font-size="12" fill="#1f2937">answers.”</text>
+  <circle cx="56" cy="162" r="10" fill="#4f46e5"/>
+  <text x="56" y="166" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="76" y="166" font-size="12" fill="#1f2937" font-weight="bold">Recording</text>
+  <text x="186" y="166" font-size="12" fill="#1f2937">“I'd like to record the call so I don't have to rely on my notes. Only the product team will</text>
+  <text x="186" y="182" font-size="12" fill="#1f2937">see it.”</text>
+  <circle cx="56" cy="202" r="10" fill="#4f46e5"/>
+  <text x="56" y="206" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <text x="76" y="206" font-size="12" fill="#1f2937" font-weight="bold">Your data</text>
+  <text x="186" y="206" font-size="12" fill="#1f2937">“We delete the recording after 12 months. Your name and your business name stay out</text>
+  <text x="186" y="222" font-size="12" fill="#1f2937">of anything we write.”</text>
+  <circle cx="56" cy="242" r="10" fill="#4f46e5"/>
+  <text x="56" y="246" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <text x="76" y="246" font-size="12" fill="#1f2937" font-weight="bold">Your choice</text>
+  <text x="186" y="246" font-size="12" fill="#1f2937">“Skip any question, or stop whenever you like. Nothing you say affects your PayFlow</text>
+  <text x="186" y="262" font-size="12" fill="#1f2937">account or application.”</text>
+  <circle cx="56" cy="282" r="10" fill="#4f46e5"/>
+  <text x="56" y="286" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+  <text x="76" y="286" font-size="12" fill="#1f2937" font-weight="bold">Thank-you</text>
+  <text x="186" y="286" font-size="12" fill="#1f2937">“The $75 gift card is yours either way, even if we stop early.”</text>
+  <circle cx="56" cy="306" r="10" fill="#4f46e5"/>
+  <text x="56" y="310" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">7</text>
+  <text x="76" y="310" font-size="12" fill="#1f2937" font-weight="bold">Questions</text>
+  <text x="186" y="310" font-size="12" fill="#1f2937">“What would you like to ask me before we start?”</text>
+  <line x1="44" y1="332" x2="676" y2="332" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="354" font-size="12" fill="#1f2937" font-weight="bold">Then ask two separate questions, and note each answer:</text>
+  <rect x="44" y="366" width="16" height="16" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="68" y="379" font-size="12" fill="#1f2937">Are you happy to take part?</text>
+  <rect x="288" y="366" width="16" height="16" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="312" y="379" font-size="12" fill="#1f2937">Are you happy for me to record?</text>
+  <text x="44" y="402" font-size="11" fill="#6b7280">If the answer to recording is no, take notes by hand and carry on. A no to taking part ends the session, with thanks.</text>
+</svg>

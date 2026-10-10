@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="446" viewBox="0 0 720 446" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Service blueprint for a card dispute, front stage and backstage</title>
+  <rect x="0" y="0" width="720" height="446" rx="6" fill="#ffffff"/>
+  <!-- stage headers -->
+  <rect x="116" y="14" width="112" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="172.0" y="33" font-size="12" fill="#4f46e5" text-anchor="middle" font-weight="bold">Notice</text>
+  <rect x="234" y="14" width="112" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="290.0" y="33" font-size="12" fill="#4f46e5" text-anchor="middle" font-weight="bold">Understand</text>
+  <rect x="352" y="14" width="112" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="408.0" y="33" font-size="12" fill="#4f46e5" text-anchor="middle" font-weight="bold">Act</text>
+  <rect x="470" y="14" width="112" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="526.0" y="33" font-size="12" fill="#4f46e5" text-anchor="middle" font-weight="bold">Track</text>
+  <rect x="588" y="14" width="112" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="644.0" y="33" font-size="12" fill="#4f46e5" text-anchor="middle" font-weight="bold">Resolve</text>
+  <!-- Merchant -->
+  <rect x="16" y="50" width="90" height="70" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="26" y="80" font-size="12" fill="#1f2937" font-weight="bold">Merchant</text>
+  <text x="26" y="96" font-size="11" fill="#6b7280">does</text>
+  <rect x="116" y="50" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="126" y="72" font-size="11" fill="#1f2937">Sees a $640.00</text>
+  <text x="126" y="87" font-size="11" fill="#1f2937">debit in a payout</text>
+  <rect x="234" y="50" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="244" y="72" font-size="11" fill="#1f2937">Reads the reason</text>
+  <text x="244" y="87" font-size="11" fill="#1f2937">and the deadline</text>
+  <rect x="352" y="50" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="362" y="72" font-size="11" fill="#1f2937">Uploads proof of</text>
+  <text x="362" y="87" font-size="11" fill="#1f2937">delivery</text>
+  <rect x="470" y="50" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="480" y="72" font-size="11" fill="#1f2937">Checks for news</text>
+  <text x="480" y="87" font-size="11" fill="#1f2937">every few days</text>
+  <rect x="588" y="50" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="598" y="72" font-size="11" fill="#1f2937">Reads the</text>
+  <text x="598" y="87" font-size="11" fill="#1f2937">decision and its</text>
+  <text x="598" y="102" font-size="11" fill="#1f2937">effect</text>
+  <!-- Front stage -->
+  <rect x="16" y="124" width="90" height="70" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="26" y="154" font-size="12" fill="#1f2937" font-weight="bold">Front stage</text>
+  <text x="26" y="170" font-size="11" fill="#6b7280">on screen</text>
+  <rect x="116" y="124" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="126" y="146" font-size="11" fill="#1f2937">Email and a</text>
+  <text x="126" y="161" font-size="11" fill="#1f2937">dashboard alert</text>
+  <rect x="234" y="124" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="244" y="146" font-size="11" fill="#1f2937">Dispute page with</text>
+  <text x="244" y="161" font-size="11" fill="#1f2937">a checklist</text>
+  <rect x="352" y="124" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="362" y="146" font-size="11" fill="#1f2937">Upload form and</text>
+  <text x="362" y="161" font-size="11" fill="#1f2937">a receipt</text>
+  <rect x="470" y="124" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="480" y="146" font-size="11" fill="#1f2937">Timeline with the</text>
+  <text x="480" y="161" font-size="11" fill="#1f2937">next milestone</text>
+  <rect x="588" y="124" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="598" y="146" font-size="11" fill="#1f2937">Outcome and</text>
+  <text x="598" y="161" font-size="11" fill="#1f2937">money movement</text>
+  <!-- Backstage -->
+  <rect x="16" y="224" width="90" height="70" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="26" y="254" font-size="12" fill="#1f2937" font-weight="bold">Backstage</text>
+  <text x="26" y="270" font-size="11" fill="#6b7280">PayFlow staff</text>
+  <rect x="116" y="224" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="126" y="246" font-size="11" fill="#1f2937">Nobody yet</text>
+  <rect x="234" y="224" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="244" y="246" font-size="11" fill="#1f2937">Support answers</text>
+  <text x="244" y="261" font-size="11" fill="#1f2937">questions</text>
+  <rect x="352" y="224" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="362" y="246" font-size="11" fill="#1f2937">Risk reviews</text>
+  <text x="362" y="261" font-size="11" fill="#1f2937">unusual cases</text>
+  <rect x="470" y="224" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="480" y="246" font-size="11" fill="#1f2937">Support fields</text>
+  <text x="480" y="261" font-size="11" fill="#1f2937">"any news?"</text>
+  <rect x="588" y="224" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="598" y="246" font-size="11" fill="#1f2937">Finance checks</text>
+  <text x="598" y="261" font-size="11" fill="#1f2937">the posting</text>
+  <!-- Systems -->
+  <rect x="16" y="298" width="90" height="70" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="26" y="328" font-size="12" fill="#1f2937" font-weight="bold">Systems</text>
+  <text x="26" y="344" font-size="11" fill="#6b7280">and rules</text>
+  <rect x="116" y="298" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="126" y="320" font-size="11" fill="#1f2937">Network file, daily</text>
+  <text x="126" y="335" font-size="11" fill="#1f2937">alert job</text>
+  <rect x="234" y="298" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="244" y="320" font-size="11" fill="#1f2937">Reason codes,</text>
+  <text x="244" y="335" font-size="11" fill="#1f2937">deadline rule</text>
+  <rect x="352" y="298" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="362" y="320" font-size="11" fill="#1f2937">Evidence store,</text>
+  <text x="362" y="335" font-size="11" fill="#1f2937">file limits</text>
+  <rect x="470" y="298" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="480" y="320" font-size="11" fill="#1f2937">Network status</text>
+  <text x="480" y="335" font-size="11" fill="#1f2937">feed</text>
+  <rect x="588" y="298" width="112" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="598" y="320" font-size="11" fill="#1f2937">Ledger entry,</text>
+  <text x="598" y="335" font-size="11" fill="#1f2937">appeal policy</text>
+  <!-- line of visibility -->
+  <line x1="16" y1="209" x2="704" y2="209" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="250" y="198" width="220" height="22" rx="6" fill="#ffffff"/>
+  <text x="360" y="213" font-size="11" fill="#6b7280" text-anchor="middle">Line of visibility: the merchant sees above it</text>
+  <!-- failure points -->
+  <circle cx="214" cy="354" r="10" fill="#b45309"/>
+  <text x="214" y="358" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="332" cy="354" r="10" fill="#b45309"/>
+  <text x="332" y="358" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="450" cy="354" r="10" fill="#b45309"/>
+  <text x="450" y="358" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <circle cx="26" cy="390" r="10" fill="#b45309"/>
+  <text x="26" y="394" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="44" y="394" font-size="11" fill="#1f2937">The alert job runs once a day, so up to a day of the deadline is gone before the merchant knows.</text>
+  <circle cx="26" cy="412" r="10" fill="#b45309"/>
+  <text x="26" y="416" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="44" y="416" font-size="11" fill="#1f2937">The deadline is stored in UTC and shown with no time zone.</text>
+  <circle cx="376" cy="412" r="10" fill="#b45309"/>
+  <text x="376" y="416" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="394" y="416" font-size="11" fill="#1f2937">The file size limit only appears after an upload fails.</text>
+</svg>

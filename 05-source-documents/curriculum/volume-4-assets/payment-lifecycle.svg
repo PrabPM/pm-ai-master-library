@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="446" viewBox="0 0 720 446" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>How one card payment moves: authorize, capture, settle, pay out</title>
+  <rect x="0" y="0" width="720" height="446" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">One $640.00 card payment to Northwind Outfitters</text>
+  <!-- 1  Authorize -->
+  <rect x="24" y="44" width="150" height="190" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="36" y="70" font-size="14" fill="#1f2937" font-weight="bold">1  Authorize</text>
+  <text x="36" y="88" font-size="11" fill="#6b7280">Acts: Customer's bank</text>
+  <text x="36" y="110" font-size="11" fill="#1f2937">The bank checks the</text>
+  <text x="36" y="125" font-size="11" fill="#1f2937">card and reserves</text>
+  <text x="36" y="140" font-size="11" fill="#1f2937">$640.00.</text>
+  <rect x="32" y="178" width="134" height="48" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="42" y="198" font-size="11" fill="#1f2937">On hold on the card.</text>
+  <text x="42" y="213" font-size="11" fill="#1f2937">Nothing has moved.</text>
+  <!-- 2  Capture -->
+  <rect x="198" y="44" width="150" height="190" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="210" y="70" font-size="14" fill="#1f2937" font-weight="bold">2  Capture</text>
+  <text x="210" y="88" font-size="11" fill="#6b7280">Acts: Merchant</text>
+  <text x="210" y="110" font-size="11" fill="#1f2937">Northwind confirms the</text>
+  <text x="210" y="125" font-size="11" fill="#1f2937">sale, usually when the</text>
+  <text x="210" y="140" font-size="11" fill="#1f2937">order ships.</text>
+  <rect x="206" y="178" width="134" height="48" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="216" y="198" font-size="11" fill="#1f2937">Owed to Northwind.</text>
+  <text x="216" y="213" font-size="11" fill="#1f2937">Shown as pending.</text>
+  <!-- 3  Settle -->
+  <rect x="372" y="44" width="150" height="190" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="384" y="70" font-size="14" fill="#1f2937" font-weight="bold">3  Settle</text>
+  <text x="384" y="88" font-size="11" fill="#6b7280">Acts: Card network</text>
+  <text x="384" y="110" font-size="11" fill="#1f2937">The network moves the</text>
+  <text x="384" y="125" font-size="11" fill="#1f2937">funds to PayFlow,</text>
+  <text x="384" y="140" font-size="11" fill="#1f2937">usually in 1-2 business</text>
+  <text x="384" y="155" font-size="11" fill="#1f2937">days.</text>
+  <rect x="380" y="178" width="134" height="48" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="390" y="198" font-size="11" fill="#1f2937">At PayFlow. Shown</text>
+  <text x="390" y="213" font-size="11" fill="#1f2937">as settled.</text>
+  <!-- 4  Pay out -->
+  <rect x="546" y="44" width="150" height="190" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="558" y="70" font-size="14" fill="#1f2937" font-weight="bold">4  Pay out</text>
+  <text x="558" y="88" font-size="11" fill="#6b7280">Acts: PayFlow</text>
+  <text x="558" y="110" font-size="11" fill="#1f2937">PayFlow sends settled</text>
+  <text x="558" y="125" font-size="11" fill="#1f2937">funds, minus fees and</text>
+  <text x="558" y="140" font-size="11" fill="#1f2937">holds, to Northwind's</text>
+  <text x="558" y="155" font-size="11" fill="#1f2937">bank.</text>
+  <rect x="554" y="178" width="134" height="48" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="564" y="198" font-size="11" fill="#1f2937">In Northwind's bank</text>
+  <text x="564" y="213" font-size="11" fill="#1f2937">account.</text>
+  <line x1="177" y1="84" x2="195" y2="84" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="195.0,84.0 188.1,88.1 188.1,79.9" fill="#1f2937"/>
+  <line x1="351" y1="84" x2="369" y2="84" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="369.0,84.0 362.1,88.1 362.1,79.9" fill="#1f2937"/>
+  <line x1="525" y1="84" x2="543" y2="84" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="543.0,84.0 536.1,88.1 536.1,79.9" fill="#1f2937"/>
+  <!-- ledger band -->
+  <line x1="99.0" y1="234" x2="99.0" y2="252" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <line x1="273.0" y1="234" x2="273.0" y2="252" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <line x1="447.0" y1="234" x2="447.0" y2="252" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <line x1="621.0" y1="234" x2="621.0" y2="252" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <rect x="24" y="252" width="672" height="54" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="38" y="274" font-size="13" fill="#1f2937" font-weight="bold">Ledger</text>
+  <text x="92" y="274" font-size="12" fill="#1f2937">Every step adds an entry. A balance is the sum of its entries.</text>
+  <text x="38" y="293" font-size="12" fill="#6b7280">Entries are never edited. A mistake is fixed by adding a reversing entry.</text>
+  <!-- money coming back -->
+  <text x="24" y="330" font-size="13" fill="#1f2937" font-weight="bold">Two ways the money can come back</text>
+  <rect x="24" y="340" width="324" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="38" y="364" font-size="13" fill="#1f2937" font-weight="bold">Refund</text>
+  <text x="38" y="384" font-size="11" fill="#1f2937">The merchant chooses to send money back. A new ledger</text>
+  <text x="38" y="399" font-size="11" fill="#1f2937">entry reduces the next payout.</text>
+  <rect x="372" y="340" width="324" height="92" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="386" y="364" font-size="13" fill="#1f2937" font-weight="bold">Chargeback (dispute)</text>
+  <text x="386" y="384" font-size="11" fill="#1f2937">The customer asks their bank to reverse the charge. The</text>
+  <text x="386" y="399" font-size="11" fill="#1f2937">$640.00 is pulled back at once. The merchant accepts, or</text>
+  <text x="386" y="414" font-size="11" fill="#1f2937">contests with evidence before a deadline.</text>
+</svg>

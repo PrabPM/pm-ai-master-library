@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="478" viewBox="0 0 720 478" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Whiteboard sketch for the chargeback evidence assistant answer</title>
+  <rect x="0" y="0" width="720" height="478" rx="6" fill="#ffffff"/>
+  <rect x="10" y="10" width="700" height="458" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="26" y="36" font-size="15" fill="#1f2937" font-weight="bold">AI assistant for chargeback evidence</text>
+  <text x="694" y="36" font-size="11" fill="#6b7280" text-anchor="end" font-style="italic">whiteboard at minute 30</text>
+  <!-- context -->
+  <rect x="22" y="48" width="220" height="124" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="42" cy="68" r="11" fill="#4f46e5"/>
+  <text x="42" y="73" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">C</text>
+  <text x="60" y="73" font-size="13" fill="#1f2937" font-weight="bold">Context</text>
+  <text x="34" y="92" font-size="11" fill="#1f2937">User: Daniel, finance ops at a mid-size</text>
+  <text x="34" y="106" font-size="11" fill="#1f2937">merchant</text>
+  <text x="34" y="124" font-size="11" fill="#1f2937">Job: answer a dispute with the right</text>
+  <text x="34" y="138" font-size="11" fill="#1f2937">evidence, on time</text>
+  <text x="34" y="156" font-size="11" fill="#1f2937">Limits: a hard deadline, personal data</text>
+  <!-- learn -->
+  <rect x="250" y="48" width="220" height="124" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="270" cy="68" r="11" fill="#4f46e5"/>
+  <text x="270" y="73" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">L</text>
+  <text x="288" y="73" font-size="13" fill="#1f2937" font-weight="bold">Learn</text>
+  <text x="262" y="92" font-size="11" fill="#1f2937">Know: 31 disputes a month, 40</text>
+  <text x="262" y="106" font-size="11" fill="#1f2937">minutes each</text>
+  <text x="262" y="124" font-size="11" fill="#1f2937">Don't know: why 1 in 5 miss the</text>
+  <text x="262" y="138" font-size="11" fill="#1f2937">deadline</text>
+  <text x="262" y="156" font-size="11" fill="#1f2937">Check: watch 5 operators, read tickets</text>
+  <!-- explore -->
+  <rect x="478" y="48" width="220" height="124" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="498" cy="68" r="11" fill="#4f46e5"/>
+  <text x="498" y="73" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">E</text>
+  <text x="516" y="73" font-size="13" fill="#1f2937" font-weight="bold">Explore</text>
+  <text x="490" y="92" font-size="11" fill="#1f2937">A Checklist plus deadline alerts</text>
+  <text x="490" y="110" font-size="11" fill="#1f2937">B Assistant drafts, a person submits</text>
+  <text x="490" y="130" font-size="11" fill="#b91c1c">C  Auto-submit: no, cannot be undone</text>
+  <rect x="486" y="140" width="204" height="24" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="496" y="156" font-size="11" fill="#15803d" font-weight="bold">Chosen: B, built on top of A</text>
+  <!-- align -->
+  <rect x="22" y="180" width="676" height="176" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="42" cy="200" r="11" fill="#4f46e5"/>
+  <text x="42" y="205" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">A</text>
+  <text x="60" y="205" font-size="13" fill="#1f2937" font-weight="bold">Align: the flow, its states, and its failures</text>
+  <rect x="34" y="216" width="122" height="44" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="95.0" y="242" font-size="11" fill="#1f2937" text-anchor="middle">Dispute opens</text>
+  <line x1="157" y1="238" x2="167" y2="238" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="167.0,238.0 160.1,242.1 160.1,233.9" fill="#1f2937"/>
+  <rect x="168" y="216" width="122" height="44" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="229.0" y="242" font-size="11" fill="#1f2937" text-anchor="middle">Gather evidence</text>
+  <line x1="291" y1="238" x2="301" y2="238" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="301.0,238.0 294.1,242.1 294.1,233.9" fill="#1f2937"/>
+  <rect x="302" y="216" width="122" height="44" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="363.0" y="234" font-size="11" fill="#1f2937" text-anchor="middle">Draft, cited, with</text>
+  <text x="363.0" y="248" font-size="11" fill="#1f2937" text-anchor="middle">gaps</text>
+  <line x1="425" y1="238" x2="435" y2="238" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="435.0,238.0 428.1,242.1 428.1,233.9" fill="#1f2937"/>
+  <rect x="436" y="216" width="122" height="44" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="497.0" y="234" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">Daniel edits and</text>
+  <text x="497.0" y="248" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">approves</text>
+  <line x1="559" y1="238" x2="569" y2="238" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="569.0,238.0 562.1,242.1 562.1,233.9" fill="#1f2937"/>
+  <rect x="570" y="216" width="122" height="44" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="631.0" y="242" font-size="11" fill="#1f2937" text-anchor="middle">Submit and track</text>
+  <text x="34" y="284" font-size="11" fill="#6b7280" font-weight="bold">States</text>
+  <text x="34" y="302" font-size="11" fill="#1f2937">Gathering · Draft ready · Missing evidence</text>
+  <text x="34" y="318" font-size="11" fill="#1f2937">Not eligible · Submitted · Deadline passed</text>
+  <text x="34" y="342" font-size="11" fill="#4f46e5" font-style="italic">The approval boundary is the highlighted step.</text>
+  <text x="352" y="284" font-size="11" fill="#6b7280" font-weight="bold">Failure, then recovery</text>
+  <text x="352" y="302" font-size="11" fill="#1f2937">No evidence found: say so, suggest accepting the dispute</text>
+  <text x="352" y="318" font-size="11" fill="#1f2937">Sources disagree: show both, let Daniel choose</text>
+  <text x="352" y="334" font-size="11" fill="#1f2937">Under 48 hours left: priority banner and email</text>
+  <!-- result -->
+  <rect x="22" y="364" width="676" height="94" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="42" cy="384" r="11" fill="#4f46e5"/>
+  <text x="42" y="389" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">R</text>
+  <text x="60" y="389" font-size="13" fill="#1f2937" font-weight="bold">Result</text>
+  <text x="34" y="406" font-size="11" fill="#1f2937">Measure: disputes answered on time with complete evidence. Guardrails: zero unsupported claims in audits, no privacy</text>
+  <text x="34" y="420" font-size="11" fill="#1f2937">incidents.</text>
+  <text x="34" y="437" font-size="11" fill="#1f2937">Rollout: shadow mode, then 10% of merchants, then everyone. Stop if an audit finds one invented claim.</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="470" viewBox="0 0 720 470" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Sales battlecard comparing Instant Payouts with a rival's same-day payouts</title>
+  <rect x="0" y="0" width="720" height="470" rx="6" fill="#ffffff"/>
+  <rect x="12" y="12" width="696" height="46" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="26" y="33" font-size="14" fill="#1f2937" font-weight="bold">Battlecard: Instant Payouts against QuickTill same-day payouts</text>
+  <text x="26" y="50" font-size="11" fill="#6b7280">Internal only. Updated November 2, 2026. Owner: Nadia Rahman</text>
+  <!-- Their pitch -->
+  <rect x="12" y="66" width="342" height="76" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="24" y="88" font-size="12" fill="#1f2937" font-weight="bold">Their pitch</text>
+  <circle cx="27" cy="104" r="2" fill="#6b7280"/>
+  <text x="36" y="108" font-size="11" fill="#1f2937">"Same-day payouts for 1.5%."</text>
+  <circle cx="27" cy="124" r="2" fill="#6b7280"/>
+  <text x="36" y="128" font-size="11" fill="#1f2937">Weekdays only, and only for sales made before 3:00 pm.</text>
+  <!-- Where we win -->
+  <rect x="12" y="150" width="342" height="112" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="24" y="172" font-size="12" fill="#15803d" font-weight="bold">Where we win</text>
+  <circle cx="27" cy="188" r="2" fill="#6b7280"/>
+  <text x="36" y="192" font-size="11" fill="#1f2937">Weekends and holidays: they have nothing to offer.</text>
+  <circle cx="27" cy="208" r="2" fill="#6b7280"/>
+  <text x="36" y="212" font-size="11" fill="#1f2937">Speed: within 30 minutes, not at the end of the day.</text>
+  <circle cx="27" cy="228" r="2" fill="#6b7280"/>
+  <text x="36" y="232" font-size="11" fill="#1f2937">Price: 1% against 1.5%, and the fee is shown before</text>
+  <text x="36" y="247" font-size="11" fill="#1f2937">confirming.</text>
+  <!-- Where they win (say so) -->
+  <rect x="12" y="270" width="342" height="76" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="24" y="292" font-size="12" fill="#1f2937" font-weight="bold">Where they win (say so)</text>
+  <circle cx="27" cy="308" r="2" fill="#6b7280"/>
+  <text x="36" y="312" font-size="11" fill="#1f2937">A free card reader for new shops.</text>
+  <circle cx="27" cy="328" r="2" fill="#6b7280"/>
+  <text x="36" y="332" font-size="11" fill="#1f2937">Table ordering built into their restaurant app.</text>
+  <!-- Do not say -->
+  <rect x="12" y="354" width="342" height="104" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="24" y="376" font-size="12" fill="#b91c1c" font-weight="bold">Do not say</text>
+  <circle cx="27" cy="392" r="2" fill="#6b7280"/>
+  <text x="36" y="396" font-size="11" fill="#1f2937">"Guaranteed instant." Most payouts arrive within 30</text>
+  <text x="36" y="411" font-size="11" fill="#1f2937">minutes.</text>
+  <circle cx="27" cy="427" r="2" fill="#6b7280"/>
+  <text x="36" y="431" font-size="11" fill="#1f2937">Anything about their reliability that we cannot prove.</text>
+  <!-- Questions that expose the gap -->
+  <rect x="366" y="66" width="342" height="124" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="378" y="88" font-size="12" fill="#1f2937" font-weight="bold">Questions that expose the gap</text>
+  <circle cx="381" cy="104" r="2" fill="#6b7280"/>
+  <text x="390" y="108" font-size="11" fill="#1f2937">"Which days are your busiest, and when does that money</text>
+  <text x="390" y="123" font-size="11" fill="#1f2937">reach your bank?"</text>
+  <circle cx="381" cy="139" r="2" fill="#6b7280"/>
+  <text x="390" y="143" font-size="11" fill="#1f2937">"When is your main supplier paid?"</text>
+  <circle cx="381" cy="159" r="2" fill="#6b7280"/>
+  <text x="390" y="163" font-size="11" fill="#1f2937">"What happens to card sales made after 3:00 pm on a</text>
+  <text x="390" y="178" font-size="11" fill="#1f2937">Friday?"</text>
+  <!-- Objections and answers -->
+  <rect x="366" y="198" width="342" height="182" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="378" y="220" font-size="12" fill="#1f2937" font-weight="bold">Objections and answers</text>
+  <circle cx="381" cy="236" r="2" fill="#6b7280"/>
+  <text x="390" y="240" font-size="11" fill="#1f2937">"1% is another fee." On $1,850 it is $18.50, and you see it</text>
+  <text x="390" y="255" font-size="11" fill="#1f2937">before you confirm. Standard payouts stay free, so you pay</text>
+  <text x="390" y="270" font-size="11" fill="#1f2937">only when the speed is worth it.</text>
+  <circle cx="381" cy="286" r="2" fill="#6b7280"/>
+  <text x="390" y="290" font-size="11" fill="#1f2937">"Is this a loan?" No. It is your own balance, sent sooner.</text>
+  <text x="390" y="305" font-size="11" fill="#1f2937">There is nothing to repay.</text>
+  <circle cx="381" cy="321" r="2" fill="#6b7280"/>
+  <text x="390" y="325" font-size="11" fill="#1f2937">"My bookkeeper will hate it." Each payout and its fee is a</text>
+  <text x="390" y="340" font-size="11" fill="#1f2937">separate line in the export. Ruth Castillo's guide for</text>
+  <text x="390" y="355" font-size="11" fill="#1f2937">bookkeepers shows how to match them.</text>
+  <!-- Send after the call -->
+  <rect x="366" y="388" width="342" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="378" y="410" font-size="12" fill="#1f2937" font-weight="bold">Send after the call</text>
+  <circle cx="381" cy="426" r="2" fill="#6b7280"/>
+  <text x="390" y="430" font-size="11" fill="#1f2937">Beta arrival data on one page, the Juniper Bakery story, and</text>
+  <text x="390" y="445" font-size="11" fill="#1f2937">the fee calculator.</text>
+</svg>

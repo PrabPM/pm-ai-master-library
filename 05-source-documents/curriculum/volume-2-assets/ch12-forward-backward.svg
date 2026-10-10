@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="290" viewBox="0 0 720 290" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>One forward pass and one backward pass through a two-layer network</title>
+  <rect x="0" y="0" width="720" height="290" rx="6" fill="#ffffff"/>
+  <text x="24" y="24" font-size="13" fill="#1f2937" font-weight="bold">Forward pass: compute the prediction</text>
+  <rect x="24" y="36" width="150" height="92" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="36" y="60" font-size="12" fill="#1f2937" font-weight="bold">Input</text>
+  <text x="36" y="84" font-size="12" fill="#1f2937">x = (2, 1)</text>
+  <rect x="190" y="36" width="186" height="92" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="202" y="60" font-size="12" fill="#1f2937" font-weight="bold">Hidden layer (ReLU)</text>
+  <text x="202" y="84" font-size="12" fill="#1f2937">z1 = (1.5, -1.0)</text>
+  <text x="202" y="102" font-size="12" fill="#1f2937">a1 = (1.5, 0)</text>
+  <rect x="392" y="36" width="170" height="92" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="404" y="60" font-size="12" fill="#1f2937" font-weight="bold">Output (sigmoid)</text>
+  <text x="404" y="84" font-size="12" fill="#1f2937">z2 = 2(1.5) + 1(0) - 3 = 0</text>
+  <text x="404" y="102" font-size="12" fill="#1f2937">p = 0.50</text>
+  <rect x="578" y="36" width="118" height="92" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="590" y="60" font-size="12" fill="#1f2937" font-weight="bold">Loss</text>
+  <text x="590" y="84" font-size="12" fill="#1f2937">label y = 1</text>
+  <text x="590" y="102" font-size="12" fill="#1f2937">-ln 0.50 = 0.693</text>
+  <line x1="177" y1="82.0" x2="187" y2="82.0" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="187.0,82.0 180.1,86.1 180.1,77.9" fill="#4f46e5"/>
+  <line x1="379" y1="82.0" x2="389" y2="82.0" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="389.0,82.0 382.1,86.1 382.1,77.9" fill="#4f46e5"/>
+  <line x1="565" y1="82.0" x2="575" y2="82.0" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="575.0,82.0 568.1,86.1 568.1,77.9" fill="#4f46e5"/>
+  <text x="24" y="166" font-size="13" fill="#1f2937" font-weight="bold">Backward pass: pass the blame from right to left</text>
+  <rect x="24" y="178" width="150" height="88" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="36" y="204" font-size="12" fill="#1f2937" font-weight="bold">grad W1 = d1 times x</text>
+  <text x="36" y="224" font-size="12" fill="#1f2937">row 1: (-2, -1)</text>
+  <text x="36" y="244" font-size="12" fill="#1f2937">row 2: (0, 0)</text>
+  <rect x="190" y="178" width="186" height="88" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="202" y="204" font-size="12" fill="#1f2937" font-weight="bold">d1 = (w2 d2) where z1 &gt; 0</text>
+  <text x="202" y="224" font-size="12" fill="#1f2937">= (-1, 0)</text>
+  <text x="202" y="244" font-size="12" fill="#1f2937">unit 2 is off: no signal</text>
+  <rect x="392" y="178" width="170" height="88" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="404" y="204" font-size="12" fill="#1f2937" font-weight="bold">d2 = p - y = -0.50</text>
+  <text x="404" y="224" font-size="12" fill="#1f2937">grad w2 = d2 a1</text>
+  <text x="404" y="244" font-size="12" fill="#1f2937">= (-0.75, 0)</text>
+  <rect x="578" y="178" width="118" height="88" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="590" y="204" font-size="12" fill="#1f2937" font-weight="bold">start here:</text>
+  <text x="590" y="224" font-size="12" fill="#1f2937">how wrong</text>
+  <text x="590" y="244" font-size="12" fill="#1f2937">was p?</text>
+  <line x1="187" y1="222.0" x2="177" y2="222.0" stroke="#b91c1c" stroke-width="1.5"/>
+  <polygon points="177.0,222.0 183.9,217.9 183.9,226.1" fill="#b91c1c"/>
+  <line x1="389" y1="222.0" x2="379" y2="222.0" stroke="#b91c1c" stroke-width="1.5"/>
+  <polygon points="379.0,222.0 385.9,217.9 385.9,226.1" fill="#b91c1c"/>
+  <line x1="575" y1="222.0" x2="565" y2="222.0" stroke="#b91c1c" stroke-width="1.5"/>
+  <polygon points="565.0,222.0 571.9,217.9 571.9,226.1" fill="#b91c1c"/>
+</svg>

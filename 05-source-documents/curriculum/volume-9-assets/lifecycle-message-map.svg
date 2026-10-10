@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="366" viewBox="0 0 720 366" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Lifecycle message map for Instant Payouts across four merchant stages</title>
+  <rect x="0" y="0" width="720" height="366" rx="6" fill="#ffffff"/>
+  <rect x="104" y="12" width="145" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="176.5" y="31" font-size="12" fill="#4f46e5" text-anchor="middle" font-weight="bold">New to it</text>
+  <rect x="255" y="12" width="145" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="327.5" y="31" font-size="12" fill="#4f46e5" text-anchor="middle" font-weight="bold">First payout</text>
+  <rect x="406" y="12" width="145" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="478.5" y="31" font-size="12" fill="#4f46e5" text-anchor="middle" font-weight="bold">Habit</text>
+  <rect x="557" y="12" width="145" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="629.5" y="31" font-size="12" fill="#4f46e5" text-anchor="middle" font-weight="bold">Lapsed</text>
+  <line x1="248" y1="26" x2="256" y2="26" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="256.0,26.0 249.1,30.1 249.1,21.9" fill="#4f46e5"/>
+  <line x1="399" y1="26" x2="407" y2="26" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="407.0,26.0 400.1,30.1 400.1,21.9" fill="#4f46e5"/>
+  <line x1="550" y1="26" x2="558" y2="26" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="558.0,26.0 551.1,30.1 551.1,21.9" fill="#4f46e5"/>
+  <!-- Merchant -->
+  <rect x="14" y="48" width="80" height="44" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="24" y="70" font-size="12" fill="#1f2937" font-weight="bold">Merchant</text>
+  <rect x="104" y="48" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="114" y="67" font-size="11" fill="#1f2937">Eligible, has never used</text>
+  <text x="114" y="81" font-size="11" fill="#1f2937">it</text>
+  <rect x="255" y="48" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="265" y="67" font-size="11" fill="#1f2937">Has used it once</text>
+  <rect x="406" y="48" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="416" y="67" font-size="11" fill="#1f2937">Three or more in 30</text>
+  <text x="416" y="81" font-size="11" fill="#1f2937">days</text>
+  <rect x="557" y="48" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="567" y="67" font-size="11" fill="#1f2937">None for 45 days</text>
+  <!-- Trigger -->
+  <rect x="14" y="98" width="80" height="58" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="24" y="120" font-size="12" fill="#1f2937" font-weight="bold">Trigger</text>
+  <rect x="104" y="98" width="145" height="58" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="114" y="117" font-size="11" fill="#1f2937">Day 60 on PayFlow,</text>
+  <text x="114" y="131" font-size="11" fill="#1f2937">then Sunday 6 pm if</text>
+  <text x="114" y="145" font-size="11" fill="#1f2937">over $500 is available</text>
+  <rect x="255" y="98" width="145" height="58" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="265" y="117" font-size="11" fill="#1f2937">The money lands in the</text>
+  <text x="265" y="131" font-size="11" fill="#1f2937">bank</text>
+  <rect x="406" y="98" width="145" height="58" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="416" y="117" font-size="11" fill="#1f2937">The third payout</text>
+  <rect x="557" y="98" width="145" height="58" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="567" y="117" font-size="11" fill="#1f2937">Day 45 without one</text>
+  <!-- Message -->
+  <rect x="14" y="162" width="80" height="74" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="24" y="184" font-size="12" fill="#1f2937" font-weight="bold">Message</text>
+  <rect x="104" y="162" width="145" height="74" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="114" y="181" font-size="11" fill="#1f2937" font-style="italic">"You have $2,140</text>
+  <text x="114" y="195" font-size="11" fill="#1f2937" font-style="italic">ready. Get it tonight for</text>
+  <text x="114" y="209" font-size="11" fill="#1f2937" font-style="italic">$21.40."</text>
+  <rect x="255" y="162" width="145" height="74" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="265" y="181" font-size="11" fill="#1f2937" font-style="italic">"Arrived in 6 minutes.</text>
+  <text x="265" y="195" font-size="11" fill="#1f2937" font-style="italic">Here is where the fee</text>
+  <text x="265" y="209" font-size="11" fill="#1f2937" font-style="italic">shows on your</text>
+  <text x="265" y="223" font-size="11" fill="#1f2937" font-style="italic">statement."</text>
+  <rect x="406" y="162" width="145" height="74" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="416" y="181" font-size="11" fill="#1f2937" font-style="italic">"Want a reminder each</text>
+  <text x="416" y="195" font-size="11" fill="#1f2937" font-style="italic">Sunday? You choose</text>
+  <text x="416" y="209" font-size="11" fill="#1f2937" font-style="italic">the amount each time."</text>
+  <rect x="557" y="162" width="145" height="74" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="567" y="181" font-size="11" fill="#1f2937" font-style="italic">One question, one tap:</text>
+  <text x="567" y="195" font-size="11" fill="#1f2937" font-style="italic">"What changed?" No</text>
+  <text x="567" y="209" font-size="11" fill="#1f2937" font-style="italic">discount.</text>
+  <!-- Channel -->
+  <rect x="14" y="242" width="80" height="44" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="24" y="264" font-size="12" fill="#1f2937" font-weight="bold">Channel</text>
+  <rect x="104" y="242" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="114" y="261" font-size="11" fill="#1f2937">Dashboard banner,</text>
+  <text x="114" y="275" font-size="11" fill="#1f2937">email</text>
+  <rect x="255" y="242" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="265" y="261" font-size="11" fill="#1f2937">Text message, in-app</text>
+  <text x="265" y="275" font-size="11" fill="#1f2937">receipt</text>
+  <rect x="406" y="242" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="416" y="261" font-size="11" fill="#1f2937">In-app only</text>
+  <rect x="557" y="242" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="567" y="261" font-size="11" fill="#1f2937">Email</text>
+  <!-- Measure -->
+  <rect x="14" y="292" width="80" height="44" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="24" y="314" font-size="12" fill="#1f2937" font-weight="bold">Measure</text>
+  <rect x="104" y="292" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="114" y="311" font-size="11" fill="#1f2937">First instant payout</text>
+  <text x="114" y="325" font-size="11" fill="#1f2937">within 14 days</text>
+  <rect x="255" y="292" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="265" y="311" font-size="11" fill="#1f2937">Second payout within 30</text>
+  <text x="265" y="325" font-size="11" fill="#1f2937">days</text>
+  <rect x="406" y="292" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="416" y="311" font-size="11" fill="#1f2937">Instant volume a month;</text>
+  <text x="416" y="325" font-size="11" fill="#1f2937">churn</text>
+  <rect x="557" y="292" width="145" height="44" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="567" y="311" font-size="11" fill="#1f2937">Reasons captured;</text>
+  <text x="567" y="325" font-size="11" fill="#1f2937">share who return</text>
+  <text x="14" y="354" font-size="11" fill="#6b7280">Activation is the first payout. The value event is the moment the money lands. Coming back after lapsing is resurrection.</text>
+</svg>

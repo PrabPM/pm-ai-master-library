@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Attribution models compared with measured incrementality</title>
+  <rect x="0" y="0" width="720" height="380" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Who gets credit for 800 new merchants? Five answers</text>
+  <line x1="70" y1="294" x2="500" y2="294" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="70" y1="64" x2="70" y2="294" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="70" y1="294.0" x2="500" y2="294.0" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="62" y="298.0" font-size="11" fill="#6b7280" text-anchor="end">0</text>
+  <line x1="70" y1="236.5" x2="500" y2="236.5" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="62" y="240.5" font-size="11" fill="#6b7280" text-anchor="end">175</text>
+  <line x1="70" y1="179.0" x2="500" y2="179.0" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="62" y="183.0" font-size="11" fill="#6b7280" text-anchor="end">350</text>
+  <line x1="70" y1="121.5" x2="500" y2="121.5" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="62" y="125.5" font-size="11" fill="#6b7280" text-anchor="end">525</text>
+  <line x1="70" y1="64.0" x2="500" y2="64.0" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="62" y="68.0" font-size="11" fill="#6b7280" text-anchor="end">700</text>
+  <text x="285.0" y="332" font-size="11" fill="#6b7280" text-anchor="middle"></text>
+  <text x="26" y="52" font-size="11" fill="#6b7280">Merchants credited</text>
+  <rect x="88" y="211.9" width="22" height="82.1" rx="6" fill="#cbd5e1" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="112" y="90.3" width="22" height="203.7" rx="6" fill="#6b7280"/>
+  <rect x="136" y="156.0" width="22" height="138.0" rx="6" fill="#eef2ff" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="160" y="125.3" width="22" height="168.7" rx="6" fill="#4f46e5"/>
+  <rect x="188" y="211.9" width="22" height="82.1" rx="6" fill="#15803d"/>
+  <text x="199.0" y="205.85714285714286" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">250</text>
+  <text x="148.0" y="312" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Search</text>
+  <rect x="231" y="175.7" width="22" height="118.3" rx="6" fill="#cbd5e1" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="255" y="271.0" width="22" height="23.0" rx="6" fill="#6b7280"/>
+  <rect x="279" y="228.3" width="22" height="65.7" rx="6" fill="#eef2ff" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="303" y="251.9" width="22" height="42.1" rx="6" fill="#4f46e5"/>
+  <rect x="331" y="233.2" width="22" height="60.8" rx="6" fill="#15803d"/>
+  <text x="342.0" y="227.21428571428572" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">185</text>
+  <text x="291.33333333333337" y="312" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Social</text>
+  <rect x="375" y="231.6" width="22" height="62.4" rx="6" fill="#cbd5e1" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="399" y="257.9" width="22" height="36.1" rx="6" fill="#6b7280"/>
+  <rect x="423" y="244.7" width="22" height="49.3" rx="6" fill="#eef2ff" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="447" y="252.2" width="22" height="41.8" rx="6" fill="#4f46e5"/>
+  <rect x="475" y="279.2" width="22" height="14.8" rx="6" fill="#15803d"/>
+  <text x="486.0" y="273.2142857142857" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">45</text>
+  <text x="434.6666666666667" y="312" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Partner</text>
+  <rect x="520" y="64" width="184" height="230" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="534" y="77" width="14" height="14" rx="6" fill="#cbd5e1" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="556" y="88" font-size="11" fill="#1f2937">First touch</text>
+  <rect x="534" y="101" width="14" height="14" rx="6" fill="#6b7280" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="556" y="112" font-size="11" fill="#1f2937">Last touch</text>
+  <rect x="534" y="125" width="14" height="14" rx="6" fill="#eef2ff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="556" y="136" font-size="11" fill="#1f2937">Linear</text>
+  <rect x="534" y="149" width="14" height="14" rx="6" fill="#4f46e5" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="556" y="160" font-size="11" fill="#1f2937">Time decay</text>
+  <rect x="534" y="173" width="14" height="14" rx="6" fill="#15803d"/>
+  <text x="556" y="184" font-size="11" fill="#1f2937" font-weight="bold">Holdout: incremental</text>
+  <text x="534" y="214" font-size="11" fill="#6b7280">The four rules only move the</text>
+  <text x="534" y="229" font-size="11" fill="#6b7280">same 800 around. The holdout</text>
+  <text x="534" y="244" font-size="11" fill="#6b7280">says 480 were caused by ads</text>
+  <text x="534" y="259" font-size="11" fill="#6b7280">at all.</text>
+  <text x="24" y="352" font-size="12" fill="#6b7280">Last touch gives Search 620 merchants; turning Search off would lose 250. Social is the reverse: 70 credited, 185 caused.</text>
+</svg>

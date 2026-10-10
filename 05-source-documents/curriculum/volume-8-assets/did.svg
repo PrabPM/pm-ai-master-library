@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="356" viewBox="0 0 720 356" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Difference-in-differences chart for the go-dark geo test</title>
+  <rect x="0" y="0" width="720" height="356" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Weekly sign-ups: states with paid social on, and states that went dark</text>
+  <rect x="324.0" y="52" width="260.0" height="232" rx="6" fill="#f8fafc"/>
+  <text x="56" y="288.0" font-size="11" fill="#6b7280" text-anchor="end">840</text>
+  <line x1="64" y1="232.4" x2="584" y2="232.4" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="56" y="236.4" font-size="11" fill="#6b7280" text-anchor="end">880</text>
+  <line x1="64" y1="180.9" x2="584" y2="180.9" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="56" y="184.9" font-size="11" fill="#6b7280" text-anchor="end">920</text>
+  <line x1="64" y1="129.3" x2="584" y2="129.3" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="56" y="133.3" font-size="11" fill="#6b7280" text-anchor="end">960</text>
+  <line x1="64" y1="77.8" x2="584" y2="77.8" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="56" y="81.8" font-size="11" fill="#6b7280" text-anchor="end">1,000</text>
+  <line x1="85.7" y1="284" x2="85.7" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="85.7" y="303" font-size="11" fill="#6b7280" text-anchor="middle">1</text>
+  <line x1="129.0" y1="284" x2="129.0" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="129.0" y="303" font-size="11" fill="#6b7280" text-anchor="middle">2</text>
+  <line x1="172.3" y1="284" x2="172.3" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="172.3" y="303" font-size="11" fill="#6b7280" text-anchor="middle">3</text>
+  <line x1="215.7" y1="284" x2="215.7" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="215.7" y="303" font-size="11" fill="#6b7280" text-anchor="middle">4</text>
+  <line x1="259.0" y1="284" x2="259.0" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="259.0" y="303" font-size="11" fill="#6b7280" text-anchor="middle">5</text>
+  <line x1="302.3" y1="284" x2="302.3" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="302.3" y="303" font-size="11" fill="#6b7280" text-anchor="middle">6</text>
+  <line x1="345.7" y1="284" x2="345.7" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="345.7" y="303" font-size="11" fill="#6b7280" text-anchor="middle">7</text>
+  <line x1="389.0" y1="284" x2="389.0" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="389.0" y="303" font-size="11" fill="#6b7280" text-anchor="middle">8</text>
+  <line x1="432.3" y1="284" x2="432.3" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="432.3" y="303" font-size="11" fill="#6b7280" text-anchor="middle">9</text>
+  <line x1="475.7" y1="284" x2="475.7" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="475.7" y="303" font-size="11" fill="#6b7280" text-anchor="middle">10</text>
+  <line x1="519.0" y1="284" x2="519.0" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="519.0" y="303" font-size="11" fill="#6b7280" text-anchor="middle">11</text>
+  <line x1="562.3" y1="284" x2="562.3" y2="289" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="562.3" y="303" font-size="11" fill="#6b7280" text-anchor="middle">12</text>
+  <line x1="64" y1="284" x2="584" y2="284" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="64" y1="52" x2="64" y2="284" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="324.0" y="322" font-size="12" fill="#1f2937" text-anchor="middle">Week</text>
+  <path d="M85.7 153.8 L129.0 161.6 L172.3 135.8 L215.7 135.8 L259.0 153.8 L302.3 106.1 L345.7 115.2 L389.0 97.1 L432.3 70.0 L475.7 86.8 L519.0 99.7 L562.3 85.5" fill="none" stroke="#4f46e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="85.7" cy="153.8" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="129.0" cy="161.6" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="172.3" cy="135.8" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="215.7" cy="135.8" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="259.0" cy="153.8" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="302.3" cy="106.1" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="345.7" cy="115.2" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="389.0" cy="97.1" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="432.3" cy="70.0" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="475.7" cy="86.8" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="519.0" cy="99.7" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="562.3" cy="85.5" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <path d="M85.7 177.0 L129.0 206.7 L172.3 173.2 L215.7 162.8 L259.0 179.6 L302.3 151.2 L345.7 224.7 L389.0 237.6 L432.3 226.0 L475.7 201.5 L519.0 223.4 L562.3 209.2" fill="none" stroke="#b91c1c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="85.7" cy="177.0" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="129.0" cy="206.7" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="172.3" cy="173.2" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="215.7" cy="162.8" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="259.0" cy="179.6" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="302.3" cy="151.2" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="345.7" cy="224.7" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="389.0" cy="237.6" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="432.3" cy="226.0" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="475.7" cy="201.5" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="519.0" cy="223.4" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="562.3" cy="209.2" r="3.5" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <path d="M324.0 126.3 L584.0 126.3" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M324.0 220.4 L584.0 220.4" fill="none" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="2 3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="324.0" y1="52" x2="324.0" y2="284" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="332.0" y="274" font-size="11" fill="#1f2937">Ads off in the dark states from week 7</text>
+  <text x="596" y="89.5" font-size="12" fill="#4f46e5" font-weight="bold">Ads on</text>
+  <text x="596" y="130.3" font-size="11" fill="#6b7280">Dark, if nothing</text>
+  <text x="596" y="144.3" font-size="11" fill="#6b7280">had changed</text>
+  <text x="596" y="224.4" font-size="12" fill="#b91c1c" font-weight="bold">Dark, actual</text>
+  <line x1="454.0" y1="129.3" x2="454.0" y2="217.4" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="454.0,217.4 449.9,210.5 458.1,210.5" fill="#1f2937"/>
+  <text x="462.0" y="177.4" font-size="12" fill="#1f2937" font-weight="bold">-73 a week</text>
+  <text x="24" y="342" font-size="12" fill="#6b7280">The dashed gray line is what the dark states would have done if they had followed the others.</text>
+</svg>

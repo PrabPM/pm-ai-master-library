@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>How data flows through a customer data platform</title>
+  <rect x="0" y="0" width="720" height="430" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">A customer data platform: five jobs and one loop</text>
+  <rect x="24.0" y="44" width="126" height="176" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="34.0" y="68" font-size="12" fill="#1f2937" font-weight="bold">1  Sources</text>
+  <text x="34.0" y="92" font-size="11" fill="#1f2937">Web and app</text>
+  <text x="34.0" y="111" font-size="11" fill="#1f2937">Email</text>
+  <text x="34.0" y="130" font-size="11" fill="#1f2937">Live events</text>
+  <text x="34.0" y="149" font-size="11" fill="#1f2937">CRM</text>
+  <text x="34.0" y="168" font-size="11" fill="#1f2937">Education</text>
+  <text x="34.0" y="187" font-size="11" fill="#1f2937">Media delivery</text>
+  <line x1="151.0" y1="132" x2="159.0" y2="132" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="159.0,132.0 152.1,136.1 152.1,127.9" fill="#1f2937"/>
+  <rect x="160.5" y="44" width="126" height="176" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="170.5" y="68" font-size="12" fill="#1f2937" font-weight="bold">2  Collect, check</text>
+  <text x="170.5" y="92" font-size="11" fill="#1f2937">SDKs, server APIs</text>
+  <text x="170.5" y="111" font-size="11" fill="#1f2937">Schema registry</text>
+  <text x="170.5" y="130" font-size="11" fill="#1f2937">Quality rules</text>
+  <text x="170.5" y="149" font-size="11" fill="#1f2937">Consent enforced</text>
+  <line x1="287.5" y1="132" x2="295.5" y2="132" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="295.5,132.0 288.6,136.1 288.6,127.9" fill="#1f2937"/>
+  <rect x="297.0" y="44" width="126" height="176" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="307.0" y="68" font-size="12" fill="#1f2937" font-weight="bold">3  Resolve, store</text>
+  <text x="307.0" y="92" font-size="11" fill="#1f2937">Identity resolution</text>
+  <text x="307.0" y="111" font-size="11" fill="#1f2937">Profile store</text>
+  <text x="307.0" y="130" font-size="11" fill="#1f2937">Provenance kept</text>
+  <text x="307.0" y="149" font-size="11" fill="#1f2937">Confidence kept</text>
+  <line x1="424.0" y1="132" x2="432.0" y2="132" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="432.0,132.0 425.1,136.1 425.1,127.9" fill="#1f2937"/>
+  <rect x="433.5" y="44" width="126" height="176" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="443.5" y="68" font-size="12" fill="#1f2937" font-weight="bold">4  Decide</text>
+  <text x="443.5" y="92" font-size="11" fill="#1f2937">Traits</text>
+  <text x="443.5" y="111" font-size="11" fill="#1f2937">Audiences</text>
+  <text x="443.5" y="130" font-size="11" fill="#1f2937">Journey state</text>
+  <text x="443.5" y="149" font-size="11" fill="#1f2937">Rules and models</text>
+  <line x1="560.5" y1="132" x2="568.5" y2="132" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="568.5,132.0 561.6,136.1 561.6,127.9" fill="#1f2937"/>
+  <rect x="570.0" y="44" width="126" height="176" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="580.0" y="68" font-size="12" fill="#1f2937" font-weight="bold">5  Activate</text>
+  <text x="580.0" y="92" font-size="11" fill="#1f2937">Email</text>
+  <text x="580.0" y="111" font-size="11" fill="#1f2937">CRM and sales</text>
+  <text x="580.0" y="130" font-size="11" fill="#1f2937">DSP</text>
+  <text x="580.0" y="149" font-size="11" fill="#1f2937">Site and app</text>
+  <text x="580.0" y="168" font-size="11" fill="#1f2937">Analytics</text>
+  <line x1="633" y1="220" x2="633" y2="262" stroke="#1f2937" stroke-width="1.5"/>
+  <line x1="633" y1="262" x2="87" y2="262" stroke="#1f2937" stroke-width="1.5"/>
+  <line x1="87" y1="262" x2="87" y2="224" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="87.0,224.0 91.1,230.9 82.9,230.9" fill="#1f2937"/>
+  <rect x="170" y="244" width="380" height="36" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="360" y="267" font-size="12" fill="#1f2937" text-anchor="middle">Delivery and outcome events flow back for measurement</text>
+  <rect x="24" y="300" width="672" height="44" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="327" font-size="12" fill="#1f2937" font-weight="bold">Governance under every step: catalog, lineage, access, retention, deletion, audit</text>
+  <text x="24" y="374" font-size="12" fill="#1f2937" font-weight="bold">Read it as a contract at each arrow:</text>
+  <text x="24" y="394" font-size="12" fill="#1f2937">what entity, which fields, how fresh, which identity key, which consent, and what happens on failure.</text>
+  <text x="24" y="416" font-size="12" fill="#6b7280">A CDP that cannot answer those six questions for a source is not ready to activate it.</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="424" viewBox="0 0 720 424" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Positioning canvas for Instant Payouts, six boxes filled in</title>
+  <rect x="0" y="0" width="720" height="424" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Positioning canvas: Instant Payouts for food and drink shops</text>
+  <!-- Competitive alternatives -->
+  <rect x="24" y="44" width="216" height="200" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="42" cy="66" r="10" fill="#4f46e5"/>
+  <text x="42" y="70" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="58" y="71" font-size="12" fill="#1f2937" font-weight="bold">Competitive alternatives</text>
+  <text x="38" y="92" font-size="11" fill="#6b7280">What Maya does today</text>
+  <circle cx="41" cy="112" r="2" fill="#6b7280"/>
+  <text x="50" y="116" font-size="11" fill="#1f2937">Wait until Tuesday and juggle the</text>
+  <text x="50" y="131" font-size="11" fill="#1f2937">bills</text>
+  <circle cx="41" cy="147" r="2" fill="#6b7280"/>
+  <text x="50" y="151" font-size="11" fill="#1f2937">Put the supplier on a credit card</text>
+  <circle cx="41" cy="167" r="2" fill="#6b7280"/>
+  <text x="50" y="171" font-size="11" fill="#1f2937">Take a cash advance from Cobalt</text>
+  <text x="50" y="186" font-size="11" fill="#1f2937">Capital</text>
+  <circle cx="41" cy="202" r="2" fill="#6b7280"/>
+  <text x="50" y="206" font-size="11" fill="#1f2937">Switch to QuickTill: same day,</text>
+  <text x="50" y="221" font-size="11" fill="#1f2937">weekdays only</text>
+  <!-- Unique attributes -->
+  <rect x="252" y="44" width="216" height="200" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="270" cy="66" r="10" fill="#4f46e5"/>
+  <text x="270" y="70" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="286" y="71" font-size="12" fill="#1f2937" font-weight="bold">Unique attributes</text>
+  <text x="266" y="92" font-size="11" fill="#6b7280">What we have that they lack</text>
+  <circle cx="269" cy="112" r="2" fill="#6b7280"/>
+  <text x="278" y="116" font-size="11" fill="#1f2937">Arrives within 30 minutes</text>
+  <circle cx="269" cy="132" r="2" fill="#6b7280"/>
+  <text x="278" y="136" font-size="11" fill="#1f2937">Works nights, weekends and</text>
+  <text x="278" y="151" font-size="11" fill="#1f2937">holidays</text>
+  <circle cx="269" cy="167" r="2" fill="#6b7280"/>
+  <text x="278" y="171" font-size="11" fill="#1f2937">One 1% fee, shown before she</text>
+  <text x="278" y="186" font-size="11" fill="#1f2937">confirms</text>
+  <circle cx="269" cy="202" r="2" fill="#6b7280"/>
+  <text x="278" y="206" font-size="11" fill="#1f2937">Her own balance, so no</text>
+  <text x="278" y="221" font-size="11" fill="#1f2937">application</text>
+  <!-- Value and proof -->
+  <rect x="480" y="44" width="216" height="200" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="498" cy="66" r="10" fill="#4f46e5"/>
+  <text x="498" y="70" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="514" y="71" font-size="12" fill="#1f2937" font-weight="bold">Value and proof</text>
+  <text x="494" y="92" font-size="11" fill="#6b7280">What that makes possible</text>
+  <circle cx="497" cy="112" r="2" fill="#6b7280"/>
+  <text x="506" y="116" font-size="11" fill="#1f2937">Pay Monday's supplier from</text>
+  <text x="506" y="131" font-size="11" fill="#1f2937">Sunday's sales</text>
+  <circle cx="497" cy="147" r="2" fill="#6b7280"/>
+  <text x="506" y="151" font-size="11" fill="#1f2937">No debt and no interest</text>
+  <circle cx="497" cy="167" r="2" fill="#6b7280"/>
+  <text x="506" y="171" font-size="11" fill="#1f2937">Proof: 4,832 of 4,960 beta payouts</text>
+  <text x="506" y="186" font-size="11" fill="#1f2937">arrived within 30 minutes</text>
+  <!-- Target market characteristics -->
+  <rect x="24" y="252" width="216" height="160" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="42" cy="274" r="10" fill="#4f46e5"/>
+  <text x="42" y="278" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <text x="58" y="279" font-size="12" fill="#1f2937" font-weight="bold">Target market characteristics</text>
+  <text x="38" y="300" font-size="11" fill="#6b7280">Who cares most</text>
+  <circle cx="41" cy="320" r="2" fill="#6b7280"/>
+  <text x="50" y="324" font-size="11" fill="#1f2937">Independent food and drink shops</text>
+  <text x="50" y="339" font-size="11" fill="#1f2937">with one to three locations</text>
+  <circle cx="41" cy="355" r="2" fill="#6b7280"/>
+  <text x="50" y="359" font-size="11" fill="#1f2937">Busy weekends; staff and</text>
+  <text x="50" y="374" font-size="11" fill="#1f2937">suppliers paid weekly</text>
+  <circle cx="41" cy="390" r="2" fill="#6b7280"/>
+  <text x="50" y="394" font-size="11" fill="#1f2937">On PayFlow for 60 days or more</text>
+  <!-- Market category -->
+  <rect x="252" y="252" width="216" height="160" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="270" cy="274" r="10" fill="#4f46e5"/>
+  <text x="270" y="278" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <text x="286" y="279" font-size="12" fill="#1f2937" font-weight="bold">Market category</text>
+  <text x="266" y="300" font-size="11" fill="#6b7280">What buyers compare it with</text>
+  <circle cx="269" cy="320" r="2" fill="#6b7280"/>
+  <text x="278" y="324" font-size="11" fill="#1f2937">Card payments with faster</text>
+  <text x="278" y="339" font-size="11" fill="#1f2937">payouts</text>
+  <circle cx="269" cy="355" r="2" fill="#6b7280"/>
+  <text x="278" y="359" font-size="11" fill="#1f2937">Not a loan, not an advance, not a</text>
+  <text x="278" y="374" font-size="11" fill="#1f2937">new bank account</text>
+  <!-- Relevant trend (optional) -->
+  <rect x="480" y="252" width="216" height="160" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="498" cy="274" r="10" fill="#4f46e5"/>
+  <text x="498" y="278" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">6</text>
+  <text x="514" y="279" font-size="12" fill="#1f2937" font-weight="bold">Relevant trend (optional)</text>
+  <text x="494" y="300" font-size="11" fill="#6b7280">Why now</text>
+  <circle cx="497" cy="320" r="2" fill="#6b7280"/>
+  <text x="506" y="324" font-size="11" fill="#1f2937">14 of 20 owners interviewed said</text>
+  <text x="506" y="339" font-size="11" fill="#1f2937">a supplier now wants payment on</text>
+  <text x="506" y="354" font-size="11" fill="#1f2937">delivery</text>
+</svg>

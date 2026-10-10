@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Message house for Instant Payouts: roof, three pillars and foundation</title>
+  <rect x="0" y="0" width="720" height="440" rx="6" fill="#ffffff"/>
+  <!-- roof -->
+  <path d="M60 124 L360 20 L660 124 Z" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="360" y="82" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">Value proposition</text>
+  <text x="360" y="108" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold">Your weekend sales, in your bank before Monday.</text>
+  <!-- audience beam -->
+  <rect x="60" y="128" width="600" height="34" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="360" y="150" font-size="12" fill="#1f2937" text-anchor="middle">For owners of independent food and drink shops who wait days for weekend card sales</text>
+  <!-- pillar Fast -->
+  <rect x="60" y="170" width="192" height="186" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="74" y="196" font-size="15" fill="#4f46e5" font-weight="bold">Fast</text>
+  <text x="74" y="218" font-size="12" fill="#1f2937">In your bank within 30</text>
+  <text x="74" y="234" font-size="12" fill="#1f2937">minutes, any day of the</text>
+  <text x="74" y="250" font-size="12" fill="#1f2937">week.</text>
+  <line x1="74" y1="264" x2="238" y2="264" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="74" y="284" font-size="11" fill="#6b7280" font-weight="bold">Proof points</text>
+  <circle cx="77" cy="300" r="2" fill="#6b7280"/>
+  <text x="86" y="304" font-size="11" fill="#1f2937">4,832 of 4,960 beta payouts</text>
+  <text x="86" y="319" font-size="11" fill="#1f2937">arrived within 30 minutes</text>
+  <circle cx="77" cy="335" r="2" fill="#6b7280"/>
+  <text x="86" y="339" font-size="11" fill="#1f2937">Median arrival: 6 minutes</text>
+  <!-- pillar Clear -->
+  <rect x="264" y="170" width="192" height="186" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="278" y="196" font-size="15" fill="#4f46e5" font-weight="bold">Clear</text>
+  <text x="278" y="218" font-size="12" fill="#1f2937">One fee of 1%, shown before</text>
+  <text x="278" y="234" font-size="12" fill="#1f2937">you confirm.</text>
+  <line x1="278" y1="248" x2="442" y2="248" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="278" y="268" font-size="11" fill="#6b7280" font-weight="bold">Proof points</text>
+  <circle cx="281" cy="284" r="2" fill="#6b7280"/>
+  <text x="290" y="288" font-size="11" fill="#1f2937">$1,850 costs $18.50</text>
+  <circle cx="281" cy="304" r="2" fill="#6b7280"/>
+  <text x="290" y="308" font-size="11" fill="#1f2937">No monthly fee and no</text>
+  <text x="290" y="323" font-size="11" fill="#1f2937">minimum</text>
+  <!-- pillar Yours -->
+  <rect x="468" y="170" width="192" height="186" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="482" y="196" font-size="15" fill="#4f46e5" font-weight="bold">Yours</text>
+  <text x="482" y="218" font-size="12" fill="#1f2937">It is your own money, not a</text>
+  <text x="482" y="234" font-size="12" fill="#1f2937">loan.</text>
+  <line x1="482" y1="248" x2="646" y2="248" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="482" y="268" font-size="11" fill="#6b7280" font-weight="bold">Proof points</text>
+  <circle cx="485" cy="284" r="2" fill="#6b7280"/>
+  <text x="494" y="288" font-size="11" fill="#1f2937">No application and no credit</text>
+  <text x="494" y="303" font-size="11" fill="#1f2937">check</text>
+  <circle cx="485" cy="319" r="2" fill="#6b7280"/>
+  <text x="494" y="323" font-size="11" fill="#1f2937">Nothing to repay and no</text>
+  <text x="494" y="338" font-size="11" fill="#1f2937">interest</text>
+  <!-- foundation -->
+  <rect x="40" y="364" width="640" height="60" rx="6" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="56" y="388" font-size="12" fill="#1f2937" font-weight="bold">Foundation</text>
+  <text x="134" y="388" font-size="12" fill="#1f2937">Brand promise: "You always know where your money is."</text>
+  <text x="56" y="408" font-size="12" fill="#6b7280">Voice: plain words and exact numbers. Never say "free", "guaranteed" or "advance".</text>
+</svg>

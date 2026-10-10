@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="420.884844pt" height="255.090765pt" viewBox="0 0 420.884844 255.090765" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 255.090765 
+L 420.884844 255.090765 
+L 420.884844 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.564844 212.328 
+L 413.684844 212.328 
+L 413.684844 7.2 
+L 56.564844 7.2 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pd8618b5a6e)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAfAAAAEdCAYAAADzdjW6AAAFQUlEQVR4nO3XoW5UURhG0RauQqBKmtL0WTAktSgcTwdBoLBF1fRJJgMhrSKkmGkuTzACQc/ZnbXsNV/OFTv/8bqu6xHAf/b5029vzD/78vGXV9vj2b4PAMC8BBwAggQcAIIEHACCBBwAggQcAIIEHACCBBwAggQcAIIEHACCBBwAggQcAIIEHACCBBwAggQcAIIEHACCBBwAggQcAIIEHACCBBwAggQcAIIEHACCBBwAggQcAIIEHACCBBwAggQcAIIEHACCBBwAggQcAIIEHACCBBwAggQcAIIEHACCBBwAggQcAIIEHACCBBwAggQcAIIEHACCjtd1XUePAJ6+d5ffR08g6P2Hl6MnTMsFDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQcu3qz+jN0zp7vZh9IRp3Vzfj54wre1mN3rCtL5evR49AZ4UFzgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABAk4AAQJOAAECTgABC13tw+jN0zp54/d6AnT2m68zT7nF8uj/gvgcLnAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBIwAEgSMABIEjAASBoubm+H71hStvNbvSEab15+2L0hGmdni2jJwAHwgUOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEECDgBBAg4AQQIOAEHLdrMbvWFK5xfL6AnTOj3zNvucvHr+qP8COFwucAAIEnAACBJwAAgScAAIEnAACBJwAAgScAAIEnAACBJwAAgScAAIEnAACBJwAAgScAAIEnAACBJwAAgScAAIEnAACBJwAAgScAAIEnAACBJwAAgScAAIEnAACBJwAAgScAAIEnAACBJwAAgScAAIEnAACBJwAAgScAAIEnAACBJwAAgScAAIEnAACBJwAAgScAAIEnAACBJwADjq+QtZ0i70n6hG8wAAAABJRU5ErkJggg==" id="image563d3c9095" transform="scale(1 -1) translate(0 -205.2)" x="56.88" y="-7.410765" width="357.12" height="205.2"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'Helvetica'; fill: #6b7280" transform="translate(41.206889 245.905131) rotate(-30)">approved</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'Helvetica'; fill: #6b7280" transform="translate(103.551845 239.487319) rotate(-30)">denied</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'Helvetica'; fill: #6b7280" transform="translate(156.16464 238.566069) rotate(-30)">refund</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'Helvetica'; fill: #6b7280" transform="translate(203.26214 240.706772) rotate(-30)">dispute</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'Helvetica'; fill: #6b7280" transform="translate(251.595642 242.237319) rotate(-30)">delayed</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'Helvetica'; fill: #6b7280" transform="translate(318.219891 233.36771) rotate(-30)">sent</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'Helvetica'; fill: #6b7280" transform="translate(358.397533 239.484741) rotate(-30)">payout</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="53.064844" y="25.977" transform="rotate(-0 53.064844 25.977)">approved</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="53.064844" y="55.281" transform="rotate(-0 53.064844 55.281)">denied</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10"/>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="53.064844" y="84.585" transform="rotate(-0 53.064844 84.585)">refund</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11"/>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="53.064844" y="113.889" transform="rotate(-0 53.064844 113.889)">dispute</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12"/>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="53.064844" y="143.193" transform="rotate(-0 53.064844 143.193)">delayed</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_13"/>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="53.064844" y="172.497" transform="rotate(-0 53.064844 172.497)">sent</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_14"/>
+     <g id="text_14">
+      <text style="font-size: 11px; font-family: 'Helvetica'; text-anchor: end; fill: #6b7280" x="53.064844" y="201.801" transform="rotate(-0 53.064844 201.801)">payout</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="82.073415" y="24.752391" transform="rotate(-0 82.073415 24.752391)">1.00</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="133.090558" y="24.752391" transform="rotate(-0 133.090558 24.752391)">0.91</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="184.107701" y="24.752391" transform="rotate(-0 184.107701 24.752391)">0.73</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="235.124844" y="24.752391" transform="rotate(-0 235.124844 24.752391)">0.67</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="286.141987" y="24.752391" transform="rotate(-0 286.141987 24.752391)">0.00</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="337.159129" y="24.752391" transform="rotate(-0 337.159129 24.752391)">0.00</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="388.176272" y="24.752391" transform="rotate(-0 388.176272 24.752391)">0.00</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="82.073415" y="54.056391" transform="rotate(-0 82.073415 54.056391)">0.91</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="133.090558" y="54.056391" transform="rotate(-0 133.090558 54.056391)">1.00</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="184.107701" y="54.056391" transform="rotate(-0 184.107701 54.056391)">0.80</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="235.124844" y="54.056391" transform="rotate(-0 235.124844 54.056391)">0.73</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="286.141987" y="54.056391" transform="rotate(-0 286.141987 54.056391)">0.00</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="337.159129" y="54.056391" transform="rotate(-0 337.159129 54.056391)">0.00</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="388.176272" y="54.056391" transform="rotate(-0 388.176272 54.056391)">0.00</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="82.073415" y="83.360391" transform="rotate(-0 82.073415 83.360391)">0.73</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="133.090558" y="83.360391" transform="rotate(-0 133.090558 83.360391)">0.80</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="184.107701" y="83.360391" transform="rotate(-0 184.107701 83.360391)">1.00</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="235.124844" y="83.360391" transform="rotate(-0 235.124844 83.360391)">0.91</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="286.141987" y="83.360391" transform="rotate(-0 286.141987 83.360391)">0.00</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="337.159129" y="83.360391" transform="rotate(-0 337.159129 83.360391)">0.00</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="388.176272" y="83.360391" transform="rotate(-0 388.176272 83.360391)">0.00</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="82.073415" y="112.664391" transform="rotate(-0 82.073415 112.664391)">0.67</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="133.090558" y="112.664391" transform="rotate(-0 133.090558 112.664391)">0.73</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="184.107701" y="112.664391" transform="rotate(-0 184.107701 112.664391)">0.91</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="235.124844" y="112.664391" transform="rotate(-0 235.124844 112.664391)">1.00</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="286.141987" y="112.664391" transform="rotate(-0 286.141987 112.664391)">0.00</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="337.159129" y="112.664391" transform="rotate(-0 337.159129 112.664391)">0.00</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="388.176272" y="112.664391" transform="rotate(-0 388.176272 112.664391)">0.00</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="82.073415" y="141.968391" transform="rotate(-0 82.073415 141.968391)">0.00</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="133.090558" y="141.968391" transform="rotate(-0 133.090558 141.968391)">0.00</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="184.107701" y="141.968391" transform="rotate(-0 184.107701 141.968391)">0.00</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="235.124844" y="141.968391" transform="rotate(-0 235.124844 141.968391)">0.00</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="286.141987" y="141.968391" transform="rotate(-0 286.141987 141.968391)">1.00</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="337.159129" y="141.968391" transform="rotate(-0 337.159129 141.968391)">1.00</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="388.176272" y="141.968391" transform="rotate(-0 388.176272 141.968391)">0.73</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="82.073415" y="171.272391" transform="rotate(-0 82.073415 171.272391)">0.00</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="133.090558" y="171.272391" transform="rotate(-0 133.090558 171.272391)">0.00</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="184.107701" y="171.272391" transform="rotate(-0 184.107701 171.272391)">0.00</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="235.124844" y="171.272391" transform="rotate(-0 235.124844 171.272391)">0.00</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="286.141987" y="171.272391" transform="rotate(-0 286.141987 171.272391)">1.00</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="337.159129" y="171.272391" transform="rotate(-0 337.159129 171.272391)">1.00</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="388.176272" y="171.272391" transform="rotate(-0 388.176272 171.272391)">0.73</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="82.073415" y="200.576391" transform="rotate(-0 82.073415 200.576391)">0.00</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="133.090558" y="200.576391" transform="rotate(-0 133.090558 200.576391)">0.00</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="184.107701" y="200.576391" transform="rotate(-0 184.107701 200.576391)">0.00</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="235.124844" y="200.576391" transform="rotate(-0 235.124844 200.576391)">0.00</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="286.141987" y="200.576391" transform="rotate(-0 286.141987 200.576391)">0.73</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #1f2937" x="337.159129" y="200.576391" transform="rotate(-0 337.159129 200.576391)">0.73</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 10px; font-family: 'Helvetica'; text-anchor: middle; fill: #ffffff" x="388.176272" y="200.576391" transform="rotate(-0 388.176272 200.576391)">1.00</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd8618b5a6e">
+   <rect x="56.564844" y="7.2" width="357.12" height="205.128"/>
+  </clipPath>
+ </defs>
+</svg>

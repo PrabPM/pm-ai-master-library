@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="470" viewBox="0 0 720 470" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>A leading survey question rewritten as a neutral one</title>
+  <rect x="0" y="0" width="720" height="470" rx="6" fill="#ffffff"/>
+  <rect x="24" y="16" width="330" height="438" rx="6" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <rect x="38" y="28" width="56" height="22" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="66.0" y="43" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">Before</text>
+  <text x="38" y="76" font-size="13" fill="#1f2937" font-weight="bold">How frustrating and confusing was our long</text>
+  <text x="38" y="94" font-size="13" fill="#1f2937" font-weight="bold">sign-up form?</text>
+  <circle cx="46" cy="122" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="60" y="126" font-size="12" fill="#1f2937">Extremely</text>
+  <circle cx="46" cy="146" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="60" y="150" font-size="12" fill="#1f2937">Very</text>
+  <circle cx="46" cy="170" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="60" y="174" font-size="12" fill="#1f2937">Somewhat</text>
+  <circle cx="46" cy="194" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="60" y="198" font-size="12" fill="#1f2937">Slightly</text>
+  <circle cx="332" cy="70" r="10" fill="#b91c1c"/>
+  <text x="332" y="74" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="332" cy="94" r="10" fill="#b91c1c"/>
+  <text x="332" y="98" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="174" cy="158" r="10" fill="#b91c1c"/>
+  <text x="174" y="162" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <line x1="38" y1="226" x2="340" y2="226" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="48" cy="246" r="10" fill="#b91c1c"/>
+  <text x="48" y="250" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="66" y="250" font-size="12" fill="#1f2937">Leading. “Frustrating” and “long” tell people what</text>
+  <text x="66" y="266" font-size="12" fill="#1f2937">to feel.</text>
+  <circle cx="48" cy="288" r="10" fill="#b91c1c"/>
+  <text x="48" y="292" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="66" y="292" font-size="12" fill="#1f2937">Double-barreled. Frustrating and confusing are</text>
+  <text x="66" y="308" font-size="12" fill="#1f2937">two questions.</text>
+  <circle cx="48" cy="330" r="10" fill="#b91c1c"/>
+  <text x="48" y="334" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="66" y="334" font-size="12" fill="#1f2937">Unbalanced scale. There is no way to say it was</text>
+  <text x="66" y="350" font-size="12" fill="#1f2937">fine.</text>
+  <rect x="366" y="16" width="330" height="438" rx="6" fill="#ffffff" stroke="#15803d" stroke-width="1.5"/>
+  <rect x="380" y="28" width="46" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="403.0" y="43" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">After</text>
+  <text x="380" y="76" font-size="13" fill="#1f2937" font-weight="bold">What was the main reason you did not finish</text>
+  <text x="380" y="94" font-size="13" fill="#1f2937" font-weight="bold">signing up? Pick one.</text>
+  <circle cx="388" cy="122" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="402" y="126" font-size="12" fill="#1f2937">I did not have a document or number to hand</text>
+  <circle cx="388" cy="144" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="402" y="148" font-size="12" fill="#1f2937">I did not understand a question</text>
+  <circle cx="388" cy="166" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="402" y="170" font-size="12" fill="#1f2937">I lost my progress</text>
+  <circle cx="388" cy="188" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="402" y="192" font-size="12" fill="#1f2937">A document was rejected</text>
+  <circle cx="388" cy="210" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="402" y="214" font-size="12" fill="#1f2937">I was not comfortable sharing something</text>
+  <circle cx="388" cy="232" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="402" y="236" font-size="12" fill="#1f2937">It was taking too long</text>
+  <circle cx="388" cy="254" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="402" y="258" font-size="12" fill="#1f2937">Something else (please say)</text>
+  <circle cx="388" cy="276" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="402" y="280" font-size="12" fill="#1f2937">I did finish signing up</text>
+  <circle cx="674" cy="70" r="10" fill="#15803d"/>
+  <text x="674" y="74" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="674" cy="126" r="10" fill="#15803d"/>
+  <text x="674" y="130" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="674" cy="258" r="10" fill="#15803d"/>
+  <text x="674" y="262" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <line x1="380" y1="306" x2="682" y2="306" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="390" cy="326" r="10" fill="#15803d"/>
+  <text x="390" y="330" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="408" y="330" font-size="12" fill="#1f2937">Neutral words, one idea, about something that</text>
+  <text x="408" y="346" font-size="12" fill="#1f2937">happened.</text>
+  <circle cx="390" cy="366" r="10" fill="#15803d"/>
+  <text x="390" y="370" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="408" y="370" font-size="12" fill="#1f2937">Options come from the interviews and appear in</text>
+  <text x="408" y="386" font-size="12" fill="#1f2937">random order.</text>
+  <circle cx="390" cy="406" r="10" fill="#15803d"/>
+  <text x="390" y="410" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="408" y="410" font-size="12" fill="#1f2937">Two ways out, for people the list or the question</text>
+  <text x="408" y="426" font-size="12" fill="#1f2937">does not fit.</text>
+</svg>

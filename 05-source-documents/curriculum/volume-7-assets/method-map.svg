@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="452" viewBox="0 0 720 452" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Research methods placed by what they capture</title>
+  <rect x="0" y="0" width="720" height="452" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Pick the method by the kind of answer you need</text>
+  <text x="261.0" y="56" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">What people SAY</text>
+  <text x="557.0" y="56" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">What people DO</text>
+  <text x="24" y="128" font-size="12" fill="#1f2937" font-weight="bold">A few people,</text>
+  <text x="24" y="144" font-size="12" fill="#1f2937" font-weight="bold">in depth.</text>
+  <text x="24" y="160" font-size="12" fill="#6b7280">Answers why</text>
+  <text x="24" y="176" font-size="12" fill="#6b7280">and how.</text>
+  <rect x="118" y="66" width="286" height="168" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="414" y="66" width="286" height="168" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="24" y="306" font-size="12" fill="#1f2937" font-weight="bold">Many people,</text>
+  <text x="24" y="322" font-size="12" fill="#1f2937" font-weight="bold">counted.</text>
+  <text x="24" y="338" font-size="12" fill="#6b7280">Answers how</text>
+  <text x="24" y="354" font-size="12" fill="#6b7280">many.</text>
+  <rect x="118" y="244" width="286" height="168" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="414" y="244" width="286" height="168" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="130" y="78" width="262" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="142" y="100" font-size="13" fill="#1f2937" font-weight="bold">Interview</text>
+  <text x="142" y="118" font-size="11" fill="#6b7280">How people describe the problem, in their</text>
+  <text x="142" y="132" font-size="11" fill="#6b7280">own words</text>
+  <circle cx="374" cy="96" r="10" fill="#4f46e5"/>
+  <text x="374" y="100" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <rect x="130" y="152" width="262" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="142" y="174" font-size="13" fill="#1f2937" font-weight="bold">Reading tickets and reviews</text>
+  <text x="142" y="192" font-size="11" fill="#6b7280">What people complain about without being</text>
+  <text x="142" y="206" font-size="11" fill="#6b7280">asked</text>
+  <circle cx="374" cy="170" r="10" fill="#4f46e5"/>
+  <text x="374" y="174" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <rect x="426" y="78" width="262" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="438" y="100" font-size="13" fill="#1f2937" font-weight="bold">Usability test</text>
+  <text x="438" y="118" font-size="11" fill="#6b7280">Where a design trips people up</text>
+  <circle cx="670" cy="96" r="10" fill="#4f46e5"/>
+  <text x="670" y="100" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <rect x="426" y="152" width="262" height="66" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="438" y="174" font-size="13" fill="#1f2937" font-weight="bold">Field visit or diary study</text>
+  <text x="438" y="192" font-size="11" fill="#6b7280">What really happens, in context and over</text>
+  <text x="438" y="206" font-size="11" fill="#6b7280">time</text>
+  <rect x="130" y="256" width="262" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="142" y="278" font-size="13" fill="#1f2937" font-weight="bold">Survey</text>
+  <text x="142" y="296" font-size="11" fill="#6b7280">How widespread a reason or an opinion is</text>
+  <circle cx="374" cy="274" r="10" fill="#4f46e5"/>
+  <text x="374" y="278" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+  <rect x="426" y="256" width="262" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="438" y="278" font-size="13" fill="#1f2937" font-weight="bold">Product analytics</text>
+  <text x="438" y="296" font-size="11" fill="#6b7280">What happened, where, and how often</text>
+  <circle cx="670" cy="274" r="10" fill="#4f46e5"/>
+  <text x="670" y="278" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="426" y="330" width="262" height="66" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="438" y="352" font-size="13" fill="#1f2937" font-weight="bold">Experiment (A/B test)</text>
+  <text x="438" y="370" font-size="11" fill="#6b7280">Whether a change causes a result</text>
+  <text x="132" y="348" font-size="11" fill="#6b7280">Counting opinions is easy and tempting. People</text>
+  <text x="132" y="363" font-size="11" fill="#6b7280">are poor at predicting what they will do, so use</text>
+  <text x="132" y="378" font-size="11" fill="#6b7280">surveys for what happened and how common it is.</text>
+  <circle cx="34" cy="428" r="10" fill="#4f46e5"/>
+  <text x="34" y="432" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="50" y="432" font-size="11" fill="#6b7280">to</text>
+  <circle cx="72" cy="428" r="10" fill="#4f46e5"/>
+  <text x="72" y="432" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">5</text>
+  <text x="90" y="432" font-size="11" fill="#6b7280">The order PayFlow uses them in this book: cheap and broad first, then deep, then counted, then tested.</text>
+</svg>

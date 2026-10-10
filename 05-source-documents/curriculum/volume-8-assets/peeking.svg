@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Bar chart: false positive rate rises with the number of looks</title>
+  <rect x="0" y="0" width="720" height="330" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Tests with no real difference that still 'win'</text>
+  <text x="52" y="256.0" font-size="11" fill="#6b7280" text-anchor="end">0%</text>
+  <line x1="60" y1="190.8" x2="696" y2="190.8" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="52" y="194.8" font-size="11" fill="#6b7280" text-anchor="end">10%</text>
+  <line x1="60" y1="129.5" x2="696" y2="129.5" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="52" y="133.5" font-size="11" fill="#6b7280" text-anchor="end">20%</text>
+  <line x1="60" y1="68.2" x2="696" y2="68.2" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="52" y="72.2" font-size="11" fill="#6b7280" text-anchor="end">30%</text>
+  <line x1="60" y1="252" x2="696" y2="252" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="60" y1="56" x2="60" y2="252" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="88.6" y="221.3" width="70" height="30.69999999999999" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="123.6" y="214.3" font-size="12" fill="#15803d" text-anchor="middle" font-weight="bold">5.0%</text>
+  <text x="123.6" y="272" font-size="11" fill="#1f2937" text-anchor="middle">1 look,</text>
+  <text x="123.6" y="287" font-size="11" fill="#6b7280" text-anchor="middle">at the end</text>
+  <rect x="215.8" y="163.3" width="70" height="88.69999999999999" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="250.8" y="156.3" font-size="12" fill="#b91c1c" text-anchor="middle" font-weight="bold">14.5%</text>
+  <text x="250.8" y="272" font-size="11" fill="#1f2937" text-anchor="middle">5 looks,</text>
+  <text x="250.8" y="287" font-size="11" fill="#6b7280" text-anchor="middle">p &lt; 0.05</text>
+  <rect x="343.0" y="134.0" width="70" height="118.0" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="378.0" y="127.0" font-size="12" fill="#b91c1c" text-anchor="middle" font-weight="bold">19.3%</text>
+  <text x="378.0" y="272" font-size="11" fill="#1f2937" text-anchor="middle">10 looks,</text>
+  <text x="378.0" y="287" font-size="11" fill="#6b7280" text-anchor="middle">p &lt; 0.05</text>
+  <rect x="470.2" y="77.7" width="70" height="174.3" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="505.2" y="70.7" font-size="12" fill="#b91c1c" text-anchor="middle" font-weight="bold">28.5%</text>
+  <text x="505.2" y="272" font-size="11" fill="#1f2937" text-anchor="middle">33 looks,</text>
+  <text x="505.2" y="287" font-size="11" fill="#6b7280" text-anchor="middle">p &lt; 0.05 (daily)</text>
+  <rect x="597.4" y="221.6" width="70" height="30.400000000000006" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="632.4" y="214.6" font-size="12" fill="#15803d" text-anchor="middle" font-weight="bold">5.0%</text>
+  <text x="632.4" y="272" font-size="11" fill="#1f2937" text-anchor="middle">5 looks,</text>
+  <text x="632.4" y="287" font-size="11" fill="#6b7280" text-anchor="middle">p &lt; 0.0158</text>
+  <line x1="60" y1="221.4" x2="696" y2="221.4" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="470" y1="40" x2="500" y2="40" stroke="#1f2937" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="508" y="44" font-size="11" fill="#1f2937">5%: the error rate you agreed to</text>
+  <text x="24" y="316" font-size="12" fill="#6b7280">20,000 simulated A/A tests per bar. Stopping at the first p &lt; 0.05 turns a 5% risk into 29%.</text>
+</svg>

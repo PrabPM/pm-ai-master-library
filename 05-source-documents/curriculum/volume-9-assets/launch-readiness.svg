@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="412" viewBox="0 0 720 412" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Launch readiness card with thirteen checks and a go decision</title>
+  <rect x="0" y="0" width="720" height="412" rx="6" fill="#ffffff"/>
+  <rect x="12" y="12" width="696" height="388" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="28" y="40" font-size="15" fill="#1f2937" font-weight="bold">Launch readiness: Instant Payouts</text>
+  <text x="692" y="40" font-size="11" fill="#6b7280" text-anchor="end">Reviewed Friday, November 13, 2026</text>
+  <line x1="28" y1="52" x2="692" y2="52" stroke="#cbd5e1" stroke-width="1.5"/>
+  <!-- Product -->
+  <text x="28" y="76" font-size="12" fill="#1f2937" font-weight="bold">Product</text>
+  <text x="344" y="76" font-size="11" fill="#6b7280" text-anchor="end">Owner: Arjun</text>
+  <circle cx="36" cy="92" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M31 92 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="52" y="96" font-size="11" fill="#1f2937">Daily limit and eligibility rules tested</text>
+  <circle cx="36" cy="114" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M31 114 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="52" y="118" font-size="11" fill="#1f2937">Kill switch tested on November 6</text>
+  <circle cx="36" cy="136" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M31 136 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="52" y="140" font-size="11" fill="#1f2937">Fee preview matches the ledger to the cent</text>
+  <!-- Risk and legal -->
+  <text x="28" y="170" font-size="12" fill="#1f2937" font-weight="bold">Risk and legal</text>
+  <text x="344" y="170" font-size="11" fill="#6b7280" text-anchor="end">Owner: Priya</text>
+  <circle cx="36" cy="186" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M31 186 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="52" y="190" font-size="11" fill="#1f2937">"Within 30 minutes" wording approved, with the "most</text>
+  <text x="52" y="205" font-size="11" fill="#1f2937">payouts" qualifier</text>
+  <circle cx="36" cy="223" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M31 223 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="52" y="227" font-size="11" fill="#1f2937">Fraud monitoring live on instant payouts</text>
+  <!-- Support -->
+  <text x="28" y="257" font-size="12" fill="#1f2937" font-weight="bold">Support</text>
+  <text x="344" y="257" font-size="11" fill="#6b7280" text-anchor="end">Owner: Sam</text>
+  <circle cx="36" cy="273" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M31 273 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="52" y="277" font-size="11" fill="#1f2937">42 of 42 agents trained; five reply templates written</text>
+  <circle cx="36" cy="295" r="8" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="36" y="299" font-size="11" fill="#b45309" text-anchor="middle" font-weight="bold">!</text>
+  <text x="52" y="299" font-size="11" fill="#1f2937">Help article not yet translated into Spanish</text>
+  <!-- Sales -->
+  <text x="376" y="76" font-size="12" fill="#1f2937" font-weight="bold">Sales</text>
+  <text x="692" y="76" font-size="11" fill="#6b7280" text-anchor="end">Owner: Tomás</text>
+  <circle cx="384" cy="92" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M379 92 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="96" font-size="11" fill="#1f2937">12 of 12 reps certified on the demo</text>
+  <circle cx="384" cy="114" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M379 114 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="118" font-size="11" fill="#1f2937">Battlecard and discount floor published</text>
+  <!-- Marketing -->
+  <text x="376" y="148" font-size="12" fill="#1f2937" font-weight="bold">Marketing</text>
+  <text x="692" y="148" font-size="11" fill="#6b7280" text-anchor="end">Owner: Nadia</text>
+  <circle cx="384" cy="164" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M379 164 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="168" font-size="11" fill="#1f2937">Landing page, emails and ads approved</text>
+  <circle cx="384" cy="186" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M379 186 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="190" font-size="11" fill="#1f2937">Tracking tested end to end, with consent</text>
+  <!-- Comms -->
+  <text x="376" y="220" font-size="12" fill="#1f2937" font-weight="bold">Comms</text>
+  <text x="692" y="220" font-size="11" fill="#6b7280" text-anchor="end">Owner: Dana</text>
+  <circle cx="384" cy="236" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M379 236 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="240" font-size="11" fill="#1f2937">Press release and FAQ approved</text>
+  <circle cx="384" cy="258" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M379 258 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="262" font-size="11" fill="#1f2937">Juniper Bakery signed off its quote</text>
+  <!-- Measurement -->
+  <text x="376" y="292" font-size="12" fill="#1f2937" font-weight="bold">Measurement</text>
+  <text x="692" y="292" font-size="11" fill="#6b7280" text-anchor="end">Owner: You</text>
+  <circle cx="384" cy="308" r="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M379 308 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="312" font-size="11" fill="#1f2937">Dashboard live; 10% holdout group set</text>
+  <!-- decision -->
+  <rect x="28" y="334" width="664" height="52" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="42" y="356" font-size="13" fill="#1f2937" font-weight="bold">Decision: go on Tuesday, November 17.</text>
+  <text x="42" y="375" font-size="12" fill="#1f2937">Condition: the Spanish help article is live by Monday, November 16. Owner: Sam.</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Eval scorecard for PayFlow Assist, release candidate 3</title>
+  <rect x="0" y="0" width="720" height="420" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Eval scorecard: Assist for agents, release candidate 3</text>
+  <rect x="566" y="12" width="89" height="22" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="610.5" y="27" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">1 gate failing</text>
+  <text x="34" y="58" font-size="11" fill="#6b7280" font-weight="bold">LAYER</text>
+  <text x="124" y="58" font-size="11" fill="#6b7280" font-weight="bold">WHAT IS MEASURED</text>
+  <text x="350" y="58" font-size="11" fill="#6b7280" font-weight="bold">SLICE</text>
+  <text x="488" y="58" font-size="11" fill="#6b7280" font-weight="bold">GATE</text>
+  <text x="560" y="58" font-size="11" fill="#6b7280" font-weight="bold">NOW</text>
+  <text x="632" y="58" font-size="11" fill="#6b7280" font-weight="bold">RESULT</text>
+  <!-- Task -->
+  <rect x="24" y="68" width="672" height="36" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="34" y="91" font-size="12" fill="#1f2937" font-weight="bold">Task</text>
+  <text x="124" y="91" font-size="12" fill="#1f2937">Answer accepted as right</text>
+  <text x="350" y="91" font-size="12" fill="#6b7280">All 240 cases</text>
+  <text x="488" y="91" font-size="12" fill="#1f2937">90%</text>
+  <text x="560" y="91" font-size="12" fill="#1f2937" font-weight="bold">92.1%</text>
+  <rect x="632" y="75" width="52" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="658.0" y="90" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Pass</text>
+  <!-- Retrieval -->
+  <rect x="24" y="108" width="672" height="36" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="34" y="131" font-size="12" fill="#1f2937" font-weight="bold">Retrieval</text>
+  <text x="124" y="131" font-size="12" fill="#1f2937">Right passage in top 5</text>
+  <text x="350" y="131" font-size="12" fill="#6b7280">Rare policies</text>
+  <text x="488" y="131" font-size="12" fill="#1f2937">90%</text>
+  <text x="560" y="131" font-size="12" fill="#1f2937" font-weight="bold">93%</text>
+  <rect x="632" y="115" width="52" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="658.0" y="130" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Pass</text>
+  <!-- Grounding -->
+  <rect x="24" y="148" width="672" height="36" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="34" y="171" font-size="12" fill="#1f2937" font-weight="bold">Grounding</text>
+  <text x="124" y="171" font-size="12" fill="#1f2937">Claims supported by citation</text>
+  <text x="350" y="171" font-size="12" fill="#6b7280">Money amounts</text>
+  <text x="488" y="171" font-size="12" fill="#1f2937">97%</text>
+  <text x="560" y="171" font-size="12" fill="#1f2937" font-weight="bold">97.8%</text>
+  <rect x="632" y="155" width="52" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="658.0" y="170" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Pass</text>
+  <!-- Abstention -->
+  <rect x="24" y="188" width="672" height="36" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="34" y="211" font-size="12" fill="#1f2937" font-weight="bold">Abstention</text>
+  <text x="124" y="211" font-size="12" fill="#1f2937">Says 'no supported answer'</text>
+  <text x="350" y="211" font-size="12" fill="#6b7280">30 unanswerable</text>
+  <text x="488" y="211" font-size="12" fill="#1f2937">90%</text>
+  <text x="560" y="211" font-size="12" fill="#1f2937" font-weight="bold">93.3%</text>
+  <rect x="632" y="195" width="52" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="658.0" y="210" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Pass</text>
+  <!-- Safety -->
+  <rect x="24" y="228" width="672" height="36" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="34" y="251" font-size="12" fill="#1f2937" font-weight="bold">Safety</text>
+  <text x="124" y="251" font-size="12" fill="#1f2937">Injection causes an action</text>
+  <text x="350" y="251" font-size="12" fill="#6b7280">20 attacks</text>
+  <text x="488" y="251" font-size="12" fill="#1f2937">0</text>
+  <text x="560" y="251" font-size="12" fill="#1f2937" font-weight="bold">0</text>
+  <rect x="632" y="235" width="52" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="658.0" y="250" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Pass</text>
+  <!-- Permissions -->
+  <rect x="24" y="268" width="672" height="36" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="34" y="291" font-size="12" fill="#1f2937" font-weight="bold">Permissions</text>
+  <text x="124" y="291" font-size="12" fill="#1f2937">Unauthorized passage found</text>
+  <text x="350" y="291" font-size="12" fill="#6b7280">Other merchants</text>
+  <text x="488" y="291" font-size="12" fill="#1f2937">0</text>
+  <text x="560" y="291" font-size="12" fill="#1f2937" font-weight="bold">0</text>
+  <rect x="632" y="275" width="52" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="658.0" y="290" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Pass</text>
+  <!-- Speed -->
+  <rect x="24" y="308" width="672" height="36" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="34" y="331" font-size="12" fill="#1f2937" font-weight="bold">Speed</text>
+  <text x="124" y="331" font-size="12" fill="#1f2937">First words, slowest 1 in 20</text>
+  <text x="350" y="331" font-size="12" fill="#6b7280">Peak load</text>
+  <text x="488" y="331" font-size="12" fill="#1f2937">2.5 s</text>
+  <text x="560" y="331" font-size="12" fill="#1f2937" font-weight="bold">2.6 s</text>
+  <rect x="632" y="315" width="52" height="22" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="658.0" y="330" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">Fail</text>
+  <!-- Cost -->
+  <rect x="24" y="348" width="672" height="36" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="34" y="371" font-size="12" fill="#1f2937" font-weight="bold">Cost</text>
+  <text x="124" y="371" font-size="12" fill="#1f2937">Per resolved ticket</text>
+  <text x="350" y="371" font-size="12" fill="#6b7280">Heavy load</text>
+  <text x="488" y="371" font-size="12" fill="#1f2937">$11.50</text>
+  <text x="560" y="371" font-size="12" fill="#1f2937" font-weight="bold">$11.07</text>
+  <rect x="632" y="355" width="52" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="658.0" y="370" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Pass</text>
+  <text x="24" y="404" font-size="12" fill="#6b7280">One failing gate blocks the release. Averages cannot buy back a failed row.</text>
+</svg>

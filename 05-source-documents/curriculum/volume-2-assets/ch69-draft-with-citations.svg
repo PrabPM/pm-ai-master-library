@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="424" viewBox="0 0 720 424" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>A draft reply with a citation on each claim, flags and a provenance line</title>
+  <rect x="0" y="0" width="720" height="424" rx="6" fill="#ffffff"/>
+  <rect x="36" y="12" width="406" height="312" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="50" y="36" font-size="14" fill="#1f2937" font-weight="bold">Draft reply to Maya Okafor</text>
+  <rect x="354" y="20" width="65" height="22" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="386.5" y="35" font-size="11" fill="#b45309" text-anchor="middle" font-weight="bold">Not sent</text>
+  <rect x="48" y="54" width="382" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="58" y="78" font-size="11" fill="#1f2937">Payout PO-8850 for USD 1,284.40 is on hold.</text>
+  <rect x="398" y="63" width="24" height="22" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="410" y="78" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="48" y="100" width="382" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="58" y="124" font-size="11" fill="#1f2937">The hold began on Oct 12 with a bank account change.</text>
+  <rect x="398" y="109" width="24" height="22" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="410" y="124" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">2</text>
+  <rect x="48" y="146" width="382" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="58" y="170" font-size="11" fill="#1f2937">Verification usually takes up to 2 business days.</text>
+  <rect x="398" y="155" width="24" height="22" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="410" y="170" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">3</text>
+  <rect x="48" y="192" width="382" height="40" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="58" y="216" font-size="11" fill="#1f2937">The payout will arrive on Oct 16.</text>
+  <rect x="294" y="201" width="128" height="22" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="358.0" y="216" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">Date not in source 3</text>
+  <rect x="48" y="238" width="382" height="40" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="58" y="262" font-size="11" fill="#1f2937">Nothing else is needed from you.</text>
+  <rect x="347" y="247" width="75" height="22" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="384.5" y="262" font-size="11" fill="#b45309" text-anchor="middle" font-weight="bold">No source</text>
+  <rect x="48" y="288" width="92" height="28" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="94.0" y="306.0" font-size="11" fill="#1f2937" text-anchor="middle">Edit draft</text>
+  <rect x="148" y="288" width="196" height="28" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="246.0" y="306.0" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">Remove flagged and insert</text>
+  <rect x="454" y="12" width="254" height="312" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="468" y="36" font-size="14" fill="#1f2937" font-weight="bold">Sources</text>
+  <rect x="466" y="50" width="230" height="54" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="476" y="60" width="24" height="22" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="488" y="75" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">1</text>
+  <text x="510" y="74" font-size="11" fill="#1f2937" font-weight="bold">Payout record PO-8850</text>
+  <text x="510" y="92" font-size="11" fill="#6b7280">Ledger · updated 09:01</text>
+  <rect x="466" y="112" width="230" height="54" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="476" y="122" width="24" height="22" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="488" y="137" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">2</text>
+  <text x="510" y="136" font-size="11" fill="#1f2937" font-weight="bold">Bank verification log</text>
+  <text x="510" y="154" font-size="11" fill="#6b7280">Updated Oct 12, 14:20</text>
+  <rect x="466" y="174" width="230" height="54" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="476" y="184" width="24" height="22" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="488" y="199" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">3</text>
+  <text x="510" y="198" font-size="11" fill="#1f2937" font-weight="bold">Help: changing a bank account</text>
+  <text x="510" y="216" font-size="11" fill="#6b7280">Article · updated Sep 3</text>
+  <text x="468" y="256" font-size="11" fill="#1f2937">Coverage 4 of 5 claims</text>
+  <text x="468" y="274" font-size="11" fill="#1f2937">Supported 3 of 4 cited</text>
+  <text x="468" y="300" font-size="11" fill="#6b7280">Checked in code, then sampled by a reviewer</text>
+  <rect x="36" y="336" width="672" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="48" y="355" font-size="11" fill="#6b7280">Drafted by Assist v4.1 at 09:02 · edited and sent by Sam Whitfield at 09:04 · original draft kept</text>
+  <circle cx="20" cy="74" r="10" fill="#4f46e5"/>
+  <text x="20" y="78" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="20" cy="212" r="10" fill="#b91c1c"/>
+  <text x="20" y="216" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="20" cy="351" r="10" fill="#4f46e5"/>
+  <text x="20" y="355" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <circle cx="22" cy="386" r="10" fill="#4f46e5"/>
+  <text x="22" y="390" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="40" y="390" font-size="11" fill="#1f2937">Each claim carries its own source.</text>
+  <circle cx="260" cy="386" r="10" fill="#4f46e5"/>
+  <text x="260" y="390" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="278" y="390" font-size="11" fill="#1f2937">The record shows who wrote what.</text>
+  <circle cx="22" cy="406" r="10" fill="#b91c1c"/>
+  <text x="22" y="410" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="40" y="410" font-size="11" fill="#1f2937">A stated date that the source lacks is flagged before a person sees it as fact.</text>
+</svg>

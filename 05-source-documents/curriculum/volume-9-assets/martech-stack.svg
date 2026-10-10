@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="446" viewBox="0 0 720 446" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>The marketing technology stack in five layers, with consent as a gate</title>
+  <rect x="0" y="0" width="720" height="446" rx="6" fill="#ffffff"/>
+  <!-- 1  Sources -->
+  <text x="14" y="34" font-size="12" fill="#1f2937" font-weight="bold">1  Sources</text>
+  <text x="14" y="50" font-size="11" fill="#6b7280">Where signals start</text>
+  <rect x="136" y="12" width="135" height="64" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="146" y="32" font-size="12" fill="#1f2937" font-weight="bold">Website</text>
+  <text x="146" y="48" font-size="11" fill="#1f2937">Visits, page views</text>
+  <rect x="281" y="12" width="135" height="64" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="291" y="32" font-size="12" fill="#1f2937" font-weight="bold">Dashboard, app</text>
+  <text x="291" y="48" font-size="11" fill="#1f2937">Sign-ups, payouts</text>
+  <rect x="426" y="12" width="135" height="64" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="436" y="32" font-size="12" fill="#1f2937" font-weight="bold">Ad platforms</text>
+  <text x="436" y="48" font-size="11" fill="#1f2937">Impressions, clicks,</text>
+  <text x="436" y="62" font-size="11" fill="#1f2937">cost</text>
+  <rect x="571" y="12" width="135" height="64" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="581" y="32" font-size="12" fill="#1f2937" font-weight="bold">Sales and support</text>
+  <text x="581" y="48" font-size="11" fill="#1f2937">Calls, emails, notes</text>
+  <!-- consent gate -->
+  <rect x="136" y="86" width="570" height="30" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="421" y="106" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Consent manager: decides which tags may run and what may be shared</text>
+  <text x="14" y="106" font-size="12" fill="#b45309" font-weight="bold">The gate</text>
+  <!-- 2  Collect -->
+  <text x="14" y="150" font-size="12" fill="#1f2937" font-weight="bold">2  Collect</text>
+  <text x="14" y="166" font-size="11" fill="#6b7280">One pipe</text>
+  <rect x="136" y="128" width="570" height="50" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="146" y="148" font-size="12" fill="#1f2937" font-weight="bold">Tag manager and event tracking</text>
+  <text x="146" y="164" font-size="11" fill="#1f2937">Records events once, with a visitor or merchant ID attached</text>
+  <!-- 3  Store and join -->
+  <text x="14" y="212" font-size="12" fill="#1f2937" font-weight="bold">3  Store and join</text>
+  <text x="14" y="228" font-size="11" fill="#6b7280">Who is who</text>
+  <rect x="136" y="190" width="183" height="78" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="146" y="210" font-size="12" fill="#1f2937" font-weight="bold">CRM</text>
+  <text x="146" y="226" font-size="11" fill="#1f2937">People, companies, deals and</text>
+  <text x="146" y="240" font-size="11" fill="#1f2937">conversations</text>
+  <rect x="329" y="190" width="183" height="78" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="339" y="210" font-size="12" fill="#1f2937" font-weight="bold">CDP</text>
+  <text x="339" y="226" font-size="11" fill="#1f2937">One profile per merchant,</text>
+  <text x="339" y="240" font-size="11" fill="#1f2937">joined from every source</text>
+  <rect x="523" y="190" width="183" height="78" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="533" y="210" font-size="12" fill="#1f2937" font-weight="bold">Data warehouse</text>
+  <text x="533" y="226" font-size="11" fill="#1f2937">Everything, kept for analysis</text>
+  <!-- 4  Act -->
+  <text x="14" y="302" font-size="12" fill="#1f2937" font-weight="bold">4  Act</text>
+  <text x="14" y="318" font-size="11" fill="#6b7280">Reach people</text>
+  <rect x="136" y="280" width="183" height="64" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="146" y="300" font-size="12" fill="#1f2937" font-weight="bold">Marketing automation</text>
+  <text x="146" y="316" font-size="11" fill="#1f2937">Email, text, in-app messages</text>
+  <rect x="329" y="280" width="183" height="64" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="339" y="300" font-size="12" fill="#1f2937" font-weight="bold">Ad audiences</text>
+  <text x="339" y="316" font-size="11" fill="#1f2937">Who should or should not see</text>
+  <text x="339" y="330" font-size="11" fill="#1f2937">ads</text>
+  <rect x="523" y="280" width="183" height="64" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="533" y="300" font-size="12" fill="#1f2937" font-weight="bold">Sales tools</text>
+  <text x="533" y="316" font-size="11" fill="#1f2937">Who to call, and what to say</text>
+  <!-- 5  Learn -->
+  <text x="14" y="378" font-size="12" fill="#1f2937" font-weight="bold">5  Learn</text>
+  <text x="14" y="394" font-size="11" fill="#6b7280">Did it work?</text>
+  <rect x="136" y="356" width="280" height="64" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="146" y="376" font-size="12" fill="#1f2937" font-weight="bold">Analytics</text>
+  <text x="146" y="392" font-size="11" fill="#1f2937">Funnels, cohorts, dashboards</text>
+  <rect x="426" y="356" width="280" height="64" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="436" y="376" font-size="12" fill="#1f2937" font-weight="bold">Attribution and experiments</text>
+  <text x="436" y="392" font-size="11" fill="#1f2937">Credit models, holdouts, lift tests</text>
+  <line x1="421" y1="77" x2="421" y2="85" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="421.0,85.0 416.9,78.1 425.1,78.1" fill="#6b7280"/>
+  <line x1="421" y1="117" x2="421" y2="127" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="421.0,127.0 416.9,120.1 425.1,120.1" fill="#6b7280"/>
+  <line x1="421" y1="179" x2="421" y2="189" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="421.0,189.0 416.9,182.1 425.1,182.1" fill="#6b7280"/>
+  <line x1="421" y1="269" x2="421" y2="279" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="421.0,279.0 416.9,272.1 425.1,272.1" fill="#6b7280"/>
+  <line x1="421" y1="345" x2="421" y2="355" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="421.0,355.0 416.9,348.1 425.1,348.1" fill="#6b7280"/>
+  <text x="14" y="438" font-size="11" fill="#6b7280">Identity: an anonymous visitor ID becomes a merchant ID at sign-up. If that join fails, every layer below it is guessing.</text>
+</svg>

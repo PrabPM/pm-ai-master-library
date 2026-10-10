@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Metric tree for PayFlow's small-business North Star</title>
+  <rect x="0" y="0" width="720" height="430" rx="6" fill="#ffffff"/>
+  <rect x="190" y="16" width="340" height="62" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="360" y="40" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">North Star: weekly successful payment volume</text>
+  <text x="360" y="62" font-size="12" fill="#6b7280" text-anchor="middle">$18.0M last week, small merchants</text>
+  <line x1="360" y1="78" x2="360" y2="96" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="99.0" y1="96" x2="621.0" y2="96" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="99.0" y1="96" x2="99.0" y2="112" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="24" y="112" width="150" height="58" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="99.0" y="135" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Active merchants</text>
+  <text x="99.0" y="156" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">9,000</text>
+  <text x="186" y="147" font-size="16" fill="#6b7280" text-anchor="middle">×</text>
+  <line x1="99.0" y1="170" x2="99.0" y2="190" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="24" y="190" width="150" height="104" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="210" font-size="11" fill="#6b7280">Inputs a team can move</text>
+  <text x="36" y="232" font-size="12" fill="#1f2937">Activation rate</text>
+  <text x="36" y="252" font-size="12" fill="#1f2937">Monthly retention</text>
+  <line x1="36" y1="264" x2="162" y2="264" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="282" font-size="11" fill="#6b7280">Owner: Growth</text>
+  <line x1="273.0" y1="96" x2="273.0" y2="112" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="198" y="112" width="150" height="58" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="273.0" y="135" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Attempts per merchant</text>
+  <text x="273.0" y="156" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">43.5</text>
+  <text x="360" y="147" font-size="16" fill="#6b7280" text-anchor="middle">×</text>
+  <line x1="273.0" y1="170" x2="273.0" y2="190" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="198" y="190" width="150" height="104" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="210" y="210" font-size="11" fill="#6b7280">Inputs a team can move</text>
+  <text x="210" y="232" font-size="12" fill="#1f2937">Days trading (L28)</text>
+  <text x="210" y="252" font-size="12" fill="#1f2937">Payment links sent</text>
+  <line x1="210" y1="264" x2="336" y2="264" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="210" y="282" font-size="11" fill="#6b7280">Owner: Merchant product</text>
+  <line x1="447.0" y1="96" x2="447.0" y2="112" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="372" y="112" width="150" height="58" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="447.0" y="135" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Success rate</text>
+  <text x="447.0" y="156" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">92.0%</text>
+  <text x="534" y="147" font-size="16" fill="#6b7280" text-anchor="middle">×</text>
+  <line x1="447.0" y1="170" x2="447.0" y2="190" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="372" y="190" width="150" height="104" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="384" y="210" font-size="11" fill="#6b7280">Inputs a team can move</text>
+  <text x="384" y="232" font-size="12" fill="#1f2937">Bank declines</text>
+  <text x="384" y="252" font-size="12" fill="#1f2937">Timeouts, 3-D Secure</text>
+  <line x1="384" y1="264" x2="510" y2="264" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="384" y="282" font-size="11" fill="#6b7280">Owner: Reliability</text>
+  <line x1="621.0" y1="96" x2="621.0" y2="112" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="546" y="112" width="150" height="58" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="621.0" y="135" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Average payment</text>
+  <text x="621.0" y="156" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">$50.00</text>
+  <line x1="621.0" y1="170" x2="621.0" y2="190" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="546" y="190" width="150" height="104" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="558" y="210" font-size="11" fill="#6b7280">Inputs a team can move</text>
+  <text x="558" y="232" font-size="12" fill="#1f2937">Merchant mix</text>
+  <text x="558" y="252" font-size="12" fill="#1f2937">Largest 50 share</text>
+  <line x1="558" y1="264" x2="684" y2="264" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="558" y="282" font-size="11" fill="#6b7280">Owner: Sales</text>
+  <rect x="24" y="318" width="672" height="94" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="40" y="342" font-size="13" fill="#1f2937" font-weight="bold">Guardrails: must not get worse while the North Star grows</text>
+  <text x="40" y="366" font-size="12" fill="#1f2937">Fraud and dispute losses at or under 0.10% of volume</text>
+  <text x="40" y="386" font-size="12" fill="#1f2937">Payouts on time at or above 99.5%</text>
+  <text x="400" y="366" font-size="12" fill="#1f2937">Support tickets per active merchant</text>
+  <text x="400" y="386" font-size="12" fill="#1f2937">Largest 50 merchants' share of volume</text>
+</svg>
