@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>What fills the context window for one Assist answer</title>
+  <rect x="0" y="0" width="720" height="300" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">One Assist answer: 5,160 input tokens, and who wrote them</text>
+  <rect x="24" y="46" width="234.4" height="44" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="141.2" y="73" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">1,800</text>
+  <rect x="258.4" y="46" width="78.1" height="44" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="297.5" y="73" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">600</text>
+  <rect x="336.6" y="46" width="260.5" height="44" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="466.8" y="73" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">2,000</text>
+  <rect x="597.0" y="46" width="91.2" height="44" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="642.6" y="73" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">700</text>
+  <rect x="688.2" y="46" width="7.8" height="44" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <line x1="24" y1="102" x2="254.4186046511628" y2="102" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="24" y="120" font-size="11" fill="#4f46e5">Stable prefix: can be cached</text>
+  <line x1="262.4186046511628" y1="102" x2="696" y2="102" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="696" y="120" font-size="11" fill="#6b7280" text-anchor="end">Changes on every request: paid in full each time</text>
+  <rect x="24" y="138" width="16" height="16" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="50" y="151" font-size="12" fill="#1f2937">Instructions and tool definitions</text>
+  <text x="340" y="151" font-size="12" fill="#1f2937" text-anchor="end">1,800 tokens</text>
+  <text x="362" y="151" font-size="12" fill="#6b7280">Trusted: written by the team</text>
+  <rect x="24" y="164" width="16" height="16" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="50" y="177" font-size="12" fill="#1f2937">Conversation so far</text>
+  <text x="340" y="177" font-size="12" fill="#1f2937" text-anchor="end">600 tokens</text>
+  <text x="362" y="177" font-size="12" fill="#6b7280">Untrusted: typed by a user</text>
+  <rect x="24" y="190" width="16" height="16" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="50" y="203" font-size="12" fill="#1f2937">Five retrieved passages</text>
+  <text x="340" y="203" font-size="12" fill="#1f2937" text-anchor="end">2,000 tokens</text>
+  <text x="362" y="203" font-size="12" fill="#6b7280">Untrusted: documents and tickets</text>
+  <rect x="24" y="216" width="16" height="16" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="50" y="229" font-size="12" fill="#1f2937">Tool results</text>
+  <text x="340" y="229" font-size="12" fill="#1f2937" text-anchor="end">700 tokens</text>
+  <text x="362" y="229" font-size="12" fill="#6b7280">Data from PayFlow's own systems</text>
+  <rect x="24" y="242" width="16" height="16" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="50" y="255" font-size="12" fill="#1f2937">The question</text>
+  <text x="340" y="255" font-size="12" fill="#1f2937" text-anchor="end">60 tokens</text>
+  <text x="362" y="255" font-size="12" fill="#6b7280">Untrusted: typed by a user</text>
+  <text x="24" y="286" font-size="12" fill="#6b7280">Plus 320 output tokens, each priced at four times an input token in this book's illustrative price list.</text>
+</svg>

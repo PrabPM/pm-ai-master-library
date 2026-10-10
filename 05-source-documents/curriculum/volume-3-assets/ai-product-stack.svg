@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="452" viewBox="0 0 720 452" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>The six layers of an AI product, shown for PayFlow Assist</title>
+  <rect x="0" y="0" width="720" height="452" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">The AI product stack, shown for PayFlow Assist</text>
+  <text x="38" y="50" font-size="11" fill="#6b7280" font-weight="bold">LAYER</text>
+  <text x="206" y="50" font-size="11" fill="#6b7280" font-weight="bold">IN PAYFLOW ASSIST</text>
+  <text x="560" y="50" font-size="11" fill="#6b7280" font-weight="bold">WHO OWNS IT</text>
+  <!-- 1  User and workflow -->
+  <rect x="24" y="60" width="672" height="54" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="38" y="84" font-size="12" fill="#1f2937" font-weight="bold">1 User and workflow</text>
+  <text x="206" y="84" font-size="12" fill="#1f2937">Sam, mid-ticket, explaining a delayed payout to a merchant</text>
+  <text x="560" y="84" font-size="12" fill="#6b7280">You (PM)</text>
+  <!-- 2  Experience -->
+  <rect x="24" y="120" width="672" height="54" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="38" y="144" font-size="12" fill="#1f2937" font-weight="bold">2 Experience</text>
+  <text x="206" y="144" font-size="12" fill="#1f2937">Cited answer card, draft reply, a clear 'no supported answer'</text>
+  <text x="206" y="160" font-size="12" fill="#1f2937">state</text>
+  <text x="560" y="144" font-size="12" fill="#6b7280">Lena, design</text>
+  <!-- 3  Application layer -->
+  <rect x="24" y="180" width="672" height="54" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="38" y="204" font-size="12" fill="#1f2937" font-weight="bold">3 Application layer</text>
+  <text x="206" y="204" font-size="12" fill="#1f2937">Prompts, retrieval, tools, permission checks, approval rules</text>
+  <text x="560" y="204" font-size="12" fill="#6b7280">Arjun, engineering</text>
+  <!-- 4  Model layer -->
+  <rect x="24" y="240" width="672" height="54" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="38" y="264" font-size="12" fill="#1f2937" font-weight="bold">4 Model layer</text>
+  <text x="206" y="264" font-size="12" fill="#1f2937">A hosted language model plus a small helper model</text>
+  <text x="560" y="264" font-size="12" fill="#6b7280">Wei, AI engineering</text>
+  <!-- 5  Data and knowledge -->
+  <rect x="24" y="300" width="672" height="54" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="38" y="324" font-size="12" fill="#1f2937" font-weight="bold">5 Data and knowledge</text>
+  <text x="206" y="324" font-size="12" fill="#1f2937">Ledger, bank logs, risk queue, help articles, who may see</text>
+  <text x="206" y="340" font-size="12" fill="#1f2937">what</text>
+  <text x="560" y="324" font-size="12" fill="#6b7280">Each source's owner</text>
+  <!-- 6  Operations and governance -->
+  <rect x="24" y="360" width="672" height="54" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="38" y="384" font-size="12" fill="#1f2937" font-weight="bold">6 Operations and</text>
+  <text x="38" y="399" font-size="12" fill="#1f2937" font-weight="bold">governance</text>
+  <text x="206" y="384" font-size="12" fill="#1f2937">Evals, traces, release gates, incident runbook, risk review</text>
+  <text x="560" y="384" font-size="12" fill="#6b7280">You, Arjun, Nadia</text>
+  <text x="24" y="434" font-size="12" fill="#6b7280">The model is one layer of six. Most of what users call quality is decided in layers 2, 3 and 5.</text>
+</svg>
