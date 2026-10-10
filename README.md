@@ -36,7 +36,7 @@ All eleven volumes were rewritten in October 2026. Each opens with a start-here 
 - **Examples use PayFlow**, a fictional payments company, so no real company is given invented numbers. Volume 11 is about a real ecosystem and uses a clearly fictional practice company for its worked numbers.
 - **Figures** are SVG files in `05-source-documents/curriculum/volume-N-assets`.
 
-The PDFs are built from the Markdown sources in `05-source-documents/curriculum` with [`tools/handbook-pdf`](./tools/handbook-pdf/README.md). The editions they replace are in Git history. The preserved source editions of the AI/ML material remain in `05-source-documents/curriculum/ai-ml-source-material`.
+The PDFs are built from the Markdown sources in `05-source-documents/curriculum` with [`tools/handbook-pdf`](./tools/handbook-pdf/README.md). The editions they replace are in Git history.
 
 ## 2. Interview preparation
 
@@ -62,7 +62,7 @@ These were rewritten in October 2026 for findability: a start page, a finder, an
 - Editable sources live in `05-source-documents` as Markdown, one file per Version 2 book. The editable résumé is in `06-career-materials/resume`.
 - The Version 2 interview books replace the earlier Word and PDF editions, which remain in Git history.
 - Facts about my own work are frozen across rewrites: wording and structure may change, numbers, names, dates and outcomes may not.
-- SHA-256 checksums for the protected source documents that remain (the résumé and the preserved AI/ML source editions) are recorded in [`catalog/source-checksums.sha256`](./catalog/source-checksums.sha256).
+- SHA-256 checksums for the protected résumé files are recorded in [`catalog/source-checksums.sha256`](./catalog/source-checksums.sha256).
 - Git history is the version record; the repository intentionally contains no duplicate archive folder.
 
 ## Privacy
