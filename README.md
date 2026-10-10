@@ -5,7 +5,7 @@ Private, canonical study library for product management, AI/ML, interview prepar
 ## Library at a glance
 
 - **26 reader PDFs**
-- **2,893 pages**
+- **3,072 pages**
 - **11 curriculum volumes**
 - **4 interview-preparation guides**
 - **10 portfolio interview briefs**
@@ -16,7 +16,7 @@ Open the visual [library index](./index.html) or use the sections below.
 ## 1. Curriculum
 
 1. [Foundational Mathematics for AI, ML, and LLMs, Version 2](./01-curriculum/01-ai-ml-foundations/volume-1-foundational-mathematics-primer-v2.pdf), with its [example scripts](./01-curriculum/01-ai-ml-foundations/volume-1-examples/)
-2. [AI, Machine Learning, Deep Learning, and LLMs](./01-curriculum/01-ai-ml-foundations/volume-2-ai-ml-dl-llms-pm-masterclass-expanded.pdf)
+2. [AI, Machine Learning, Deep Learning, and LLMs, Version 2](./01-curriculum/01-ai-ml-foundations/volume-2-ai-ml-dl-llms-pm-masterclass-v2.pdf), with its [example scripts](./01-curriculum/01-ai-ml-foundations/volume-2-examples/)
 3. [Practical AI Product Manager Field Guide, Version 2](./01-curriculum/02-ai-product-management/volume-3-practical-ai-product-manager-field-guide-v2.pdf), with its [example scripts](./01-curriculum/02-ai-product-management/volume-3-examples/)
 4. [Product Design Handbook, Version 2](./01-curriculum/03-product-design/volume-4-product-design-handbook-v2.pdf)
 5. [SQL Handbook for Business Analysts, Version 2](./01-curriculum/04-sql-and-data/volume-5-sql-handbook-for-business-analysts-v2.pdf), with its [practice database](./01-curriculum/04-sql-and-data/payflow_practice.sql)
@@ -27,11 +27,9 @@ Open the visual [library index](./index.html) or use the sections below.
 10. [Product Analytics and Financial Analysis, Version 2](./01-curriculum/09-product-analytics/volume-10-product-analytics-and-financial-analysis-v2.pdf), with its [example scripts](./01-curriculum/09-product-analytics/volume-10-examples/)
 11. [Medscape / WebMD Senior Technical PM Field Guide, Version 2](./01-curriculum/10-medscape-webmd-digital-health/volume-11-medscape-webmd-martech-and-digital-health-field-guide-v2.pdf), with its [example scripts](./01-curriculum/10-medscape-webmd-digital-health/volume-11-examples/)
 
-Volume 2 is still the earlier edition.
-
 ### Version 2 (October 2026)
 
-Volumes 1, 3, 4, 5, 6, 7, 8, 9, 10, 11 were rewritten in October 2026. Each opens with a start-here page and three reading paths, teaches every chapter in the same order (why it matters, the idea, a worked example, common mistakes, check yourself), and ends with labs, worked cases, an interview kit, a cheat sheet, a glossary and answers.
+All eleven volumes were rewritten in October 2026. Each opens with a start-here page and reading paths sized to the time you have, teaches every chapter in the same order (why it matters, the idea, a worked example, common mistakes, check yourself), and ends with labs, worked cases, an interview kit, a cheat sheet, a glossary and answers.
 
 - **Everything shown was run.** Code listings are excerpts of scripts that ship next to each PDF, and printed output is pasted from real runs. Each folder has a `run_all.sh`.
 - **SQL** (Volumes 5 and 10) runs on one practice database, `01-curriculum/04-sql-and-data/payflow_practice.sql`. Load it into a scratch PostgreSQL database and every query returns the result printed on the page.
