@@ -2333,7 +2333,7 @@ The metric layers and formulas are in [Chapter 9](#9-evaluation-metrics-and-guar
 | Model supply chain | Changed weights or dependency | Pinned artifacts, scanning, provenance, regression, rollback |
 | Data poisoning | Bad corrections enter the training set | Adjudication, lineage, anomaly checks, held-out tests |
 
-These map onto the OWASP Top 10 for LLM Applications. Its 2025 edition also lists system prompt leakage, vector and embedding weaknesses, misinformation, and unbounded consumption, and calls the "insecure output" row "improper output handling".
+These map onto the OWASP Top 10 for LLM Applications. Its 2026 edition, published in August 2026, also lists hidden context exposure, vector and embedding weaknesses, misinformation, and unbounded consumption, and calls the "insecure output" row "improper output handling".
 
 ### Three answers I give the same way every time
 
@@ -2755,7 +2755,7 @@ My earlier notes named a section for "primary technical and date references" but
 | Stable Diffusion | CompVis v1-4 and Stability AI 3.5 model cards; arXiv 2403.03206 |
 | Donut | arXiv 2111.15664 (ECCV 2022); Hugging Face documentation |
 | Open model licenses | Hugging Face model cards; Meta's Llama 2 announcement, July 18, 2023 |
-| LLM security and AI risk | OWASP Top 10 for LLM Applications 2025; NIST AI Risk Management Framework 1.0 |
+| LLM security and AI risk | OWASP Top 10 for LLM Applications 2026; NIST AI Risk Management Framework 1.0 |
 | US onboarding | FinCEN CDD Final Rule page (including FIN-2026-R001); IRS Employer Identification Number page |
 | App links | Apple and Android developer documentation |
 | Other | Google Maps Platform documentation; RBI notification RBI/2017-18/105 |
