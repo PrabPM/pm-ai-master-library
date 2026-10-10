@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Cohort retention heat map, small merchants</title>
+  <rect x="0" y="0" width="720" height="440" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Share of each activation cohort still taking payments</text>
+  <text x="24" y="54" font-size="11" fill="#6b7280">Cohort</text>
+  <text x="384.0" y="46" font-size="11" fill="#6b7280" text-anchor="middle">Months since activation</text>
+  <text x="131.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">0</text>
+  <text x="177.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">1</text>
+  <text x="223.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">2</text>
+  <text x="269.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">3</text>
+  <text x="315.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">4</text>
+  <text x="361.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">5</text>
+  <text x="407.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">6</text>
+  <text x="453.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">7</text>
+  <text x="499.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">8</text>
+  <text x="545.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">9</text>
+  <text x="591.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">10</text>
+  <text x="637.0" y="58" font-size="11" fill="#6b7280" text-anchor="middle">11</text>
+  <text x="24" y="81" font-size="11" fill="#1f2937">2025-10</text>
+  <rect x="108" y="64" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="80" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <rect x="154" y="64" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="176.0" y="80" font-size="11" fill="#15803d" text-anchor="middle">87</text>
+  <rect x="200" y="64" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="222.0" y="80" font-size="11" fill="#1f2937" text-anchor="middle">79</text>
+  <rect x="246" y="64" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="268.0" y="80" font-size="11" fill="#1f2937" text-anchor="middle">76</text>
+  <rect x="292" y="64" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="314.0" y="80" font-size="11" fill="#1f2937" text-anchor="middle">73</text>
+  <rect x="338" y="64" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="360.0" y="80" font-size="11" fill="#1f2937" text-anchor="middle">71</text>
+  <rect x="384" y="64" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="406.0" y="80" font-size="11" fill="#b45309" text-anchor="middle">69</text>
+  <rect x="430" y="64" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="452.0" y="80" font-size="11" fill="#b45309" text-anchor="middle">67</text>
+  <rect x="476" y="64" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="498.0" y="80" font-size="11" fill="#b45309" text-anchor="middle">65</text>
+  <rect x="522" y="64" width="44" height="22" rx="6" fill="#fee2e2"/>
+  <text x="544.0" y="80" font-size="11" fill="#b91c1c" text-anchor="middle">64</text>
+  <rect x="568" y="64" width="44" height="22" rx="6" fill="#fee2e2"/>
+  <text x="590.0" y="80" font-size="11" fill="#b91c1c" text-anchor="middle">61</text>
+  <rect x="614" y="64" width="44" height="22" rx="6" fill="#fee2e2"/>
+  <text x="636.0" y="80" font-size="11" fill="#b91c1c" text-anchor="middle">59</text>
+  <text x="24" y="105" font-size="11" fill="#1f2937">2025-11</text>
+  <rect x="108" y="88" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="104" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <rect x="154" y="88" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="176.0" y="104" font-size="11" fill="#15803d" text-anchor="middle">92</text>
+  <rect x="200" y="88" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="222.0" y="104" font-size="11" fill="#15803d" text-anchor="middle">84</text>
+  <rect x="246" y="88" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="268.0" y="104" font-size="11" fill="#15803d" text-anchor="middle">80</text>
+  <rect x="292" y="88" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="314.0" y="104" font-size="11" fill="#1f2937" text-anchor="middle">77</text>
+  <rect x="338" y="88" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="360.0" y="104" font-size="11" fill="#1f2937" text-anchor="middle">76</text>
+  <rect x="384" y="88" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="406.0" y="104" font-size="11" fill="#1f2937" text-anchor="middle">73</text>
+  <rect x="430" y="88" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="452.0" y="104" font-size="11" fill="#1f2937" text-anchor="middle">71</text>
+  <rect x="476" y="88" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="498.0" y="104" font-size="11" fill="#b45309" text-anchor="middle">69</text>
+  <rect x="522" y="88" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="544.0" y="104" font-size="11" fill="#b45309" text-anchor="middle">68</text>
+  <rect x="568" y="88" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="590.0" y="104" font-size="11" fill="#b45309" text-anchor="middle">66</text>
+  <text x="24" y="129" font-size="11" fill="#1f2937">2025-12</text>
+  <rect x="108" y="112" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="128" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <rect x="154" y="112" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="176.0" y="128" font-size="11" fill="#15803d" text-anchor="middle">88</text>
+  <rect x="200" y="112" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="222.0" y="128" font-size="11" fill="#15803d" text-anchor="middle">81</text>
+  <rect x="246" y="112" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="268.0" y="128" font-size="11" fill="#1f2937" text-anchor="middle">77</text>
+  <rect x="292" y="112" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="314.0" y="128" font-size="11" fill="#1f2937" text-anchor="middle">74</text>
+  <rect x="338" y="112" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="360.0" y="128" font-size="11" fill="#1f2937" text-anchor="middle">71</text>
+  <rect x="384" y="112" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="406.0" y="128" font-size="11" fill="#b45309" text-anchor="middle">69</text>
+  <rect x="430" y="112" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="452.0" y="128" font-size="11" fill="#b45309" text-anchor="middle">67</text>
+  <rect x="476" y="112" width="44" height="22" rx="6" fill="#fee2e2"/>
+  <text x="498.0" y="128" font-size="11" fill="#b91c1c" text-anchor="middle">64</text>
+  <rect x="522" y="112" width="44" height="22" rx="6" fill="#fee2e2"/>
+  <text x="544.0" y="128" font-size="11" fill="#b91c1c" text-anchor="middle">63</text>
+  <text x="24" y="153" font-size="11" fill="#1f2937">2026-01</text>
+  <rect x="108" y="136" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="152" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <rect x="154" y="136" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="176.0" y="152" font-size="11" fill="#15803d" text-anchor="middle">88</text>
+  <rect x="200" y="136" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="222.0" y="152" font-size="11" fill="#1f2937" text-anchor="middle">79</text>
+  <rect x="246" y="136" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="268.0" y="152" font-size="11" fill="#1f2937" text-anchor="middle">75</text>
+  <rect x="292" y="136" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="314.0" y="152" font-size="11" fill="#1f2937" text-anchor="middle">72</text>
+  <rect x="338" y="136" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="360.0" y="152" font-size="11" fill="#1f2937" text-anchor="middle">70</text>
+  <rect x="384" y="136" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="406.0" y="152" font-size="11" fill="#b45309" text-anchor="middle">67</text>
+  <rect x="430" y="136" width="44" height="22" rx="6" fill="#fee2e2"/>
+  <text x="452.0" y="152" font-size="11" fill="#b91c1c" text-anchor="middle">64</text>
+  <rect x="476" y="136" width="44" height="22" rx="6" fill="#fee2e2"/>
+  <text x="498.0" y="152" font-size="11" fill="#b91c1c" text-anchor="middle">63</text>
+  <text x="24" y="177" font-size="11" fill="#1f2937">2026-02</text>
+  <rect x="108" y="160" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="176" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <rect x="154" y="160" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="176.0" y="176" font-size="11" fill="#15803d" text-anchor="middle">90</text>
+  <rect x="200" y="160" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="222.0" y="176" font-size="11" fill="#15803d" text-anchor="middle">82</text>
+  <rect x="246" y="160" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="268.0" y="176" font-size="11" fill="#1f2937" text-anchor="middle">75</text>
+  <rect x="292" y="160" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="314.0" y="176" font-size="11" fill="#1f2937" text-anchor="middle">73</text>
+  <rect x="338" y="160" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="360.0" y="176" font-size="11" fill="#1f2937" text-anchor="middle">70</text>
+  <rect x="384" y="160" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="406.0" y="176" font-size="11" fill="#b45309" text-anchor="middle">68</text>
+  <rect x="430" y="160" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="452.0" y="176" font-size="11" fill="#b45309" text-anchor="middle">67</text>
+  <text x="24" y="201" font-size="11" fill="#1f2937">2026-03</text>
+  <rect x="108" y="184" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="200" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <rect x="154" y="184" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="176.0" y="200" font-size="11" fill="#15803d" text-anchor="middle">88</text>
+  <rect x="200" y="184" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="222.0" y="200" font-size="11" fill="#15803d" text-anchor="middle">80</text>
+  <rect x="246" y="184" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="268.0" y="200" font-size="11" fill="#1f2937" text-anchor="middle">76</text>
+  <rect x="292" y="184" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="314.0" y="200" font-size="11" fill="#1f2937" text-anchor="middle">72</text>
+  <rect x="338" y="184" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="360.0" y="200" font-size="11" fill="#1f2937" text-anchor="middle">70</text>
+  <rect x="384" y="184" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="406.0" y="200" font-size="11" fill="#b45309" text-anchor="middle">68</text>
+  <text x="24" y="225" font-size="11" fill="#b91c1c" font-weight="bold">2026-04</text>
+  <rect x="108" y="208" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="224" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <rect x="154" y="208" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="176.0" y="224" font-size="11" fill="#15803d" text-anchor="middle">86</text>
+  <rect x="200" y="208" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="222.0" y="224" font-size="11" fill="#1f2937" text-anchor="middle">75</text>
+  <rect x="246" y="208" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="268.0" y="224" font-size="11" fill="#b45309" text-anchor="middle">69</text>
+  <rect x="292" y="208" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="314.0" y="224" font-size="11" fill="#b45309" text-anchor="middle">66</text>
+  <rect x="338" y="208" width="44" height="22" rx="6" fill="#fee2e2"/>
+  <text x="360.0" y="224" font-size="11" fill="#b91c1c" text-anchor="middle">63</text>
+  <text x="24" y="249" font-size="11" fill="#b91c1c" font-weight="bold">2026-05</text>
+  <rect x="108" y="232" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="248" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <rect x="154" y="232" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="176.0" y="248" font-size="11" fill="#15803d" text-anchor="middle">83</text>
+  <rect x="200" y="232" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="222.0" y="248" font-size="11" fill="#1f2937" text-anchor="middle">74</text>
+  <rect x="246" y="232" width="44" height="22" rx="6" fill="#fef3c7"/>
+  <text x="268.0" y="248" font-size="11" fill="#b45309" text-anchor="middle">67</text>
+  <rect x="292" y="232" width="44" height="22" rx="6" fill="#fee2e2"/>
+  <text x="314.0" y="248" font-size="11" fill="#b91c1c" text-anchor="middle">64</text>
+  <text x="24" y="273" font-size="11" fill="#b91c1c" font-weight="bold">2026-06</text>
+  <rect x="108" y="256" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="272" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <rect x="154" y="256" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="176.0" y="272" font-size="11" fill="#15803d" text-anchor="middle">81</text>
+  <rect x="200" y="256" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="222.0" y="272" font-size="11" fill="#1f2937" text-anchor="middle">72</text>
+  <rect x="246" y="256" width="44" height="22" rx="6" fill="#fee2e2"/>
+  <text x="268.0" y="272" font-size="11" fill="#b91c1c" text-anchor="middle">64</text>
+  <text x="24" y="297" font-size="11" fill="#b91c1c" font-weight="bold">2026-07</text>
+  <rect x="108" y="280" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="296" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <rect x="154" y="280" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="176.0" y="296" font-size="11" fill="#15803d" text-anchor="middle">86</text>
+  <rect x="200" y="280" width="44" height="22" rx="6" fill="#eef2ff"/>
+  <text x="222.0" y="296" font-size="11" fill="#1f2937" text-anchor="middle">74</text>
+  <text x="24" y="321" font-size="11" fill="#b91c1c" font-weight="bold">2026-08</text>
+  <rect x="108" y="304" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="320" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <rect x="154" y="304" width="44" height="22" rx="6" fill="#dcfce7"/>
+  <text x="176.0" y="320" font-size="11" fill="#15803d" text-anchor="middle">83</text>
+  <text x="24" y="345" font-size="11" fill="#b91c1c" font-weight="bold">2026-09</text>
+  <rect x="108" y="328" width="44" height="22" rx="6" fill="#f8fafc"/>
+  <text x="130.0" y="344" font-size="11" fill="#6b7280" text-anchor="middle">100</text>
+  <line x1="24" y1="207" x2="384" y2="207" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="394" y="221" font-size="11" fill="#b91c1c">Partner bonus starts, April 2026</text>
+  <text x="24" y="378" font-size="11" fill="#6b7280">Percent still paying:</text>
+  <rect x="150" y="364" width="22" height="18" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="180" y="378" font-size="11" fill="#1f2937">80 or more</text>
+  <rect x="268" y="364" width="22" height="18" rx="6" fill="#eef2ff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="298" y="378" font-size="11" fill="#1f2937">70 to 79</text>
+  <rect x="386" y="364" width="22" height="18" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="416" y="378" font-size="11" fill="#1f2937">65 to 69</text>
+  <rect x="504" y="364" width="22" height="18" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="534" y="378" font-size="11" fill="#1f2937">under 65</text>
+  <text x="24" y="408" font-size="12" fill="#1f2937">Read down a column to compare cohorts at the same age. Read along a row to follow one cohort through time. The</text>
+  <text x="24" y="424" font-size="12" fill="#1f2937">empty corner is the future, not zero.</text>
+</svg>

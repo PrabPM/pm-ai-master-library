@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Tornado chart of Quickstart's NPV</title>
+  <rect x="0" y="0" width="720" height="360" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Which assumption moves Quickstart's NPV the most?</text>
+  <text x="266" y="81" font-size="11" fill="#1f2937" text-anchor="end">Activation lift: +2 to +8 points</text>
+  <rect x="299.1" y="62" width="180.9" height="28" rx="6" fill="#b91c1c"/>
+  <rect x="480.0" y="62" width="180.9" height="28" rx="6" fill="#15803d"/>
+  <text x="266" y="121" font-size="11" fill="#1f2937" text-anchor="end">Margin per merchant: $80 to $120</text>
+  <rect x="419.7" y="102" width="60.3" height="28" rx="6" fill="#b91c1c"/>
+  <rect x="480.0" y="102" width="60.3" height="28" rx="6" fill="#15803d"/>
+  <text x="266" y="161" font-size="11" fill="#1f2937" text-anchor="end">Approvals a month: 800 to 1,200</text>
+  <rect x="419.7" y="142" width="60.3" height="28" rx="6" fill="#b91c1c"/>
+  <rect x="480.0" y="142" width="60.3" height="28" rx="6" fill="#15803d"/>
+  <text x="266" y="201" font-size="11" fill="#1f2937" text-anchor="end">Build cost: $1.0M to $0.7M</text>
+  <rect x="434.2" y="182" width="45.8" height="28" rx="6" fill="#b91c1c"/>
+  <rect x="480.0" y="182" width="22.9" height="28" rx="6" fill="#15803d"/>
+  <text x="266" y="241" font-size="11" fill="#1f2937" text-anchor="end">Churn: 25% worse to 20% better</text>
+  <rect x="447.9" y="222" width="32.1" height="28" rx="6" fill="#b91c1c"/>
+  <rect x="480.0" y="222" width="28.8" height="28" rx="6" fill="#15803d"/>
+  <text x="266" y="281" font-size="11" fill="#1f2937" text-anchor="end">Launch: 3 months late to on time</text>
+  <rect x="439.5" y="262" width="40.5" height="28" rx="6" fill="#b91c1c"/>
+  <rect x="480.0" y="262" width="0.0" height="28" rx="6" fill="#15803d"/>
+  <line x1="421.1764705882353" y1="52" x2="421.1764705882353" y2="306" stroke="#1f2937" stroke-width="1.5"/>
+  <line x1="480.0056876558985" y1="52" x2="480.0056876558985" y2="306" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="303.52941176470586" y="324" font-size="11" fill="#6b7280" text-anchor="middle">-$0.5M</text>
+  <text x="421.1764705882353" y="324" font-size="11" fill="#6b7280" text-anchor="middle">$0</text>
+  <text x="538.8235294117646" y="324" font-size="11" fill="#6b7280" text-anchor="middle">$0.5M</text>
+  <text x="656.4705882352941" y="324" font-size="11" fill="#6b7280" text-anchor="middle">$1.0M</text>
+  <text x="486.0056876558985" y="48" font-size="11" fill="#6b7280">base $250k</text>
+  <text x="24" y="352" font-size="12" fill="#6b7280">Each bar changes one assumption and holds the rest at base. Red is the pessimistic end, green the optimistic end.</text>
+</svg>
