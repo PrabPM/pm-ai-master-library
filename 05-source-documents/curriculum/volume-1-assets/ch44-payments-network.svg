@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="412" viewBox="0 0 720 412" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>A payments network with a fraud ring</title>
+  <rect x="0" y="0" width="720" height="412" rx="6" fill="#ffffff"/>
+  <text x="24" y="30" font-size="14" fill="#1f2937" font-weight="bold">Merchants, the devices they use and the bank accounts they pay out to</text>
+  <!-- ring component -->
+  <rect x="24" y="48" width="520" height="290" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="38" y="70" font-size="13" fill="#b91c1c" font-weight="bold">One connected component, three merchants</text>
+  <line x1="110" y1="170" x2="270" y2="300" stroke="#b91c1c" stroke-width="1.5"/>
+  <line x1="110" y1="170" x2="70" y2="300" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="270" y1="170" x2="270" y2="300" stroke="#b91c1c" stroke-width="1.5"/>
+  <line x1="270" y1="170" x2="350" y2="86" stroke="#b91c1c" stroke-width="1.5"/>
+  <line x1="430" y1="170" x2="350" y2="86" stroke="#b91c1c" stroke-width="1.5"/>
+  <line x1="430" y1="170" x2="500" y2="300" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="430" y1="170" x2="270" y2="300" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="110" cy="170" r="20" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="110" y="174" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">M1</text>
+  <circle cx="270" cy="170" r="20" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="270" y="174" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">M2</text>
+  <circle cx="430" cy="170" r="20" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="430" y="174" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">M3</text>
+  <circle cx="350" cy="86" r="20" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="350" y="90" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">B2</text>
+  <circle cx="270" cy="300" r="20" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="270" y="304" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">D1</text>
+  <circle cx="70" cy="300" r="20" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="70" y="304" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">B1</text>
+  <circle cx="500" cy="300" r="20" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="500" y="304" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">D2</text>
+  <text x="284" y="360" font-size="12" fill="#b91c1c" text-anchor="middle">D1 is used by all three; B2 receives payouts for two</text>
+  <!-- ordinary merchants -->
+  <text x="632" y="70" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">Ordinary merchants</text>
+  <line x1="632" y1="110" x2="592" y2="180" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="632" y1="110" x2="672" y2="180" stroke="#6b7280" stroke-width="1.5"/>
+  <circle cx="632" cy="110" r="20" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="632" y="114" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">M4</text>
+  <circle cx="592" cy="180" r="20" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="592" y="184" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">D3</text>
+  <circle cx="672" cy="180" r="20" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="672" y="184" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">B3</text>
+  <line x1="632" y1="236" x2="592" y2="306" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="632" y1="236" x2="672" y2="306" stroke="#6b7280" stroke-width="1.5"/>
+  <circle cx="632" cy="236" r="20" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="632" y="240" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">M5</text>
+  <circle cx="592" cy="306" r="20" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="592" y="310" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">D4</text>
+  <circle cx="672" cy="306" r="20" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="672" y="310" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">B4</text>
+  <!-- legend -->
+  <circle cx="32" cy="390" r="8" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="48" y="394" font-size="12" fill="#1f2937">M  merchant</text>
+  <circle cx="182" cy="390" r="8" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="198" y="394" font-size="12" fill="#1f2937">D  device</text>
+  <circle cx="332" cy="390" r="8" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="348" y="394" font-size="12" fill="#1f2937">B  bank account</text>
+  <text x="474" y="394" font-size="12" fill="#b91c1c">red edge: touches a shared node</text>
+</svg>
