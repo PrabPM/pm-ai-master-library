@@ -4,11 +4,11 @@ Private, canonical study library for product management, AI/ML, interview prepar
 
 ## Library at a glance
 
-- **26 reader PDFs**
-- **3,072 pages**
+- **18 reader PDFs**
+- **3,171 pages**
 - **11 curriculum volumes**
-- **4 interview-preparation guides**
-- **10 portfolio interview briefs**
+- **5 interview-preparation books**
+- **10 portfolio projects in one interview-brief book**
 - Editable source documents retained separately from reader PDFs
 
 Open the visual [library index](./index.html) or use the sections below.
@@ -40,15 +40,16 @@ The PDFs are built from the Markdown sources in `05-source-documents/curriculum`
 
 ## 2. Interview preparation
 
-- [Generic PM Interview Questions](./02-interview-preparation/01-generic-pm/generic-pm-interview-questions.pdf)
-- [FAANG L4 PM Interview Prep](./02-interview-preparation/02-faang-l4/faang-l4-pm-interview-prep-2026.pdf)
-- [Technical AI PM Interview Guide](./02-interview-preparation/03-technical-ai-pm/technical-ai-pm-interview-guide.pdf)
-- [Paytm Work Experience Story Bank](./02-interview-preparation/04-behavioral-and-story-bank/paytm-work-experience-story-bank.pdf)
+- [Generic PM Interview Questions, Version 2](./02-interview-preparation/01-generic-pm/generic-pm-interview-questions-v2.pdf)
+- FAANG L4 PM Interview Prep, Version 2: [Playbook](./02-interview-preparation/02-faang-l4/faang-l4-pm-interview-prep-playbook-v2.pdf) and [Question Bank](./02-interview-preparation/02-faang-l4/faang-l4-pm-interview-prep-question-bank-v2.pdf)
+- [Technical AI PM Interview Guide, Version 2](./02-interview-preparation/03-technical-ai-pm/technical-ai-pm-interview-guide-v2.pdf)
+- [Paytm Work Experience Story Bank, Version 2](./02-interview-preparation/04-behavioral-and-story-bank/paytm-work-experience-story-bank-v2.pdf)
+
+These were rewritten in October 2026 for findability: a start page, a finder, and one fixed layout per story or answer. Facts about my own work were not changed. Each book ends with **Facts to reconcile** (places where my documents disagree with each other) and **Your facts needed** (gaps only I can fill); settle those before relying on an answer.
 
 ## 3. Portfolio interview briefs
 
-- AI products: [Claude Quota Tracker](./03-portfolio-interview-briefs/ai-products/claude-quota-tracker-interview-brief.pdf), [ClauseGuard](./03-portfolio-interview-briefs/ai-products/clauseguard-interview-brief.pdf), [InsightDraft](./03-portfolio-interview-briefs/ai-products/insightdraft-interview-brief.pdf), [ML-PM Masterclass](./03-portfolio-interview-briefs/ai-products/ml-pm-masterclass-interview-brief.pdf), [Pulse Precision](./03-portfolio-interview-briefs/ai-products/pulse-precision-interview-brief.pdf), and [SignalMap](./03-portfolio-interview-briefs/ai-products/signalmap-interview-brief.pdf)
-- Fintech and payments: [KYB Donut](./03-portfolio-interview-briefs/fintech-and-payments/kyb-donut-interview-brief.pdf), [Merchant Risk Scoring](./03-portfolio-interview-briefs/fintech-and-payments/merchant-risk-scoring-interview-brief.pdf), [PayCommander](./03-portfolio-interview-briefs/fintech-and-payments/paycommander-interview-brief.pdf), and [SettleIQ](./03-portfolio-interview-briefs/fintech-and-payments/settleiq-interview-brief.pdf)
+- [Portfolio Interview Briefs, Version 2](./03-portfolio-interview-briefs/portfolio-interview-briefs-v2.pdf): all ten projects in one book, with a project finder and likely questions for each.
 
 ## 4. Career materials
 
@@ -58,10 +59,10 @@ The PDFs are built from the Markdown sources in `05-source-documents/curriculum`
 ## Source preservation policy
 
 - Final reading copies live in Sections 1-4.
-- Editable Markdown and Word files live in `05-source-documents`.
-- Work-experience source documents are copied without textual or structural edits.
-- Desktop sources may be retired only after their repository copies are uploaded and verified byte-for-byte.
-- SHA-256 checksums for all protected Desktop source documents are recorded in [`catalog/source-checksums.sha256`](./catalog/source-checksums.sha256).
+- Editable sources live in `05-source-documents` as Markdown, one file per Version 2 book. The editable résumé is in `06-career-materials/resume`.
+- The Version 2 interview books replace the earlier Word and PDF editions, which remain in Git history.
+- Facts about my own work are frozen across rewrites: wording and structure may change, numbers, names, dates and outcomes may not.
+- SHA-256 checksums for the protected source documents that remain (the résumé and the preserved AI/ML source editions) are recorded in [`catalog/source-checksums.sha256`](./catalog/source-checksums.sha256).
 - Git history is the version record; the repository intentionally contains no duplicate archive folder.
 
 ## Privacy
