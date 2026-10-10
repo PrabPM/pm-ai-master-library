@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Four kinds of merchant by what they do with and without an offer</title>
+  <rect x="0" y="0" width="720" height="340" rx="6" fill="#ffffff"/>
+  <text x="416" y="26" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">If we send the offer, the merchant...</text>
+  <text x="294.0" y="52" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">stays</text>
+  <text x="538.0" y="52" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">leaves</text>
+  <text x="16" y="96" font-size="12" fill="#1f2937" font-weight="bold">With no offer, the</text>
+  <text x="16" y="112" font-size="12" fill="#1f2937" font-weight="bold">merchant stays</text>
+  <text x="16" y="208" font-size="12" fill="#1f2937" font-weight="bold">With no offer, the</text>
+  <text x="16" y="224" font-size="12" fill="#1f2937" font-weight="bold">merchant leaves</text>
+  <rect x="176" y="62" width="236" height="104" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="190" y="90" font-size="14" fill="#1f2937" font-weight="bold">Sure thing</text>
+  <text x="190" y="112" font-size="11" fill="#1f2937">Stays either way. The offer gives away</text>
+  <text x="190" y="127" font-size="11" fill="#1f2937">fees for nothing.</text>
+  <rect x="420" y="62" width="236" height="104" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="434" y="90" font-size="14" fill="#b45309" font-weight="bold">Sleeping dog</text>
+  <text x="434" y="112" font-size="11" fill="#1f2937">The offer itself prompts them to shop</text>
+  <text x="434" y="127" font-size="11" fill="#1f2937">around.</text>
+  <rect x="176" y="174" width="236" height="104" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="190" y="202" font-size="14" fill="#15803d" font-weight="bold">Persuadable</text>
+  <text x="190" y="224" font-size="11" fill="#1f2937">Stays only because of the offer. The one</text>
+  <text x="190" y="239" font-size="11" fill="#1f2937">cell worth paying for.</text>
+  <rect x="420" y="174" width="236" height="104" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="434" y="202" font-size="14" fill="#1f2937" font-weight="bold">Lost cause</text>
+  <text x="434" y="224" font-size="11" fill="#1f2937">Leaves either way. The offer is wasted.</text>
+  <line x1="176" y1="296" x2="656" y2="296" stroke="#b91c1c" stroke-width="1.5"/>
+  <line x1="176" y1="290" x2="176" y2="296" stroke="#b91c1c" stroke-width="1.5"/>
+  <line x1="656" y1="290" x2="656" y2="296" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="416" y="314" font-size="11" fill="#b91c1c" text-anchor="middle">A churn model ranks this whole row first.</text>
+  <text x="416" y="330" font-size="11" fill="#15803d" text-anchor="middle">An uplift model ranks only the green cell.</text>
+</svg>

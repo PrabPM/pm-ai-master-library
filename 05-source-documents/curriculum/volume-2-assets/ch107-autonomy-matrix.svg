@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="348" viewBox="0 0 720 348" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Autonomy matrix: who decides the next step, and what the system may do</title>
+  <rect x="0" y="0" width="720" height="348" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Two questions place any "agent" on one grid</text>
+  <text x="180" y="54" font-size="12" fill="#6b7280" font-style="italic">What it may do</text>
+  <text x="24" y="54" font-size="12" fill="#6b7280" font-style="italic">Who decides</text>
+  <text x="243.0" y="72" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">Read only</text>
+  <text x="375.0" y="72" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">Reversible write</text>
+  <text x="507.0" y="72" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">Write after approval</text>
+  <text x="639.0" y="72" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">Write on its own</text>
+  <text x="24" y="114" font-size="12" fill="#1f2937" font-weight="bold">Code decides</text>
+  <text x="24" y="130" font-size="11" fill="#6b7280">(workflow)</text>
+  <rect x="180" y="86" width="126" height="70" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="243.0" y="116" font-size="11" fill="#1f2937" text-anchor="middle">Scripted lookup</text>
+  <rect x="312" y="86" width="126" height="70" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="375.0" y="116" font-size="11" fill="#1f2937" text-anchor="middle">Draft a reply</text>
+  <rect x="444" y="86" width="126" height="70" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="507.0" y="116" font-size="11" fill="#1f2937" text-anchor="middle">Fixed retry flow, a</text>
+  <text x="507.0" y="131" font-size="11" fill="#1f2937" text-anchor="middle">person confirms</text>
+  <rect x="576" y="86" width="126" height="70" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="639.0" y="116" font-size="11" fill="#1f2937" text-anchor="middle">Scheduled batch job</text>
+  <text x="24" y="190" font-size="12" fill="#1f2937" font-weight="bold">Model picks tools</text>
+  <text x="24" y="206" font-size="11" fill="#6b7280">(agent)</text>
+  <rect x="180" y="162" width="126" height="70" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="243.0" y="192" font-size="11" fill="#1f2937" text-anchor="middle">Research assistant</text>
+  <rect x="312" y="162" width="126" height="70" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="375.0" y="192" font-size="11" fill="#1f2937" text-anchor="middle">Tag and route</text>
+  <text x="375.0" y="207" font-size="11" fill="#1f2937" text-anchor="middle">tickets</text>
+  <rect x="444" y="162" width="126" height="70" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="507.0" y="192" font-size="11" fill="#1f2937" text-anchor="middle">PayFlow operations</text>
+  <text x="507.0" y="207" font-size="11" fill="#1f2937" text-anchor="middle">agent</text>
+  <rect x="576" y="162" width="126" height="70" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="639.0" y="192" font-size="11" fill="#1f2937" text-anchor="middle">Needs limits, audit</text>
+  <text x="639.0" y="207" font-size="11" fill="#1f2937" text-anchor="middle">log, kill switch</text>
+  <text x="24" y="266" font-size="12" fill="#1f2937" font-weight="bold">Model plans and</text>
+  <text x="24" y="282" font-size="11" fill="#6b7280">delegates (multi-agent)</text>
+  <rect x="180" y="238" width="126" height="70" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="243.0" y="268" font-size="11" fill="#1f2937" text-anchor="middle">Multi-step analysis</text>
+  <rect x="312" y="238" width="126" height="70" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="375.0" y="268" font-size="11" fill="#1f2937" text-anchor="middle">Drafts across</text>
+  <text x="375.0" y="283" font-size="11" fill="#1f2937" text-anchor="middle">several systems</text>
+  <rect x="444" y="238" width="126" height="70" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="507.0" y="268" font-size="11" fill="#1f2937" text-anchor="middle">Approve the plan,</text>
+  <text x="507.0" y="283" font-size="11" fill="#1f2937" text-anchor="middle">then each write</text>
+  <rect x="576" y="238" width="126" height="70" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="639.0" y="268" font-size="11" fill="#1f2937" text-anchor="middle">Rare. Highest risk.</text>
+  <line x1="180" y1="322" x2="702" y2="322" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="702.0,322.0 695.1,326.1 695.1,317.9" fill="#6b7280"/>
+  <text x="180" y="340" font-size="11" fill="#6b7280">more consequence if it is wrong</text>
+</svg>

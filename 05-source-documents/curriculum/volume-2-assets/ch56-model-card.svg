@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="424" viewBox="0 0 720 424" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>A filled-in model card for PayFlow's payment-risk model</title>
+  <rect x="0" y="0" width="720" height="424" rx="6" fill="#ffffff"/>
+  <rect x="12" y="12" width="696" height="400" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="28" y="38" font-size="16" fill="#1f2937" font-weight="bold">Model card: payment-risk v3.2</text>
+  <text x="692" y="38" font-size="11" fill="#6b7280" text-anchor="end">Owner: Risk ML · Reviewed Oct 2026</text>
+  <line x1="28" y1="48" x2="692" y2="48" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="28" y="68" font-size="12" fill="#4f46e5" font-weight="bold">1  Model details</text>
+  <text x="28" y="85" font-size="11" fill="#1f2937">Boosted decision trees, 212 features, trained Sept 2026.</text>
+  <text x="28" y="100" font-size="11" fill="#1f2937">Outputs a fraud probability from 0 to 1.</text>
+  <text x="28" y="123" font-size="12" fill="#4f46e5" font-weight="bold">2  Intended use</text>
+  <text x="28" y="140" font-size="11" fill="#1f2937">Score card payments before authorization. Not for credit</text>
+  <text x="28" y="155" font-size="11" fill="#1f2937">decisions or merchant onboarding.</text>
+  <text x="28" y="178" font-size="12" fill="#4f46e5" font-weight="bold">3  Factors</text>
+  <text x="28" y="195" font-size="11" fill="#1f2937">Reported by channel (in person, online) and merchant age</text>
+  <text x="28" y="210" font-size="11" fill="#1f2937">(under or over 90 days).</text>
+  <text x="28" y="233" font-size="12" fill="#4f46e5" font-weight="bold">4  Metrics</text>
+  <text x="28" y="250" font-size="11" fill="#1f2937">Recall and false-positive rate at the block threshold; p95</text>
+  <text x="28" y="265" font-size="11" fill="#1f2937">latency.</text>
+  <text x="28" y="288" font-size="12" fill="#4f46e5" font-weight="bold">5  Evaluation data</text>
+  <text x="28" y="305" font-size="11" fill="#1f2937">54,200 payments from Aug 2026, labeled by chargebacks after</text>
+  <text x="28" y="320" font-size="11" fill="#1f2937">90 days.</text>
+  <text x="28" y="343" font-size="12" fill="#4f46e5" font-weight="bold">6  Training data</text>
+  <text x="28" y="360" font-size="11" fill="#1f2937">Payments from Jan 2025 to Jun 2026. See the datasheet.</text>
+  <text x="370" y="68" font-size="12" fill="#4f46e5" font-weight="bold">7  Quantitative analyses</text>
+  <rect x="370" y="78" width="322" height="24" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="378" y="94" font-size="11" fill="#1f2937" font-weight="bold">Slice</text>
+  <text x="620" y="94" font-size="11" fill="#1f2937" text-anchor="end" font-weight="bold">Recall</text>
+  <text x="684" y="94" font-size="11" fill="#1f2937" text-anchor="end" font-weight="bold">FPR</text>
+  <rect x="370" y="102" width="322" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="378" y="118" font-size="11" fill="#1f2937">In person</text>
+  <text x="620" y="118" font-size="11" fill="#1f2937" text-anchor="end">0.900</text>
+  <text x="684" y="118" font-size="11" fill="#1f2937" text-anchor="end">0.40%</text>
+  <rect x="370" y="126" width="322" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="378" y="142" font-size="11" fill="#1f2937">Online, established merchant</text>
+  <text x="620" y="142" font-size="11" fill="#1f2937" text-anchor="end">0.845</text>
+  <text x="684" y="142" font-size="11" fill="#1f2937" text-anchor="end">0.80%</text>
+  <rect x="370" y="150" width="322" height="24" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="378" y="166" font-size="11" fill="#1f2937">Online, merchant under 90 days</text>
+  <text x="620" y="166" font-size="11" fill="#b91c1c" text-anchor="end" font-weight="bold">0.650</text>
+  <text x="684" y="166" font-size="11" fill="#b91c1c" text-anchor="end">1.50%</text>
+  <rect x="370" y="174" width="322" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="378" y="190" font-size="11" fill="#1f2937" font-weight="bold">All payments</text>
+  <text x="620" y="190" font-size="11" fill="#1f2937" text-anchor="end">0.820</text>
+  <text x="684" y="190" font-size="11" fill="#1f2937" text-anchor="end">0.70%</text>
+  <text x="370" y="220" font-size="12" fill="#4f46e5" font-weight="bold">8  Ethical considerations</text>
+  <text x="370" y="237" font-size="11" fill="#1f2937">A false block stops an honest customer. New merchants are</text>
+  <text x="370" y="252" font-size="11" fill="#1f2937">blocked more often and protected less; see the slice above.</text>
+  <text x="370" y="275" font-size="12" fill="#4f46e5" font-weight="bold">9  Caveats and recommendations</text>
+  <text x="370" y="292" font-size="11" fill="#1f2937">Fails the worst-slice gate (recall 0.65, gate 0.75). Route new</text>
+  <text x="370" y="307" font-size="11" fill="#1f2937">online merchants to step-up checks until retrained.</text>
+  <rect x="28" y="370" width="664" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="40" y="389" font-size="11" fill="#6b7280">Versioned with the model in the registry. A new model version needs a new card.</text>
+</svg>

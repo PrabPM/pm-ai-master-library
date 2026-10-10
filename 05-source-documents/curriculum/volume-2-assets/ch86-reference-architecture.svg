@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="452" viewBox="0 0 720 452" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Reference architecture for machine learning at PayFlow</title>
+  <rect x="0" y="0" width="720" height="452" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">One loop, twelve boxes: where each chapter lives</text>
+  <rect x="24" y="48" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="36" y="70" font-size="12" fill="#1f2937" font-weight="bold">Sources</text>
+  <text x="36" y="90" font-size="11" fill="#6b7280">Payments, KYB</text>
+  <text x="36" y="105" font-size="11" fill="#6b7280">documents, support</text>
+  <text x="36" y="120" font-size="11" fill="#6b7280">tickets</text>
+  <rect x="196" y="48" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="208" y="70" font-size="12" fill="#1f2937" font-weight="bold">Contracts, data gates</text>
+  <text x="208" y="90" font-size="11" fill="#6b7280">Schema, freshness,</text>
+  <text x="208" y="105" font-size="11" fill="#6b7280">validity checks</text>
+  <text x="208" y="130" font-size="11" fill="#4f46e5" font-weight="bold">Ch 73, 82</text>
+  <rect x="368" y="48" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="380" y="70" font-size="12" fill="#1f2937" font-weight="bold">Feature pipelines</text>
+  <text x="380" y="90" font-size="11" fill="#6b7280">Batch jobs and streaming</text>
+  <text x="380" y="105" font-size="11" fill="#6b7280">windows</text>
+  <text x="380" y="130" font-size="11" fill="#4f46e5" font-weight="bold">Ch 74, 75</text>
+  <rect x="540" y="48" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="552" y="70" font-size="12" fill="#1f2937" font-weight="bold">Feature store</text>
+  <text x="552" y="90" font-size="11" fill="#6b7280">Offline history, online</text>
+  <text x="552" y="105" font-size="11" fill="#6b7280">latest values</text>
+  <text x="552" y="130" font-size="11" fill="#4f46e5" font-weight="bold">Ch 74, 76</text>
+  <rect x="24" y="178" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="36" y="200" font-size="12" fill="#1f2937" font-weight="bold">Release ladder</text>
+  <text x="36" y="220" font-size="11" fill="#6b7280">Shadow, canary, ramp,</text>
+  <text x="36" y="235" font-size="11" fill="#6b7280">rollback triggers</text>
+  <text x="36" y="260" font-size="11" fill="#4f46e5" font-weight="bold">Ch 84</text>
+  <rect x="196" y="178" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="208" y="200" font-size="12" fill="#1f2937" font-weight="bold">Registry</text>
+  <text x="208" y="220" font-size="11" fill="#6b7280">Versions, approvals, the</text>
+  <text x="208" y="235" font-size="11" fill="#6b7280">production alias</text>
+  <text x="208" y="260" font-size="11" fill="#4f46e5" font-weight="bold">Ch 81</text>
+  <rect x="368" y="178" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="380" y="200" font-size="12" fill="#1f2937" font-weight="bold">Model gates and tests</text>
+  <text x="380" y="220" font-size="11" fill="#6b7280">Segments, golden set,</text>
+  <text x="380" y="235" font-size="11" fill="#6b7280">metamorphic</text>
+  <text x="380" y="260" font-size="11" fill="#4f46e5" font-weight="bold">Ch 82, 83</text>
+  <rect x="540" y="178" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="552" y="200" font-size="12" fill="#1f2937" font-weight="bold">Training</text>
+  <text x="552" y="220" font-size="11" fill="#6b7280">Run record: code, data,</text>
+  <text x="552" y="235" font-size="11" fill="#6b7280">environment</text>
+  <text x="552" y="260" font-size="11" fill="#4f46e5" font-weight="bold">Ch 81</text>
+  <rect x="24" y="308" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="36" y="330" font-size="12" fill="#1f2937" font-weight="bold">Model service</text>
+  <text x="36" y="350" font-size="11" fill="#6b7280">Reads online features,</text>
+  <text x="36" y="365" font-size="11" fill="#6b7280">logs every decision</text>
+  <rect x="196" y="308" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="208" y="330" font-size="12" fill="#1f2937" font-weight="bold">Monitoring</text>
+  <text x="208" y="350" font-size="11" fill="#6b7280">Drift, parity, freshness,</text>
+  <text x="208" y="365" font-size="11" fill="#6b7280">guardrails</text>
+  <text x="208" y="390" font-size="11" fill="#4f46e5" font-weight="bold">Ch 75, 85</text>
+  <rect x="368" y="308" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="380" y="330" font-size="12" fill="#1f2937" font-weight="bold">Alerts and runbook</text>
+  <text x="380" y="350" font-size="11" fill="#6b7280">Routing by drift type,</text>
+  <text x="380" y="365" font-size="11" fill="#6b7280">severity</text>
+  <text x="380" y="390" font-size="11" fill="#4f46e5" font-weight="bold">Ch 85, 86</text>
+  <rect x="540" y="308" width="156" height="92" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="552" y="330" font-size="12" fill="#1f2937" font-weight="bold">Labels, retrain ticket</text>
+  <text x="552" y="350" font-size="11" fill="#6b7280">Outcomes, review,</text>
+  <text x="552" y="365" font-size="11" fill="#6b7280">feedback</text>
+  <text x="552" y="390" font-size="11" fill="#4f46e5" font-weight="bold">Ch 77-79</text>
+  <line x1="182" y1="94.0" x2="194" y2="94.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="194.0,94.0 187.1,98.1 187.1,89.9" fill="#1f2937"/>
+  <line x1="354" y1="94.0" x2="366" y2="94.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="366.0,94.0 359.1,98.1 359.1,89.9" fill="#1f2937"/>
+  <line x1="526" y1="94.0" x2="538" y2="94.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="538.0,94.0 531.1,98.1 531.1,89.9" fill="#1f2937"/>
+  <line x1="618.0" y1="142" x2="618.0" y2="176" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="618.0,176.0 613.9,169.1 622.1,169.1" fill="#1f2937"/>
+  <line x1="538" y1="224.0" x2="526" y2="224.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="526.0,224.0 532.9,219.9 532.9,228.1" fill="#1f2937"/>
+  <line x1="366" y1="224.0" x2="354" y2="224.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="354.0,224.0 360.9,219.9 360.9,228.1" fill="#1f2937"/>
+  <line x1="194" y1="224.0" x2="182" y2="224.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="182.0,224.0 188.9,219.9 188.9,228.1" fill="#1f2937"/>
+  <line x1="102.0" y1="272" x2="102.0" y2="306" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="102.0,306.0 97.9,299.1 106.1,299.1" fill="#1f2937"/>
+  <line x1="182" y1="354.0" x2="194" y2="354.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="194.0,354.0 187.1,358.1 187.1,349.9" fill="#1f2937"/>
+  <line x1="354" y1="354.0" x2="366" y2="354.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="366.0,354.0 359.1,358.1 359.1,349.9" fill="#1f2937"/>
+  <line x1="526" y1="354.0" x2="538" y2="354.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="538.0,354.0 531.1,358.1 531.1,349.9" fill="#1f2937"/>
+  <line x1="648.0" y1="306" x2="648.0" y2="272" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="648.0,272.0 652.1,278.9 643.9,278.9" fill="#4f46e5"/>
+  <text x="24" y="428" font-size="12" fill="#6b7280">The purple arrow closes the loop: outcomes become labels, and an approved ticket starts the next training run.</text>
+</svg>

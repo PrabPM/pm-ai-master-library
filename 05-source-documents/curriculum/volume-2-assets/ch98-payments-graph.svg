@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="262" viewBox="0 0 720 262" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Fraud signal spreading over a five-merchant graph, one hop per layer</title>
+  <rect x="0" y="0" width="720" height="262" rx="6" fill="#ffffff"/>
+  <!-- Input -->
+  <rect x="12" y="14" width="224" height="200" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="26" y="38" font-size="13" fill="#1f2937" font-weight="bold">Input</text>
+  <line x1="50" y1="84" x2="50" y2="168" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="50" y1="84" x2="104" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="50" y1="168" x2="104" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="104" y1="126" x2="156" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="156" y1="126" x2="206" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <circle cx="50" cy="84" r="19" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="50" y="88" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">1</text>
+  <text x="50" y="58" font-size="11" fill="#6b7280" text-anchor="middle">M0</text>
+  <circle cx="50" cy="168" r="19" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="50" y="172" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">1</text>
+  <text x="50" y="204" font-size="11" fill="#6b7280" text-anchor="middle">M1</text>
+  <circle cx="104" cy="126" r="19" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="104" y="130" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0</text>
+  <text x="104" y="100" font-size="11" fill="#6b7280" text-anchor="middle">M2</text>
+  <circle cx="156" cy="126" r="19" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="156" y="130" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0</text>
+  <text x="156" y="100" font-size="11" fill="#6b7280" text-anchor="middle">M3</text>
+  <circle cx="206" cy="126" r="19" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="206" y="130" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0</text>
+  <text x="206" y="100" font-size="11" fill="#6b7280" text-anchor="middle">M4</text>
+  <!-- After 1 layer -->
+  <rect x="248" y="14" width="224" height="200" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="262" y="38" font-size="13" fill="#1f2937" font-weight="bold">After 1 layer</text>
+  <line x1="286" y1="84" x2="286" y2="168" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="286" y1="84" x2="340" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="286" y1="168" x2="340" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="340" y1="126" x2="392" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="392" y1="126" x2="442" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <circle cx="286" cy="84" r="19" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="286" y="88" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0.75</text>
+  <text x="286" y="58" font-size="11" fill="#6b7280" text-anchor="middle">M0</text>
+  <circle cx="286" cy="168" r="19" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="286" y="172" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0.75</text>
+  <text x="286" y="204" font-size="11" fill="#6b7280" text-anchor="middle">M1</text>
+  <circle cx="340" cy="126" r="19" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="340" y="130" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0.33</text>
+  <text x="340" y="100" font-size="11" fill="#6b7280" text-anchor="middle">M2</text>
+  <circle cx="392" cy="126" r="19" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="392" y="130" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0</text>
+  <text x="392" y="100" font-size="11" fill="#6b7280" text-anchor="middle">M3</text>
+  <circle cx="442" cy="126" r="19" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="442" y="130" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0</text>
+  <text x="442" y="100" font-size="11" fill="#6b7280" text-anchor="middle">M4</text>
+  <!-- After 2 layers -->
+  <rect x="484" y="14" width="224" height="200" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="498" y="38" font-size="13" fill="#1f2937" font-weight="bold">After 2 layers</text>
+  <line x1="522" y1="84" x2="522" y2="168" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="522" y1="84" x2="576" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="522" y1="168" x2="576" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="576" y1="126" x2="628" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="628" y1="126" x2="678" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+  <circle cx="522" cy="84" r="19" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="522" y="88" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0.65</text>
+  <text x="522" y="58" font-size="11" fill="#6b7280" text-anchor="middle">M0</text>
+  <circle cx="522" cy="168" r="19" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="522" y="172" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0.65</text>
+  <text x="522" y="204" font-size="11" fill="#6b7280" text-anchor="middle">M1</text>
+  <circle cx="576" cy="126" r="19" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="576" y="130" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0.42</text>
+  <text x="576" y="100" font-size="11" fill="#6b7280" text-anchor="middle">M2</text>
+  <circle cx="628" cy="126" r="19" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="628" y="130" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0.08</text>
+  <text x="628" y="100" font-size="11" fill="#6b7280" text-anchor="middle">M3</text>
+  <circle cx="678" cy="126" r="19" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="678" y="130" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">0</text>
+  <text x="678" y="100" font-size="11" fill="#6b7280" text-anchor="middle">M4</text>
+  <text x="24" y="238" font-size="12" fill="#1f2937">An edge means two merchants share a device or a payout bank account. Red is confirmed fraud.</text>
+  <text x="24" y="254" font-size="11" fill="#6b7280">Each layer moves the signal one hop: M3 hears about it after two layers, M4 not yet.</text>
+</svg>

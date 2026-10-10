@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="404" viewBox="0 0 720 404" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Three failure states, before and after rewriting</title>
+  <rect x="0" y="0" width="720" height="404" rx="6" fill="#ffffff"/>
+  <text x="256" y="28" font-size="14" fill="#b91c1c" text-anchor="middle" font-weight="bold">Before</text>
+  <text x="556" y="28" font-size="14" fill="#15803d" text-anchor="middle" font-weight="bold">After</text>
+  <rect x="12" y="40" width="96" height="112" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="60" y="100" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Slow</text>
+  <rect x="116" y="40" width="280" height="112" rx="6" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="130" y="70" font-size="12" fill="#1f2937">Loading...</text>
+  <rect x="404" y="40" width="304" height="112" rx="6" fill="#ffffff" stroke="#15803d" stroke-width="1.5"/>
+  <text x="418" y="64" font-size="11" fill="#1f2937">Still working. This is taking longer than usual. Your</text>
+  <text x="418" y="79" font-size="11" fill="#1f2937">payout is not affected.</text>
+  <rect x="418" y="116" width="93" height="26" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="464.5" y="133.0" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">Keep waiting</text>
+  <rect x="519" y="116" width="137" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="587.5" y="133.0" font-size="11" fill="#1f2937" text-anchor="middle">Email me the answer</text>
+  <rect x="12" y="160" width="96" height="112" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="60" y="220" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Down</text>
+  <rect x="116" y="160" width="280" height="112" rx="6" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="130" y="190" font-size="12" fill="#1f2937">Something went wrong. Error 503.</text>
+  <rect x="404" y="160" width="304" height="112" rx="6" fill="#ffffff" stroke="#15803d" stroke-width="1.5"/>
+  <text x="418" y="184" font-size="11" fill="#1f2937">Assist is unavailable right now. Payments and payouts</text>
+  <text x="418" y="199" font-size="11" fill="#1f2937">are running normally.</text>
+  <rect x="418" y="236" width="130" height="26" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="483.0" y="253.0" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">Search help articles</text>
+  <rect x="556" y="236" width="109" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="610.5" y="253.0" font-size="11" fill="#1f2937" text-anchor="middle">Contact support</text>
+  <rect x="12" y="280" width="96" height="112" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="60" y="340" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Unsupported</text>
+  <rect x="116" y="280" width="280" height="112" rx="6" fill="#ffffff" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="130" y="310" font-size="12" fill="#1f2937">Your payout will arrive on Friday.</text>
+  <rect x="404" y="280" width="304" height="112" rx="6" fill="#ffffff" stroke="#15803d" stroke-width="1.5"/>
+  <text x="418" y="304" font-size="11" fill="#1f2937">No supported answer found. PO-8850 is on hold for</text>
+  <text x="418" y="319" font-size="11" fill="#1f2937">bank verification. I can't confirm an arrival date.</text>
+  <rect x="418" y="356" width="123" height="26" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="479.5" y="373.0" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">Ask payments ops</text>
+  <text x="130" y="136" font-size="11" fill="#b91c1c" font-style="italic">No time, no way out</text>
+  <text x="130" y="256" font-size="11" fill="#b91c1c" font-style="italic">A code the reader cannot use</text>
+  <text x="130" y="376" font-size="11" fill="#b91c1c" font-style="italic">A guess stated as a promise</text>
+</svg>

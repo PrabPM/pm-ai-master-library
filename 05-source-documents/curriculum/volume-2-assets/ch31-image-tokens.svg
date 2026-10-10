@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="290" viewBox="0 0 720 290" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>How an image becomes tokens for a language model</title>
+  <rect x="0" y="0" width="720" height="290" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">An image enters the model as a run of tokens</text>
+  <rect x="24" y="60" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="54" y="60" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="84" y="60" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="114" y="60" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="24" y="90" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="54" y="90" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="84" y="90" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="114" y="90" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="24" y="120" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="54" y="120" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="84" y="120" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="114" y="120" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="24" y="150" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="54" y="150" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="84" y="150" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="114" y="150" width="27" height="27" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="84" y="202" font-size="11" fill="#6b7280" text-anchor="middle">image cut into patches</text>
+  <line x1="152" y1="118" x2="178" y2="118" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="178.0,118.0 171.1,122.1 171.1,113.9" fill="#6b7280"/>
+  <rect x="182" y="92" width="120" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="242" y="114" font-size="12" fill="#1f2937" text-anchor="middle">Vision</text>
+  <text x="242" y="131" font-size="12" fill="#1f2937" text-anchor="middle">encoder</text>
+  <line x1="304" y1="118" x2="330" y2="118" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="330.0,118.0 323.1,122.1 323.1,113.9" fill="#6b7280"/>
+  <rect x="334" y="92" width="110" height="52" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="389" y="123" font-size="12" fill="#1f2937" text-anchor="middle">Projector</text>
+  <line x1="446" y1="118" x2="472" y2="118" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="472.0,118.0 465.1,122.1 465.1,113.9" fill="#6b7280"/>
+  <rect x="476" y="104" width="18" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="498" y="104" width="18" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="520" y="104" width="18" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="542" y="104" width="18" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="564" y="104" width="18" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="586" y="104" width="18" height="28" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="540" y="152" font-size="11" fill="#4f46e5" text-anchor="middle">image tokens</text>
+  <text x="540" y="92" font-size="11" fill="#6b7280" text-anchor="middle">one per patch</text>
+  <rect x="626" y="104" width="18" height="28" rx="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="648" y="104" width="18" height="28" rx="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="670" y="104" width="18" height="28" rx="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="658" y="152" font-size="11" fill="#6b7280" text-anchor="middle">text tokens</text>
+  <line x1="540" y1="160" x2="540" y2="186" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="658" y1="160" x2="658" y2="186" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="540" y1="186" x2="658" y2="186" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="600" y1="186" x2="600" y2="206" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="600.0,206.0 595.9,199.1 604.1,199.1" fill="#6b7280"/>
+  <rect x="430" y="210" width="266" height="44" rx="6" fill="#f8fafc" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="563" y="237" font-size="12" fill="#1f2937" text-anchor="middle">Decoder-only language model</text>
+  <line x1="428" y1="232" x2="396" y2="232" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="396.0,232.0 402.9,227.9 402.9,236.1" fill="#6b7280"/>
+  <rect x="292" y="214" width="100" height="36" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="342" y="237" font-size="12" fill="#1f2937" text-anchor="middle">text out</text>
+  <text x="24" y="226" font-size="12" fill="#1f2937">Image tokens count against the context</text>
+  <text x="24" y="242" font-size="12" fill="#1f2937">window and the bill like any other tokens.</text>
+</svg>

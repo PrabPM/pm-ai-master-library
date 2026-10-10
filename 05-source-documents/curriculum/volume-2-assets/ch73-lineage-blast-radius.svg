@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Lineage graph for PayFlow data with the blast radius of payment events</title>
+  <rect x="0" y="0" width="720" height="420" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Who is hurt when payment events are late or wrong?</text>
+  <rect x="24" y="74" width="116" height="44" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="82.0" y="93" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">payment</text>
+  <text x="82.0" y="108" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">events</text>
+  <rect x="162" y="74" width="116" height="44" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="220.0" y="93" font-size="12" fill="#1f2937" text-anchor="middle">payments</text>
+  <text x="220.0" y="108" font-size="12" fill="#1f2937" text-anchor="middle">clean</text>
+  <rect x="300" y="74" width="116" height="44" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="358.0" y="93" font-size="12" fill="#1f2937" text-anchor="middle">velocity</text>
+  <text x="358.0" y="108" font-size="12" fill="#1f2937" text-anchor="middle">5m</text>
+  <rect x="438" y="74" width="116" height="44" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="496.0" y="93" font-size="12" fill="#1f2937" text-anchor="middle">online</text>
+  <text x="496.0" y="108" font-size="12" fill="#1f2937" text-anchor="middle">store</text>
+  <rect x="576" y="74" width="116" height="44" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="634.0" y="93" font-size="12" fill="#1f2937" text-anchor="middle">fraud</text>
+  <text x="634.0" y="108" font-size="12" fill="#1f2937" text-anchor="middle">model</text>
+  <line x1="142" y1="96.0" x2="160" y2="96.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="160.0,96.0 153.1,100.1 153.1,91.9" fill="#1f2937"/>
+  <line x1="280" y1="96.0" x2="298" y2="96.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="298.0,96.0 291.1,100.1 291.1,91.9" fill="#1f2937"/>
+  <line x1="418" y1="96.0" x2="436" y2="96.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="436.0,96.0 429.1,100.1 429.1,91.9" fill="#1f2937"/>
+  <line x1="556" y1="96.0" x2="574" y2="96.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="574.0,96.0 567.1,100.1 567.1,91.9" fill="#1f2937"/>
+  <text x="82.0" y="64" font-size="12" fill="#b45309" text-anchor="middle" font-weight="bold">+3 s</text>
+  <text x="220.0" y="64" font-size="12" fill="#b45309" text-anchor="middle" font-weight="bold">+4 s</text>
+  <text x="358.0" y="64" font-size="12" fill="#b45309" text-anchor="middle" font-weight="bold">+12 s</text>
+  <text x="496.0" y="64" font-size="12" fill="#b45309" text-anchor="middle" font-weight="bold">+5 s</text>
+  <text x="634.0" y="64" font-size="12" fill="#15803d" text-anchor="middle" font-weight="bold">24 s of 30 s</text>
+  <rect x="300" y="168" width="116" height="44" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="358.0" y="187" font-size="12" fill="#1f2937" text-anchor="middle">merchant</text>
+  <text x="358.0" y="202" font-size="12" fill="#1f2937" text-anchor="middle">daily</text>
+  <rect x="438" y="168" width="116" height="44" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="496.0" y="187" font-size="12" fill="#1f2937" text-anchor="middle">churn</text>
+  <text x="496.0" y="202" font-size="12" fill="#1f2937" text-anchor="middle">model</text>
+  <rect x="438" y="244" width="116" height="44" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="496.0" y="271" font-size="12" fill="#1f2937" text-anchor="middle">dashboard</text>
+  <line x1="220.0" y1="118" x2="220.0" y2="190.0" stroke="#1f2937" stroke-width="1.5"/>
+  <line x1="220.0" y1="190.0" x2="298" y2="190.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="298.0,190.0 291.1,194.1 291.1,185.9" fill="#1f2937"/>
+  <line x1="418" y1="190.0" x2="436" y2="190.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="436.0,190.0 429.1,194.1 429.1,185.9" fill="#1f2937"/>
+  <line x1="358.0" y1="212" x2="358.0" y2="266.0" stroke="#1f2937" stroke-width="1.5"/>
+  <line x1="358.0" y1="266.0" x2="436" y2="266.0" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="436.0,266.0 429.1,270.1 429.1,261.9" fill="#1f2937"/>
+  <rect x="24" y="326" width="116" height="44" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="82.0" y="345" font-size="12" fill="#1f2937" text-anchor="middle">KYB</text>
+  <text x="82.0" y="360" font-size="12" fill="#1f2937" text-anchor="middle">documents</text>
+  <rect x="162" y="326" width="116" height="44" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="220.0" y="345" font-size="12" fill="#1f2937" text-anchor="middle">merchant</text>
+  <text x="220.0" y="360" font-size="12" fill="#1f2937" text-anchor="middle">profile</text>
+  <rect x="300" y="326" width="116" height="44" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="358.0" y="345" font-size="12" fill="#1f2937" text-anchor="middle">onboarding</text>
+  <text x="358.0" y="360" font-size="12" fill="#1f2937" text-anchor="middle">risk model</text>
+  <line x1="142" y1="348.0" x2="160" y2="348.0" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="160.0,348.0 153.1,352.1 153.1,343.9" fill="#6b7280"/>
+  <line x1="280" y1="348.0" x2="298" y2="348.0" stroke="#6b7280" stroke-width="1.5"/>
+  <polygon points="298.0,348.0 291.1,352.1 291.1,343.9" fill="#6b7280"/>
+  <rect x="456" y="322" width="240" height="74" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="468" y="334" width="16" height="16" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="492" y="347" font-size="12" fill="#1f2937">Blast radius: 7 assets</text>
+  <rect x="468" y="364" width="16" height="16" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="492" y="377" font-size="12" fill="#1f2937">Not downstream: unaffected</text>
+</svg>

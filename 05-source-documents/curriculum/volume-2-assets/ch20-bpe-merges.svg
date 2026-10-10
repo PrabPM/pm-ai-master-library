@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="318" viewBox="0 0 720 318" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Byte-pair encoding merges p a y o u t into one token</title>
+  <rect x="0" y="0" width="720" height="318" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">How five merges turn six characters into one token</text>
+  <text x="24" y="69" font-size="12" fill="#1f2937">start: characters</text>
+  <rect x="190" y="48" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="207.0" y="69" font-size="13" fill="#1f2937" text-anchor="middle">p</text>
+  <rect x="230" y="48" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="247.0" y="69" font-size="13" fill="#1f2937" text-anchor="middle">a</text>
+  <rect x="270" y="48" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="287.0" y="69" font-size="13" fill="#1f2937" text-anchor="middle">y</text>
+  <rect x="310" y="48" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="327.0" y="69" font-size="13" fill="#1f2937" text-anchor="middle">o</text>
+  <rect x="350" y="48" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="367.0" y="69" font-size="13" fill="#1f2937" text-anchor="middle">u</text>
+  <rect x="390" y="48" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="407.0" y="69" font-size="13" fill="#1f2937" text-anchor="middle">t</text>
+  <text x="600" y="69" font-size="12" fill="#1f2937">6 tokens</text>
+  <text x="24" y="113" font-size="12" fill="#1f2937">merge 1: p + a</text>
+  <rect x="190" y="92" width="74" height="32" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="227.0" y="113" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">pa</text>
+  <rect x="270" y="92" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="287.0" y="113" font-size="13" fill="#1f2937" text-anchor="middle">y</text>
+  <rect x="310" y="92" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="327.0" y="113" font-size="13" fill="#1f2937" text-anchor="middle">o</text>
+  <rect x="350" y="92" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="367.0" y="113" font-size="13" fill="#1f2937" text-anchor="middle">u</text>
+  <rect x="390" y="92" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="407.0" y="113" font-size="13" fill="#1f2937" text-anchor="middle">t</text>
+  <text x="450" y="113" font-size="12" fill="#6b7280">pair seen 9 times</text>
+  <text x="600" y="113" font-size="12" fill="#1f2937">5 tokens</text>
+  <text x="24" y="157" font-size="12" fill="#1f2937">merge 2: pa + y</text>
+  <rect x="190" y="136" width="114" height="32" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="247.0" y="157" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">pay</text>
+  <rect x="310" y="136" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="327.0" y="157" font-size="13" fill="#1f2937" text-anchor="middle">o</text>
+  <rect x="350" y="136" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="367.0" y="157" font-size="13" fill="#1f2937" text-anchor="middle">u</text>
+  <rect x="390" y="136" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="407.0" y="157" font-size="13" fill="#1f2937" text-anchor="middle">t</text>
+  <text x="450" y="157" font-size="12" fill="#6b7280">pair seen 7 times</text>
+  <text x="600" y="157" font-size="12" fill="#1f2937">4 tokens</text>
+  <text x="24" y="201" font-size="12" fill="#1f2937">merge 3: pay + o</text>
+  <rect x="190" y="180" width="154" height="32" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="267.0" y="201" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">payo</text>
+  <rect x="350" y="180" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="367.0" y="201" font-size="13" fill="#1f2937" text-anchor="middle">u</text>
+  <rect x="390" y="180" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="407.0" y="201" font-size="13" fill="#1f2937" text-anchor="middle">t</text>
+  <text x="450" y="201" font-size="12" fill="#6b7280">pair seen 3 times</text>
+  <text x="600" y="201" font-size="12" fill="#1f2937">3 tokens</text>
+  <text x="24" y="245" font-size="12" fill="#1f2937">merge 4: payo + u</text>
+  <rect x="190" y="224" width="194" height="32" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="287.0" y="245" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">payou</text>
+  <rect x="390" y="224" width="34" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="407.0" y="245" font-size="13" fill="#1f2937" text-anchor="middle">t</text>
+  <text x="450" y="245" font-size="12" fill="#6b7280">pair seen 3 times</text>
+  <text x="600" y="245" font-size="12" fill="#1f2937">2 tokens</text>
+  <text x="24" y="289" font-size="12" fill="#1f2937">merge 5: payou + t</text>
+  <rect x="190" y="268" width="234" height="32" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="307.0" y="289" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">payout</text>
+  <text x="450" y="289" font-size="12" fill="#6b7280">pair seen 3 times</text>
+  <text x="600" y="289" font-size="12" fill="#1f2937">1 token</text>
+</svg>

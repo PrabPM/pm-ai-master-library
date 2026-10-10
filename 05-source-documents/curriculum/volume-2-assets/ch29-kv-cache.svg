@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>With a KV cache only the newest row of attention is computed</title>
+  <rect x="0" y="0" width="720" height="300" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Writing token 5: which attention scores are computed?</text>
+  <text x="58" y="92" font-size="12" fill="#6b7280" text-anchor="end">1</text>
+  <rect x="70" y="70" width="30" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="58" y="126" font-size="12" fill="#6b7280" text-anchor="end">2</text>
+  <rect x="70" y="104" width="30" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="104" y="104" width="30" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="58" y="160" font-size="12" fill="#6b7280" text-anchor="end">3</text>
+  <rect x="70" y="138" width="30" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="104" y="138" width="30" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="138" y="138" width="30" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="58" y="194" font-size="12" fill="#6b7280" text-anchor="end">4</text>
+  <rect x="70" y="172" width="30" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="104" y="172" width="30" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="138" y="172" width="30" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="172" y="172" width="30" height="30" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="58" y="228" font-size="12" fill="#6b7280" text-anchor="end">5</text>
+  <rect x="70" y="206" width="30" height="30" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="104" y="206" width="30" height="30" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="138" y="206" width="30" height="30" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="172" y="206" width="30" height="30" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <rect x="206" y="206" width="30" height="30" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="85" y="62" font-size="12" fill="#6b7280" text-anchor="middle">1</text>
+  <text x="119" y="62" font-size="12" fill="#6b7280" text-anchor="middle">2</text>
+  <text x="153" y="62" font-size="12" fill="#6b7280" text-anchor="middle">3</text>
+  <text x="187" y="62" font-size="12" fill="#6b7280" text-anchor="middle">4</text>
+  <text x="221" y="62" font-size="12" fill="#6b7280" text-anchor="middle">5</text>
+  <text x="153" y="44" font-size="11" fill="#6b7280" text-anchor="middle">attends to token</text>
+  <text x="34" y="268" font-size="11" fill="#6b7280">row = token being written</text>
+  <rect x="300" y="60" width="396" height="92" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="314" y="84" font-size="13" fill="#1f2937" font-weight="bold">Without a cache</text>
+  <text x="314" y="104" font-size="12" fill="#1f2937">Every step redoes the whole triangle: 1 + 2 + 3 + 4 + 5 = 15</text>
+  <text x="314" y="120" font-size="12" fill="#1f2937">scores at step 5, and the keys and values are rebuilt each time.</text>
+  <rect x="300" y="166" width="396" height="110" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="314" y="190" font-size="13" fill="#1f2937" font-weight="bold">With a KV cache</text>
+  <text x="314" y="210" font-size="12" fill="#1f2937">Keys and values of tokens 1 to 4 are kept in memory. Step 5 adds</text>
+  <text x="314" y="226" font-size="12" fill="#1f2937">one key and one value and computes only the dark row: 5 scores.</text>
+  <text x="314" y="242" font-size="12" fill="#1f2937">The price is memory that grows with every token.</text>
+</svg>

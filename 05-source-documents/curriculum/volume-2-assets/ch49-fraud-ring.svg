@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Four payments that look ordinary in a table share one device in a graph</title>
+  <rect x="0" y="0" width="720" height="300" rx="6" fill="#ffffff"/>
+  <rect x="16" y="16" width="336" height="268" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="30" y="40" font-size="14" fill="#1f2937" font-weight="bold">What the table sees</text>
+  <text x="30" y="58" font-size="11" fill="#6b7280">One row per payment. Nothing stands out.</text>
+  <rect x="26" y="70" width="316" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="88" font-size="11" fill="#1f2937" font-weight="bold">Account</text>
+  <text x="118" y="88" font-size="11" fill="#1f2937" font-weight="bold">Amount</text>
+  <text x="198" y="88" font-size="11" fill="#1f2937" font-weight="bold">New device</text>
+  <text x="292" y="88" font-size="11" fill="#1f2937" font-weight="bold">Score</text>
+  <rect x="26" y="100" width="316" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="118" font-size="11" fill="#1f2937">A-4410</text>
+  <text x="118" y="118" font-size="11" fill="#1f2937">USD 38.00</text>
+  <text x="198" y="118" font-size="11" fill="#1f2937">no</text>
+  <text x="292" y="118" font-size="11" fill="#1f2937">0.02</text>
+  <rect x="26" y="130" width="316" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="148" font-size="11" fill="#1f2937">A-5127</text>
+  <text x="118" y="148" font-size="11" fill="#1f2937">USD 41.50</text>
+  <text x="198" y="148" font-size="11" fill="#1f2937">no</text>
+  <text x="292" y="148" font-size="11" fill="#1f2937">0.03</text>
+  <rect x="26" y="160" width="316" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="178" font-size="11" fill="#1f2937">A-6033</text>
+  <text x="118" y="178" font-size="11" fill="#1f2937">USD 36.20</text>
+  <text x="198" y="178" font-size="11" fill="#1f2937">no</text>
+  <text x="292" y="178" font-size="11" fill="#1f2937">0.02</text>
+  <rect x="26" y="190" width="316" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="36" y="208" font-size="11" fill="#1f2937">A-7718</text>
+  <text x="118" y="208" font-size="11" fill="#1f2937">USD 44.90</text>
+  <text x="198" y="208" font-size="11" fill="#1f2937">no</text>
+  <text x="292" y="208" font-size="11" fill="#1f2937">0.04</text>
+  <rect x="30" y="232" width="136" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="98.0" y="247" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">4 payments approved</text>
+  <text x="30" y="274" font-size="11" fill="#6b7280">Each row is scored on its own.</text>
+  <rect x="368" y="16" width="336" height="268" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="382" y="40" font-size="14" fill="#1f2937" font-weight="bold">What the graph sees</text>
+  <text x="382" y="58" font-size="11" fill="#6b7280">Link accounts that used the same device.</text>
+  <line x1="500" y1="152" x2="500" y2="90" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="500" cy="90" r="12" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="500" y="72" font-size="11" fill="#1f2937" text-anchor="middle">A-4410</text>
+  <line x1="500" y1="152" x2="574" y2="121" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="574" cy="121" r="12" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="574" y="103" font-size="11" fill="#1f2937" text-anchor="middle">A-5127</text>
+  <line x1="500" y1="152" x2="574" y2="183" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="574" cy="183" r="12" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="574" y="210" font-size="11" fill="#1f2937" text-anchor="middle">A-6033</text>
+  <line x1="500" y1="152" x2="500" y2="214" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="500" cy="214" r="12" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="500" y="241" font-size="11" fill="#1f2937" text-anchor="middle">A-7718</text>
+  <line x1="500" y1="152" x2="426" y2="183" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="426" cy="183" r="12" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="426" y="210" font-size="11" fill="#1f2937" text-anchor="middle">A-8242</text>
+  <line x1="500" y1="152" x2="426" y2="121" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="426" cy="121" r="12" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="426" y="103" font-size="11" fill="#1f2937" text-anchor="middle">A-9051</text>
+  <rect x="470" y="138" width="60" height="28" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="500" y="156" font-size="12" fill="#b91c1c" text-anchor="middle" font-weight="bold">D-17</text>
+  <circle cx="652" cy="118" r="12" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <line x1="652" y1="130" x2="652" y2="150" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="626" y="150" width="52" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="652" y="168" font-size="11" fill="#1f2937" text-anchor="middle">D-90</text>
+  <text x="652" y="196" font-size="11" fill="#6b7280" text-anchor="middle">1 account</text>
+  <rect x="382" y="254" width="196" height="22" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="480.0" y="269" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">6 accounts on 1 device in 7 days</text>
+</svg>

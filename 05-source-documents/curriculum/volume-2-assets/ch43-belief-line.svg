@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="280" viewBox="0 0 720 280" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Belief about fraud and the action it leads to</title>
+  <rect x="0" y="0" width="720" height="280" rx="6" fill="#ffffff"/>
+  <rect x="90" y="156" width="42.2" height="32" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="111.1" y="177" font-size="13" fill="#15803d" text-anchor="middle" font-weight="bold"></text>
+  <rect x="132.2" y="156" width="117.4" height="32" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="190.89999999999998" y="177" font-size="13" fill="#b45309" text-anchor="middle" font-weight="bold">challenge</text>
+  <rect x="249.6" y="156" width="430.4" height="32" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="464.8" y="177" font-size="13" fill="#b91c1c" text-anchor="middle" font-weight="bold">decline</text>
+  <text x="82" y="177" font-size="13" fill="#15803d" text-anchor="end" font-weight="bold">approve</text>
+  <line x1="90" y1="188" x2="90" y2="196" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="90" y="212" font-size="11" fill="#6b7280" text-anchor="middle">0</text>
+  <line x1="237.5" y1="188" x2="237.5" y2="196" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="237.5" y="212" font-size="11" fill="#6b7280" text-anchor="middle">0.25</text>
+  <line x1="385.0" y1="188" x2="385.0" y2="196" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="385.0" y="212" font-size="11" fill="#6b7280" text-anchor="middle">0.5</text>
+  <line x1="532.5" y1="188" x2="532.5" y2="196" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="532.5" y="212" font-size="11" fill="#6b7280" text-anchor="middle">0.75</text>
+  <line x1="680" y1="188" x2="680" y2="196" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="680" y="212" font-size="11" fill="#6b7280" text-anchor="middle">1</text>
+  <text x="385.0" y="236" font-size="12" fill="#1f2937" text-anchor="middle">belief: probability that the payment is fraud</text>
+  <text x="385.0" y="256" font-size="11" fill="#6b7280" text-anchor="middle">With these costs the best action switches at 0.07 and at 0.27.</text>
+  <circle cx="113.6" cy="34" r="5" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="125.6" y="38" font-size="11" fill="#1f2937">prior 0.04</text>
+  <line x1="113.6" y1="62" x2="200.0" y2="62" stroke="#1f2937" stroke-width="1.5"/>
+  <polygon points="200.0,62.0 193.1,66.1 193.1,57.9" fill="#1f2937"/>
+  <circle cx="208.0" cy="62" r="5" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="220.0" y="66" font-size="11" fill="#1f2937">a new device is seen: 0.20</text>
+  <line x1="208.0" y1="90" x2="554.0" y2="90" stroke="#b91c1c" stroke-width="1.5"/>
+  <polygon points="554.0,90.0 547.1,94.1 547.1,85.9" fill="#b91c1c"/>
+  <circle cx="562.0" cy="90" r="5" fill="#b91c1c" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="574.0" y="94" font-size="11" fill="#b91c1c">0.80</text>
+  <text x="385.0" y="82" font-size="11" fill="#b91c1c" text-anchor="middle">challenge failed</text>
+  <line x1="208.0" y1="118" x2="127.5" y2="118" stroke="#15803d" stroke-width="1.5"/>
+  <polygon points="127.5,118.0 134.4,113.9 134.4,122.1" fill="#15803d"/>
+  <circle cx="119.5" cy="118" r="5" fill="#15803d" stroke="#15803d" stroke-width="1.5"/>
+  <text x="220.0" y="122" font-size="11" fill="#15803d">challenge passed: 0.05</text>
+  <line x1="119.5" y1="125" x2="119.5" y2="154" stroke="#15803d" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <line x1="562.0" y1="97" x2="562.0" y2="154" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="3 3"/>
+</svg>

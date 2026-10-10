@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="316" viewBox="0 0 720 316" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Team-draft interleaving of two rankings into one list</title>
+  <rect x="0" y="0" width="720" height="316" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Two rankers draft one result list; clicks credit the team that supplied the result</text>
+  <text x="104" y="58" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Ranker A (current)</text>
+  <text x="616" y="58" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">Ranker B (candidate)</text>
+  <text x="360" y="58" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">What the support rep sees</text>
+  <rect x="24" y="70" width="160" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="40" y="95" font-size="12" fill="#1f2937">1.  article p1</text>
+  <rect x="24" y="118" width="160" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="40" y="143" font-size="12" fill="#1f2937">2.  article p2</text>
+  <rect x="24" y="166" width="160" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="40" y="191" font-size="12" fill="#1f2937">3.  article p3</text>
+  <rect x="24" y="214" width="160" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="40" y="239" font-size="12" fill="#1f2937">4.  article p4</text>
+  <rect x="536" y="70" width="160" height="40" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="552" y="95" font-size="12" fill="#1f2937">1.  article p3</text>
+  <rect x="536" y="118" width="160" height="40" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="552" y="143" font-size="12" fill="#1f2937">2.  article p1</text>
+  <rect x="536" y="166" width="160" height="40" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="552" y="191" font-size="12" fill="#1f2937">3.  article p5</text>
+  <rect x="536" y="214" width="160" height="40" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="552" y="239" font-size="12" fill="#1f2937">4.  article p2</text>
+  <rect x="250" y="70" width="220" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="266" y="95" font-size="12" fill="#1f2937">1.  article p1</text>
+  <text x="372" y="95" font-size="11" fill="#6b7280">team A</text>
+  <rect x="250" y="118" width="220" height="40" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="266" y="143" font-size="12" fill="#1f2937">2.  article p3</text>
+  <text x="372" y="143" font-size="11" fill="#6b7280">team B</text>
+  <text x="454" y="143" font-size="11" fill="#1f2937" text-anchor="end" font-weight="bold">click</text>
+  <rect x="250" y="166" width="220" height="40" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="266" y="191" font-size="12" fill="#1f2937">3.  article p5</text>
+  <text x="372" y="191" font-size="11" fill="#6b7280">team B</text>
+  <text x="454" y="191" font-size="11" fill="#1f2937" text-anchor="end" font-weight="bold">click</text>
+  <rect x="250" y="214" width="220" height="40" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="266" y="239" font-size="12" fill="#1f2937">4.  article p2</text>
+  <text x="372" y="239" font-size="11" fill="#6b7280">team A</text>
+  <line x1="190" y1="90" x2="244" y2="90" stroke="#4f46e5" stroke-width="1.5"/>
+  <polygon points="244.0,90.0 237.1,94.1 237.1,85.9" fill="#4f46e5"/>
+  <line x1="530" y1="90" x2="476" y2="138" stroke="#15803d" stroke-width="1.5"/>
+  <polygon points="476.0,138.0 478.4,130.4 483.9,136.5" fill="#15803d"/>
+  <text x="24" y="282" font-size="12" fill="#6b7280">Round 1: A picks first (p1), then B (p3). Round 2: B picks first (p5), then A (p2).</text>
+  <text x="24" y="302" font-size="12" fill="#6b7280">The rep clicked p3 and p5, so this impression counts as a win for B, 2 to 0.</text>
+</svg>
