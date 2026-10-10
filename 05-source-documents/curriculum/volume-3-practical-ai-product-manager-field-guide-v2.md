@@ -1536,7 +1536,7 @@ The threats you will hear named:
 - **Data exfiltration**: sensitive data leaving through outputs, tool calls, logs or retrieval.
 - **Model supply chain** risk: compromised models, datasets, adapters or libraries.
 
-Two industry lists are worth knowing by name. The OWASP Top 10 for LLM Applications (2025 edition) starts with prompt injection and includes sensitive information disclosure, excessive agency and unbounded consumption. OWASP followed it with a Top 10 for Agentic Applications in December 2025.
+Two industry lists are worth knowing by name. The OWASP Top 10 for LLM Applications (2026 edition, published August 2026) starts with prompt injection and includes sensitive information disclosure, excessive agency and unbounded consumption. OWASP followed it with a Top 10 for Agentic Applications in December 2025.
 
 Controls come in layers, and three practices keep them honest. A **privacy threat model** traces how personal data could be collected, inferred, exposed or kept, across prompts, logs, memory and vendors. A **sandbox** isolates any code or tool the model can trigger, with limits on files, network and credentials. **Red teaming** is structured adversarial testing by people and automation. Every finding becomes a permanent regression test, with an owner.
 
@@ -3592,7 +3592,7 @@ Checked on 9 October 2026. Rules, specifications and provider policies change; r
 - Colorado General Assembly, [SB26-189, Automated Decision-Making Technology](https://leg.colorado.gov/bills/sb26-189).
 - Executive Order 14365, "Ensuring a National Policy Framework for Artificial Intelligence", 11 December 2025 (90 FR 58499).
 - Moffatt v. Air Canada, 2024 BCCRT 149, British Columbia Civil Resolution Tribunal.
-- OWASP, [Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) (2025) and [Top 10 for Agentic Applications for 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/).
+- OWASP, [Top 10 for LLM Applications, 2026 edition](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/) and [Top 10 for Agentic Applications for 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/).
 
 ### Protocols and tooling
 
