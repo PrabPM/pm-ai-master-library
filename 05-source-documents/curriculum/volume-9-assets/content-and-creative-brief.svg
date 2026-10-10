@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="398" viewBox="0 0 720 398" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>A content brief and a creative brief, each filled in for Instant Payouts</title>
+  <rect x="0" y="0" width="720" height="398" rx="6" fill="#ffffff"/>
+  <!-- Content brief -->
+  <rect x="14" y="12" width="338" height="374" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="28" y="36" font-size="14" fill="#1f2937" font-weight="bold">Content brief</text>
+  <text x="28" y="53" font-size="11" fill="#6b7280">For a help-style article. Written by Nadia.</text>
+  <line x1="28" y1="62" x2="338" y2="62" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="28" y="80" font-size="11" fill="#4f46e5" font-weight="bold">Working title</text>
+  <text x="28" y="95" font-size="11" fill="#1f2937">How to pay Monday's bills when weekend card sales arrive</text>
+  <text x="28" y="109" font-size="11" fill="#1f2937">on Tuesday</text>
+  <text x="28" y="130" font-size="11" fill="#4f46e5" font-weight="bold">Reader and intent</text>
+  <text x="28" y="145" font-size="11" fill="#1f2937">A cafe or bakery owner searching for a way to cover a short</text>
+  <text x="28" y="159" font-size="11" fill="#1f2937">cash gap. Wants options, not a pitch.</text>
+  <text x="28" y="180" font-size="11" fill="#4f46e5" font-weight="bold">The one takeaway</text>
+  <text x="28" y="195" font-size="11" fill="#1f2937">You have four options. Here is what each costs on $1,850.</text>
+  <text x="28" y="216" font-size="11" fill="#4f46e5" font-weight="bold">Evidence to include</text>
+  <text x="28" y="231" font-size="11" fill="#1f2937">A cost table for the four options, the beta arrival data, and</text>
+  <text x="28" y="245" font-size="11" fill="#1f2937">Maya's Monday.</text>
+  <text x="28" y="266" font-size="11" fill="#4f46e5" font-weight="bold">Call to action</text>
+  <text x="28" y="281" font-size="11" fill="#1f2937">Check whether you are eligible, in the dashboard.</text>
+  <text x="28" y="302" font-size="11" fill="#4f46e5" font-weight="bold">Distribution</text>
+  <text x="28" y="317" font-size="11" fill="#1f2937">Search, the Sunday email, and the bookkeeper newsletter.</text>
+  <text x="28" y="338" font-size="11" fill="#4f46e5" font-weight="bold">Measure</text>
+  <text x="28" y="353" font-size="11" fill="#1f2937">Eligibility checks started from the page, and first instant</text>
+  <text x="28" y="367" font-size="11" fill="#1f2937">payouts within 14 days.</text>
+  <!-- Creative brief -->
+  <rect x="368" y="12" width="338" height="374" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="382" y="36" font-size="14" fill="#1f2937" font-weight="bold">Creative brief</text>
+  <text x="382" y="53" font-size="11" fill="#6b7280">For a 15-second video ad. Written by Nadia.</text>
+  <line x1="382" y1="62" x2="692" y2="62" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="382" y="80" font-size="11" fill="#4f46e5" font-weight="bold">Objective</text>
+  <text x="382" y="95" font-size="11" fill="#1f2937">Get food and drink owners who have not heard of Instant</text>
+  <text x="382" y="109" font-size="11" fill="#1f2937">Payouts to check whether they are eligible.</text>
+  <text x="382" y="130" font-size="11" fill="#4f46e5" font-weight="bold">Audience</text>
+  <text x="382" y="145" font-size="11" fill="#1f2937">Owner-operators with one to three shops, busiest at</text>
+  <text x="382" y="159" font-size="11" fill="#1f2937">weekends.</text>
+  <text x="382" y="180" font-size="11" fill="#4f46e5" font-weight="bold">Insight</text>
+  <text x="382" y="195" font-size="11" fill="#1f2937">Sunday night is when owners do the sums for Monday.</text>
+  <text x="382" y="216" font-size="11" fill="#4f46e5" font-weight="bold">Single message</text>
+  <text x="382" y="231" font-size="11" fill="#1f2937">Your weekend sales, in your bank before Monday.</text>
+  <text x="382" y="252" font-size="11" fill="#4f46e5" font-weight="bold">Reasons to believe</text>
+  <text x="382" y="267" font-size="11" fill="#1f2937">Within 30 minutes. A 1% fee shown first. Your own money.</text>
+  <text x="382" y="288" font-size="11" fill="#4f46e5" font-weight="bold">Tone and mandatories</text>
+  <text x="382" y="303" font-size="11" fill="#1f2937">Calm and specific. Show the fee on screen. Say "most</text>
+  <text x="382" y="317" font-size="11" fill="#1f2937">payouts". Include the eligibility line.</text>
+  <text x="382" y="338" font-size="11" fill="#4f46e5" font-weight="bold">Deliverables and measure</text>
+  <text x="382" y="353" font-size="11" fill="#1f2937">One vertical video with three different openings. Judged by a</text>
+  <text x="382" y="367" font-size="11" fill="#1f2937">lift test, not by clicks.</text>
+</svg>

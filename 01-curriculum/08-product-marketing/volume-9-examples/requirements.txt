@@ -1,0 +1,8 @@
+# The chapter and lab scripts use only the Python 3.13 standard library.
+# statsmodels is needed for verify_stats.py, which cross-checks the three
+# hand-written statistical formulas. Without it that one script is skipped.
+numpy==2.5.3
+pandas==3.0.6
+patsy==1.0.3
+scipy==1.18.1
+statsmodels==0.15.0
