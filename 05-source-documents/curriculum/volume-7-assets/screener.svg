@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="474" viewBox="0 0 720 474" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Recruitment screener for the onboarding interviews</title>
+  <rect x="0" y="0" width="720" height="474" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Screener: onboarding interviews, 12 merchants</text>
+  <text x="24" y="46" font-size="11" fill="#6b7280">Sent as a two-minute form to merchants who started sign-up. Rules on the right are for the team, not shown.</text>
+  <rect x="24" y="60" width="672" height="50" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="38" y="83.0" font-size="12" fill="#4f46e5" font-weight="bold">1</text>
+  <text x="58" y="83.0" font-size="12" fill="#1f2937" font-weight="bold">When did you start signing up for PayFlow?</text>
+  <text x="58" y="100.0" font-size="11" fill="#6b7280">In the last 14 days  ·  Longer ago</text>
+  <rect x="516" y="74" width="166" height="22" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="599.0" y="89" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">Longer ago: close</text>
+  <rect x="24" y="114" width="672" height="50" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="38" y="137.0" font-size="12" fill="#4f46e5" font-weight="bold">2</text>
+  <text x="58" y="137.0" font-size="12" fill="#1f2937" font-weight="bold">Who filled in the sign-up form?</text>
+  <text x="58" y="154.0" font-size="11" fill="#6b7280">I did  ·  Someone else did</text>
+  <rect x="516" y="128" width="166" height="22" rx="6" fill="#f8fafc" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="599.0" y="143" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="bold">Else: ask for them</text>
+  <rect x="24" y="168" width="672" height="50" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="38" y="191.0" font-size="12" fill="#4f46e5" font-weight="bold">3</text>
+  <text x="58" y="191.0" font-size="12" fill="#1f2937" font-weight="bold">How far did you get?</text>
+  <text x="58" y="208.0" font-size="11" fill="#6b7280">Stopped at owner details  ·  Stopped at documents  ·  Finished</text>
+  <rect x="516" y="182" width="166" height="22" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="599.0" y="197" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">Quota: 4 of each</text>
+  <rect x="24" y="222" width="672" height="50" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="38" y="245.0" font-size="12" fill="#4f46e5" font-weight="bold">4</text>
+  <text x="58" y="245.0" font-size="12" fill="#1f2937" font-weight="bold">How many people own the business?</text>
+  <text x="58" y="262.0" font-size="11" fill="#6b7280">Just me  ·  Two or more</text>
+  <rect x="516" y="236" width="166" height="22" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="599.0" y="251" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">Quota: 4+ with partners</text>
+  <rect x="24" y="276" width="672" height="50" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="38" y="299.0" font-size="12" fill="#4f46e5" font-weight="bold">5</text>
+  <text x="58" y="299.0" font-size="12" fill="#1f2937" font-weight="bold">What did you use to sign up?</text>
+  <text x="58" y="316.0" font-size="11" fill="#6b7280">Phone  ·  Computer  ·  Both</text>
+  <rect x="516" y="290" width="166" height="22" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="599.0" y="305" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">Quota: 6+ on a phone</text>
+  <rect x="24" y="330" width="672" height="66" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="38" y="353.0" font-size="12" fill="#4f46e5" font-weight="bold">6</text>
+  <text x="58" y="353.0" font-size="12" fill="#1f2937" font-weight="bold">Do you, or does anyone at home, work in payments or market</text>
+  <text x="58" y="369.0" font-size="12" fill="#1f2937" font-weight="bold">research?</text>
+  <text x="58" y="386.0" font-size="11" fill="#6b7280">Yes  ·  No</text>
+  <rect x="516" y="352" width="166" height="22" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="599.0" y="367" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">Yes: close</text>
+  <rect x="24" y="400" width="672" height="66" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="38" y="423.0" font-size="12" fill="#4f46e5" font-weight="bold">7</text>
+  <text x="58" y="423.0" font-size="12" fill="#1f2937" font-weight="bold">Do you use a screen reader, magnifier or other aid, or need</text>
+  <text x="58" y="439.0" font-size="12" fill="#1f2937" font-weight="bold">anything to take part comfortably?</text>
+  <text x="58" y="456.0" font-size="11" fill="#6b7280">Free text. Used only to prepare the session.</text>
+  <rect x="516" y="422" width="166" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="599.0" y="437" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">Never screens out</text>
+</svg>

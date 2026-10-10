@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="470" viewBox="0 0 720 470" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Opportunity solution tree for PayFlow onboarding</title>
+  <rect x="0" y="0" width="720" height="470" rx="6" fill="#ffffff"/>
+  <text x="24" y="26" font-size="14" fill="#1f2937" font-weight="bold">Opportunity solution tree for the onboarding team</text>
+  <text x="24" y="62" font-size="11" fill="#6b7280" font-weight="bold">Outcome</text>
+  <text x="24" y="160" font-size="11" fill="#6b7280" font-weight="bold">Opportunities</text>
+  <text x="24" y="290" font-size="11" fill="#6b7280" font-weight="bold">Solutions</text>
+  <text x="24" y="396" font-size="11" fill="#6b7280" font-weight="bold">Assumption</text>
+  <text x="24" y="412" font-size="11" fill="#6b7280" font-weight="bold">tests</text>
+  <rect x="250" y="40" width="330" height="40" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="415.0" y="65" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">Approved within 7 days: from 58% to 62%</text>
+  <rect x="126" y="116" width="138" height="76" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="136" y="138" font-size="11" fill="#1f2937">“I don't know what I'll</text>
+  <text x="136" y="152" font-size="11" fill="#1f2937">need before I start”</text>
+  <line x1="415.0" y1="80" x2="195.0" y2="116" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="272" y="116" width="138" height="76" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="282" y="138" font-size="11" fill="#1f2937">“I lose my place when I</text>
+  <text x="282" y="152" font-size="11" fill="#1f2937">leave the form”</text>
+  <line x1="415.0" y1="80" x2="341.0" y2="116" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="418" y="116" width="138" height="76" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="428" y="138" font-size="11" fill="#1f2937">“I don't understand the</text>
+  <text x="428" y="152" font-size="11" fill="#1f2937">owner question”</text>
+  <line x1="415.0" y1="80" x2="487.0" y2="116" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="564" y="116" width="138" height="76" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="574" y="138" font-size="11" fill="#1f2937">“My document is</text>
+  <text x="574" y="152" font-size="11" fill="#1f2937">rejected and I'm not</text>
+  <text x="574" y="166" font-size="11" fill="#1f2937">told why”</text>
+  <line x1="415.0" y1="80" x2="633.0" y2="116" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="341.0" y="206" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">this quarter's target</text>
+  <rect x="126" y="248" width="150" height="60" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="136" y="270" font-size="11" fill="#1f2937">Save every field as it is</text>
+  <text x="136" y="284" font-size="11" fill="#1f2937">typed</text>
+  <line x1="341.0" y1="212" x2="201.0" y2="248" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="286" y="248" width="150" height="60" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="296" y="270" font-size="11" fill="#1f2937">Send a link to resume, by</text>
+  <text x="296" y="284" font-size="11" fill="#1f2937">text or email</text>
+  <line x1="341.0" y1="212" x2="361.0" y2="248" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="446" y="248" width="150" height="60" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="456" y="270" font-size="11" fill="#1f2937">Remind after 24 hours</text>
+  <line x1="341.0" y1="212" x2="521.0" y2="248" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="172" y="356" width="226" height="62" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="182" y="378" font-size="11" fill="#1f2937">Will merchants give a mobile number at</text>
+  <text x="182" y="392" font-size="11" fill="#1f2937">step 1? Fake door for a week.</text>
+  <line x1="361.0" y1="308" x2="285.0" y2="356" stroke="#6b7280" stroke-width="1.5"/>
+  <rect x="410" y="356" width="226" height="62" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="420" y="378" font-size="11" fill="#1f2937">Does a link bring people back? Send 50</text>
+  <text x="420" y="392" font-size="11" fill="#1f2937">by hand and count returns.</text>
+  <line x1="361.0" y1="308" x2="523.0" y2="356" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="24" y="452" font-size="11" fill="#6b7280">Each level answers the one above it. Compare opportunities with each other, and solutions with each other, never across levels.</text>
+</svg>

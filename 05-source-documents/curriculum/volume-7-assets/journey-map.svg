@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="478" viewBox="0 0 720 478" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Journey map of a solo owner signing up</title>
+  <rect x="0" y="0" width="720" height="478" rx="6" fill="#ffffff"/>
+  <text x="24" y="26" font-size="14" fill="#1f2937" font-weight="bold">Journey map: a solo owner signs up for PayFlow on a phone</text>
+  <rect x="110" y="40" width="114" height="26" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="167.0" y="58" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">1  Decide</text>
+  <rect x="228" y="40" width="114" height="26" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="285.0" y="58" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">2  Start</text>
+  <rect x="346" y="40" width="114" height="26" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="403.0" y="58" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">3  Get stuck</text>
+  <rect x="464" y="40" width="114" height="26" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="521.0" y="58" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">4  Leave</text>
+  <rect x="582" y="40" width="114" height="26" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="639.0" y="58" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">5  Return?</text>
+  <text x="24" y="90" font-size="12" fill="#1f2937" font-weight="bold">Doing</text>
+  <rect x="110" y="72" width="114" height="72" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="118" y="88" font-size="11" fill="#1f2937">A customer asks to</text>
+  <text x="118" y="102" font-size="11" fill="#1f2937">pay by card.</text>
+  <text x="118" y="116" font-size="11" fill="#1f2937">Searches on the</text>
+  <text x="118" y="130" font-size="11" fill="#1f2937">phone.</text>
+  <rect x="228" y="72" width="114" height="72" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="236" y="88" font-size="11" fill="#1f2937">Begins the form</text>
+  <text x="236" y="102" font-size="11" fill="#1f2937">between</text>
+  <text x="236" y="116" font-size="11" fill="#1f2937">customers.</text>
+  <rect x="346" y="72" width="114" height="72" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="354" y="88" font-size="11" fill="#1f2937">Meets the owner</text>
+  <text x="354" y="102" font-size="11" fill="#1f2937">question or a</text>
+  <text x="354" y="116" font-size="11" fill="#1f2937">document request.</text>
+  <rect x="464" y="72" width="114" height="72" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="472" y="88" font-size="11" fill="#1f2937">Closes the tab to</text>
+  <text x="472" y="102" font-size="11" fill="#1f2937">look for a license</text>
+  <text x="472" y="116" font-size="11" fill="#1f2937">or ask a partner.</text>
+  <rect x="582" y="72" width="114" height="72" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="590" y="88" font-size="11" fill="#1f2937">Comes back days</text>
+  <text x="590" y="102" font-size="11" fill="#1f2937">later, or never</text>
+  <text x="590" y="116" font-size="11" fill="#1f2937">does.</text>
+  <text x="24" y="168" font-size="12" fill="#1f2937" font-weight="bold">Thinking</text>
+  <rect x="110" y="150" width="114" height="58" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="118" y="166" font-size="11" fill="#1f2937" font-style="italic">“I need this by</text>
+  <text x="118" y="180" font-size="11" fill="#1f2937" font-style="italic">Saturday.”</text>
+  <rect x="228" y="150" width="114" height="58" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="236" y="166" font-size="11" fill="#1f2937" font-style="italic">“Should take ten</text>
+  <text x="236" y="180" font-size="11" fill="#1f2937" font-style="italic">minutes.”</text>
+  <rect x="346" y="150" width="114" height="58" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="354" y="166" font-size="11" fill="#1f2937" font-style="italic">“What is a</text>
+  <text x="354" y="180" font-size="11" fill="#1f2937" font-style="italic">beneficial owner?”</text>
+  <rect x="464" y="150" width="114" height="58" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="472" y="166" font-size="11" fill="#1f2937" font-style="italic">“I'll finish it tonight.”</text>
+  <rect x="582" y="150" width="114" height="58" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="590" y="166" font-size="11" fill="#1f2937" font-style="italic">“Where was I? It's</text>
+  <text x="590" y="180" font-size="11" fill="#1f2937" font-style="italic">all gone.”</text>
+  <text x="24" y="242" font-size="12" fill="#1f2937" font-weight="bold">Feeling</text>
+  <rect x="110" y="214" width="586" height="58" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <path d="M167 232 L285 230 L403 256 L521 247 L639 259" fill="none" stroke="#4f46e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="167.0" cy="232.5" r="5" fill="#4f46e5"/>
+  <circle cx="285.0" cy="230.4" r="5" fill="#4f46e5"/>
+  <circle cx="403.0" cy="255.6" r="5" fill="#b91c1c"/>
+  <circle cx="521.0" cy="247.2" r="5" fill="#4f46e5"/>
+  <circle cx="639.0" cy="258.96" r="5" fill="#b91c1c"/>
+  <text x="118" y="228" font-size="11" fill="#6b7280">hopeful</text>
+  <text x="118" y="266" font-size="11" fill="#6b7280">fed up</text>
+  <text x="24" y="296" font-size="12" fill="#1f2937" font-weight="bold">Evidence</text>
+  <rect x="110" y="278" width="114" height="58" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="118" y="294" font-size="11" fill="#1f2937">Funnel: 2,000 start</text>
+  <text x="118" y="308" font-size="11" fill="#1f2937">each week</text>
+  <rect x="228" y="278" width="114" height="58" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="236" y="294" font-size="11" fill="#1f2937">8 of 12 started on</text>
+  <text x="236" y="308" font-size="11" fill="#1f2937">a phone,</text>
+  <text x="236" y="322" font-size="11" fill="#1f2937">mid-workday</text>
+  <rect x="346" y="278" width="114" height="58" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="354" y="294" font-size="11" fill="#1f2937">7 of 12 met a term</text>
+  <text x="354" y="308" font-size="11" fill="#1f2937">they did not know</text>
+  <rect x="464" y="278" width="114" height="58" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="472" y="294" font-size="11" fill="#1f2937">9 of 12 left to find</text>
+  <text x="472" y="308" font-size="11" fill="#1f2937">something</text>
+  <rect x="582" y="278" width="114" height="58" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+  <text x="590" y="294" font-size="11" fill="#1f2937">6 of those 9 found</text>
+  <text x="590" y="308" font-size="11" fill="#1f2937">their progress</text>
+  <text x="590" y="322" font-size="11" fill="#1f2937">gone</text>
+  <text x="24" y="360" font-size="12" fill="#1f2937" font-weight="bold">Opportunity</text>
+  <rect x="228" y="342" width="114" height="58" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="236" y="358" font-size="11" fill="#1f2937">Say what to have</text>
+  <text x="236" y="372" font-size="11" fill="#1f2937">ready before</text>
+  <text x="236" y="386" font-size="11" fill="#1f2937">starting</text>
+  <rect x="346" y="342" width="114" height="58" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="354" y="358" font-size="11" fill="#1f2937">Explain each term</text>
+  <text x="354" y="372" font-size="11" fill="#1f2937">in plain words</text>
+  <rect x="464" y="342" width="114" height="58" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="472" y="358" font-size="11" fill="#1f2937">Save progress and</text>
+  <text x="472" y="372" font-size="11" fill="#1f2937">offer a link to</text>
+  <text x="472" y="386" font-size="11" fill="#1f2937">resume</text>
+  <rect x="582" y="342" width="114" height="58" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="590" y="358" font-size="11" fill="#1f2937">Bring them back to</text>
+  <text x="590" y="372" font-size="11" fill="#1f2937">the exact step</text>
+</svg>
