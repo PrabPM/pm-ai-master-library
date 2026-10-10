@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="436" viewBox="0 0 720 436" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>PayFlow onboarding before and after: one long form versus a checklist</title>
+  <rect x="0" y="0" width="720" height="436" rx="6" fill="#ffffff"/>
+  <rect x="24" y="20" width="324" height="396" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="38" y="32" width="56" height="22" rx="6" fill="#fee2e2" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="66.0" y="47" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="bold">Before</text>
+  <text x="100" y="48" font-size="13" fill="#1f2937" font-weight="bold">One form, everything up front</text>
+  <rect x="40" y="66" width="292" height="286" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="54" y="90" font-size="13" fill="#1f2937" font-weight="bold">Set up your account</text>
+  <text x="54" y="108" font-size="11" fill="#6b7280">Step 1 of 1</text>
+  <rect x="54" y="120" width="264" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="64" y="138" font-size="11" fill="#6b7280">Legal business name</text>
+  <rect x="54" y="152" width="264" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="64" y="170" font-size="11" fill="#6b7280">Tax ID</text>
+  <rect x="54" y="184" width="264" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="64" y="202" font-size="11" fill="#6b7280">Owner date of birth</text>
+  <rect x="54" y="216" width="264" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="64" y="234" font-size="11" fill="#6b7280">Home address</text>
+  <rect x="54" y="248" width="264" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="64" y="266" font-size="11" fill="#6b7280">Bank routing number</text>
+  <rect x="54" y="280" width="264" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="64" y="298" font-size="11" fill="#6b7280">Bank account number</text>
+  <text x="54" y="324" font-size="11" fill="#6b7280">+ 8 more fields</text>
+  <circle cx="318" cy="80" r="10" fill="#b91c1c"/>
+  <text x="318" y="84" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="318" cy="261" r="10" fill="#b91c1c"/>
+  <text x="318" y="265" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="50" cy="368" r="10" fill="#b91c1c"/>
+  <text x="50" y="372" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="68" y="372" font-size="11" fill="#1f2937">No sign of progress, or of what is left.</text>
+  <circle cx="50" cy="390" r="10" fill="#b91c1c"/>
+  <text x="50" y="394" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="68" y="394" font-size="11" fill="#1f2937">Bank details demanded before any value.</text>
+  <rect x="372" y="20" width="324" height="396" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="386" y="32" width="46" height="22" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <text x="409.0" y="47" font-size="11" fill="#15803d" text-anchor="middle" font-weight="bold">After</text>
+  <text x="440" y="48" font-size="13" fill="#1f2937" font-weight="bold">A checklist that leads to a payment</text>
+  <rect x="388" y="66" width="292" height="264" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="402" y="90" font-size="13" fill="#1f2937" font-weight="bold">Take your first payment</text>
+  <text x="402" y="108" font-size="11" fill="#6b7280">1 of 4 done. About 6 minutes left.</text>
+  <rect x="402" y="116" width="264" height="8" rx="6" fill="#cbd5e1"/>
+  <rect x="402" y="116" width="66" height="8" rx="6" fill="#15803d"/>
+  <rect x="402" y="136" width="264" height="40" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+  <path d="M414 158 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="434" y="154" font-size="12" fill="#1f2937">Create your account</text>
+  <text x="434" y="169" font-size="11" fill="#6b7280">Done</text>
+  <rect x="402" y="182" width="264" height="40" rx="6" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="419" cy="202" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="434" y="200" font-size="12" fill="#1f2937" font-weight="bold">Take a $1 test payment</text>
+  <text x="434" y="215" font-size="11" fill="#6b7280">2 min</text>
+  <rect x="402" y="228" width="264" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="419" cy="248" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="434" y="246" font-size="12" fill="#1f2937">Verify your business</text>
+  <text x="434" y="261" font-size="11" fill="#6b7280">3 min. Why we ask</text>
+  <rect x="402" y="274" width="264" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="419" cy="294" r="6" fill="#ffffff" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="434" y="292" font-size="12" fill="#1f2937">Add a bank to get paid out</text>
+  <text x="434" y="307" font-size="11" fill="#6b7280">1 min</text>
+  <circle cx="666" cy="80" r="10" fill="#15803d"/>
+  <text x="666" y="84" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="666" cy="182" r="10" fill="#15803d"/>
+  <text x="666" y="186" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="666" cy="274" r="10" fill="#15803d"/>
+  <text x="666" y="278" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <circle cx="398" cy="344" r="10" fill="#15803d"/>
+  <text x="398" y="348" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="416" y="348" font-size="11" fill="#1f2937">Starts one step done, with the time left.</text>
+  <circle cx="398" cy="366" r="10" fill="#15803d"/>
+  <text x="398" y="370" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="416" y="370" font-size="11" fill="#1f2937">Value first: a payment in two minutes.</text>
+  <circle cx="398" cy="388" r="10" fill="#15803d"/>
+  <text x="398" y="392" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="416" y="392" font-size="11" fill="#1f2937">The bank is asked for when it is needed.</text>
+</svg>

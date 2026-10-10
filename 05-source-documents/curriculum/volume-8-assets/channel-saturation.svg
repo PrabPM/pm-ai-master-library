@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="348" viewBox="0 0 720 348" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Paid search saturation curve: merchants gained flatten as spend rises</title>
+  <rect x="0" y="0" width="720" height="348" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">Paid search: activated merchants a month at each level of spend</text>
+  <rect x="548.9" y="56" width="139.10000000000002" height="220" rx="6" fill="#fef3c7"/>
+  <text x="70" y="280.0" font-size="11" fill="#6b7280" text-anchor="end">0</text>
+  <line x1="78" y1="221.0" x2="688" y2="221.0" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="70" y="225.0" font-size="11" fill="#6b7280" text-anchor="end">400</text>
+  <line x1="78" y1="166.0" x2="688" y2="166.0" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="70" y="170.0" font-size="11" fill="#6b7280" text-anchor="end">800</text>
+  <line x1="78" y1="111.0" x2="688" y2="111.0" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="70" y="115.0" font-size="11" fill="#6b7280" text-anchor="end">1,200</text>
+  <line x1="78" y1="56.0" x2="688" y2="56.0" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="2 4"/>
+  <text x="70" y="60.0" font-size="11" fill="#6b7280" text-anchor="end">1,600</text>
+  <line x1="78.0" y1="276" x2="78.0" y2="281" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="78.0" y="295" font-size="11" fill="#6b7280" text-anchor="middle">$0</text>
+  <line x1="154.2" y1="276" x2="154.2" y2="281" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="154.2" y="295" font-size="11" fill="#6b7280" text-anchor="middle">$50k</text>
+  <line x1="230.5" y1="276" x2="230.5" y2="281" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="230.5" y="295" font-size="11" fill="#6b7280" text-anchor="middle">$100k</text>
+  <line x1="306.8" y1="276" x2="306.8" y2="281" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="306.8" y="295" font-size="11" fill="#6b7280" text-anchor="middle">$150k</text>
+  <line x1="383.0" y1="276" x2="383.0" y2="281" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="383.0" y="295" font-size="11" fill="#6b7280" text-anchor="middle">$200k</text>
+  <line x1="459.2" y1="276" x2="459.2" y2="281" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="459.2" y="295" font-size="11" fill="#6b7280" text-anchor="middle">$250k</text>
+  <line x1="535.5" y1="276" x2="535.5" y2="281" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="535.5" y="295" font-size="11" fill="#6b7280" text-anchor="middle">$300k</text>
+  <line x1="611.8" y1="276" x2="611.8" y2="281" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="611.8" y="295" font-size="11" fill="#6b7280" text-anchor="middle">$350k</text>
+  <line x1="688.0" y1="276" x2="688.0" y2="281" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="688.0" y="295" font-size="11" fill="#6b7280" text-anchor="middle">$400k</text>
+  <line x1="78" y1="276" x2="688" y2="276" stroke="#6b7280" stroke-width="1.5"/>
+  <line x1="78" y1="56" x2="78" y2="276" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="383.0" y="314" font-size="12" fill="#1f2937" text-anchor="middle">Monthly spend</text>
+  <text x="70" y="44" font-size="12" fill="#1f2937">Activated merchants</text>
+  <path d="M78.0 276.0 L428.6 56.0" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="383.0" y="72.5" font-size="11" fill="#6b7280" text-anchor="end">If returns never fell</text>
+  <path d="M78.0 276.0 L93.2 266.6 L108.5 257.6 L123.8 248.9 L139.0 240.6 L154.2 232.6 L169.5 225.0 L184.8 217.6 L200.0 210.5 L215.2 203.7 L230.5 197.1 L245.8 190.8 L261.0 184.8 L276.2 179.0 L291.5 173.4 L306.8 168.1 L322.0 162.9 L337.2 158.0 L352.5 153.2 L367.8 148.6 L383.0 144.3 L398.2 140.0 L413.5 136.0 L428.8 132.1 L444.0 128.4 L459.2 124.8 L474.5 121.3 L489.8 118.0 L505.0 114.8 L520.2 111.8 L535.5 108.8 L550.8 106.0 L566.0 103.3 L581.2 100.7 L596.5 98.2 L611.8 95.7 L627.0 93.4 L642.2 91.2 L657.5 89.1 L672.8 87.0 L688.0 85.1" fill="none" stroke="#4f46e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="230.5" cy="197.1" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <circle cx="459.2" cy="124.8" r="3.5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="242.5" y="221.1" font-size="11" fill="#1f2937" font-weight="bold">At $100k</text>
+  <text x="242.5" y="236.1" font-size="11" fill="#1f2937">average $174, next $219</text>
+  <text x="367.2" y="166.8" font-size="11" fill="#1f2937" font-weight="bold">At $250k</text>
+  <text x="367.2" y="181.8" font-size="11" fill="#1f2937">average $227, next $398</text>
+  <text x="618.45" y="206" font-size="11" fill="#b45309" text-anchor="middle" font-weight="bold">Past the limit:</text>
+  <text x="618.45" y="221" font-size="11" fill="#b45309" text-anchor="middle">payback over</text>
+  <text x="618.45" y="236" font-size="11" fill="#b45309" text-anchor="middle">6 months</text>
+  <text x="24" y="334" font-size="12" fill="#6b7280">The limit of $504 for the next merchant is reached near $310k, while the average still looks cheap.</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" font-family="Helvetica, Arial, sans-serif" role="img">
+  <title>Wireframe of PayFlow's three-plan pricing page</title>
+  <rect x="0" y="0" width="720" height="430" rx="6" fill="#ffffff"/>
+  <text x="24" y="28" font-size="14" fill="#1f2937" font-weight="bold">PayFlow pricing page (wireframe)</text>
+  <rect x="24" y="44" width="212" height="268" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="40" y="74" font-size="14" fill="#1f2937" font-weight="bold">Standard</text>
+  <text x="40" y="104" font-size="16" fill="#1f2937" font-weight="bold">2.9% + $0.30</text>
+  <text x="40" y="124" font-size="11" fill="#6b7280">per successful payment</text>
+  <line x1="40" y1="138" x2="220" y2="138" stroke="#cbd5e1" stroke-width="1.5"/>
+  <path d="M42 156 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="60" y="160" font-size="12" fill="#1f2937">No monthly fee</text>
+  <path d="M42 178 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="60" y="182" font-size="12" fill="#1f2937">Payouts in 2 business days</text>
+  <path d="M42 200 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="60" y="204" font-size="12" fill="#1f2937">Dashboard and disputes</text>
+  <rect x="40" y="264" width="180" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="130.0" y="284.0" font-size="12" fill="#1f2937" text-anchor="middle">Start now</text>
+  <rect x="254" y="44" width="212" height="268" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="270" y="74" font-size="14" fill="#1f2937" font-weight="bold">Plus</text>
+  <text x="270" y="104" font-size="16" fill="#4f46e5" font-weight="bold">$25 a month</text>
+  <text x="270" y="124" font-size="11" fill="#6b7280">plus 2.9% + $0.30 per payment</text>
+  <line x1="270" y1="138" x2="450" y2="138" stroke="#cbd5e1" stroke-width="1.5"/>
+  <path d="M272 156 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="290" y="160" font-size="12" fill="#1f2937">Everything in Standard</text>
+  <path d="M272 178 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="290" y="182" font-size="12" fill="#1f2937">Instant payouts</text>
+  <path d="M272 200 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="290" y="204" font-size="12" fill="#1f2937">Advanced reports</text>
+  <path d="M272 222 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="290" y="226" font-size="12" fill="#1f2937">PayFlow Assist</text>
+  <rect x="270" y="264" width="180" height="32" rx="6" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="360.0" y="284.0" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">Try free for 14 days</text>
+  <rect x="484" y="44" width="212" height="268" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="500" y="74" font-size="14" fill="#1f2937" font-weight="bold">Scale</text>
+  <text x="500" y="104" font-size="16" fill="#1f2937" font-weight="bold">Custom</text>
+  <text x="500" y="124" font-size="11" fill="#6b7280">for over $1M a year in volume</text>
+  <line x1="500" y1="138" x2="680" y2="138" stroke="#cbd5e1" stroke-width="1.5"/>
+  <path d="M502 156 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="520" y="160" font-size="12" fill="#1f2937">Everything in Plus</text>
+  <path d="M502 178 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="520" y="182" font-size="12" fill="#1f2937">Volume pricing</text>
+  <path d="M502 200 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="520" y="204" font-size="12" fill="#1f2937">Dedicated support</text>
+  <path d="M502 222 l3 3 l6 -7" fill="none" stroke="#15803d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="520" y="226" font-size="12" fill="#1f2937">Security review</text>
+  <rect x="500" y="264" width="180" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="590.0" y="284.0" font-size="12" fill="#1f2937" text-anchor="middle">Talk to sales</text>
+  <circle cx="218" cy="98" r="10" fill="#4f46e5"/>
+  <text x="218" y="102" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="448" cy="182" r="10" fill="#4f46e5"/>
+  <text x="448" y="186" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="678" cy="280" r="10" fill="#4f46e5"/>
+  <text x="678" y="284" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <circle cx="34" cy="338" r="10" fill="#4f46e5"/>
+  <text x="34" y="342" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+  <text x="52" y="342" font-size="11" fill="#1f2937">Value metric: the fee rises only when the merchant sells more.</text>
+  <circle cx="34" cy="359" r="10" fill="#4f46e5"/>
+  <text x="34" y="363" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+  <text x="52" y="363" font-size="11" fill="#1f2937">Fences: Plus holds what growing merchants want, not what all need.</text>
+  <circle cx="34" cy="380" r="10" fill="#4f46e5"/>
+  <text x="34" y="384" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="52" y="384" font-size="11" fill="#1f2937">No price shown: a merchant this size is routed to a salesperson.</text>
+</svg>
